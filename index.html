@@ -27,23 +27,23 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col">
-                <button type="button" id="hora" class="btn btn-primary btn-lg btn-block">HORA</button>
+            <div class="col-1">
+                <button type="button" id="hora" class="btn btn-primary btn-lg btn-block">H</button>
             </div>
-            <div class="col">
-                <button type="button" id="liga" class="btn btn-primary btn-lg btn-block">LIGA</button>
+            <div class="col-1">
+                <button type="button" id="liga" class="btn btn-primary btn-lg btn-block">L</button>
             </div>
-            <div class="col">
-                <button type="button" id="local" class="btn btn-primary btn-lg btn-block">LOCAL</button>
+            <div class="col-4">
+                <button type="button" id="local" class="btn btn-primary btn-lg btn-block">L</button>
             </div>
-            <div class="col">
-                <button type="button" id="visitante" class="btn btn-primary btn-lg btn-block">VISITANTE</button>
+            <div class="col-4">
+                <button type="button" id="visitante" class="btn btn-primary btn-lg btn-block">V</button>
             </div>
-            <div class="col">
-                <button type="button" id="grupo" class="btn btn-primary btn-lg btn-block">GRUPO</button>
+            <div class="col-1">
+                <button type="button" id="grupo" class="btn btn-primary btn-lg btn-block">G</button>
             </div>
-            <div class="col">
-                <button type="button" class="btn btn-primary btn-lg btn-block">CUOTA</button>
+            <div class="col-1">
+                <button type="button" class="btn btn-primary btn-lg btn-block">C</button>
             </div>
         </div>
     </div>
@@ -94,12 +94,12 @@
             partidos.forEach(partido => {
                 contenido += `
                 <div class="row border-bottom">
-                    <div class="col">${partido[0] - 10000}</div>
-                    <div class="col">${partido[1]}</div>
-                    <div class="col">${partido[2]}</div>
-                    <div class="col">${partido[3]}</div>
-                    <div class="col">${partido[4]}</div>
-                    <div class="col">${partido[5]}</div>
+                    <div class="col-1">${partido[0] - 10000}</div>
+                    <div class="col-1">${partido[1]}</div>
+                    <div class="col-4">${partido[2]}</div>
+                    <div class="col-4">${partido[3]}</div>
+                    <div class="col-1">${partido[4]}</div>
+                    <div class="col-1">${partido[5]}</div>
                 </div>
                 `;
             })
