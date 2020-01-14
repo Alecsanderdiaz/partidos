@@ -1,1 +1,1 @@
-# partidos
+[Partidos](https://alecsanderdiaz.github.io/partidos/)
