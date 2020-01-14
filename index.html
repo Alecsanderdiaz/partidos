@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>PARTIDOS</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <button type="button" id="cargar" class="btn btn-primary btn-lg btn-block">CARGAR</button>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <button type="button" id="hora" class="btn btn-primary btn-lg btn-block">HORA</button>
+            </div>
+            <div class="col">
+                <button type="button" id="liga" class="btn btn-primary btn-lg btn-block">LIGA</button>
+            </div>
+            <div class="col">
+                <button type="button" id="local" class="btn btn-primary btn-lg btn-block">LOCAL</button>
+            </div>
+            <div class="col">
+                <button type="button" id="visitante" class="btn btn-primary btn-lg btn-block">VISITANTE</button>
+            </div>
+            <div class="col">
+                <button type="button" id="grupo" class="btn btn-primary btn-lg btn-block">GRUPO</button>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary btn-lg btn-block">CUOTA</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="lista">
+
+    </div>
+
+    <script>
+
+        let partidos = [
+        [11300, 'ESP2', 'Albacete', 'Fuenlabrada', 1, 0],
+[11300, 'ESP2', 'Sporting de Gijón', 'Elche', 3, 0],
+[11400, 'ESP2', 'Málaga', 'Ponferradina', 1, 0],
+[11530, 'ESP2', 'Las Palmas', 'Real Zaragoza', 3, 0],
+[11015, 'GREC', 'Atromitos', 'Volos', 3, 0],
+[11230, 'GREC', 'Aris', 'Xanthi', 3, 0],
+[11445, 'INGO', 'Burton', 'MK Dons', 3, 0],
+[11445, 'INGO', 'Lincoln', 'Bolton', 4, 0],
+[11445, 'INGO', 'Oxford Utd', 'Ipswich', 3, 0],
+[11445, 'INGT', 'Morecambe', 'Port Vale', 4, 0],
+[11445, 'INGT', 'Stevenage', 'Oldham', 4, 0],
+[11445, 'INGN', 'AFC Fylde', 'Notts County', 2, 0],
+[11445, 'INGF', 'Blackpool', 'Reading', 4, 0],
+[11445, 'INGF', 'Coventry', 'Bristol Rovers', 3, 0],
+[11445, 'INGF', 'Newcastle', 'Rochdale', 1, 0],
+[11445, 'INGF', 'Shrewsbury', 'Bristol City', 4, 0],
+[11445, 'INGF', 'Tranmere', 'Watford', 2, 0],
+[11505, 'INGF', 'Tottenham', 'Middlesbrough', 1, 0],
+[10900, 'ITAC', 'Nápoles', 'Perugia', 4, 0],
+[11200, 'ITAC', 'Lazio', 'Cremonese', 1, 0],
+[11445, 'ITAC', 'Inter', 'Cagliari', 1, 0],
+[11300, 'PORC', 'Oporto', 'Varzim', 1, 0],
+[11615, 'PORC', 'Benfica', 'Rio Ave', 1, 0],
+[10800, 'TURC', 'Basaksehir', 'Kirklarelispor', 1, 0],
+[11030, 'TURC', 'Sivasspor', 'Yeni Malatyaspor', 1, 0],
+[11230, 'TURC', 'Kayserispor', 'Fenerbahce', 2, 0],
+        ];
+
+        const botonCargar = document.querySelector('#cargar');
+        const botonHora = document.querySelector('#hora');
+        const botonGrupo = document.querySelector('#grupo');
+        const lista = document.querySelector('#lista');
+
+        const dibujar = function () {
+            let contenido = '';
+
+            partidos.forEach(partido => {
+                contenido += `
+                <div class="row border-bottom">
+                    <div class="col">${partido[0] - 10000}</div>
+                    <div class="col">${partido[1]}</div>
+                    <div class="col">${partido[2]}</div>
+                    <div class="col">${partido[3]}</div>
+                    <div class="col">${partido[4]}</div>
+                    <div class="col">${partido[5]}</div>
+                </div>
+                `;
+            })
+
+            lista.innerHTML = contenido;
+
+        }
+        const ordenarHora = function () {
+
+            partidos.sort((a, b) => {
+                return a[0] - b[0];
+            });
+
+            dibujar();
+
+        }
+        const ordenarGrupo = function () {
+
+            partidos.sort((a, b) => {
+                return a[4] - b[4];
+            });
+
+            dibujar();
+
+        }
+
+        botonCargar.addEventListener('click', dibujar);
+        botonHora.addEventListener('click', ordenarHora);
+        botonGrupo.addEventListener('click', ordenarGrupo);
+
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
