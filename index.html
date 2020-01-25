@@ -27,24 +27,21 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col">
-                <button type="button" id="hora" class="btn btn-primary btn-lg btn-block">HORA</button>
+            <div class="col-2">
+                <!-- <button type="button" id="hora" class="btn btn-primary btn-lg btn-block">H</button> -->
             </div>
-            <div class="col">
-                <button type="button" id="liga" class="btn btn-primary btn-lg btn-block">LIGA</button>
+            <div class="col-2">
+                <!-- <button type="button" id="liga" class="btn btn-primary btn-lg btn-block">LIGA</button> -->
             </div>
-            <div class="col">
-                <button type="button" id="local" class="btn btn-primary btn-lg btn-block">LOCAL</button>
+            <div class="col-6">
+                <!-- <button type="button" id="visitante" class="btn btn-primary btn-lg btn-block"></button> -->
             </div>
-            <div class="col">
-                <button type="button" id="visitante" class="btn btn-primary btn-lg btn-block">VISITANTE</button>
+            <div class="col-2">
+                <!-- <button type="button" id="grupo" class="btn btn-primary btn-lg btn-block">GRUPO</button> -->
             </div>
-            <div class="col">
-                <button type="button" id="grupo" class="btn btn-primary btn-lg btn-block">GRUPO</button>
-            </div>
-            <div class="col">
+            <!-- <div class="col">
                 <button type="button" class="btn btn-primary btn-lg btn-block">CUOTA</button>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -55,129 +52,129 @@
     <script>
 
         let partidos = [
-[10930, 'ALE1', 'Eintracht Frankfurt', 'RB Leipzig', 22222, 33333],
-[10930, 'ALE1', 'Friburgo', 'Paderborn', 22222, 33333],
-[10930, 'ALE1', 'Mönchengladbach', 'Mainz', 22222, 33333],
-[10930, 'ALE1', 'Union Berlin', 'Augsburgo', 22222, 33333],
-[10930, 'ALE1', 'Wolfsburgo', 'Hertha Berlín', 22222, 33333],
-[11230, 'ALE1', 'Bayern Múnich', 'Schalke', 22222, 33333],
-[10800, 'ALE3', 'Chemnitzer', 'Viktoria Köln', 22222, 33333],
-[10800, 'ALE3', 'Duisburgo', 'Ingolstadt', 22222, 33333],
-[10800, 'ALE3', 'Jena', 'Preussen Münster', 22222, 33333],
-[10800, 'ALE3', 'Magdeburgo', 'Zwickau', 22222, 33333],
-[10800, 'ALE3', 'Meppen', 'Mannheim', 22222, 33333],
-[10800, 'ALE3', 'Würzburger Kickers', 'Unterhaching', 22222, 33333],
-[11535, 'ARG1', 'Arsenal Sarandí', 'Newells', 22222, 33333],
-[11740, 'ARG1', 'Central Córdoba', 'Colón', 22222, 33333],
-[11740, 'ARG1', 'San Lorenzo', 'Estudiantes L.P.', 22222, 33333],
-[11945, 'ARG1', 'Godoy Cruz', 'River Plate', 22222, 33333],
-[11200, 'BEL1', 'Charleroi', 'KV Mechelen', 22222, 33333],
-[11400, 'BEL1', 'Mouscron', 'St. Truiden', 22222, 33333],
-[11400, 'BEL1', 'Waasland-Beveren', 'Eupen', 22222, 33333],
-[11430, 'BEL1', 'Gent', 'Genk', 22222, 33333],
-[11400, 'BOL1', 'Always Ready', 'Aurora', 22222, 33333],
-[11615, 'BOL1', 'Vinto', 'Royal Pari', 22222, 33333],
-[11830, 'BOL1', 'San José', 'Bolívar', 22222, 33333],
-[11000, 'CHI1', 'Antofagasta', 'Coquimbo', 22222, 33333],
-[11830, 'CHI1', 'A. Italiano', 'Cobresal', 22222, 33333],
-[11400, 'COL1', 'Envigado', 'Boyacá Chicó', 22222, 33333],
-[11605, 'COL1', 'Atl. Bucaramanga', 'Deportivo Cali', 22222, 33333],
-[11810, 'COL1', 'Junior', 'La Equidad', 22222, 33333],
-[12015, 'COL1', 'América de Cali', 'Alianza Petrolera', 22222, 33333],
-[11000, 'ESC1', 'Celtic', 'Ross County', 22222, 33333],
-[11000, 'ESC1', 'Hamilton', 'Livingston', 22222, 33333],
-[11000, 'ESC1', 'Motherwell', 'Hibernian', 22222, 33333],
-[11000, 'ESC1', 'St. Johnstone', 'Kilmarnock', 22222, 33333],
-[11000, 'ESC2', 'Arbroath', 'Partick Thistle', 22222, 33333],
-[11000, 'ESC2', 'Ayr', 'Inverness', 22222, 33333],
-[11000, 'ESC2', 'Dundee Utd', 'Morton', 22222, 33333],
-[11000, 'ESC2', 'Queen of South', 'Alloa', 22222, 33333],
-[10700, 'ESP1', 'Espanyol', 'Athletic Club', 22222, 33333],
-[11000, 'ESP1', 'Valencia', 'Barcelona', 22222, 33333],
-[11230, 'ESP1', 'Alavés', 'Villarreal', 22222, 33333],
-[11500, 'ESP1', 'Sevilla', 'Granada', 22222, 33333],
-[11000, 'ESP2', 'Huesca', 'Lugo', 22222, 33333],
-[11000, 'ESP2', 'Sporting de Gijón', 'Fuenlabrada', 22222, 33333],
-[11215, 'ESP2', 'Las Palmas', 'Tenerife', 22222, 33333],
-[11500, 'ESP2', 'Real Zaragoza', 'Numancia', 22222, 33333],
-[11130, 'FRA1', 'Marsella', 'Angers', 22222, 33333],
-[11400, 'FRA1', 'Brest', 'Amiens', 22222, 33333],
-[11400, 'FRA1', 'Mónaco', 'Estrasburgo', 22222, 33333],
-[11400, 'FRA1', 'Montpellier', 'Dijon', 22222, 33333],
-[11400, 'FRA1', 'Reims', 'Metz', 22222, 33333],
-[11400, 'FRA1', 'Saint-Étienne', 'Nimes', 22222, 33333],
-[10900, 'FRA2', 'Lens', 'Clermont', 22222, 33333],
-[11230, 'HOL1', 'Heerenveen', 'AZ Alkmaar', 22222, 33333],
-[11345, 'HOL1', 'Heracles', 'Feyenoord', 22222, 33333],
-[11345, 'HOL1', 'Waalwijk', 'Venlo', 22222, 33333],
-[11445, 'HOL1', 'Sparta Rotterdam', 'Sittard', 22222, 33333],
-[11000, 'ING2', 'Stoke', 'Swansea', 22222, 33333],
-[11000, 'INGO', 'Bristol Rovers', 'Fleetwood', 22222, 33333],
-[11000, 'INGO', 'Burton', 'Accrington', 22222, 33333],
-[11000, 'INGO', 'Ipswich', 'Lincoln', 22222, 33333],
-[11000, 'INGO', 'Peterborough', 'Rotherham', 22222, 33333],
-[11000, 'INGO', 'Rochdale', 'Gillingham FC', 22222, 33333],
-[11000, 'INGT', 'Carlisle', 'Walsall', 22222, 33333],
-[11000, 'INGT', 'Crawley', 'Grimsby', 22222, 33333],
-[11000, 'INGT', 'Exeter', 'Colchester', 22222, 33333],
-[11000, 'INGT', 'Leyton Orient', 'Newport', 22222, 33333],
-[11000, 'INGT', 'Macclesfield', 'Forest Green', 22222, 33333],
-[11000, 'INGT', 'Mansfield', 'Bradford City', 22222, 33333],
-[11000, 'INGT', 'Morecambe', 'Cambridge Utd', 22222, 33333],
-[11000, 'INGT', 'Salford', 'Oldham', 22222, 33333],
-[11000, 'INGT', 'Scunthorpe', 'Crewe', 22222, 33333],
-[11000, 'INGT', 'Stevenage', 'Plymouth', 22222, 33333],
-[11000, 'INGT', 'Swindon', 'Port Vale', 22222, 33333],
-[11000, 'INGN', 'Boreham Wood', 'Barrow', 22222, 33333],
-[11000, 'INGN', 'Bromley', 'Barnet', 22222, 33333],
-[11000, 'INGN', 'Chesterfield', 'AFC Fylde', 22222, 33333],
-[11000, 'INGN', 'Chorley', 'Halifax', 22222, 33333],
-[11000, 'INGN', 'Dagenham & Red.', 'Notts County', 22222, 33333],
-[11000, 'INGN', 'Dover', 'Aldershot', 22222, 33333],
-[11000, 'INGN', 'Harrogate', 'Wrexham', 22222, 33333],
-[11000, 'INGN', 'Hartlepool', 'Stockport', 22222, 33333],
-[11000, 'INGN', 'Maidenhead', 'Eastleigh', 22222, 33333],
-[11000, 'INGN', 'Sutton', 'Solihull Moors', 22222, 33333],
-[11000, 'INGN', 'Torquay', 'Ebbsfleet', 22222, 33333],
-[11000, 'INGN', 'Woking', 'Yeovil', 22222, 33333],
-[10745, 'INGF', 'Brentford', 'Leicester', 22222, 33333],
-[11000, 'INGF', 'Burnley', 'Norwich', 22222, 33333],
-[11000, 'INGF', 'Coventry', 'Birmingham', 22222, 33333],
-[11000, 'INGF', 'Millwall', 'Sheffield Utd', 22222, 33333],
-[11000, 'INGF', 'Newcastle', 'Oxford Utd', 22222, 33333],
-[11000, 'INGF', 'Portsmouth', 'Barnsley', 22222, 33333],
-[11000, 'INGF', 'Reading', 'Cardiff', 22222, 33333],
-[11000, 'INGF', 'Southampton', 'Tottenham', 22222, 33333],
-[11000, 'INGF', 'West Ham', 'West Brom', 22222, 33333],
-[11230, 'INGF', 'Hull', 'Chelsea', 22222, 33333],
-[10900, 'ITA1', 'Spal', 'Bolonia', 22222, 33333],
-[11200, 'ITA1', 'Fiorentina', 'Genoa', 22222, 33333],
-[11445, 'ITA1', 'Torino', 'Atalanta', 22222, 33333],
-[10900, 'ITA2', 'Cittadella', 'Benevento', 22222, 33333],
-[10900, 'ITA2', 'Entella', 'Cremonese', 22222, 33333],
-[10900, 'ITA2', 'Pisa', 'Juve Stabia', 22222, 33333],
-[10900, 'ITA2', 'Pordenone', 'Pescara', 22222, 33333],
-[11200, 'ITA2', 'Salernitana', 'Cosenza', 22222, 33333],
-[11800, 'MEX1', 'Cruz Azul', 'Santos Laguna', 22222, 33333],
-[12000, 'MEX1', 'U.A.N.L.', 'Atlas', 22222, 33333],
-[12200, 'MEX1', 'León', 'Pachuca', 22222, 33333],
-[12205, 'MEX1', 'Guadalajara', 'Toluca', 22222, 33333],
-[11800, 'MEX2', 'Celaya', 'Atlante', 22222, 33333],
-[12000, 'MEX2', 'Cafetaleros de Chiapas', 'Mineros', 22222, 33333],
-[12200, 'MEX2', 'Dorados', 'Correcaminos U.A.T.', 22222, 33333],
-[11600, 'PAR1', 'Guairena FC', 'River Plate', 22222, 33333],
-[11815, 'PAR1', 'Libertad', 'Olimpia', 22222, 33333],
-[11445, 'PORC', 'SC Braga', 'Oporto', 22222, 33333],
-[11300, 'SUI1', 'Xamax', 'Servette', 22222, 33333],
-[11300, 'SUI1', 'Zúrich', 'Lucerna', 22222, 33333],
-[11100, 'SUI2', 'Lausanne Ouchy', 'Aarau', 22222, 33333],
-[11130, 'SUI2', 'Kriens', 'Winterthur', 22222, 33333],
-[10600, 'TUR1', 'Kayserispor', 'Ankaragucu', 22222, 33333],
-[10900, 'TUR1', 'Kasimpasa', 'Alanyaspor', 22222, 33333],
-[11200, 'TUR1', 'Fenerbahce', 'Basaksehir', 22222, 33333],
-[10600, 'TUR2', 'Giresunspor', 'Umraniyespor', 22222, 33333],
-[10830, 'TUR2', 'Osmanlispor', 'Keciorengucu', 22222, 33333],
-[11100, 'TUR2', 'Altay', 'Istanbulspor', 22222, 33333],
+            [10930, 'ALE1', 'Eintracht Frankfurt', 'RB Leipzig', 9, 33333],
+            [10930, 'ALE1', 'Friburgo', 'Paderborn', 9, 33333],
+            [10930, 'ALE1', 'Mönchengladbach', 'Mainz', 9, 33333],
+            [10930, 'ALE1', 'Union Berlin', 'Augsburgo', 9, 33333],
+            [10930, 'ALE1', 'Wolfsburgo', 'Hertha Berlín', 9, 33333],
+            [11230, 'ALE1', 'Bayern Múnich', 'Schalke', 9, 33333],
+            [10800, 'ALE3', 'Chemnitzer', 'Viktoria Köln', 9, 33333],
+            [10800, 'ALE3', 'Duisburgo', 'Ingolstadt', 9, 33333],
+            [10800, 'ALE3', 'Jena', 'Preussen Münster', 9, 33333],
+            [10800, 'ALE3', 'Magdeburgo', 'Zwickau', 9, 33333],
+            [10800, 'ALE3', 'Meppen', 'Mannheim', 9, 33333],
+            [10800, 'ALE3', 'Würzburger Kickers', 'Unterhaching', 9, 33333],
+            [11535, 'ARG1', 'Arsenal Sarandí', 'Newells', 9, 33333],
+            [11740, 'ARG1', 'Central Córdoba', 'Colón', 9, 33333],
+            [11740, 'ARG1', 'San Lorenzo', 'Estudiantes L.P.', 9, 33333],
+            [11945, 'ARG1', 'Godoy Cruz', 'River Plate', 9, 33333],
+            [11200, 'BEL1', 'Charleroi', 'KV Mechelen', 9, 33333],
+            [11400, 'BEL1', 'Mouscron', 'St. Truiden', 9, 33333],
+            [11400, 'BEL1', 'Waasland-Beveren', 'Eupen', 9, 33333],
+            [11430, 'BEL1', 'Gent', 'Genk', 9, 33333],
+            [11400, 'BOL1', 'Always Ready', 'Aurora', 9, 33333],
+            [11615, 'BOL1', 'Vinto', 'Royal Pari', 9, 33333],
+            [11830, 'BOL1', 'San José', 'Bolívar', 9, 33333],
+            [11000, 'CHI1', 'Antofagasta', 'Coquimbo', 9, 33333],
+            [11830, 'CHI1', 'A. Italiano', 'Cobresal', 9, 33333],
+            [11400, 'COL1', 'Envigado', 'Boyacá Chicó', 9, 33333],
+            [11605, 'COL1', 'Atl. Bucaramanga', 'Deportivo Cali', 9, 33333],
+            [11810, 'COL1', 'Junior', 'La Equidad', 9, 33333],
+            [12015, 'COL1', 'América de Cali', 'Alianza Petrolera', 9, 33333],
+            [11000, 'ESC1', 'Celtic', 'Ross County', 9, 33333],
+            [11000, 'ESC1', 'Hamilton', 'Livingston', 9, 33333],
+            [11000, 'ESC1', 'Motherwell', 'Hibernian', 9, 33333],
+            [11000, 'ESC1', 'St. Johnstone', 'Kilmarnock', 9, 33333],
+            [11000, 'ESC2', 'Arbroath', 'Partick Thistle', 9, 33333],
+            [11000, 'ESC2', 'Ayr', 'Inverness', 9, 33333],
+            [11000, 'ESC2', 'Dundee Utd', 'Morton', 9, 33333],
+            [11000, 'ESC2', 'Queen of South', 'Alloa', 9, 33333],
+            [10700, 'ESP1', 'Espanyol', 'Athletic Club', 9, 33333],
+            [11000, 'ESP1', 'Valencia', 'Barcelona', 9, 33333],
+            [11230, 'ESP1', 'Alavés', 'Villarreal', 9, 33333],
+            [11500, 'ESP1', 'Sevilla', 'Granada', 9, 33333],
+            [11000, 'ESP2', 'Huesca', 'Lugo', 9, 33333],
+            [11000, 'ESP2', 'Sporting de Gijón', 'Fuenlabrada', 9, 33333],
+            [11215, 'ESP2', 'Las Palmas', 'Tenerife', 9, 33333],
+            [11500, 'ESP2', 'Real Zaragoza', 'Numancia', 9, 33333],
+            [11130, 'FRA1', 'Marsella', 'Angers', 9, 33333],
+            [11400, 'FRA1', 'Brest', 'Amiens', 9, 33333],
+            [11400, 'FRA1', 'Mónaco', 'Estrasburgo', 9, 33333],
+            [11400, 'FRA1', 'Montpellier', 'Dijon', 9, 33333],
+            [11400, 'FRA1', 'Reims', 'Metz', 9, 33333],
+            [11400, 'FRA1', 'Saint-Étienne', 'Nimes', 9, 33333],
+            [10900, 'FRA2', 'Lens', 'Clermont', 9, 33333],
+            [11230, 'HOL1', 'Heerenveen', 'AZ Alkmaar', 9, 33333],
+            [11345, 'HOL1', 'Heracles', 'Feyenoord', 9, 33333],
+            [11345, 'HOL1', 'Waalwijk', 'Venlo', 9, 33333],
+            [11445, 'HOL1', 'Sparta Rotterdam', 'Sittard', 9, 33333],
+            [11000, 'ING2', 'Stoke', 'Swansea', 9, 33333],
+            [11000, 'INGO', 'Bristol Rovers', 'Fleetwood', 9, 33333],
+            [11000, 'INGO', 'Burton', 'Accrington', 9, 33333],
+            [11000, 'INGO', 'Ipswich', 'Lincoln', 9, 33333],
+            [11000, 'INGO', 'Peterborough', 'Rotherham', 9, 33333],
+            [11000, 'INGO', 'Rochdale', 'Gillingham FC', 9, 33333],
+            [11000, 'INGT', 'Carlisle', 'Walsall', 9, 33333],
+            [11000, 'INGT', 'Crawley', 'Grimsby', 9, 33333],
+            [11000, 'INGT', 'Exeter', 'Colchester', 9, 33333],
+            [11000, 'INGT', 'Leyton Orient', 'Newport', 9, 33333],
+            [11000, 'INGT', 'Macclesfield', 'Forest Green', 9, 33333],
+            [11000, 'INGT', 'Mansfield', 'Bradford City', 9, 33333],
+            [11000, 'INGT', 'Morecambe', 'Cambridge Utd', 9, 33333],
+            [11000, 'INGT', 'Salford', 'Oldham', 9, 33333],
+            [11000, 'INGT', 'Scunthorpe', 'Crewe', 9, 33333],
+            [11000, 'INGT', 'Stevenage', 'Plymouth', 9, 33333],
+            [11000, 'INGT', 'Swindon', 'Port Vale', 9, 33333],
+            [11000, 'INGN', 'Boreham Wood', 'Barrow', 9, 33333],
+            [11000, 'INGN', 'Bromley', 'Barnet', 9, 33333],
+            [11000, 'INGN', 'Chesterfield', 'AFC Fylde', 9, 33333],
+            [11000, 'INGN', 'Chorley', 'Halifax', 9, 33333],
+            [11000, 'INGN', 'Dagenham & Red.', 'Notts County', 9, 33333],
+            [11000, 'INGN', 'Dover', 'Aldershot', 9, 33333],
+            [11000, 'INGN', 'Harrogate', 'Wrexham', 9, 33333],
+            [11000, 'INGN', 'Hartlepool', 'Stockport', 9, 33333],
+            [11000, 'INGN', 'Maidenhead', 'Eastleigh', 9, 33333],
+            [11000, 'INGN', 'Sutton', 'Solihull Moors', 9, 33333],
+            [11000, 'INGN', 'Torquay', 'Ebbsfleet', 9, 33333],
+            [11000, 'INGN', 'Woking', 'Yeovil', 9, 33333],
+            [10745, 'INGF', 'Brentford', 'Leicester', 9, 33333],
+            [11000, 'INGF', 'Burnley', 'Norwich', 9, 33333],
+            [11000, 'INGF', 'Coventry', 'Birmingham', 9, 33333],
+            [11000, 'INGF', 'Millwall', 'Sheffield Utd', 9, 33333],
+            [11000, 'INGF', 'Newcastle', 'Oxford Utd', 9, 33333],
+            [11000, 'INGF', 'Portsmouth', 'Barnsley', 9, 33333],
+            [11000, 'INGF', 'Reading', 'Cardiff', 9, 33333],
+            [11000, 'INGF', 'Southampton', 'Tottenham', 9, 33333],
+            [11000, 'INGF', 'West Ham', 'West Brom', 9, 33333],
+            [11230, 'INGF', 'Hull', 'Chelsea', 9, 33333],
+            [10900, 'ITA1', 'Spal', 'Bolonia', 9, 33333],
+            [11200, 'ITA1', 'Fiorentina', 'Genoa', 9, 33333],
+            [11445, 'ITA1', 'Torino', 'Atalanta', 9, 33333],
+            [10900, 'ITA2', 'Cittadella', 'Benevento', 9, 33333],
+            [10900, 'ITA2', 'Entella', 'Cremonese', 9, 33333],
+            [10900, 'ITA2', 'Pisa', 'Juve Stabia', 9, 33333],
+            [10900, 'ITA2', 'Pordenone', 'Pescara', 9, 33333],
+            [11200, 'ITA2', 'Salernitana', 'Cosenza', 9, 33333],
+            [11800, 'MEX1', 'Cruz Azul', 'Santos Laguna', 9, 33333],
+            [12000, 'MEX1', 'U.A.N.L.', 'Atlas', 9, 33333],
+            [12200, 'MEX1', 'León', 'Pachuca', 9, 33333],
+            [12205, 'MEX1', 'Guadalajara', 'Toluca', 9, 33333],
+            [11800, 'MEX2', 'Celaya', 'Atlante', 9, 33333],
+            [12000, 'MEX2', 'Cafetaleros de Chiapas', 'Mineros', 9, 33333],
+            [12200, 'MEX2', 'Dorados', 'Correcaminos U.A.T.', 9, 33333],
+            [11600, 'PAR1', 'Guairena FC', 'River Plate', 9, 33333],
+            [11815, 'PAR1', 'Libertad', 'Olimpia', 9, 33333],
+            [11445, 'PORC', 'SC Braga', 'Oporto', 9, 33333],
+            [11300, 'SUI1', 'Xamax', 'Servette', 9, 33333],
+            [11300, 'SUI1', 'Zúrich', 'Lucerna', 9, 33333],
+            [11100, 'SUI2', 'Lausanne Ouchy', 'Aarau', 9, 33333],
+            [11130, 'SUI2', 'Kriens', 'Winterthur', 9, 33333],
+            [10600, 'TUR1', 'Kayserispor', 'Ankaragucu', 9, 33333],
+            [10900, 'TUR1', 'Kasimpasa', 'Alanyaspor', 9, 33333],
+            [11200, 'TUR1', 'Fenerbahce', 'Basaksehir', 9, 33333],
+            [10600, 'TUR2', 'Giresunspor', 'Umraniyespor', 9, 33333],
+            [10830, 'TUR2', 'Osmanlispor', 'Keciorengucu', 9, 33333],
+            [11100, 'TUR2', 'Altay', 'Istanbulspor', 9, 33333],
         ];
 
         const botonCargar = document.querySelector('#cargar');
@@ -191,12 +188,11 @@
             partidos.forEach(partido => {
                 contenido += `
                 <div class="row border-bottom">
-                    <div class="col">${partido[0] - 10000}</div>
-                    <div class="col">${partido[1]}</div>
-                    <div class="col">${partido[2]}</div>
-                    <div class="col">${partido[3]}</div>
-                    <div class="col">${partido[4]}</div>
-                    <div class="col">${partido[5]}</div>
+                    <div class="col-2">${partido[0] - 10000}</div>
+                    <div class="col-2">${partido[1]}</div>
+                    <div class="col-6">${partido[2]} </br> ${partido[3]}</div>
+                    <div class="col-2">${partido[4]}</div>
+                    
                 </div>
                 `;
             })
@@ -223,7 +219,7 @@
 
         }
 
-        botonCargar.addEventListener('click', dibujar);
+        botonCargar.addEventListener('click', ordenarHora);
         botonHora.addEventListener('click', ordenarHora);
         botonGrupo.addEventListener('click', ordenarGrupo);
 
