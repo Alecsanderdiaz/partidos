@@ -193,7 +193,18 @@
                 <div class="row border-bottom">
                     <div class="col-2">${partido[0] - 10000}</div>
                     <div class="col-2">${partido[1]}</div>
-                    <div class="col-6">${partido[2]} </br> ${partido[3]}</div>
+                    <div class="col-6">
+                        <span class="`;
+                contenido += partido[4] === 1 ? 'badge badge-primary' : '';
+                contenido += partido[4] === 3 ? 'badge badge-secondary' : '';
+                contenido += `">
+                        ${partido[2]}</span>
+                        </br><span class="`;
+                contenido += partido[4] === 2 ? 'badge badge-primary' : '';
+                contenido += partido[4] === 4 ? 'badge badge-secondary' : '';
+                contenido += `">
+                        ${partido[3]}</span>
+                    </div>
                     <div class="col-2">${partido[4]}</div>
                     
                 </div>
