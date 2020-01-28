@@ -51,22 +51,22 @@
 
     <script>
 
-        let partidos = [
+        let partidos =
 
-            [11300, 'ALE3', 'Kaiserslautern', 'Grossaspach', 3, 999],
-            [11445, 'FRA2', 'Le Havre', 'Troyes', 4, 999],
-            [11400, 'HOL2', 'Jong AZ', 'Almere', 4, 999],
-            [11400, 'HOL2', 'Jong PSV', 'Excelsior', 4, 999],
-            [11500, 'INGF', 'Bournemouth', 'Arsenal', 2, 999],
-            [11500, 'ITAB', 'Perugia', 'Livorno', 3, 999],
-            [11345, 'POR1', 'V. Guimaraes', 'Rio Ave', 3, 999],
-            [11600, 'POR1', 'Sporting CP', 'Marítimo', 1, 999],
-            [11445, 'POR2', 'Estoril', 'Benfica B', 4, 999],
-            [11200, 'TUR1', 'Sivasspor', 'Rizespor', 3, 999],
-            [11200, 'TUR1', 'Yeni Malatyaspor', 'Trabzonspor', 4, 999],
-            [11100, 'TUR2', 'Karagumruk', 'Altinordu', 4, 999],
+            [
+                [11230, "ALE2", "Bielefeld", "Bochum", 1, 1],
+                [11430, "ALE2", "Fürth", "St. Pauli", 6, 1],
+                [11430, "ALE2", "Wehen", "Aue", 4, 1],
+                [11600, "CHI1", "Curicó Unido", "La Serena", 6, 1],
+                [11430, "ALE2", "Regensburg", "Hannover", 6, 1],
+                [11445, "ESCC", "Falkirk", "Arbroath", 5, 1],
+                [12010, "COL1", "Deportivo Cali", "Junior", 2, 1],
+                [11600, "COL1", "Once Caldas", "Atl. Bucaramanga", 1, 1],
+                [11805, "COL1", "Ind. Medellín", "Rionegro Águilas", 1, 1],
+                [11830, "CHI1", "Colo Colo", "Palestino", 1, 1],
+                [11230, "FRAC", "ASM Belfort", "Montpellier", 2, 1], [11230, "FRAC", "Limonest", "Dijon", 2, 1], [11500, "ESPC", "Tenerife", "Athletic Club", 2, 1], [11230, "FRAC", "Angers", "Stade Rennais", 4, 1], [11445, "ESCC", "Hibernian", "Dundee Utd", 5, 1], [11445, "ING2", "Cardiff", "West Brom", 2, 1], [11445, "ING2", "Hull", "Huddersfield", 3, 1], [11445, "ING2", "Blackburn", "QPR", 3, 1], [11445, "ING2", "Brentford", "Nottingham Forest", 4, 1], [11455, "FRAC", "Mónaco", "Saint-Étienne", 4, 1], [11445, "ING2", "Luton", "Derby", 4, 1], [11445, "INGO", "Accrington", "Peterborough", 6, 1], [11445, "ING2", "Wigan", "Sheffield Wed", 3, 1], [11500, "ING2", "Reading", "Bristol City", 5, 1], [11445, "INGO", "Fleetwood", "Coventry", 5, 1], [11445, "INGO", "Rotherham", "Ipswich", 6, 1], [11445, "ING2", "Leeds Utd", "Millwall", 3, 1], [11445, "INGO", "Lincoln", "Portsmouth", 6, 1], [11445, "INGO", "MK Dons", "Rochdale", 5, 1], [11445, "INGO", "Wycombe", "Blackpool", 5, 1], [11445, "INGT", "Cambridge Utd", "Salford", 6, 1], [11445, "INGO", "Doncaster", "Southend", 5, 1], [11500, "INGO", "Bolton", "Bristol Rovers", 5, 1], [11445, "INGT", "Bradford City", "Cheltenham", 6, 1], [11445, "INGT", "Crewe", "Leyton Orient", 5, 1], [11445, "INGT", "Newport", "Macclesfield", 6, 1], [11445, "INGO", "Wimbledon", "Burton", 6, 1], [11445, "INGT", "Forest Green", "Carlisle", 6, 1], [11445, "INGT", "Grimsby", "Stevenage", 5, 1], [11445, "INGT", "Oldham", "Mansfield", 5, 1], [11445, "INGT", "Walsall", "Morecambe", 5, 1], [11445, "INGT", "Colchester", "Swindon", 5, 1], [11445, "INGT", "Plymouth", "Crawley", 5, 1], [11445, "INGT", "Port Vale", "Exeter", 6, 1], [11445, "INGN", "Ebbsfleet", "Woking", 6, 1], [11445, "INGC", "Aston Villa", "Leicester", 2, 1], [11445, "INGT", "Northampton", "Scunthorpe", 5, 1], [11445, "INGN", "Halifax", "Dover", 5, 1], [12000, "INGC", "Pachuca", "Venados", 1, 1], [11445, "INGN", "Solihull Moors", "Barrow", 6, 1], [12210, "INGC", "Tijuana", "Atlético de San Luis", 1, 1], [11445, "INGN", "Eastleigh", "Aldershot", 6, 1], [12000, "INGC", "Toluca", "Atlas", 3, 1], [11930, "LIBE", "Universitario (Per)", "Carabobo (Ven)", 1, 1], [12210, "INGC", "Dorados", "Guadalajara", 2, 1], [11445, "ITAC", "AC Milan", "Torino", 1, 1], [11515, "POR1", "Oporto", "Gil Vicente", 1, 1]]
 
-        ];
+            ;
 
         const botonCargar = document.querySelector('#cargar');
         const botonHora = document.querySelector('#hora');
@@ -84,12 +84,16 @@
                     <div class="col-6">
                         <span class="`;
                 contenido += partido[4] === 1 ? 'badge badge-primary' : '';
-                contenido += partido[4] === 3 ? 'badge badge-secondary' : '';
+                contenido += partido[4] === 3 ? 'badge badge-success' : '';
+                contenido += partido[4] === 5 ? 'badge badge-warning' : '';
+                contenido += partido[4] === 7 ? 'badge badge-danger' : '';
                 contenido += `">
                         ${partido[2]}</span>
                         </br><span class="`;
                 contenido += partido[4] === 2 ? 'badge badge-primary' : '';
-                contenido += partido[4] === 4 ? 'badge badge-secondary' : '';
+                contenido += partido[4] === 4 ? 'badge badge-success' : '';
+                contenido += partido[4] === 6 ? 'badge badge-warning' : '';
+                contenido += partido[4] === 8 ? 'badge badge-danger' : '';
                 contenido += `">
                         ${partido[3]}</span>
                     </div>
