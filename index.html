@@ -27,24 +27,21 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col">
-                <button type="button" id="hora" class="btn btn-primary btn-lg btn-block">HORA</button>
+            <div class="col-2">
+                <!-- <button type="button" id="hora" class="btn btn-primary btn-lg btn-block">H</button> -->
             </div>
-            <div class="col">
-                <button type="button" id="liga" class="btn btn-primary btn-lg btn-block">LIGA</button>
+            <div class="col-2">
+                <!-- <button type="button" id="liga" class="btn btn-primary btn-lg btn-block">LIGA</button> -->
             </div>
-            <div class="col">
-                <button type="button" id="local" class="btn btn-primary btn-lg btn-block">LOCAL</button>
+            <div class="col-6">
+                <!-- <button type="button" id="visitante" class="btn btn-primary btn-lg btn-block"></button> -->
             </div>
-            <div class="col">
-                <button type="button" id="visitante" class="btn btn-primary btn-lg btn-block">VISITANTE</button>
+            <div class="col-2">
+                <!-- <button type="button" id="grupo" class="btn btn-primary btn-lg btn-block">GRUPO</button> -->
             </div>
-            <div class="col">
-                <button type="button" id="grupo" class="btn btn-primary btn-lg btn-block">GRUPO</button>
-            </div>
-            <div class="col">
+            <!-- <div class="col">
                 <button type="button" class="btn btn-primary btn-lg btn-block">CUOTA</button>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -54,48 +51,11 @@
 
     <script>
 
-        let partidos = [
-        [11445, 'BELC', 'Club Brujas', 'Waregem', 1, 0],
-[11400, 'BOL1', 'Aurora', 'Real Potosí', 3, 0],
-[11400, 'BOL1', 'Guabirá', 'Always Ready', 4, 0],
-[11500, 'BOL1', 'Bolívar', 'Vinto', 1, 0],
-[11930, 'BOL1', 'Royal Pari', 'Oriente Petrolero', 4, 0],
-[11630, 'CHIC', 'U. De Chile', 'Colo Colo', 2, 0],
-[11445, 'ESC1', 'Aberdeen', 'Motherwell', 3, 0],
-[11445, 'ESC1', 'Hibernian', 'Hamilton', 3, 0],
-[11445, 'ESC1', 'Kilmarnock', 'Celtic', 2, 0],
-[11445, 'ESC1', 'Livingston', 'St. Johnstone', 3, 0],
-[11445, 'ESC1', 'Rangers', 'St. Mirren', 1, 0],
-[11445, 'ESC1', 'Ross County', 'Hearts', 3, 0],
-[11300, 'ESPC', 'Elche', 'Athletic Club', 2, 0],
-[11300, 'ESPC', 'UD Ibiza', 'Barcelona', 2, 0],
-[11500, 'ESPC', 'Badalona', 'Granada', 2, 0],
-[11500, 'ESPC', 'Girona', 'Villarreal', 4, 0],
-[11500, 'ESPC', 'Real Sociedad', 'Espanyol', 1, 0],
-[11500, 'ESPC', 'Tenerife', 'Real Valladolid', 4, 0],
-[11500, 'ESPC', 'UD Logroñés', 'Valencia', 2, 0],
-[11500, 'ESPC', 'Unionistas', 'Real Madrid', 2, 0],
-[11500, 'FRAC', 'Reims', 'PSG', 2, 0],
-[11230, 'HOLC', 'Heracles', 'Vitesse', 4, 0],
-[11445, 'HOLC', 'Ajax', 'Spakenburg', 1, 0],
-[11445, 'HOLC', 'Heerenveen', 'Willem II', 4, 0],
-[11430, 'ING1', 'Leicester', 'West Ham ', 1, 0],
-[11430, 'ING1', 'Tottenham', 'Norwich ', 1, 0],
-[11515, 'ING1', 'Manchester Utd', 'Burnley', 1, 0],
-[11445, 'ING2', 'Charlton', 'Fulham', 2, 0],
-[11445, 'ING2', 'Nottingham Forest', 'Reading', 3, 0],
-[11445, 'ITAC', 'Juventus', 'Roma', 1, 0],
-[12000, 'MEXC', 'Cafetaleros de Chiapas', 'Morelia', 2, 0],
-[12000, 'MEXC', 'Celaya', 'Monterrey', 2, 0],
-[12200, 'MEXC', 'Atlas', 'Toluca', 3, 0],
-[12200, 'MEXC', 'Santos Laguna', 'U.N.A.M.', 1, 0],
-[11445, 'PORC', 'V. Guimaraes', 'Oporto', 2, 0],
-[11715, 'LIB', 'San José (Bol)', 'Guaraní (Par)', 1, 0],
-[11930, 'LIB', 'Progreso (Uru)', 'Barcelona SC (Ecu)', 2, 0],
-[10600, 'TURC', 'Kasimpasa', 'Alanyaspor', 4, 0],
-[10900, 'TURC', 'Goztepe', 'Antalyaspor', 3, 0],
-[11230, 'TURC', 'Besiktas', 'Erzurum BB', 1, 0],
-        ];
+        let partidos =
+
+[[11430,"ALE1","Hertha Berlín","Schalke",2,1],[11230,"ALE2","Aue","Bielefeld",2,1],[11230,"ALE2","Regensburg","Fürth",1,1],[11910,"ARG1","Huracán","Gimnasia L.P.",2,1],[11300,"ALE3","Hallescher","Viktoria Köln",2,1],[12005,"COL2","Llaneros","U. Magdalena",2,1],[11405,"ESC2","Partick Thistle","Ayr",2,1],[11430,"BEL1","Kortrijk","St. Lieja",2,1],[11900,"CHI1","U. La Calera","U. Española",1,1],[11630,"CHI1","Coquimbo","A. Italiano",1,1],[11400,"FRA2","Chambly","SM Caen",1,1],[11400,"FRA2","Clermont","Orleans",1,1],[11400,"FRA2","AC Ajaccio","Chateauroux",1,1],[11500,"ESP2","Tenerife","Sporting de Gijón",2,1],[11445,"FRA1","Stade Rennais","Nantes",1,1],[11400,"FRA2","Niort","Paris FC",2,1],[11400,"FRA2","Rodez","Valenciennes",2,1],[11400,"FRA2","Le Mans","Nancy",2,1],[11400,"FRA2","EA Guingamp","Auxerre",1,1],[11400,"FRA2","Le Havre","Lens",1,1],[11400,"HOL2","Den Bosch","Jong AZ",1,1],[11400,"HOL2","Eindhoven","Graafschap",2,1],[11400,"FRA2","Troyes","Grenoble",1,1],[11400,"HOL2","Almere","Telstar",2,1],[11400,"HOL1","AZ Alkmaar","Waalwijk",1,1],[11400,"HOL2","Nijmegen","Cambuur",2,1],[11400,"HOL2","Maastricht","Jong PSV",2,1],[11400,"HOL2","Excelsior","Breda",1,1],[11400,"HOL2","FC Volendam","Helmond",1,1],[11400,"HOL2","FC Oss","Roda",1,1],[12200,"MEX1","Atlas","Tijuana",2,1],[12000,"MEX1","Atlético de San Luis","Guadalajara",2,1],[11500,"ITA2","Cremonese","Pisa",1,1],[11445,"ING2","Cardiff","Reading",1,1],[11445,"ING2","Derby","Stoke",2,1],[11800,"PER1","Melgar","Universitario",2,1],[11815,"PAR1","Cerro Porteño","Sol de América",1,1],[11600,"PAR1","Sp. Luqueño","Guairena FC",1,1],[12000,"MEX2","Atlante","Dorados",1,1],[12000,"MEX2","Mineros","Venados",1,1],[11400,"SUI2","Grasshoppers","Vaduz",1,1],[11300,"RUM1","U Craiova","Gaz Metan",1,1],[11615,"POR1","Rio Ave","Famalicao",2,1],[12030,"PER1","Alianza Lima","Alianza Huanuco",1,1],[11400,"POR1","Benfica","Belenenses",1,1],[11800,"VEN1","Lara","Zulia",1,1],[11000,"VEN1","Metropolitanos","Aragua",1,1],[11200,"TUR1","Basaksehir","Genclerbirligi",1,1],[11100,"TUR2","Adanaspor","Osmanlispor",2,1]]
+
+            ;
 
         const botonCargar = document.querySelector('#cargar');
         const botonHora = document.querySelector('#hora');
@@ -108,12 +68,26 @@
             partidos.forEach(partido => {
                 contenido += `
                 <div class="row border-bottom">
-                    <div class="col">${partido[0] - 10000}</div>
-                    <div class="col">${partido[1]}</div>
-                    <div class="col">${partido[2]}</div>
-                    <div class="col">${partido[3]}</div>
-                    <div class="col">${partido[4]}</div>
-                    <div class="col">${partido[5]}</div>
+                    <div class="col-2">${partido[0] - 10000}</div>
+                    <div class="col-2">${partido[1]}</div>
+                    <div class="col-6">
+                        <span class="`;
+                contenido += partido[4] === 1 ? 'badge badge-primary' : '';
+                contenido += partido[4] === 3 ? 'badge badge-success' : '';
+                contenido += partido[4] === 5 ? 'badge badge-warning' : '';
+                contenido += partido[4] === 7 ? 'badge badge-danger' : '';
+                contenido += `">
+                        ${partido[2]}</span>
+                        </br><span class="`;
+                contenido += partido[4] === 2 ? 'badge badge-primary' : '';
+                contenido += partido[4] === 4 ? 'badge badge-success' : '';
+                contenido += partido[4] === 6 ? 'badge badge-warning' : '';
+                contenido += partido[4] === 8 ? 'badge badge-danger' : '';
+                contenido += `">
+                        ${partido[3]}</span>
+                    </div>
+                    <div class="col-2">${partido[5]}</div>
+                    
                 </div>
                 `;
             })
@@ -140,7 +114,7 @@
 
         }
 
-        botonCargar.addEventListener('click', dibujar);
+        botonCargar.addEventListener('click', ordenarHora);
         botonHora.addEventListener('click', ordenarHora);
         botonGrupo.addEventListener('click', ordenarGrupo);
 
