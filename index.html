@@ -21,6 +21,17 @@
                 <button type="button" id="cargar" class="btn btn-primary btn-lg btn-block">CARGAR</button>
             </div>
         </div>
+        <div class="row">
+            <div class="col">
+                <button type="button" id="g1" class="btn btn-primary btn-lg btn-block">Grupo 1</button>
+            </div>
+            <div class="col">
+                <button type="button" id="g2" class="btn btn-success btn-lg btn-block">Grupo 2</button>
+            </div>
+            <div class="col">
+                <button type="button" id="g3" class="btn btn-warning btn-lg btn-block">Grupo 3</button>
+            </div>
+        </div>
     </div>
 
     <hr>
@@ -58,14 +69,17 @@
             ;
 
         const botonCargar = document.querySelector('#cargar');
+        const botong1 = document.querySelector('#g1');
+        const botong2 = document.querySelector('#g2');
+        const botong3 = document.querySelector('#g3');
         const botonHora = document.querySelector('#hora');
         const botonGrupo = document.querySelector('#grupo');
         const lista = document.querySelector('#lista');
 
-        const dibujar = function () {
+        const dibujar = function (Partidos = partidos) {
             let contenido = '';
 
-            partidos.forEach(partido => {
+            Partidos.forEach(partido => {
                 contenido += `
                 <div class="row border-bottom">
                     <div class="col-2">${partido[0] - 10000}</div>
@@ -114,9 +128,38 @@
 
         }
 
+        const ordenarGrupo1 = function () {
+
+        let PARTIDOS = partidos.filter((a, b) => a[4] === 1 || a[4] === 2);
+
+        dibujar(PARTIDOS);
+
+        }
+
+        const ordenarGrupo2 = function () {
+
+let PARTIDOS = partidos.filter((a, b) => a[4] === 3 || a[4] === 4);
+
+dibujar(PARTIDOS);
+
+}
+
+const ordenarGrupo3 = function () {
+
+let PARTIDOS = partidos.filter((a, b) => a[4] === 5 || a[4] === 6);
+
+dibujar(PARTIDOS);
+
+}
+
         botonCargar.addEventListener('click', ordenarHora);
-        botonHora.addEventListener('click', ordenarHora);
-        botonGrupo.addEventListener('click', ordenarGrupo);
+        // botonHora.addEventListener('click', ordenarHora);
+        // botonGrupo.addEventListener('click', ordenarGrupo);
+        botong1.addEventListener('click', ordenarGrupo1);
+        botong2.addEventListener('click', ordenarGrupo2);
+        botong3.addEventListener('click', ordenarGrupo3);
+
+
 
     </script>
 
