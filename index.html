@@ -15,91 +15,96 @@
 
 <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid mt-4">
         <div class="row">
-            <div class="col">
-                <button type="button" id="cargar" class="btn btn-primary btn-lg btn-block">CARGAR</button>
+            <div class="col-1"></div>
+            <div class="col-5">
+                <button class="btn btn-primary btn-large btn-block" id="hora">Hora</button>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <button type="button" id="g1" class="btn btn-primary btn-lg btn-block">Grupo 1</button>
+            <div class="col-5">
+                <button class="btn btn-primary btn-large btn-block" id="cuota">Cuota</button>
             </div>
-            <div class="col">
-                <button type="button" id="g2" class="btn btn-success btn-lg btn-block">Grupo 2</button>
-            </div>
-            <div class="col">
-                <button type="button" id="g3" class="btn btn-warning btn-lg btn-block">Grupo 3</button>
-            </div>
+            <div class="col-1"></div>
         </div>
     </div>
 
-    <hr>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-2">
-                <!-- <button type="button" id="hora" class="btn btn-primary btn-lg btn-block">H</button> -->
-            </div>
-            <div class="col-2">
-                <!-- <button type="button" id="liga" class="btn btn-primary btn-lg btn-block">LIGA</button> -->
-            </div>
-            <div class="col-6">
-                <!-- <button type="button" id="visitante" class="btn btn-primary btn-lg btn-block"></button> -->
-            </div>
-            <div class="col-2">
-                <!-- <button type="button" id="grupo" class="btn btn-primary btn-lg btn-block">GRUPO</button> -->
-            </div>
-            <!-- <div class="col">
-                <button type="button" class="btn btn-primary btn-lg btn-block">CUOTA</button>
-            </div> -->
-        </div>
-    </div>
 
-    <div class="container-fluid" id="lista">
+    <div class="container-fluid mt-2" id="lista">
 
     </div>
 
     <script>
 
-        let partidos =
+        let partidos = [
+        [10600, 2.16, 'Local', 'Mariupol', 'Vorskla Poltava', 3],
+        [10900, 1.85, 'Visitante', 'Zorya Lugansk', 'Dynamo Kiev', 4],
+        [11130, 2.06, 'Local', 'Olimpik Donetsk', 'Lviv', 3],
+        [11400, 2.04, 'Visitante', 'Napoli', 'Inter', 2],
+        [11300, 1.99, 'Visitante', 'Yeni Malatyaspor', 'Kasimpasa', 4],
+        [11300, 1.55, 'Local', 'Besiktas', 'Antalyaspor AS', 3],
+        [11030, 1.76, 'Local', 'Istanbul Basaksehir', 'Alanyaspor', 3],
+        [11230, 2.89, 'Visitante', 'Leganes', 'Valladolid', 4],
+        [10700, 2.15, 'Local', 'Espanyol', 'Alaves', 3],
+        [11000, 2.13, 'Visitante', 'Celta Vigo', 'Villarreal', 4],
+        [11500, 1.39, 'Visitante', 'Mallorca', 'Barcelona', 2],
+        [11430, 1.84, 'Local', 'Real Zaragoza', 'Alcorcon', 3],
+        [11230, 2.25, 'Visitante', 'Las Palmas', 'Girona', 4],
+        [11000, 2.24, 'Local', 'Santander', 'Lugo', 3],
+        [11500, 1.58, 'Local', 'Braga', 'Boavista', 1],
+        [10900, 2.66, 'Visitante', 'Voluntari', 'Academica Clinceni', 4],
+        [11200, 1.98, 'Local', 'ACS Sepsi Osk Sfantu Gheorghe', 'AFC Hermannstadt', 3],
+        [10230, 1.76, 'Local', 'Ulsan Hyundai FC', 'Seongnam', 3],
+        [10500, 2.15, 'Visitante', 'Suwon Bluewings', 'Gangwon', 4],
+        [10500, 2.32, 'Local', 'Sangju Sangmu Phoenix', 'Pohang Steelers FC', 3],
+        [10830, 1.69, 'Local', 'Wolfsburg', 'Freiburg', 3],
+        [10830, 1.83, 'Visitante', 'Paderborn', 'Werder Bremen', 4],
+        [10830, 1.82, 'Local', 'Cologne', 'Union Berlin', 3],
+        [10830, 2.08, 'Visitante', 'Hertha BSC', 'Eintracht Frankfurt', 4],
+        [10830, 1.43, 'Visitante', 'Fortuna Dusseldorf', 'Borussia Dortmund', 2],
+        [11130, 1.40, 'Local', 'Bayern Munich', 'Monchengladbach', 1],
+        [10600, 1.96, 'Local', 'Osnabruck', 'Bochum', 3],
+        [10600, 1.80, 'Local', 'Nurnberg', 'Greuther Furth', 3],
+        [10600, 1.68, 'Local', 'Heidenheimer', 'Regensburg', 3],
+        [10600, 1.64, 'Local', 'Holstein Kiel', 'Wehen Wiesbaden', 3],
+        [10700, 1.84, 'Local', 'Duisburg', 'Wurzburger Kickers', 3],
+        [10700, 1.77, 'Visitante', 'Preussen Munster', 'Ingolstadt', 4],
+        [10700, 1.84, 'Local', 'Munich 1860', 'Hansa Rostock', 3],
+        [10700, 1.63, 'Local', 'Braunschweig', 'SG Sonnenhof Grossaspach', 3],
+        [10700, 1.66, 'Local', 'Kaiserslautern', 'Chemnitzer', 3],
+        [10700, 2.40, 'Visitante', '1. FC Magdeburg', 'Viktoria Cologne', 4],
+        [11000, 1.88, 'Visitante', 'Torpedo Belaz Zhodino', 'Dinamo Brest', 4],
+        [10800, 1.75, 'Local', 'FC Neman Grodno', 'Smolevichi', 3],
+        [11200, 1.63, 'Local', 'FC Dinamo Minsk', 'FC Slavia Mozyr', 3],
+        ];
 
-        [[11900,"ARG1","Atl. Tucumán","River Plate",2,1],[11900,"ARG1","Boca Jrs.","Gimnasia L.P.",1,1],[11700,"ARG2","Atl. Rafaela","Gimnasia Mendoza",5,1],[11700,"ARG2","Villa Dálmine","Sarmiento",6,1],[11800,"CHI1","Deportes Iquique","OHiggins",6,1],[11810,"COL1","Ind. Medellín","Millonarios",1,1],[12005,"COL1","Atl. Bucaramanga","Junior",2,1],[11800,"ECU1","LDU Quito","Barcelona SC",5,1],[11700,"EST1","Toronto FC","New York City",6,1],[11900,"EST1","Atlanta Utd","Cincinnati",5,1],[12000,"EST1","San Jose Earthquakes","Minnesota United",6,1],[12030,"EST1","Sporting Kansas City","Houston Dynamo",5,1],[12100,"EST1","Colorado Rapids","Orlando City",6,1],[12200,"EST1","Los Angeles Galaxy","Vancouver Whitecaps",5,1],[12200,"EST1","Seattle Sounders","Columbus Crew",5,1],[11800,"MÉX1","Cruz Azul","Tijuana",1,1],[11800,"MÉX1","Monterrey","Atlético de San Luis",5,1],[12000,"MÉX1","Pachuca","Santos Laguna",6,1],[12206,"MÉX1","Atlas","Guadalajara",6,1],[11800,"MÉX2","Celaya","Leones Negros",6,1],[12000,"MÉX2","Cafetaleros de Chiapas","Alebrijes Oaxaca",6,1],[11845,"PAR1","Guaraní","Sol de América",5,1],[11745,"PER1","Dep. Municipal","AD Cantolao",6,1],[12000,"PER1","Melgar","Sport Huancayo",5,1],[11800,"URU1","Peñarol","Danubio",1,1]]
-            ;
-
-        const botonCargar = document.querySelector('#cargar');
-        const botong1 = document.querySelector('#g1');
-        const botong2 = document.querySelector('#g2');
-        const botong3 = document.querySelector('#g3');
+        // const botonCargar = document.querySelector('#cargar');
         const botonHora = document.querySelector('#hora');
-        const botonGrupo = document.querySelector('#grupo');
+        const botonCuota = document.querySelector('#cuota');
         const lista = document.querySelector('#lista');
 
-        const dibujar = function (Partidos = partidos) {
+        const dibujar = function () {
             let contenido = '';
 
-            Partidos.forEach(partido => {
+            partidos.forEach(partido => {
                 contenido += `
                 <div class="row border-bottom">
+                    <div class="col-1"></div>
                     <div class="col-2">${partido[0] - 10000}</div>
                     <div class="col-2">${partido[1]}</div>
                     <div class="col-6">
                         <span class="`;
-                contenido += partido[4] === 1 ? 'badge badge-primary' : '';
-                contenido += partido[4] === 3 ? 'badge badge-success' : '';
-                contenido += partido[4] === 5 ? 'badge badge-warning' : '';
-                contenido += partido[4] === 7 ? 'badge badge-danger' : '';
-                contenido += `">
-                        ${partido[2]}</span>
-                        </br><span class="`;
-                contenido += partido[4] === 2 ? 'badge badge-primary' : '';
-                contenido += partido[4] === 4 ? 'badge badge-success' : '';
-                contenido += partido[4] === 6 ? 'badge badge-warning' : '';
-                contenido += partido[4] === 8 ? 'badge badge-danger' : '';
+                contenido += partido[2] === 'Local' && partido[5] === 1 ? 'badge badge-primary' : '';
+                contenido += partido[2] === 'Local' && partido[5] === 3 ? 'badge badge-warning' : '';
                 contenido += `">
                         ${partido[3]}</span>
+                        </br><span class="`;
+                contenido += partido[2] === 'Visitante' && partido[5] === 2 ? 'badge badge-primary' : '';
+                contenido += partido[2] === 'Visitante' && partido[5] === 4 ? 'badge badge-warning' : '';
+                contenido += `">
+                        ${partido[4]}</span>
                     </div>
-                    <div class="col-2">${partido[5]}</div>
+                    <div class="col-1"></div>
                     
                 </div>
                 `;
@@ -117,48 +122,21 @@
             dibujar();
 
         }
-        const ordenarGrupo = function () {
+        const ordenarCuota = function () {
 
             partidos.sort((a, b) => {
-                return a[4] - b[4];
+                return a[1] - b[1];
             });
 
             dibujar();
 
         }
 
-        const ordenarGrupo1 = function () {
+        // botonCargar.addEventListener('click', ordenarHora);
+        botonHora.addEventListener('click', ordenarHora);
+        botonCuota.addEventListener('click', ordenarCuota);
 
-            let PARTIDOS = partidos.filter((a, b) => a[4] === 1 || a[4] === 2);
-
-            dibujar(PARTIDOS);
-
-        }
-
-        const ordenarGrupo2 = function () {
-
-            let PARTIDOS = partidos.filter((a, b) => a[4] === 3 || a[4] === 4);
-
-            dibujar(PARTIDOS);
-
-        }
-
-        const ordenarGrupo3 = function () {
-
-            let PARTIDOS = partidos.filter((a, b) => a[4] === 5 || a[4] === 6);
-
-            dibujar(PARTIDOS);
-
-        }
-
-        botonCargar.addEventListener('click', ordenarHora);
-        // botonHora.addEventListener('click', ordenarHora);
-        // botonGrupo.addEventListener('click', ordenarGrupo);
-        botong1.addEventListener('click', ordenarGrupo1);
-        botong2.addEventListener('click', ordenarGrupo2);
-        botong3.addEventListener('click', ordenarGrupo3);
-
-
+        dibujar()
 
     </script>
 
