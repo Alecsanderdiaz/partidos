@@ -1,136 +1,36 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>PARTIDOS</title>
-</head>
-
-<body>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <button type="button" id="cargar" class="btn btn-primary btn-lg btn-block">CARGAR</button>
-            </div>
-        </div>
-    </div>
-
-    <hr>
+  </head>
+  <body>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-2">
-                <!-- <button type="button" id="hora" class="btn btn-primary btn-lg btn-block">H</button> -->
-            </div>
-            <div class="col-2">
-                <!-- <button type="button" id="liga" class="btn btn-primary btn-lg btn-block">LIGA</button> -->
-            </div>
-            <div class="col-6">
-                <!-- <button type="button" id="visitante" class="btn btn-primary btn-lg btn-block"></button> -->
-            </div>
-            <div class="col-2">
-                <!-- <button type="button" id="grupo" class="btn btn-primary btn-lg btn-block">GRUPO</button> -->
-            </div>
-            <!-- <div class="col">
-                <button type="button" class="btn btn-primary btn-lg btn-block">CUOTA</button>
-            </div> -->
-        </div>
+      <div class="row">
+        <div class="col"><button class="btn btn-primary btn-large btn-block" onclick="ordenar(0)">HORA</button></div>
+        <div class="col">LIGA</div>
+        <div class="col">PARTIDO</div>
+        <div class="col d-none d-md-block">CUOTA</div>
+        <div class="col d-none d-md-block"><button class="btn btn-primary btn-large btn-block" onclick="ordenar(4)">GRUPO</button></div>
+      </div>
     </div>
 
-    <div class="container-fluid" id="lista">
-
+    <div class="container-fluid" id="contenedor">
     </div>
-
-    <script>
-
-        let partidos =
-
-        [[11430,"ALE1","Eintracht Frankfurt","Augsburgo",3,1],[11230,"ALE2","Dynamo Dresden","Darmstadt",6,1],[11230,"ALE2","Sandhausen","Heidenheim",6,1],[11300,"ALE3","Duisburgo","Braunschweig",3,1],[11900,"ARG2","Temperley","Estudiantes Rio Cuarto",5,1],[11900,"ARG2","Atl. Rafaela","Brown Adrogué",5,1],[11910,"ARG1","Argentinos Jrs.","Lanús",4,1],[11500,"ARG2","Barracas Central","Guillermo Brown",5,1],[11600,"COL1","Ind. Medellín","Patriotas",1,1],[11805,"COL1","Dep. Pasto","Atl. Bucaramanga",1,1],[11930,"ARG2","Gimnasia Jujuy","Dep. Riestra",5,1],[11700,"ARG1","Aldosivi","Central Córdoba",3,1],[11430,"BÉL1","Gent","Anderlecht",4,1],[11700,"ARG2","Quilmes","Tigre",6,1],[11445,"FRA1","Angers","Lille",2,1],[11400,"FRA2","AC Ajaccio","Auxerre",5,1],[12010,"COL1","Tolima","Envigado",1,1],[11500,"ESP1","Alavés","Eibar",5,1],[11900,"CHI1","La Serena","Cobresal",6,1],[11400,"FRA2","Chambly","Paris FC",5,1],[11400,"FRA2","Clermont","Valenciennes",6,1],[11400,"FRA2","Niort","Orleans",5,1],[11400,"FRA2","Rodez","Nancy",6,1],[11500,"ESP2","Almería","Racing",1,1],[11400,"FRA2","Sochaux","Le Mans",5,1],[11400,"FRA2","Troyes","Chateauroux",5,1],[11400,"HOL2","Breda","FC Oss",5,1],[11400,"FRA2","Le Havre","SM Caen",5,1],[11400,"HOL2","Cambuur","Maastricht",5,1],[11400,"HOL1","Heracles","Sittard",5,1],[11400,"HOL2","Dordrecht","Almere",6,1],[11400,"HOL2","G.A. Eagles","Eindhoven",5,1],[11400,"HOL2","Helmond","Excelsior",6,1],[11400,"HOL2","Roda","Den Bosch",6,1],[11400,"HOL2","Telstar","Nijmegen",6,1],[11445,"ING2","Bristol City","Birmingham",6,1],[11445,"INGO","Lincoln","Rotherham",6,1],[11445,"ITA1","Roma","Bolonia",1,1],[11500,"ITA2","Ascoli","Juve Stabia",3,1],[12200,"MÉX1","Puebla","Santos Laguna",2,1],[12210,"MÉX1","Tijuana","Toluca",3,1],[12000,"MÉX2","Mineros","Correcaminos U.A.T.",3,1],[12200,"MÉX2","Venados","Celaya",6,1],[11600,"PAR1","Guairena FC","Sol de América",6,1],[11815,"PAR1","Libertad","River Plate",1,1],[11500,"PER1","Ayacucho","Sport Boys",6,1],[11200,"POL1","Arka","Cracovia",4,1],[11430,"POL1","Slask","Lechia",5,1],[11530,"POR1","P. Ferreira","Boavista",4,1],[11330,"RUM1","Astra","Chindia Targoviste",5,1],[11400,"SUI2","Lausanne Ouchy","Grasshoppers",6,1],[11200,"TUR1","Yeni Malatyaspor","Ankaragucu",5,1],[11100,"TUR2","Karagumruk","Hatayspor",4,1],[11500,"VEN1","Trujillanos","Lara",5,1],[11800,"VEN1","Puerto Cabello","Zamora",6,1]]
-
-            ;
-
-        const botonCargar = document.querySelector('#cargar');
-        const botonHora = document.querySelector('#hora');
-        const botonGrupo = document.querySelector('#grupo');
-        const lista = document.querySelector('#lista');
-
-        const dibujar = function () {
-            let contenido = '';
-
-            partidos.forEach(partido => {
-                contenido += `
-                <div class="row border-bottom">
-                    <div class="col-2">${partido[0] - 10000}</div>
-                    <div class="col-2">${partido[1]}</div>
-                    <div class="col-6">
-                        <span class="`;
-                contenido += partido[4] === 1 ? 'badge badge-primary' : '';
-                contenido += partido[4] === 3 ? 'badge badge-success' : '';
-                contenido += partido[4] === 5 ? 'badge badge-warning' : '';
-                contenido += partido[4] === 7 ? 'badge badge-danger' : '';
-                contenido += `">
-                        ${partido[2]}</span>
-                        </br><span class="`;
-                contenido += partido[4] === 2 ? 'badge badge-primary' : '';
-                contenido += partido[4] === 4 ? 'badge badge-success' : '';
-                contenido += partido[4] === 6 ? 'badge badge-warning' : '';
-                contenido += partido[4] === 8 ? 'badge badge-danger' : '';
-                contenido += `">
-                        ${partido[3]}</span>
-                    </div>
-                    <div class="col-2">${partido[5]}</div>
-                    
-                </div>
-                `;
-            })
-
-            lista.innerHTML = contenido;
-
-        }
-        const ordenarHora = function () {
-
-            partidos.sort((a, b) => {
-                return a[0] - b[0];
-            });
-
-            dibujar();
-
-        }
-        const ordenarGrupo = function () {
-
-            partidos.sort((a, b) => {
-                return a[4] - b[4];
-            });
-
-            dibujar();
-
-        }
-
-        botonCargar.addEventListener('click', ordenarHora);
-        botonHora.addEventListener('click', ordenarHora);
-        botonGrupo.addEventListener('click', ordenarGrupo);
-
-    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="partidos.js"></script>
+    <script src="logica.js"></script>
+  </body>
 </html>
