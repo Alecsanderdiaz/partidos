@@ -1,156 +1,36 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>PARTIDOS</title>
-</head>
+  </head>
+  <body>
 
-<body>
-
-    <div class="container-fluid mt-4">
-        <div class="row">
-            <div class="col-1"></div>
-            <div class="col-5">
-                <button class="btn btn-primary btn-large btn-block" id="hora">Hora</button>
-            </div>
-            <div class="col-5">
-                <button class="btn btn-primary btn-large btn-block" id="cuota">Cuota</button>
-            </div>
-            <div class="col-1"></div>
-        </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col"><button class="btn btn-primary btn-large btn-block" onclick="ordenar(0)">HORA</button></div>
+        <div class="col">LIGA</div>
+        <div class="col">PARTIDO</div>
+        <div class="col d-none d-md-block">CUOTA</div>
+        <div class="col d-none d-md-block"><button class="btn btn-primary btn-large btn-block" onclick="ordenar(4)">GRUPO</button></div>
+      </div>
     </div>
 
-
-
-    <div class="container-fluid mt-2" id="lista">
-
+    <div class="container-fluid" id="contenedor">
     </div>
-
-    <script>
-
-        let partidos = [
-        [10600, 2.16, 'Local', 'Mariupol', 'Vorskla Poltava', 3],
-        [10900, 1.85, 'Visitante', 'Zorya Lugansk', 'Dynamo Kiev', 4],
-        [11130, 2.06, 'Local', 'Olimpik Donetsk', 'Lviv', 3],
-        [11400, 2.04, 'Visitante', 'Napoli', 'Inter', 2],
-        [11300, 1.99, 'Visitante', 'Yeni Malatyaspor', 'Kasimpasa', 4],
-        [11300, 1.55, 'Local', 'Besiktas', 'Antalyaspor AS', 3],
-        [11030, 1.76, 'Local', 'Istanbul Basaksehir', 'Alanyaspor', 3],
-        [11230, 2.89, 'Visitante', 'Leganes', 'Valladolid', 4],
-        [10700, 2.15, 'Local', 'Espanyol', 'Alaves', 3],
-        [11000, 2.13, 'Visitante', 'Celta Vigo', 'Villarreal', 4],
-        [11500, 1.39, 'Visitante', 'Mallorca', 'Barcelona', 2],
-        [11430, 1.84, 'Local', 'Real Zaragoza', 'Alcorcon', 3],
-        [11230, 2.25, 'Visitante', 'Las Palmas', 'Girona', 4],
-        [11000, 2.24, 'Local', 'Santander', 'Lugo', 3],
-        [11500, 1.58, 'Local', 'Braga', 'Boavista', 1],
-        [10900, 2.66, 'Visitante', 'Voluntari', 'Academica Clinceni', 4],
-        [11200, 1.98, 'Local', 'ACS Sepsi Osk Sfantu Gheorghe', 'AFC Hermannstadt', 3],
-        [10230, 1.76, 'Local', 'Ulsan Hyundai FC', 'Seongnam', 3],
-        [10500, 2.15, 'Visitante', 'Suwon Bluewings', 'Gangwon', 4],
-        [10500, 2.32, 'Local', 'Sangju Sangmu Phoenix', 'Pohang Steelers FC', 3],
-        [10830, 1.69, 'Local', 'Wolfsburg', 'Freiburg', 3],
-        [10830, 1.83, 'Visitante', 'Paderborn', 'Werder Bremen', 4],
-        [10830, 1.82, 'Local', 'Cologne', 'Union Berlin', 3],
-        [10830, 2.08, 'Visitante', 'Hertha BSC', 'Eintracht Frankfurt', 4],
-        [10830, 1.43, 'Visitante', 'Fortuna Dusseldorf', 'Borussia Dortmund', 2],
-        [11130, 1.40, 'Local', 'Bayern Munich', 'Monchengladbach', 1],
-        [10600, 1.96, 'Local', 'Osnabruck', 'Bochum', 3],
-        [10600, 1.80, 'Local', 'Nurnberg', 'Greuther Furth', 3],
-        [10600, 1.68, 'Local', 'Heidenheimer', 'Regensburg', 3],
-        [10600, 1.64, 'Local', 'Holstein Kiel', 'Wehen Wiesbaden', 3],
-        [10700, 1.84, 'Local', 'Duisburg', 'Wurzburger Kickers', 3],
-        [10700, 1.77, 'Visitante', 'Preussen Munster', 'Ingolstadt', 4],
-        [10700, 1.84, 'Local', 'Munich 1860', 'Hansa Rostock', 3],
-        [10700, 1.63, 'Local', 'Braunschweig', 'SG Sonnenhof Grossaspach', 3],
-        [10700, 1.66, 'Local', 'Kaiserslautern', 'Chemnitzer', 3],
-        [10700, 2.40, 'Visitante', '1. FC Magdeburg', 'Viktoria Cologne', 4],
-        [11000, 1.88, 'Visitante', 'Torpedo Belaz Zhodino', 'Dinamo Brest', 4],
-        [10800, 1.75, 'Local', 'FC Neman Grodno', 'Smolevichi', 3],
-        [11200, 1.63, 'Local', 'FC Dinamo Minsk', 'FC Slavia Mozyr', 3],
-        ];
-
-        // const botonCargar = document.querySelector('#cargar');
-        const botonHora = document.querySelector('#hora');
-        const botonCuota = document.querySelector('#cuota');
-        const lista = document.querySelector('#lista');
-
-        const dibujar = function () {
-            let contenido = '';
-
-            partidos.forEach(partido => {
-                contenido += `
-                <div class="row border-bottom">
-                    <div class="col-1"></div>
-                    <div class="col-2">${partido[0] - 10000}</div>
-                    <div class="col-2">${partido[1]}</div>
-                    <div class="col-6">
-                        <span class="`;
-                contenido += partido[2] === 'Local' && partido[5] === 1 ? 'badge badge-primary' : '';
-                contenido += partido[2] === 'Local' && partido[5] === 3 ? 'badge badge-warning' : '';
-                contenido += `">
-                        ${partido[3]}</span>
-                        </br><span class="`;
-                contenido += partido[2] === 'Visitante' && partido[5] === 2 ? 'badge badge-primary' : '';
-                contenido += partido[2] === 'Visitante' && partido[5] === 4 ? 'badge badge-warning' : '';
-                contenido += `">
-                        ${partido[4]}</span>
-                    </div>
-                    <div class="col-1"></div>
-                    
-                </div>
-                `;
-            })
-
-            lista.innerHTML = contenido;
-
-        }
-        const ordenarHora = function () {
-
-            partidos.sort((a, b) => {
-                return a[0] - b[0];
-            });
-
-            dibujar();
-
-        }
-        const ordenarCuota = function () {
-
-            partidos.sort((a, b) => {
-                return a[1] - b[1];
-            });
-
-            dibujar();
-
-        }
-
-        // botonCargar.addEventListener('click', ordenarHora);
-        botonHora.addEventListener('click', ordenarHora);
-        botonCuota.addEventListener('click', ordenarCuota);
-
-        dibujar()
-
-    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="partidos.js"></script>
+    <script src="logica.js"></script>
+  </body>
 </html>
