@@ -1,3 +1,16 @@
 const PARTIDOS = [
-[11230,"ESP1","Mallorca","Celta de Vigo"],[11500,"ESP1","Barcelona","Atlético de Madrid",1],[11400,"ESP1","Leganés","Sevilla",2],[11230,"ESP2","Tenerife","Deportivo de La Coruña"],[11445,"ESP2","Elche","Cádiz"],[11415,"ING1","Brighton","Manchester Utd",2],[11100,"ING2","Millwall","Swansea"],[11200,"ING2","Barnsley","Blackburn"],[11200,"ING2","Cardiff","Charlton"],[11200,"ING2","Reading","Brentford"],[11230,"ING2","QPR","Fulham"],[11445,"ITA1","Genoa","Juventus",2],[11345,"ING2","Leeds Utd","Luton",3],[11345,"ING2","Wigan","Stoke"],[11230,"ITA1","Torino","Lazio",2],[11100,"POR1","Famalicao","Portimonense"],[11315,"POR1","V. Guimaraes","V. Setúbal"],[11000,"RUS1","Lokomotiv Moscú","Kr. Sovetov",3],[11230,"RUS1","CSKA Moscú","Spartak Moscú",3],[11530,"POR1","Rio Ave","SC Braga",4],[11200,"RUM1","Poli Iasi","FC Hermannstadt"],[11330,"SUI1","Servette","Young Boys"],[11115,"SUI2","Schaffhausen","Vaduz"],[11115,"SUI2","Winterthur","Aarau"],[11330,"SUI2","Grasshoppers","Wil"],[11330,"SUI2","Lausanne","Lausanne Ouchy"],[10930,"TUR2","Keciorengucu","Menemen Belediye"],[11100,"TUR2","Adanaspor","Altinordu"],[11200,"TUR2","Giresunspor","Bursaspor"]
+[10900,"ING1","Manchester Utd","Bournemouth",1],
+[11015,"ITA1","Juventus","Torino",1],
+[11400,"ING1","Chelsea","Watford",1],
+[11515,"POR1","Benfica","Boavista",1],
+[11530,"POR1","SC Braga","Aves",1],
+[11130,"ING1","Wolves","Arsenal",2],
+[11300,"ALEC","Bayer Leverkusen","Bayern Múnich",2],
+[10900,"ING1","Leicester","Crystal Palace",3],
+[11230,"ESP2","Almería","Tenerife",3],
+[11300,"TUR1","Fenerbahçe","Göztepe",3],
+[11445,"ESP2","Cádiz","Real Oviedo",3],
+[11445,"ITA1","Lazio","AC Milan",3],
+[11300,"TUR1","Antalyaspor","Başakşehir",4],
+[11500,"ESP1","Granada","Valencia",4],
 ];
