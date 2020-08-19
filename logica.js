@@ -17,8 +17,8 @@ const renderizar = () => {
     PARTIDOS.forEach((partido, index) => {
         contenidoHtml += `
         <div class="row border-bottom">
-            <div class="col">${ partido[0] - 10000 }</div>
-            <div class="col">
+            <div class="col-2">${ partido[0] - 10000 }</div>
+            <div class="col-2">
             ${ partido[1] } <br>
             <strong>${ partido[5] || 0 }</strong>
             </div>
