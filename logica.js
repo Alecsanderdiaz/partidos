@@ -18,7 +18,10 @@ const renderizar = () => {
         contenidoHtml += `
         <div class="row border-bottom">
             <div class="col">${ partido[0] - 10000 }</div>
-            <div class="col">${ partido[1] }</div>
+            <div class="col">
+            ${ partido[1] } <br>
+            <strong>${ partido[5] || 0 }</strong>
+            </div>
             <div class="col">
                ${ partido[4] === 1 ? `<span class="badge badge-primary">${ partido[2] }</span>`: `${ partido[4] === 3 ? `<span class="badge badge-success">${ partido[2] }</span>`: `${ partido[4] === 5 ? `<span class="badge badge-warning">${ partido[2] }</span>`: `${ partido[4] === 7 ? `<span class="badge badge-danger">${ partido[2] }</span>`: `${ partido[2]}`}`}`}`}<br>
                ${ partido[4] === 2 ? `<span class="badge badge-primary">${ partido[3] }</span>`: `${ partido[4] === 4 ? `<span class="badge badge-success">${ partido[3] }</span>`: `${ partido[4] === 6 ? `<span class="badge badge-warning">${ partido[3] }</span>`: `${ partido[4] === 8 ? `<span class="badge badge-danger">${ partido[3] }</span>`: `${ partido[3]}`}`}`}`}
