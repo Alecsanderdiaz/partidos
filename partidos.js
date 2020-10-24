@@ -1,6 +1,6 @@
 const PARTIDOS = [
 [10830, 'ALE1', 'Bayern Múnich', 'Eintracht Frankfurt'],
-[10830, 'ALE1', 'Mainz', 'Borussia M'gladbach'],
+[10830, 'ALE1', 'Mainz', 'Borussia Mgladbach'],
 [10830, 'ALE1', 'RB Leipzig', 'Hertha BSC'],
 [10830, 'ALE1', 'Union Berlín', 'Friburgo'],
 [11130, 'ALE1', 'Borussia Dortmund', 'Schalke'],
