@@ -9,10 +9,12 @@ const renderizar = () => {
         <span class="badge badge-primary pointer" onClick="escogerGrupo(2, ${index})">2</span>
         <span class="badge badge-success pointer" onClick="escogerGrupo(3, ${index})">3</span>
         <span class="badge badge-success pointer" onClick="escogerGrupo(4, ${index})">4</span>
-        <span class="badge badge-warning pointer" onClick="escogerGrupo(5, ${index})">5</span>
-        <span class="badge badge-warning pointer" onClick="escogerGrupo(6, ${index})">6</span>
-        <span class="badge badge-danger pointer" onClick="escogerGrupo(7, ${index})">7</span>
-        <span class="badge badge-danger pointer" onClick="escogerGrupo(8, ${index})">8</span>
+        <span class="badge badge-secondary pointer" onClick="escogerGrupo(5, ${index})">5</span>
+        <span class="badge badge-secondary pointer" onClick="escogerGrupo(6, ${index})">6</span>
+        <span class="badge badge-warning pointer" onClick="escogerGrupo(7, ${index})">7</span>
+        <span class="badge badge-warning pointer" onClick="escogerGrupo(8, ${index})">8</span>
+        <span class="badge badge-danger pointer" onClick="escogerGrupo(9, ${index})">9</span>
+        <span class="badge badge-danger pointer" onClick="escogerGrupo(10, ${index})">10</span>
     `;
     PARTIDOS.forEach((partido, index) => {
         contenidoHtml += `
@@ -23,8 +25,8 @@ const renderizar = () => {
             <strong>${ partido[5] || 0 }</strong>
             </div>
             <div class="col">
-               ${ partido[4] === 1 ? `<span class="badge badge-primary">${ partido[2] }</span>`: `${ partido[4] === 3 ? `<span class="badge badge-success">${ partido[2] }</span>`: `${ partido[4] === 5 ? `<span class="badge badge-warning">${ partido[2] }</span>`: `${ partido[4] === 7 ? `<span class="badge badge-danger">${ partido[2] }</span>`: `${ partido[2]}`}`}`}`}<br>
-               ${ partido[4] === 2 ? `<span class="badge badge-primary">${ partido[3] }</span>`: `${ partido[4] === 4 ? `<span class="badge badge-success">${ partido[3] }</span>`: `${ partido[4] === 6 ? `<span class="badge badge-warning">${ partido[3] }</span>`: `${ partido[4] === 8 ? `<span class="badge badge-danger">${ partido[3] }</span>`: `${ partido[3]}`}`}`}`}
+               ${ partido[4] === 1 ? `<span class="badge badge-primary">${ partido[2] }</span>`: `${ partido[4] === 3 ? `<span class="badge badge-success">${ partido[2] }</span>`: `${ partido[4] === 5 ? `<span class="badge badge-secondary">${ partido[2] }</span>`: `${ partido[4] === 7 ? `<span class="badge badge-warning">${ partido[2] }</span>`: `${ partido[4] === 9 ? `<span class="badge badge-danger">${ partido[2] }</span>`: `${ partido[2]}`}`}`}`}`}<br>
+               ${ partido[4] === 2 ? `<span class="badge badge-primary">${ partido[3] }</span>`: `${ partido[4] === 4 ? `<span class="badge badge-success">${ partido[3] }</span>`: `${ partido[4] === 6 ? `<span class="badge badge-secondary">${ partido[3] }</span>`: `${ partido[4] === 8 ? `<span class="badge badge-warning">${ partido[3] }</span>`: `${ partido[4] === 10 ? `<span class="badge badge-danger">${ partido[3] }</span>`: `${ partido[3]}`}`}`}`}`}
             </div>
             <div class="col d-none d-md-block">
                 <input type="number" value="${ partido[5] ? partido[5] : 0 }" onfocusout="grabarCuota(event, ${index})">
@@ -54,3 +56,4 @@ const ordenar = (indice) => {
 }
 
 renderizar();
+
