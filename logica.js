@@ -1,6 +1,8 @@
 const CONTENEDOR = document.querySelector('#contenedor');
+const HORA = document.querySelector('#hora');
+const GRUPO = document.querySelector('#grupo');
 
-
+const PARTIDOS_COMPLETOS = JSON.parse(JSON.stringify(PARTIDOS))
 
 const renderizar = () => {
     let contenidoHtml = '';
@@ -53,6 +55,20 @@ const grabarCuota = ($event, indice) => {
 const ordenar = (indice) => {
     PARTIDOS.sort((a, b) => a[indice] - b[indice])
     renderizar();
+}
+
+const filtrarHora = () => {
+    PARTIDOS = PARTIDOS_COMPLETOS.filter(p => {
+        let hora = +HORA.value + 10000
+        console.log({ hora })
+        return p[0] >= hora
+    })
+    renderizar()
+}
+
+const filtrarGrupo = () => {
+    PARTIDOS = PARTIDOS_COMPLETOS.filter(p => p[4] <= GRUPO.value)
+    renderizar()
 }
 
 renderizar();
