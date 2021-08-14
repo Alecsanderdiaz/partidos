@@ -53,7 +53,17 @@ const grabarCuota = ($event, indice) => {
 }
 
 const ordenar = (indice) => {
-    PARTIDOS.sort((a, b) => a[indice] - b[indice])
+    console.log({ indice })
+    PARTIDOS.sort(function (a, b) {
+        if (a[indice] > b[indice]) {
+          return 1;
+        }
+        if (a[indice] < b[indice]) {
+          return -1;
+        }
+        // a must be equal to b
+        return 0;
+      })
     renderizar();
 }
 
@@ -72,4 +82,3 @@ const filtrarGrupo = () => {
 }
 
 renderizar();
-
