@@ -1,3 +1,18 @@
 let PARTIDOS = [
-
+    [11200, '1. FC Magdeburg', 'Turkgucu Ataspor Munchen', '1. FC Magdeburg', 1.61],
+    [11600, 'Defensa Y Justicia', 'Talleres de Cordoba', 'Talleres de Cordoba', 2.30],
+    [11815, 'Colon de Santa Fe', 'Banfield', 'Colon de Santa Fe', 2.15],
+    [11300, 'Club Atletico Atlanta', 'Agropecuario Argentino', 'Agropecuario Argentino', 2.60],
+    [11510, 'San Martin de Tucuman', 'Gimnasia Y Esgrima Mendoza', 'Gimnasia Y Esgrima Mendoza', 2.75],
+    [11300, 'Defensores de Belgrano', 'Santamarina Tandil', 'Defensores de Belgrano', 2.25],
+    [11910, 'Almirante Brown', 'Estudiantes Rio Cuarto', 'Almirante Brown', 2.15],
+    [11800, 'Remo PA', 'Coritiba PR', 'Coritiba PR', 2.25],
+    [10800, 'Cruzeiro MG U20', 'Santos FC U20', '1.5', 2.05],
+    [10900, 'Cobresal', 'Audax Italiano', 'Audax Italiano', 3.10],
+    [11630, 'Melipilla', 'Santiago Wanderers', 'Santiago Wanderers', 2.05],
+    [11900, 'Huachipato', 'Curico Unido', 'Curico Unido', 2.40],
+    [11500, 'Llaneros FC', 'Leones FC', 'Leones FC', 2.45],
+    [11900, 'Delfin', 'Manta FC', 'Delfin', 1.85],
+    [11400, 'Girona', 'Almeria', 'Almeria', 2.10],
+    [11415, 'CD Trofense', 'Nacional Madeira', 'Nacional Madeira', 2.20],
 ]
