@@ -1,6 +1,8 @@
 const CONTENEDOR = document.querySelector('#contenedor');
 const HORA = document.querySelector('#hora');
 const GRUPO = document.querySelector('#grupo');
+const INICIO = document.querySelector('#inicio');
+const FIN = document.querySelector('#fin');
 
 const PARTIDOS_COMPLETOS = JSON.parse(JSON.stringify(PARTIDOS))
 
@@ -23,7 +25,7 @@ const renderizar = () => {
         <div class="row border-bottom">
             <div class="col-2">${ index + 1 } de ${ PARTIDOS.length }<br>${ partido[0] - 10000 }</div>
             <div class="col-2">
-            ${ partido[1] } <br>
+            ${ partido[1] }-${ !partido[4] ? '' : partido[4] % 2 !== 0 ? 'LOCAL' : 'VISITA'} <br>
             <strong>${ partido[5] || 0 }</strong>
             </div>
             <div class="col">
@@ -78,6 +80,16 @@ const filtrarHora = () => {
 
 const filtrarGrupo = () => {
     PARTIDOS = PARTIDOS_COMPLETOS.filter(p => p[4] <= GRUPO.value)
+    renderizar()
+}
+
+const reset = () => {
+    PARTIDOS = PARTIDOS_COMPLETOS
+    renderizar()
+}
+
+const filtrar = () => {
+    PARTIDOS = PARTIDOS_COMPLETOS.slice(INICIO.value - 1, FIN.value)
     renderizar()
 }
 
