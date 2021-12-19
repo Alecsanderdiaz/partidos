@@ -1,3 +1,25 @@
 let PARTIDOS = [
-    [11200,"POLE","Wisla","Termalica B-B.",7],[11200,"TUR1","Giresunspor","Altay",10],[11230,"ALE2","Fortuna Düsseldorf","Sandhausen",10],[11230,"ALE2","Kiel","St. Pauli",8],[11230,"ITA1","Lazio","Genoa",1],[11300,"ALE3","Viktoria Köln","Viktoria Berlin",10],[11330,"RUM1","FC Voluntari","UTA Arad",9],[11400,"HOL2","Almere","FC Volendam",8],[11400,"HOL2","Den Haag","Breda",7],[11400,"HOL2","Maastricht","FC Emmen",8],[11400,"HOL2","Telstar","Jong PSV",8],[11400,"HOL2","Venlo","Oss",7],[11400,"POR1","Santa Clara","V. Guimaraes",8],[11430,"ALE1","Bayern Múnich","Wolfsburgo",1],[11430,"POLE","Plock","Lechia",9],[11430,"SUI2","Aarau","Xamax",7],[11430,"SUI2","Thun","Schaffhausen",7],[11430,"SUI2","Yverdon","Kriens",7],[11445,"BEL1","Seraing","Kortrijk",10],[11445,"ING2","Barnsley","West Brom",2],[11445,"ITA1","Salernitana","Inter",2],[11500,"ESP1","Celta de Vigo","Espanyol",4],[11500,"ESP2","Girona","Burgos CF",7],[11500,"FRAC","Paris FC","Lyon",8],[11615,"POR1","Estoril","Famalicao",7]
+[11130,"ALE1","Colonia","Stuttgart",10],
+[11130,"ING1","Tottenham","Liverpool",9],
+[11130,"POLE","Legia","Radomiak Radom",7],
+[11200,"ITA1","Sampdoria","Venezia",7],
+[11200,"ITA1","Torino","Verona",7],
+[11200,"POR1","Benfica","Marítimo",1],
+[11200,"POR1","Boavista","Moreirense",9],
+[11200,"REP1","Ostrava","Slavia Praga",8],
+[11215,"ESP2","Cartagena","Mirandés",10],
+[11215,"ESP2","Huesca","Alcorcón",7],
+[11215,"ESP2","R. Sociedad B","Real Valladolid",8],
+[11230,"BEL1","Genk","Antwerp",7],
+[11230,"ESP1","Getafe","Osasuna",7],
+[11230,"GRE1","Panathinaikos","Giannina",7],
+[11230,"GRE1","PAOK","Asteras T.",7],
+[11330,"RUM1","Sepsi Sf. Gheorghe","FCSB",8],
+[11400,"BOL1","U. Sucre","Real Potosí",7],
+[11400,"POR1","Vizela","Oporto",2],
+[11445,"ITA1","AC Milan","Nápoles",7],
+[11500,"BEL1","Leuven","St. Lieja",10],
+[11500,"ESP1","Real Madrid","Cádiz",1],
+[11600,"POR1","SC Braga","Belenenses",1],
+[11800,"COL1","Deportivo Cali","Tolima",1]
 ]
