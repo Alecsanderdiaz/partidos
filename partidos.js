@@ -1,16 +1,3 @@
 let PARTIDOS = [
-    [11100,"AFRI","Guinea","Malaui",7,180],
-    [11100,"AFRI","Marruecos","Ghana",7,255],
-    [11500,"ESP1","Espanyol","Elche",5,176],
-    [11500,"ESP2","Real Oviedo","Eibar",10,225],
-    [11445,"FRA2","Toulouse","Nancy",5,142],
-    [11455,"INGF","Manchester Utd","Aston Villa",1,165],
-    [11100,"ITA1","Torino","Fiorentina",6,200],
-    [12200,"MEX1","Pumas UNAM","Toluca",5,193],
-    [11245,"HOL2","Jong Utrecht","Jong Ajax",8,148],
-    [11500,"HOL2","Jong PSV","Almere",9,195],
-    [11515,"POR1","Gil Vicente","V. Guimaraes",7,205],
-    [11100,"POR2","Benfica B","Oporto B",7,176],
-    [11300,"POR2","Nacional","Feirense",7,185],
-    [11200,"TUR1","Fenerbahçe","Adana Demirspor",3,165],
+    [11400,"AFRIC","Sudán","Guinea-Bisáu"],[11445,"ING1","Southampton","Brentford",7],[11500,"ING2","Reading","Fulham",6],[11445,"INGO","MK Dons","Wimbledon",7],[11445,"INGO","Sunderland","Lincoln",5],[11500,"INGO","Bolton","Wycombe",10],[11430,"INGT","Mansfield","Swindon",7],[11445,"INGT","Forest Green","Colchester",7],[11445,"INGT","Salford","Tranmere",10],[11445,"INGN","Altrincham","Stockport",8],[11445,"INGN","Boreham Wood","Wealdstone",7],[11445,"INGN","Halifax","Grimsby",7],[11445,"INGN","Kings Lynn","Notts County",8],[11445,"INGN","Southend","Yeovil",8],[11445,"ITA1","Cagliari","Bolonia",8],[11800,"MEX2","Raya 2","Cimarrones de Sonora"],[12005,"MEX2","Cancun","Celaya"],[12205,"MEX2","Tampico Madero","Alebrijes Oaxaca"],[11545,"PORT","Leca","Sporting CP"]
 ]
