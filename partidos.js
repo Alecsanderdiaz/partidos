@@ -1,3 +1,17 @@
 let PARTIDOS = [
-    [11400,"AFRIC","Sudán","Guinea-Bisáu"],[11445,"ING1","Southampton","Brentford",7],[11500,"ING2","Reading","Fulham",6],[11445,"INGO","MK Dons","Wimbledon",7],[11445,"INGO","Sunderland","Lincoln",5],[11500,"INGO","Bolton","Wycombe",10],[11430,"INGT","Mansfield","Swindon",7],[11445,"INGT","Forest Green","Colchester",7],[11445,"INGT","Salford","Tranmere",10],[11445,"INGN","Altrincham","Stockport",8],[11445,"INGN","Boreham Wood","Wealdstone",7],[11445,"INGN","Halifax","Grimsby",7],[11445,"INGN","Kings Lynn","Notts County",8],[11445,"INGN","Southend","Yeovil",8],[11445,"ITA1","Cagliari","Bolonia",8],[11800,"MEX2","Raya 2","Cimarrones de Sonora"],[12005,"MEX2","Cancun","Celaya"],[12205,"MEX2","Tampico Madero","Alebrijes Oaxaca"],[11545,"PORT","Leca","Sporting CP"]
+    [11200,"ITA1","Roma","Cagliari",1],
+[11230,"BEL1","Anderlecht","St. Lieja",1],
+[11230,"GRE1","Giannina","Atromitos",7],
+[11230,"GRE1","Panathinaikos","Olympiacos",6],
+[11300,"MEX1","Toluca","Santos Laguna",6],
+[11300,"POR1","Vizela","Sporting CP",2],
+[11330,"ESPS","Real Madrid","Athletic Club",1],
+[11330,"POR1","Famalicao","P. Ferreira",10],
+[11400,"AFRI","Argelia","Guinea Ecuatorial",1],
+[11445,"FRA1","Marsella","Lille"],
+[11445,"ITA1","Atalanta","Inter"],
+[11500,"BEL1","Genk","Beerschot VA"],
+[11530,"POR1","Belenenses","Oporto"],
+[11700,"MEX2","Leones Negros","Pumas Tabasco"],
+[11800,"MEX1","Pachuca","Guadalajara"]
 ]
