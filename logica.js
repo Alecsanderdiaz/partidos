@@ -24,7 +24,7 @@ const renderizar = () => {
         contenidoHtml += `
         <div class="row border-bottom">
             <div class="col-2">
-            ${ partido[0] - 10000 }
+            ${ index + 1 }/${ PARTIDOS.length }<br>${ partido[0] - 10000 }
             </div>
             <div class="col-3">
             ${ partido[1] }-${ !partido[4] ? '' : partido[4] % 2 !== 0 ? 'L' : 'V'} <br>
