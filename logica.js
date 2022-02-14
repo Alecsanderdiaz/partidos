@@ -67,6 +67,21 @@ const ordenar = (indice) => {
         if (a[indice] < b[indice]) {
           return -1;
         }
+        if (a[4] && b[4] && typeof a[4] === 'number' && typeof b[4] === 'number' && a[4] %  2 === 0 && b[4] %  2 !== 0 ) {
+            // console.log({
+            //     'a[4]': `${a[2]}-${a[4]}`,
+            //     'b[4]': `${b[2]}-${b[4]}`
+            // })
+            return 1
+        }
+
+        if (a[4] && b[4] && typeof a[4] === 'number' && typeof b[4] === 'number' && a[4] %  2 !== 0 && b[4] %  2 === 0 ) {
+            // console.log({
+            //     'a[4]': `${a[2]}-${a[4]}`,
+            //     'b[4]': `${b[2]}-${b[4]}`
+            // })
+            return -1
+        }
         // a must be equal to b
         return 0;
       })
