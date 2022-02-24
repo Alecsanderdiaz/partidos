@@ -1,1 +1,1 @@
-[Partidos](https://alecsanderdiaz.github.io/partidos/)
+[PARTIDOS](https://alecsanderdiaz.github.io/partidos/)

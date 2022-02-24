@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,14 +26,15 @@
                 <button class="btn btn-primary btn-large btn-block" onclick="ordenar(0)">HORA</button>
             </div>
             <div class="col">
-                <button class="btn btn-primary btn-large btn-block" onclick="ordenar(1)">LIGA</button>
+                    <button class="btn btn-primary btn-large btn-block"
+                    onclick="ordenar(4)">CUOTA</button>
             </div>
             <div class="col">PARTIDO</div>
             <div class="col d-none d-md-block">
-                <button class="btn btn-primary btn-large btn-block" onclick="ordenar(5)">CUOTA</button>
+                <!-- CUOTA -->
             </div>
-            <div class="col d-none d-md-block"><button class="btn btn-primary btn-large btn-block"
-                    onclick="ordenar(4)">GRUPO</button></div>
+            <div class="col d-none d-md-block">
+                </div>
         </div>
 
         <div class="row my-2">
@@ -54,26 +56,6 @@
             </div>
         </div>
 
-
-        <div class="row mb-2">
-            <div class="col">
-                <input type="number" id="inicio" class="form-control">
-            </div>
-            <div class="col">
-                <input type="number" id="fin" class="form-control">
-            </div>
-            <div class="col">
-                <button class="btn btn-primary btn-block" onclick="filtrar()">FILTRAR</button>
-            </div>
-        </div>
-
-
-        <div class="row mb-2">
-            <div class="col">
-                <button class="btn btn-danger btn-block" onclick="reset()">RESET</button>
-            </div>
-        </div>
-
     </div>
 
     <div class="container-fluid" id="contenedor">
@@ -90,8 +72,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-    <script src="partidos.js"></script>
-    <script src="logica.js"></script>
+    <script src="partidos2.js"></script>
+    <script src="logica2.js"></script>
 </body>
 
 </html>
