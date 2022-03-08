@@ -56,7 +56,7 @@ const renderizar = () => {
             </div>
 
             <!-- LOCAL Y VISITANTE -->
-            <div class="col-6 col-lg-2 text-nowrap">
+            <div class="col-6 col-lg-2 text-truncate">
                ${partido[4] === 1 ? `<span class="badge badge-primary">${partido[2]}</span>` : `${partido[4] === 3 ? `<span class="badge badge-success">${partido[2]}</span>` : `${partido[4] === 5 ? `<span class="badge badge-secondary">${partido[2]}</span>` : `${partido[4] === 7 ? `<span class="badge badge-warning">${partido[2]}</span>` : `${partido[4] === 9 ? `<span class="badge badge-danger">${partido[2]}</span>` : `${partido[4] === 11 ? `<span class="badge badge-danger">${partido[2][0]}</span>${partido[2].substring(1)}` : `${partido[2]}`}`}`}`}`}`}
                <br>
                ${partido[4] === 2 ? `<span class="badge badge-primary">${partido[3]}</span>` : `${partido[4] === 4 ? `<span class="badge badge-success">${partido[3]}</span>` : `${partido[4] === 6 ? `<span class="badge badge-secondary">${partido[3]}</span>` : `${partido[4] === 8 ? `<span class="badge badge-warning">${partido[3]}</span>` : `${partido[4] === 10 ? `<span class="badge badge-danger">${partido[3]}</span>` : `${partido[4] === 11 ? `<span class="badge badge-danger">${partido[3][0]}</span>${partido[3].substring(1)}` : `${partido[3]}`}`}`}`}`}`}
