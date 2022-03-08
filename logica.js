@@ -12,7 +12,7 @@ const renderizar = () => {
     let cuotaOGrupo = (cuota, indice, grupo) => {
         if (grupo && (!cuota || cuota < 1)) {
             return `
-            <div class="col d-none d-md-block">
+            <div class="col d-none d-LG-block">
                 <input type="number" value="${cuota}" onfocusout="grabarCuota(event, ${indice})">
             </div>
             `
@@ -40,22 +40,33 @@ const renderizar = () => {
     PARTIDOS.forEach((partido, index) => {
         contenidoHtml += `
         <div class="row border-bottom${partido[6] ? ' bg-info text-white' : ''}">
-            <div class="col-xs-3 col-sm-1 col-lg-1">
+
+            <!-- HORA E INDICE -->
+            <div class="col-3 col-lg-1">
                 ${index + 1}/${PARTIDOS.length}
                 <br>
                 <span role="button" class="badge badge-success" onClick="marcarTrue(${index})">${partido[0] - 10000}</span>
             </div>
-            <div class="col-xs-3 col-sm-2 text-nowrap col-lg-1">
+
+            <!-- LIGA Y CUOTA -->            
+            <div class="col-3 col-lg-1 text-nowrap">
                 ${partido[1]}-${!partido[4] ? '' : partido[4] % 2 !== 0 ? 'L' : 'V'}
                 <br>
                 <strong>C-${partido[5] || 0}</strong>
             </div>
-            <div class="col-xs-6 col-sm-8 col-lg-2">
-               ${partido[4] === 1 ? `<span class="badge badge-primary">${partido[2]}</span>` : `${partido[4] === 3 ? `<span class="badge badge-success">${partido[2]}</span>` : `${partido[4] === 5 ? `<span class="badge badge-secondary">${partido[2]}</span>` : `${partido[4] === 7 ? `<span class="badge badge-warning">${partido[2]}</span>` : `${partido[4] === 9 ? `<span class="badge badge-danger">${partido[2]}</span>` : `${partido[4] === 11 ? `<span class="badge badge-danger">${partido[2][0]}</span>${partido[2].substring(1)}` : `${partido[2]}`}`}`}`}`}`}<br>
+
+            <!-- LOCAL Y VISITANTE -->
+            <div class="col-6 col-lg-2">
+               ${partido[4] === 1 ? `<span class="badge badge-primary">${partido[2]}</span>` : `${partido[4] === 3 ? `<span class="badge badge-success">${partido[2]}</span>` : `${partido[4] === 5 ? `<span class="badge badge-secondary">${partido[2]}</span>` : `${partido[4] === 7 ? `<span class="badge badge-warning">${partido[2]}</span>` : `${partido[4] === 9 ? `<span class="badge badge-danger">${partido[2]}</span>` : `${partido[4] === 11 ? `<span class="badge badge-danger">${partido[2][0]}</span>${partido[2].substring(1)}` : `${partido[2]}`}`}`}`}`}`}
+               <br>
                ${partido[4] === 2 ? `<span class="badge badge-primary">${partido[3]}</span>` : `${partido[4] === 4 ? `<span class="badge badge-success">${partido[3]}</span>` : `${partido[4] === 6 ? `<span class="badge badge-secondary">${partido[3]}</span>` : `${partido[4] === 8 ? `<span class="badge badge-warning">${partido[3]}</span>` : `${partido[4] === 10 ? `<span class="badge badge-danger">${partido[3]}</span>` : `${partido[4] === 11 ? `<span class="badge badge-danger">${partido[3][0]}</span>${partido[3].substring(1)}` : `${partido[3]}`}`}`}`}`}`}
             </div>
+
+            <!-- INPUT PARA GRABAR CUOTA -->
                 ${cuotaOGrupo(partido[5], index, partido[4])}
-            <div class="col d-none d-sm-block h1 col-lg-8">
+
+            <!-- ESCOGER GRUPO -->
+            <div class="col-8 d-none d-lg-block h1">
                 ${partido[4] ? '' : contenidoGrupos(index)}
             </div>
         </div>

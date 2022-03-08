@@ -146,7 +146,7 @@ for (const partido of PARTIDOS_SIN_CUOTA) {
 
 const { writeFile } = require('fs');
 
-writeFile('partidos.txt', JSON.stringify(PARTIDOS_SIN_CUOTA), 'utf8', () => {
+writeFile('partidos.txt', 'let PARTIDOS = ' + JSON.stringify(PARTIDOS_SIN_CUOTA), 'utf8', () => {
   console.log({
     PARTIDOS_SIN_CUOTA_C: PARTIDOS_SIN_CUOTA.length,
     PARTIDOS_CON_CUOTA_C: PARTIDOS_CON_CUOTA.length,
