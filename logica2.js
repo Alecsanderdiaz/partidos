@@ -32,9 +32,9 @@ const renderizar = () => {
                 <strong>${ partido[4] || 0 }</strong>
             </div>
             <div class="col">
-                ${ partido[1] === partido[3] ? `<span class="badge badge-primary">${ partido[1] }</span>`: partido[1] }
+                ${ partido[1] === partido[3] ? `<span class="badge badge-primary pointer" onclick="copyText(${ partido[4] })">${ partido[1] }</span>`: partido[1] }
                 <br>
-                ${ partido[2] === partido[3] ? `<span class="badge badge-success">${ partido[2] }</span>`: partido[2] }
+                ${ partido[2] === partido[3] ? `<span class="badge badge-success pointer" onclick="copyText(${ partido[4] })">${ partido[2] }</span>`: partido[2] }
             </div>
             <div class="col d-none d-md-block">
                 <span class="badge badge-secondary pointer" onClick="escogerGrupo(1, ${index})">TRUE</span>
@@ -88,3 +88,28 @@ const filtrarGrupo = () => {
 }
 
 renderizar();
+
+
+
+
+function copyText(element) {
+
+    console.log({element})
+
+    // return;
+
+    // var textToCopy = element.innerText;
+    var textToCopy = element;
+
+    var myTemporaryInputElement = document.createElement("input");
+    myTemporaryInputElement.type = "text";
+    myTemporaryInputElement.value = textToCopy;
+
+    document.body.appendChild(myTemporaryInputElement);
+
+    myTemporaryInputElement.select();
+    document.execCommand("Copy");
+
+    document.body.removeChild(myTemporaryInputElement);
+
+}

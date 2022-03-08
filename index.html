@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,65 +15,82 @@
         .pointer {
             cursor: pointer;
         }
+
+        .header {
+            position: fixed;
+            height: 200px;
+            background-color: #FFF;
+            z-index: 1;
+        }
+
+        #contenedor {
+            position: relative;
+            top: 201px;
+        }
+
+        @media (min-width: 540px) {
+            .header {
+                position: fixed;
+                height: 50px;
+                background-color: #FFF;
+                z-index: 1;
+            }
+
+            #contenedor {
+                position: relative;
+                top: 51px;
+            }
+        }
     </style>
 </head>
 
 <body>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
+    <div class="container-fluid header">
+        <div class="row my-2">
+            <div class="col-4 col-sm-1">
                 <button class="btn btn-primary btn-large btn-block" onclick="ordenar(0)">HORA</button>
             </div>
-            <div class="col">
+            <div class="col-4 col-sm-1">
                 <button class="btn btn-primary btn-large btn-block" onclick="ordenar(1)">LIGA</button>
             </div>
-            <div class="col">PARTIDO</div>
-            <div class="col d-none d-md-block">
+            <div class="col-4 col-sm-1">
                 <button class="btn btn-primary btn-large btn-block" onclick="ordenar(5)">CUOTA</button>
             </div>
-            <div class="col d-none d-md-block"><button class="btn btn-primary btn-large btn-block"
-                    onclick="ordenar(4)">GRUPO</button></div>
-        </div>
-
-        <div class="row my-2">
-            <div class="col">
+            <div class="col-4 col-sm-1">
+                <button class="btn btn-primary btn-large btn-block" onclick="ordenar(4)">GRUPO</button>
+            </div>
+            <div class="col-4 col-sm-1">
                 <input type="number" id="hora" class="form-control">
             </div>
-            <div class="col">
+            <div class="col-4 col-sm-1">
                 <button class="btn btn-primary btn-block" onclick="filtrarHora()">HORA</button>
             </div>
-        </div>
-
-
-        <div class="row mb-2">
-            <div class="col">
+            <div class="col-4 col-sm-1">
                 <input type="number" id="grupo" class="form-control">
             </div>
-            <div class="col">
+            <div class="col-4 col-sm-1">
                 <button class="btn btn-primary btn-block" onclick="filtrarGrupo()">GRUPO</button>
             </div>
-        </div>
-
-
-        <div class="row mb-2">
-            <div class="col">
+            <div class="col-4 col-sm-1">
                 <input type="number" id="inicio" class="form-control">
             </div>
-            <div class="col">
+            <div class="col-4 col-sm-1">
                 <input type="number" id="fin" class="form-control">
             </div>
-            <div class="col">
+            <div class="col-4 col-sm-1">
                 <button class="btn btn-primary btn-block" onclick="filtrar()">FILTRAR</button>
             </div>
-        </div>
-
-
-        <div class="row mb-2">
-            <div class="col">
+            <div class="col-4 col-sm-1">
                 <button class="btn btn-danger btn-block" onclick="reset()">RESET</button>
             </div>
         </div>
+
+        <!-- <div class="row mb-2">
+            <div class="col">
+                <button class="btn btn-success btn-block" onclick="fijar()">FIJAR</button>
+            </div>
+        </div> -->
 
     </div>
 

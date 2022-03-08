@@ -4,15 +4,16 @@ const GRUPO = document.querySelector('#grupo');
 const INICIO = document.querySelector('#inicio');
 const FIN = document.querySelector('#fin');
 
-const PARTIDOS_COMPLETOS = JSON.parse(JSON.stringify(PARTIDOS))
+let PARTIDOS_ARCHIVO = JSON.stringify(PARTIDOS)
+let PARTIDOS_COMPLETOS = JSON.parse(PARTIDOS_ARCHIVO)
 
 const renderizar = () => {
     let contenidoHtml = '';
     let cuotaOGrupo = (cuota, indice, grupo) => {
-        if (grupo) {
+        if (grupo && (!cuota || cuota < 1)) {
             return `
             <div class="col d-none d-md-block">
-                <input type="number" value="${ cuota }" onfocusout="grabarCuota(event, ${indice})">
+                <input type="number" value="${cuota}" onfocusout="grabarCuota(event, ${indice})">
             </div>
             `
         } else {
@@ -38,24 +39,24 @@ const renderizar = () => {
     `;
     PARTIDOS.forEach((partido, index) => {
         contenidoHtml += `
-        <div class="row border-bottom${partido[6] ? ' bg-info text-white': '' }">
+        <div class="row border-bottom${partido[6] ? ' bg-info text-white' : ''}">
             <div class="col-xs-3 col-sm-1 col-lg-1">
-                ${ index + 1 }/${ PARTIDOS.length }
+                ${index + 1}/${PARTIDOS.length}
                 <br>
-                <span role="button" class="badge badge-success" onClick="marcarTrue(${index})">${ partido[0] - 10000 }</span>
+                <span role="button" class="badge badge-success" onClick="marcarTrue(${index})">${partido[0] - 10000}</span>
             </div>
             <div class="col-xs-3 col-sm-2 text-nowrap col-lg-1">
-                ${ partido[1] }-${ !partido[4] ? '' : partido[4] % 2 !== 0 ? 'L' : 'V'}
+                ${partido[1]}-${!partido[4] ? '' : partido[4] % 2 !== 0 ? 'L' : 'V'}
                 <br>
-                <strong>C-${ partido[5] || 0 }</strong>
+                <strong>C-${partido[5] || 0}</strong>
             </div>
             <div class="col-xs-6 col-sm-8 col-lg-2">
-               ${ partido[4] === 1 ? `<span class="badge badge-primary">${ partido[2] }</span>`: `${ partido[4] === 3 ? `<span class="badge badge-success">${ partido[2] }</span>`: `${ partido[4] === 5 ? `<span class="badge badge-secondary">${ partido[2] }</span>`: `${ partido[4] === 7 ? `<span class="badge badge-warning">${ partido[2] }</span>`: `${ partido[4] === 9 ? `<span class="badge badge-danger">${ partido[2] }</span>`: `${ partido[4] === 11 ? `<span class="badge badge-danger">${ partido[2][0] }</span>${ partido[2].substring(1) }`: `${ partido[2]}`}`}`}`}`}`}<br>
-               ${ partido[4] === 2 ? `<span class="badge badge-primary">${ partido[3] }</span>`: `${ partido[4] === 4 ? `<span class="badge badge-success">${ partido[3] }</span>`: `${ partido[4] === 6 ? `<span class="badge badge-secondary">${ partido[3] }</span>`: `${ partido[4] === 8 ? `<span class="badge badge-warning">${ partido[3] }</span>`: `${ partido[4] === 10 ? `<span class="badge badge-danger">${ partido[3] }</span>`: `${ partido[4] === 11 ? `<span class="badge badge-danger">${ partido[3][0] }</span>${ partido[3].substring(1) }`: `${ partido[3]}`}`}`}`}`}`}
+               ${partido[4] === 1 ? `<span class="badge badge-primary">${partido[2]}</span>` : `${partido[4] === 3 ? `<span class="badge badge-success">${partido[2]}</span>` : `${partido[4] === 5 ? `<span class="badge badge-secondary">${partido[2]}</span>` : `${partido[4] === 7 ? `<span class="badge badge-warning">${partido[2]}</span>` : `${partido[4] === 9 ? `<span class="badge badge-danger">${partido[2]}</span>` : `${partido[4] === 11 ? `<span class="badge badge-danger">${partido[2][0]}</span>${partido[2].substring(1)}` : `${partido[2]}`}`}`}`}`}`}<br>
+               ${partido[4] === 2 ? `<span class="badge badge-primary">${partido[3]}</span>` : `${partido[4] === 4 ? `<span class="badge badge-success">${partido[3]}</span>` : `${partido[4] === 6 ? `<span class="badge badge-secondary">${partido[3]}</span>` : `${partido[4] === 8 ? `<span class="badge badge-warning">${partido[3]}</span>` : `${partido[4] === 10 ? `<span class="badge badge-danger">${partido[3]}</span>` : `${partido[4] === 11 ? `<span class="badge badge-danger">${partido[3][0]}</span>${partido[3].substring(1)}` : `${partido[3]}`}`}`}`}`}`}
             </div>
-                ${ cuotaOGrupo(partido[5], index, partido[4]) }
+                ${cuotaOGrupo(partido[5], index, partido[4])}
             <div class="col d-none d-sm-block h1 col-lg-8">
-                ${ partido[4] ? '' : contenidoGrupos(index) }
+                ${partido[4] ? '' : contenidoGrupos(index)}
             </div>
         </div>
         `;
@@ -69,9 +70,9 @@ const escogerGrupo = (grupo, indice) => {
 }
 
 const marcarTrue = (indice) => {
-    console.log({ funcion: 'marcarTrue', indice})
+    console.log({ funcion: 'marcarTrue', indice })
     PARTIDOS[indice][6] = true;
-    console.log({ partido: PARTIDOS[indice]})
+    console.log({ partido: PARTIDOS[indice] })
     renderizar();
 }
 
@@ -81,33 +82,55 @@ const grabarCuota = ($event, indice) => {
 }
 
 const ordenar = (indice) => {
-    console.log({ indice })
+    // indice 0 => Hora
+    // indice 1 => Liga
+    // indice 2 => Local
+    // indice 3 => Visitante
+    // indice 4 => Grupo
+    // indice 5 => Cuota
+    console.log({ funcion: 'ordenar', indice })
     PARTIDOS.sort(function (a, b) {
         if (a[indice] > b[indice]) {
-          return 1;
+            return 1;
         }
         if (a[indice] < b[indice]) {
-          return -1;
+            return -1;
         }
-        // a must be equal to b
 
-        if (a[4] && b[4] && typeof a[4] === 'number' && typeof b[4] === 'number' && a[4] %  2 === 0 && b[4] %  2 !== 0 ) {
+
+        // Si son la misma liga
+        // si existe el grupo partido actual
+        // si existe el grupo partido siguiente
+        // si el grupo es numero partido actual
+        // si el grupo es numero partido siguiente
+        // si el partido actual es par
+        // si el partido siguiente es impar
+        if (a[1] === b[1] && a[4] && b[4] && typeof a[4] === 'number' && typeof b[4] === 'number' && a[4] % 2 === 0 && b[4] % 2 !== 0) {
             // console.log({
             //     'a[4]': `${a[2]}-${a[4]}`,
             //     'b[4]': `${b[2]}-${b[4]}`
             // })
             return 1
         }
-
-        if (a[4] && b[4] && typeof a[4] === 'number' && typeof b[4] === 'number' && a[4] %  2 !== 0 && b[4] %  2 === 0 ) {
+        // Si son la misma liga
+        // si existe el grupo partido actual
+        // si existe el grupo partido siguiente
+        // si el grupo es numero partido actual
+        // si el grupo es numero partido siguiente
+        // si el partido actual es par
+        // si el partido siguiente es impar
+        if (a[1] === b[1] && a[4] && b[4] && typeof a[4] === 'number' && typeof b[4] === 'number' && a[4] % 2 !== 0 && b[4] % 2 === 0) {
             // console.log({
             //     'a[4]': `${a[2]}-${a[4]}`,
             //     'b[4]': `${b[2]}-${b[4]}`
             // })
             return -1
         }
+
+
         return 0;
-      })
+    })
+    fijar()
     renderizar();
 }
 
@@ -117,21 +140,30 @@ const filtrarHora = () => {
         console.log({ hora })
         return p[0] >= hora
     })
+    fijar()
     renderizar()
 }
 
 const filtrarGrupo = () => {
     PARTIDOS = PARTIDOS_COMPLETOS.filter(p => p[4] <= GRUPO.value)
+    fijar()
     renderizar()
 }
 
 const reset = () => {
+    PARTIDOS_COMPLETOS = JSON.parse(PARTIDOS_ARCHIVO)
     PARTIDOS = PARTIDOS_COMPLETOS
     renderizar()
 }
 
 const filtrar = () => {
     PARTIDOS = PARTIDOS_COMPLETOS.slice(INICIO.value - 1, FIN.value)
+    fijar()
+    renderizar()
+}
+
+const fijar = () => {
+    PARTIDOS_COMPLETOS = [...PARTIDOS]
     renderizar()
 }
 
