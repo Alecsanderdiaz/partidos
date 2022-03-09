@@ -4,6 +4,11 @@ const GRUPO = document.querySelector('#grupo');
 const INICIO = document.querySelector('#inicio');
 const FIN = document.querySelector('#fin');
 
+const HORA2 = document.querySelector('#hora2');
+const GRUPO2 = document.querySelector('#grupo2');
+const INICIO2 = document.querySelector('#inicio2');
+const FIN2 = document.querySelector('#fin2');
+
 let PARTIDOS_ARCHIVO = JSON.stringify(PARTIDOS)
 let PARTIDOS_COMPLETOS = JSON.parse(PARTIDOS_ARCHIVO)
 
@@ -146,8 +151,9 @@ const ordenar = (indice) => {
 }
 
 const filtrarHora = () => {
+    let horaValue = +HORA.value || +HORA2.value
     PARTIDOS = PARTIDOS_COMPLETOS.filter(p => {
-        let hora = +HORA.value + 10000
+        let hora = horaValue + 10000
         console.log({ hora })
         return p[0] >= hora
     })
@@ -156,7 +162,8 @@ const filtrarHora = () => {
 }
 
 const filtrarGrupo = () => {
-    PARTIDOS = PARTIDOS_COMPLETOS.filter(p => p[4] <= GRUPO.value)
+    let grupoValue = GRUPO.value || GRUPO2.value
+    PARTIDOS = PARTIDOS_COMPLETOS.filter(p => p[4] <= grupoValue)
     fijar()
     renderizar()
 }
@@ -168,7 +175,9 @@ const reset = () => {
 }
 
 const filtrar = () => {
-    PARTIDOS = PARTIDOS_COMPLETOS.slice(INICIO.value - 1, FIN.value)
+    let inicioValue = INICIO.value || INICIO2.value
+    let finValue = FIN.value || FIN2.value
+    PARTIDOS = PARTIDOS_COMPLETOS.slice(inicioValue - 1, finValue)
     fijar()
     renderizar()
 }
