@@ -12,7 +12,7 @@ const renderizar = () => {
     let cuotaOGrupo = (cuota, indice, grupo) => {
         if (grupo && (!cuota || cuota < 1)) {
             return `
-            <div class="col d-none d-LG-block">
+            <div class="col d-none d-lg-block">
                 <input type="number" value="${cuota}" onfocusout="grabarCuota(event, ${indice})">
             </div>
             `
