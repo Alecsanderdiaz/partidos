@@ -187,4 +187,28 @@ const fijar = () => {
     renderizar()
 }
 
+const crearGrupos = () => {
+
+    console.log({
+        funcion: 'Crear Grupos',
+        cantidadDePartidos: PARTIDOS.length
+    })
+    let arrayDePosiciones = [...Array(PARTIDOS.length).keys()]
+
+    console.log({arrayDePosiciones})
+
+    let indice = 0
+    while (arrayDePosiciones.length > 0) {
+        let valor = Math.floor(Math.random() * arrayDePosiciones.length);
+        console.log({ valor, arrayDePosiciones, PARTIDOS, indice })
+        if (PARTIDOS[ indice ]) {
+            PARTIDOS[ indice ][5] = arrayDePosiciones[valor]
+        }
+        arrayDePosiciones.splice(valor, 1)
+        indice++
+    }
+
+    renderizar()
+}
+
 renderizar();
