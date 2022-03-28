@@ -1,3 +1,16 @@
 let PARTIDOS = [
-    [11330,"ZA-ARG2","Sacachispas","CA Mitre",9],[11335,"ZA-ARG2","Chacarita","Alvarado",7],[11400,"ZA-ARG2","All Boys","Dep. Riestra",7],[11400,"ZA-ARG2","Guillermo Brown","Estudiantes Rio Cuarto",7],[11400,"ZA-ARG2","San Telmo","Villa Dálmine",7],[11440,"ZA-ARG2","Gimnasia Mendoza","Belgrano",10],[11530,"ZA-ARG2","San Martín S.J.","Gimnasia Jujuy",10],[11640,"ZA-ARG2","Chaco For Ever","Alte. Brown",10],[11910,"ZA-ARGC","Racing Club","Gimnasia y Tiro",5],[11400,"ZA-CHI1","U. De Chile","U. Española",9],[11510,"ZA-COL1","Deportivo Cali","Cortuluá",5],[11715,"ZA-COL1","Alianza Petrolera","Patriotas",7],[11930,"ZA-COL1","Tolima","América de Cali",5],[11100,"ZM-COLF*","Atl. Nacional F","Junior F",12],[11100,"ZM-COLF*","Bucaramanga F","Millonarios F",12],[11500,"ZM-COLF*","Fortaleza F","Llaneros F",12],[11530,"ZM-COLF*","Atl. Huila F","Tolima F",12],[11530,"ZA-ECU2","Chacaritas","El Nacional",11],[11600,"ZA-ECU2","América de Quito","Libertad",11],[11800,"ZA-ECU2","Manta","Guayaquil SC",11],[11115,"ESP2","Alcorcón","Real Valladolid",8],[11115,"ESP2","Málaga","Huesca",9],[11400,"ESP2","Almería","Girona",7],[11500,"ZA-EST1","Portland Timbers","Orlando City",10],[11600,"ZA-EST2*","Sacramento Republic","FC Tulsa",12],[11830,"ZA-EST2*","Atlanta United 2","Charleston",12],[11830,"ZA-EST2*","Rio Grande","San Antonio",12],[11300,"ZA-MEX2","Atl. Morelia","Leones Negros",7],[12000,"ZA-MEX2","Mineros","Tlaxcala",7],[12200,"ZA-MEX2","Correcaminos U.A.T.","Tampico Madero",10],[11505,"E-CONCA","Canadá","Jamaica",1],[11605,"E-CONCA","El Salvador","Costa Rica",8],[11800,"E-CONCA","EE. UU.","Panamá",5],[11805,"E-CONCA","Honduras","México",6],[11400,"ZA-VEN1*","Estudiantes M.","Lara",11],[11715,"ZA-VEN1*","Monagas","Metropolitanos",11]
+    [11300, "ZA-ARG2", "Brown Adrogué", "Almagro", 10, 2.55],
+    [11305, "ZA-ARG2", "Tristán Suárez", "Quilmes", 8, 2.25],
+    [11400, "ZA-ARG2", "CA Estudiantes", "Temperley", 10, 2.75],
+    [11400, "ZA-COL2", "Orsomarso", "Real Cartagena", 6, 2.05],
+    [11400, "ESP2", "Las Palmas", "Leganés", 10, 2.45],
+    [11500, "ZA-ARG2", "Atlanta", "Flandria", 7, 2.45],
+    [11505, "ZA-ARG2", "Def. de Belgrano", "Nueva Chicago", 10, 2.8],
+    [11710, "ZA-ARG2", "Instituto", "Ferro Carril Oeste", 7, 2.37],
+    [11730, "ZA-COL1", "Dep. Pasto", "La Equidad", 10, 2.6],
+    [11800, "ZA-ARG2", "Atl. Rafaela", "Deportivo Madryn", 7, 2.35],
+    [11800, "ZA-ARG2", "Agropecuario", "Ind. Rivadavia", 10, 2.6],
+    [11830, "ZA-ARG2", "Santamarina", "Deportivo Morón", 8, 2.55],
+    [11910, "ZA-ARG2", "San Martín Tuc.", "Deportivo Maipu", 7, 1.9],
+    [11935, "ZA-COL1", "Atl. Nacional", "Ind. Santa Fe", 1, 1.9]
 ]
