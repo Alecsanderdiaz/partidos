@@ -1,33 +1,64 @@
 let PARTIDOS_CON_CUOTA = [
-  [11200, 'VfL Osnabruck', 'SC Verl', 'VfL Osnabruck', 1.53],
-  [11400, 'Rayo Vallecano', 'Valencia', 'Valencia', 2.40],
-  [11400, 'Almeria', 'SD Ponferradina', 'Almeria', 1.50],
-  [11345, 'Paris FC', 'Dijon', 'Paris FC', 1.90],
-  [11345, 'Bologna', 'Sampdoria', 'Sampdoria', 2.40],
-  [11330, 'Brescia', 'Parma', 'Parma', 2.35],
-  [11345, 'Huddersfield', 'Luton Town', 'Huddersfield', 2.15],
-  [11100, 'Radomiak Radom', 'Jagiellonia Bialystok', 'Radomiak Radom', 1.76],
-  [11300, 'FCSB', 'CS Voluntari', 'FCSB', 1.66],
-  [11000, 'Gaz Metan Medias', 'CS Mioveni', 'CS Mioveni', 1.33],
-  [11230, 'Antalyaspor', 'Hatayspor', 'Antalyaspor', 1.75],
-  [11700, 'Huracan', 'CA Barracas Central', 'Huracan', 1.76],
-  [11930, 'Atletico Lanus', 'CA Aldosivi', 'CA Aldosivi', 2.65],
-  [11910, 'San Martin de Tucuman', 'Independiente Rivadavia', 'San Martin de Tucuman', 2.00],
-  [11505, 'Defensores de Belgrano', 'Quilmes AC', 'Quilmes AC', 2.30],
-  [11710, 'CA Guemes', 'CA Belgrano', 'CA Belgrano', 2.10],
-  [11830, 'Santamarina Tandil', 'Estudiantes Rio Cuarto', 'Estudiantes Rio Cuarto', 2.62],
-  [11800, 'Juventude RS', 'Bragantino SP', 'Bragantino SP', 2.40],
-  [11730, 'Jaguares De Córdoba', 'Once Caldas', 'Once Caldas', 2.30],
-  [11940, 'Deportivo Pasto', 'Deportivo Pereira', 'Deportivo Pereira', 2.65],
-  [11500, 'Boca Juniors de Cali', 'Barranquilla', 'Boca Juniors de Cali', 1.93],
-  [11900, 'Aucas', 'Macara', 'Macara', 2.65],
-  [11915, 'Torque', 'Rentistas', 'Torque', 1.70],
-  [11700, 'Montevideo Wanderers', 'Deportivo Maldonado', 'Deportivo Maldonado', 2.45],
+  [12105, 'Cimarrones de Sonora', 'CD Tepatitlan de Morelos', 'CD Tepatitlan de Morelos', 2.45],
+  [12100, 'Cruz Azul', 'Pumas Unam', 'Cruz Azul', 1.95],
+  [11345, 'Portsmouth', 'Rotherham', 'Portsmouth', 2.35],
+  [11345, 'Burton Albion', 'Wigan', 'Wigan', 1.65],
+  [11400, 'Bayern Munich', 'Villarreal', 'Bayern Munich', 1.33],
+  [11400, 'Real Madrid', 'Chelsea', 'Real Madrid', 1.95],
+  [11700, 'Vila Nova FC', 'Novorizontino SP', 'Vila Nova FC', 1.90],
+  [11730, 'Deportes Quindio', 'Real Cartagena', 'Real Cartagena', 3.00],
+  [11715, 'Boca Juniors', 'Always Ready', 'Boca Juniors', 1.30],
+  [11715, 'Universidad Catolica', 'Sporting Cristal', 'Universidad Catolica', 1.61],
+  [11715, 'Cerro Porteño', 'Colon de Santa Fe', 'Colon de Santa Fe', 2.20],
+  [11700, 'Coyotes FC', 'Tampico Madero', 'Coyotes FC', 2.05],
+  [11715, 'Deportivo La Guaira', 'Ceara CE', 'Ceara CE', 1.85],
+  [11715, 'Oriente Petrolero', 'Union Santa Fe', 'Union Santa Fe', 2.10],
+  [11500, 'Atletico Huila (W)', 'Junior de Barranquilla (W)', '0.5', 1.40],
+  [11930, 'Cruzeiro MG', 'Brusque FC', 'Cruzeiro MG', 1.65],
+  [11940, 'Atletico Bucaramanga', 'Cortulua', 'Atletico Bucaramanga', 1.85],
+  [11930, 'Flamengo RJ', 'Talleres de Cordoba', 'Flamengo RJ', 1.42],
+  [11930, 'Palmeiras SP', 'Club Independiente Petrolero', 'Palmeiras SP', 1.22],
+  [11930, 'Penarol Montevideo', 'Olimpia Asuncion', 'Penarol Montevideo', 1.85],
+  [11905, 'Correcaminos', 'Oaxaca st	2ª Mitad - más/Menos de Oaxaca', 2.00],
+  [11930, 'CA Independiente', 'Club General Caballero Jlm', 'CA Independiente', 1.60],
+  [11930, 'LDU Quito', 'Antofagasta', 'LDU Quito', 1.45],
+  [11930, 'Defensa Y Justicia', 'Atletico GO', 'Atletico GO', 2.70]
 ]
 
 let PARTIDOS_SIN_CUOTA = [
-  [11200,"ALE3","Osnabruck","Verl",7],[11700,"ZA-ARG1","Huracán","Barracas Central",7],[11930,"ZA-ARG1","Lanús","Aldosivi",10],[11505,"ZA-ARG2","Def. de Belgrano","Quilmes",8],[11710,"ZA-ARG2","Club A. Guemes","Belgrano",6],[11830,"ZA-ARG2","Santamarina","Estudiantes Rio Cuarto",8],[11910,"ZA-ARG2","San Martín Tuc.","Ind. Rivadavia",7],[10930,"*YE-BIE1","Belshina","Gomel",11],[11730,"*ZA-BOL1","Aurora","The Strongest",12],[11800,"ZA-BRA1","Juventude","Bragantino",6],[11730,"ZA-COL1","Jaguares de Córdoba","Once Caldas",6],[11940,"ZA-COL1","Dep. Pasto","Pereira",6],[11500,"ZA-COL2","Boca Juniors","Barranquilla",7],[11900,"ZA-ECU1","Aucas","Macará",10],[11400,"ESP1","Rayo Vallecano","Valencia",6],[11400,"ESP2","Almería","Ponferradina",5],[11345,"FRA2","Paris FC","Dijon",5],[11345,"R-ING2","Huddersfield","Luton",7],[11345,"ITA1","Bolonia","Sampdoria",10],[11330,"ITA2","Brescia","Parma",6],[12100,"ZA-MEX1","Pachuca","Tijuana",5],[11100,"YE-POL1","Radomiak Radom","Jagiellonia",7],[11000,"YE-RUM1","Gaz Metan","Mioveni",8],[11300,"YE-RUM1","FCSB","FC Voluntari",7],[11230,"YE-TUR1","Antalyaspor","Hatayspor",7],[11230,"*YE-TUR2","Eyupspor","Altinordu",12],[11700,"ZA-URU1","Wanderers","Maldonado",10],[11915,"ZA-URU1","Montevideo City","Rentistas",7]
+  [11700, "ZA-BRA2", "Vila Nova", "Novorizontino", 5],
+  [11930, "ZA-BRA2", "Cruzeiro", "Brusque", 5],
+  [11940, "ZA-COL1", "Atl. Bucaramanga", "Cortuluá", 5],
+  [11730, "ZA-COL2", "Quindío", "Real Cartagena", 6],
+  [11500, "ZM-COLF", "Atl. Huila F", "Junior F", 11],
+  [11400, "U-CHAMP", "Bayern Múnich", "Villarreal", 1],
+  [11400, "U-CHAMP", "Real Madrid", "Chelsea", 1],
+  [11345, "R-INGO", "Burton", "Wigan", 4],
+  [11345, "R-INGO", "Portsmouth", "Rotherham", 9],
+  [11700, "ZA-MEX2", "Tlaxcala", "Tampico Madero", 7],
+  [11905, "ZA-MEX2", "Correcaminos U.A.T.", "Alebrijes Oaxaca", 10],
+  [12105, "ZA-MEX2", "Cimarrones de Sonora", "Tepatitlán", 10],
+  [12100, "ZA-CONC", "Cruz Azul (Mex)", "Pumas UNAM (Mex)", 7],
+  [11715, "ZA-LIBE", "Boca Jrs. (Arg)", "Always Ready (Bol)", 1],
+  [11715, "ZA-LIBE", "Cerro Porteño (Par)", "Colón (Arg)", 10],
+  [11715, "ZA-LIBE", "U. Católica (Chi)", "Sporting Cristal (Per)", 7],
+  [11930, "ZA-LIBE", "Flamengo (Bra)", "Talleres (Arg)", 7],
+  [11930, "ZA-LIBE", "Palmeiras (Bra)", "Independiente Petrolero (Bol)", 1],
+  [11930, "ZA-LIBE", "Peñarol (Uru)", "Olimpia (Par)", 7],
+  [11715, "ZA-SUDA", "La Guaira (Ven)", "Ceará (Bra)", 8],
+  [11715, "ZA-SUDA", "Oriente Petrolero (Bol)", "Unión Santa Fe (Arg)", 8],
+  [11930, "ZA-SUDA", "Defensa y Justicia (Arg)", "Atlético-GO (Bra)", 10],
+  [11930, "ZA-SUDA", "Independiente (Arg)", "General Caballero JLM (Par)", 1],
+  [11930, "ZA-SUDA", "LDU Quito (Ecu)", "Antofagasta (Chi)", 7]
 ]
+
+
+
+
+
+
+
+
 
 let PARTIDOS_CON_CUOTA_Y_GRUPO = [];
 
