@@ -1,26 +1,3 @@
 let PARTIDOS = [
-    [11345, "R-INGO", "Portsmouth", "Rotherham", 9, 2.35],
-    [11345, "R-INGO", "Burton", "Wigan", 4, 1.65],
-    [11400, "U-CHAMP", "Bayern Múnich", "Villarreal", 1, 1.33],
-    [11400, "U-CHAMP", "Real Madrid", "Chelsea", 1, 1.95],
-    [11500, "ZM-COLF", "Atl. Huila F", "Junior F", 11, 1.4],
-    [11700, "ZA-BRA2", "Vila Nova", "Novorizontino", 5, 1.9],
-    [11700, "ZA-MEX2", "Tlaxcala", "Tampico Madero", 7, 2.05],
-    [11715, "ZA-LIBE", "Boca Jrs. (Arg)", "Always Ready (Bol)", 1, 1.3],
-    [11715, "ZA-LIBE", "U. Católica (Chi)", "Sporting Cristal (Per)", 7, 1.61],
-    [11715, "ZA-LIBE", "Cerro Porteño (Par)", "Colón (Arg)", 10, 2.2],
-    [11715, "ZA-SUDA", "La Guaira (Ven)", "Ceará (Bra)", 8, 1.85],
-    [11715, "ZA-SUDA", "Oriente Petrolero (Bol)", "Unión Santa Fe (Arg)", 8, 2.1],
-    [11730, "ZA-COL2", "Quindío", "Real Cartagena", 6, 3],
-    [11905, "ZA-MEX2", "Correcaminos U.A.T.", "Alebrijes Oaxaca", 10, 2.3],
-    [11930, "ZA-BRA2", "Cruzeiro", "Brusque", 5, 1.65],
-    [11930, "ZA-LIBE", "Flamengo (Bra)", "Talleres (Arg)", 7, 1.42],
-    [11930, "ZA-LIBE", "Palmeiras (Bra)", "Independiente Petrolero (Bol)", 1, 1.22],
-    [11930, "ZA-LIBE", "Peñarol (Uru)", "Olimpia (Par)", 7, 1.85],
-    [11930, "ZA-SUDA", "Independiente (Arg)", "General Caballero JLM (Par)", 1, 1.6],
-    [11930, "ZA-SUDA", "LDU Quito (Ecu)", "Antofagasta (Chi)", 7, 1.45],
-    [11930, "ZA-SUDA", "Defensa y Justicia (Arg)", "Atlético-GO (Bra)", 10, 2.7],
-    [11940, "ZA-COL1", "Atl. Bucaramanga", "Cortuluá", 5, 1.85],
-    [12100, "ZA-CONC", "Cruz Azul (Mex)", "Pumas UNAM (Mex)", 7, 1.95],
-    [12105, "ZA-MEX2", "Cimarrones de Sonora", "Tepatitlán", 10, 2.45]
+    [11900,"ZA-ARGC","San Lorenzo","Racing Cordoba",5],[11400,"ZM-COLF*","Fortaleza F","America de Cali F",12],[11400,"ZM-COLF*","Orsomarso F","Bucaramanga F",11],[11500,"ZM-COLF*","Ind. Medellín F","Tolima F",11],[11500,"ZM-COLF*","Llaneros F","Real Santander F",12],[11600,"ZM-COLF*","Deportivo Pereira F","Atl. Nacional F",11],[11530,"ZA-ECU2*","Chacaritas","Imbabura",11],[11900,"ZA-EST2*","Memphis","FC Tulsa",12],[12100,"ZA-EST2*","Oakland Roots","San Diego Loyal",11],[11400,"U-CHAMP","Atlético de Madrid","Manchester City",2],[11400,"U-CHAMP","Liverpool","Benfica",1],[12005,"ZA-MEX1","Guadalajara","Monterrey",8],[11700,"ZA-MEX2","Leones Negros","Cancun",7],[11905,"ZA-MEX2","Pumas Tabasco","Atl. Morelia",8],[12105,"ZA-MEX2","Celaya","Venados",7],[12000,"ZA-CONC","New York City (Usa)","Seattle Sounders (Usa)",6],[11700,"ZA-LIBE","Colo Colo (Chi)","Alianza Lima (Per)",7],[11700,"ZA-LIBE","Libertad (Par)","Caracas (Ven)",3],[11900,"ZA-LIBE","Atlético-MG (Bra)","América-MG (Bra)",3],[11900,"ZA-LIBE","Corinthians (Bra)","Deportivo Cali (Col)",5],[11900,"ZA-LIBE","Nacional (Uru)","Estudiantes L.P. (Arg)",6],[11900,"ZA-LIBE","River Plate (Arg)","Fortaleza (Bra)",7],[12100,"ZA-LIBE","Ind. del Valle (Ecu)","Tolima (Col)",5],[11715,"ZA-SUDA","Melgar (Per)","River Plate (Uru)",7],[11715,"ZA-SUDA","Racing Club (Arg)","Cuiabá (Bra)",10],[11715,"ZA-SUDA","Santos (Bra)","U. Católica (Ecu)",7],[11930,"ZA-SUDA","J. Wilstermann (Bol)","Ayacucho (Per)",7],[11930,"ZA-SUDA","Junior (Col)","Fluminense (Bra)",10]
 ]
