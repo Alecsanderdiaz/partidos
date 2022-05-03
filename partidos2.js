@@ -1,1 +1,21 @@
-let PARTIDOS = [[11800,"Sao Paulo SP","Santos SP","Santos SP",3.4],[11700,"Rionegro Aguilas","Deportivo Pasto","Rionegro Aguilas",2],[11200,"SV Waldhof Mannheim","MSV Duisburg","SV Waldhof Mannheim",1.61],[11130,"CD Leganes","SD Huesca","SD Huesca",2.4],[11130,"Ionikos Nikea","Apollon Smyrnis","Ionikos Nikea",2.62],[11415,"Pacos Ferreira","CD Tondela","Pacos Ferreira",2.2],[11400,"CD Maipu","Atletico Rafaela","CD Maipu",2],[11400,"Mitre Santiago Del Estero","Defensores de Belgrano","Mitre Santiago Del Estero",2.1],[11305,"Sacachispas FC","San Martin de Tucuman","San Martin de Tucuman",2.1],[11530,"UTC Cajamarca","Deportivo San Martin","UTC Cajamarca",1.61],[11315,"Academia Cantolao","Sport Boys Association","Sport Boys Association",1.95]]
+let PARTIDOS = [
+    [11800, 'Bogota FC', 'Llaneros FC', 'Llaneros FC', 2.35],
+    [11800, 'Real Cartagena', 'Valledupar', 'Valledupar', 2.35],
+    [11800, 'Atletico de Cali', 'Boyaca Chico FC', 'Boyaca Chico FC', 1.75],
+    [11400, 'CD Real Santander', 'Boca Juniors de Cali', 'CD Real Santander', 2.15],
+    [11800, 'Atletico Huila', 'Tigres FC', 'Atletico Huila', 2.45],
+    [11800, 'Barranquilla', 'Fortaleza FC', 'Barranquilla', 2.75],
+    [11800, 'Leones FC', 'Deportes Quindio', 'Leones FC', 2.25],
+    [11305, 'Partick Thistle', 'Inverness CT', '0.5', 1.55],
+    [11300, 'Bournemouth', 'Nottingham Forest', 'Bournemouth', 2.05],
+    [11400, 'Villarreal', 'Liverpool', 'Liverpool', 1.65],
+    [11335, 'CA Aldosivi', 'Club Atletico Colegiales', 'CA Aldosivi', 1.80],
+    [11700, 'Bahia BA', 'Londrina PR', 'Bahia BA', 1.70],
+    [11330, 'El Nacional', 'Imbabura SC', '0.5', 1.40],
+    [11500, 'Guayaquil SC', 'America De Quito', '0.5', 1.53],
+    [11715, 'Caracas FC', 'Libertad Asuncion', 'Libertad Asuncion', 1.95],
+    [11715, 'Deportivo Tachira', 'Club Sport Emelec', 'Club Sport Emelec', 2.05],
+    [11715, 'The Strongest', 'Atletico PR', 'Atletico PR', 2.55],
+    [11715, 'Cuiaba MT', 'Racing Club', 'Racing Club', 2.20],
+    [11715, 'Atletico River Plate (Uru)', 'FBC Melgar', 'FBC Melgar', 2.05]
+]
