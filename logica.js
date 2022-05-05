@@ -43,14 +43,22 @@ const renderizar = () => {
         <span class="ml-3 badge badge-dark pointer" onClick="escogerGrupo(12, ${index})">12</span>
     `;
     PARTIDOS.forEach((partido, index) => {
+        if (partido[5]) {
+            if (index === 0) {
+                partido[7] = partido[5]
+            } else {
+                partido[7] = Math.floor( PARTIDOS[index - 1][7] * partido[5] * 100 ) / 100
+            }
+        }
         contenidoHtml += `
         <div class="row border-bottom${partido[6] ? ' bg-info text-white' : ''}">
 
             <!-- HORA E INDICE -->
             <div class="col-3 col-lg-1">
                 ${index + 1}/${PARTIDOS.length}
-                <br>
                 <span role="button" class="badge badge-success" onClick="marcarTrue(${index})">${partido[0] - 10000}</span>
+                <br>
+                ${ partido[7] || 0}
             </div>
 
             <!-- LIGA Y CUOTA -->            

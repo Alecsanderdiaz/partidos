@@ -1,13 +1,3 @@
 let PARTIDOS = [
-    [11900,"*ZA-EST2","Birmingham","Miami FC",11],
-[11900,"ZA-BRA2","CSA","Criciúma",7],
-[11900,"ZA-LIBE","Deportivo Cali (Col)","Corinthians (Bra)",9],
-[11900,"ZA-LIBE","Always Ready (Bol)","Boca Jrs. (Arg)",2],
-[11900,"ZA-LIBE","Olimpia (Par)","Peñarol (Uru)",10],
-[11930,"ZA-SUDA","Barcelona SC (Ecu)","Lanús (Arg)",1],
-[11930,"ZA-SUDA","Fluminense (Bra)","Junior (Col)",5],
-[12100,"ZA-LIBE","Sporting Cristal (Per)","U. Católica (Chi)",8],
-[12100,"ZA-LIBE","Tolima (Col)","Ind. del Valle (Ecu)",7],
-[12100,"ZA-MEX2","Atlante","Atl. Morelia",1],
-[12100,"ZA-CONC","Seattle Sounders (Usa)","Pumas UNAM (Mex)",7]
+    [11345,"ZR-INGO","Wycombe","MK Dons",10,2.3],[11400,"U-EURO","Eintracht Frankfurt","West Ham",9,1.95],[11400,"U-EURO","Rangers","RB Leipzig",8,1.85],[11400,"U-CONF","Marsella","Feyenoord",7,1.66],[11400,"U-CONF","Roma","Leicester",7,1.85],[11500,"*ZM-COLF","Cortuluá F","La Equidad F",11,1.4],[11500,"*ZM-COLF","Ind. Medellín F","Junior F",11,1.42],[11500,"*ZA-ECU2","Santo Domingo","Olmedo",11,1.5],[11615,"*ZA-VEN1","Lara","Hermanos Colmenarez",11,1.5],[11700,"ZA-COL1","U. Magdalena","La Equidad",8,2.2],[11700,"ZA-LIBE","Fortaleza (Bra)","River Plate (Arg)",8,1.93],[11715,"ZA-SUDA","Unión Santa Fe (Arg)","Oriente Petrolero (Bol)",7,1.35],[11715,"ZA-SUDA","Everton (Chi)","Sao Paulo (Bra)",8,2.1],[11715,"ZA-SUDA","Guairena FC (Par)","Internacional (Bra)",8,1.9],[11830,"*ZA-VEN1","Zamora","Portuguesa",11,1.48],[11900,"*ZA-ECU2","Libertad","Ind. Juniors",11,1.5],[11900,"ZA-LIBE","Bragantino (Bra)","Vélez Sarsfield (Arg)",7,1.8],[11930,"ZA-BRA2","Brusque","Chapecoense",10,2.4],[11930,"ZA-SUDA","Ayacucho (Per)","J. Wilstermann (Bol)",7,1.95],[11930,"ZA-SUDA","Banfield (Arg)","U. La Calera (Chi)",7,1.83],[11930,"ZA-SUDA","U. Católica (Ecu)","Santos (Bra)",10,2.75],[12000,"*ZM-COLF","Deportivo Cali F","Orsomarso F",12,1],[12000,"*ZA-EST2","Colorado Springs","Rio Grande",11,1.42],[12100,"ZA-MEX2","Cimarrones de Sonora","Celaya",10,2.65],[12100,"ZA-LIBE","Alianza Lima (Per)","Colo Colo (Chi)",8,1.66]
 ]
