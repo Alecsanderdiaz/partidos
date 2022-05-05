@@ -1,3 +1,13 @@
 let PARTIDOS = [
-    [11910,"ZA-ARG2","Ferro Carril Oeste","Brown Adrogué",10],[11335,"ZA-ARGC","Aldosivi","Colegiales",3],[11700,"ZA-BRA2","Bahia","Londrina",3],[11930,"ZA-BRA2","Náutico","Guaraní",5],[11400,"ZA-COL2","Real Santander","Boca Juniors",9],[11800,"ZA-COL2","Atl. Huila","Tigres",9],[11800,"ZA-COL2","Atletico F.C.","Boyacá Chicó",4],[11800,"ZA-COL2","Barranquilla","Fortaleza",9],[11800,"ZA-COL2","Bogotá","Llaneros",10],[11800,"ZA-COL2","Leones","Quindío",7],[11800,"ZA-COL2","Real Cartagena","Valledupar",10],[11330,"ZA-ECU2","El Nacional","Imbabura",11],[11500,"ZA-ECU2","Guayaquil SC","América de Quito",11],[11305,"R-ESC1","Partick Thistle","Inverness",7],[11345,"*R-ESC2","Montrose","Airdrieonians",12],[11400,"U-CHAMP","Villarreal","Liverpool",2],[11300,"R-ING2","Bournemouth","Nottingham Forest",5],[11715,"ZA-LIBE","Caracas (Ven)","Libertad (Par)",8],[11715,"ZA-LIBE","Dep. Táchira (Ven)","Emelec (Ecu)",8],[11715,"ZA-LIBE","The Strongest (Bol)","Athletico-PR (Bra)",10],[11930,"ZA-LIBE","América-MG (Bra)","Atlético-MG (Bra)",4],[11930,"ZA-LIBE","Estudiantes L.P. (Arg)","Nacional (Uru)",7],[11930,"ZA-LIBE","Independiente Petrolero (Bol)","Palmeiras (Bra)",8],[11715,"ZA-SUDA","Cuiabá (Bra)","Racing Club (Arg)",8],[11715,"ZA-SUDA","River Plate (Uru)","Melgar (Per)",10],[11930,"ZA-SUDA","Ceará (Bra)","La Guaira (Ven)",1],[11930,"ZA-SUDA","General Caballero JLM (Par)","Independiente (Arg)",8],[11930,"ZA-SUDA","Nueve de Octubre (Ecu)","Ind. Medellín (Col)",6]
+    [11900,"*ZA-EST2","Birmingham","Miami FC",11],
+[11900,"ZA-BRA2","CSA","Criciúma",7],
+[11900,"ZA-LIBE","Deportivo Cali (Col)","Corinthians (Bra)",9],
+[11900,"ZA-LIBE","Always Ready (Bol)","Boca Jrs. (Arg)",2],
+[11900,"ZA-LIBE","Olimpia (Par)","Peñarol (Uru)",10],
+[11930,"ZA-SUDA","Barcelona SC (Ecu)","Lanús (Arg)",1],
+[11930,"ZA-SUDA","Fluminense (Bra)","Junior (Col)",5],
+[12100,"ZA-LIBE","Sporting Cristal (Per)","U. Católica (Chi)",8],
+[12100,"ZA-LIBE","Tolima (Col)","Ind. del Valle (Ecu)",7],
+[12100,"ZA-MEX2","Atlante","Atl. Morelia",1],
+[12100,"ZA-CONC","Seattle Sounders (Usa)","Pumas UNAM (Mex)",7]
 ]
