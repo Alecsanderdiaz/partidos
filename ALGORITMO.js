@@ -1,34 +1,66 @@
 let PARTIDOS_CON_CUOTA = [
-  [12100, 'Alianza Lima', 'Colo Colo', 'Colo Colo', 1.66],
-  [12100, 'Cimarrones de Sonora', 'Club Celaya', 'Club Celaya', 2.65],
-  [11930, 'Universidad Catolica Quito', 'Santos SP', 'Santos SP', 2.75],
-  [11930, 'Brusque FC', 'Chapecoense SC', 'Chapecoense SC', 2.4],
-  [11930, 'Banfield', 'Union La Calera', 'Banfield', 1.83],
-  [12000, 'Colorado Springs', 'Rio Grande Valley FC', '0.5', 1.42],
-  [11900, 'Libertad (Ecu)', 'Independiente Juniors', '0.5', 1.50],
-  [11930, 'Ayacucho FC', 'Jorge Wilstermann', 'Ayacucho FC', 1.95],
-  [11830, 'Zamora FC', 'Portuguesa FC', '0.5', 1.48],
-  [11900, 'Bragantino SP', 'Velez Sarsfield', 'Bragantino SP', 1.80],
-  [11715, 'CD Everton Vina Del Mar', 'Sao Paulo SP', 'Sao Paulo SP', 2.1],
-  [11715, 'Union Santa Fe', 'Oriente Petrolero', 'Union Santa Fe', 1.35],
-  [11715, 'Guairena FC', 'Internacional RS', 'Internacional RS', 1.90],
-  [11700, 'Union Magdalena', 'La Equidad', 'La Equidad', 2.2],
-  [11615, 'Deportivo Lara', 'Hermanos Colmenarez', '0.5', 1.50],
-  [11700, 'Fortaleza CE', 'River Plate', 'River Plate', 1.93],
-  [11500, 'Cortulua (W)', 'La Equidad (W)', '0.5', 1.40],
-  [11500, 'Independiente Medellin (W)', 'Junior de Barranquilla (W)', '0.5', 1.42],
-  [11500, 'CDA Santo Domingo', 'CD Olmedo', '0.5', 1.50],
-  [11400, 'Glasgow Rangers', 'RB Leipzig', 'RB Leipzig', 1.85],
-  [11400, 'Eintracht Frankfurt', 'West Ham United', 'Eintracht Frankfurt', 1.95],
-  [11400, 'Marseille', 'Feyenoord Rotterdam', 'Marseille', 1.66],
-  [11400, 'Roma', 'Leicester City', 'Roma', 1.85],
-  [11345, 'Wycombe Wanderers', 'MK Dons', 'MK Dons', 2.3]
+  [11800, 'Charleston Battery', 'Memphis 901 FC', '0.5', 1.40],
+  [11930, 'CA Cerro', 'Institucion Atletica Sud America', '0.5', 1.45],
+  [11615, 'Monagas SC', 'Aragua FC', '0.5', 1.48],
+  [11830, 'Carabobo FC', 'Zulia FC', '0.5', 1.50],
+  [11630, 'San Lorenzo', 'Racing Club', 'Racing Club', 1.95],
+  [11930, 'CA Barracas Central', 'Godoy Cruz', 'Godoy Cruz', 1.76],
+  [11910, 'Club Atletico Atlanta', 'Club Almagro', 'Club Almagro', 2.75],
+  [11930, 'Sport Recife PE', 'Tombense MG', 'Sport Recife PE', 2.05],
+  [11700, 'Vila Nova FC', 'Nautico PE', 'Nautico PE', 2.40],
+  [12000, 'Atlético Nacional', 'Deportivo Pereira', 'Atlético Nacional', 1.85],
+  [11900, 'Deportivo Cuenca', 'Tecnico Universitario', 'Deportivo Cuenca', 2.10],
+  [11700, 'Nacional Asuncion', 'Resistencia', 'Nacional Asuncion', 1.83],
+  [11915, 'Sportivo Ameliano', '12 de Octubre', '12 de Octubre', 2.45],
+  [11715, 'Cerrito CS', 'Torque', 'Torque', 1.85],
+  [11345, 'Inverness CT', 'Partick Thistle', '0.5', 1.53],
+  [11300, 'CA Atenas De San Carlos', 'Central Espanol FC', '0.5', 1.45],
+  [11330, 'VfL Bochum', 'Arminia Bielefeld', 'Arminia Bielefeld', 2.15],
+  [11330, 'Alessandria', 'Vicenza', 'Alessandria', 1.85],
+  [11330, 'Cosenza', 'Cittadella', 'Cittadella', 2.45],
+  [11330, 'Frosinone', 'SC Pisa', 'SC Pisa', 2.30],
+  [11300, 'Cambuur Leeuwarden', 'RKC Waalwijk', 'Cambuur Leeuwarden', 1.85],
+  [11300, 'FC Emmen', 'ADO Den Haag', 'FC Emmen', 1.36],
+  [11300, 'Volendam', 'FC Eindhoven', 'Volendam', 1.60],
+  [11300, 'PSV (R)', 'FC Dordrecht', 'PSV (R)', 1.35],
+  [11300, 'Utrecht (R)', 'VVV Venlo', 'Utrecht (R)', 1.70],
+  [11300, 'Roda JC', 'SC Telstar', 'Roda JC', 1.35],
+  [11300, 'Ajax (R)', 'De Graafschap', 'Ajax (R)', 1.65],
+  [11300, 'Helmond Sport', 'FC Den Bosch', 'FC Den Bosch', 1.66],
+  [11300, 'Almere City FC', 'AZ Alkmaar (R)', 'AZ Alkmaar (R)', 2.65],
+  [11300, 'SBV Excelsior', 'NAC Breda', 'NAC Breda', 1.70],
+  [11300, 'FC Oss', 'MVV Maastricht', 'MVV Maastricht', 1.90],
+  [11330, 'Legia Warsaw', 'Gornik Zabrze', 'Legia Warsaw', 1.70],
+  [11415, 'Boavista', 'Vitoria Guimaraes', 'Boavista', 2.55],
+  [11330, 'CA San Telmo', 'Deportivo Madryn', 'CA San Telmo', 2.25],
+  [11400, 'Las Palmas', 'Mirandes', 'Las Palmas', 1.53],
+  [11400, 'Levante', 'Real Sociedad', 'Real Sociedad', 1.85],
+  [11400, 'Lille', 'AS Monaco', 'AS Monaco', 1.76],
+  [11345, 'Charleroi', 'Genk', 'Genk', 1.66],
+  [11400, 'Génova', 'Juventus', 'Juventus', 2.00],
+  [11330, 'Como', 'Cremonese', 'Cremonese', 1.53],
+  [11345, 'Sunderland', 'Sheffield Wednesday', 'Sunderland', 2.15],
+  [11330, 'Brescia', 'Reggina', 'Brescia', 1.38],
+  [11330, 'Perugia', 'Monza', 'Perugia', 2.30],
+  [11330, 'Lecce', 'Pordenone', 'Lecce', 1.30],
+  [11330, 'Ascoli', 'Ternana', 'Ascoli', 1.53],
+  [11330, 'Benevento Calcio', 'Spal', 'Benevento Calcio', 1.48],
+  [11130, 'Paderborn', 'SV Sandhausen', 'Paderborn', 1.55],
+  [11130, 'Fortuna Dusseldorf', 'SV Darmstadt 98', 'SV Darmstadt 98', 1.61],
+  [11200, 'Borussia Dortmund II', 'SC Verl', 'SC Verl', 1.76],
+  [11145, 'Inter', 'Empoli', 'Inter', 1.25],
+  [11115, 'Crotone', 'Parma', 'Parma', 1.95],
+  [11100, 'Radomiak Radom', 'Zaglebie Lubin', 'Radomiak Radom', 2.10],
+  [11000, 'Sigma Olomouc', 'FK Mlada Boleslav', 'Sigma Olomouc', 2.00],
+  [11230, 'FC Botosani', 'Dinamo Bucuresti', 'FC Botosani', 1.76],
+  [10930, 'Gaz Metan Medias', 'CS FC Clinceni', 'CS FC Clinceni', 1.66],
+  [11000, 'Krylia Sovetov Samara', 'Dinamo Moscow', 'Dinamo Moscow', 2.10],
+  [11200, 'Gaziantep BB', 'Kayserispor', 'Gaziantep BB', 1.61],
 ]
 
 let PARTIDOS_SIN_CUOTA = [
-  [11930,"ZA-BRA2","Brusque","Chapecoense",10],[11700,"ZA-COL1","U. Magdalena","La Equidad",8],[11500,"*ZM-COLF","Cortuluá F","La Equidad F",11],[11500,"*ZM-COLF","Ind. Medellín F","Junior F",11],[12000,"*ZM-COLF","Deportivo Cali F","Orsomarso F",12],[11500,"*ZA-ECU2","Santo Domingo","Olmedo",11],[11900,"*ZA-ECU2","Libertad","Ind. Juniors",11],[12000,"*ZA-EST2","Colorado Springs","Rio Grande",11],[11400,"U-EURO","Eintracht Frankfurt","West Ham",9],[11400,"U-EURO","Rangers","RB Leipzig",8],[11400,"U-CONF","Marsella","Feyenoord",7],[11400,"U-CONF","Roma","Leicester",7],[11345,"ZR-INGO","Wycombe","MK Dons",10],[12100,"ZA-MEX2","Cimarrones de Sonora","Celaya",10],[11700,"ZA-LIBE","Fortaleza (Bra)","River Plate (Arg)",8],[11900,"ZA-LIBE","Bragantino (Bra)","Vélez Sarsfield (Arg)",7],[12100,"ZA-LIBE","Alianza Lima (Per)","Colo Colo (Chi)",8],[11715,"ZA-SUDA","Everton (Chi)","Sao Paulo (Bra)",8],[11715,"ZA-SUDA","Guairena FC (Par)","Internacional (Bra)",8],[11715,"ZA-SUDA","Unión Santa Fe (Arg)","Oriente Petrolero (Bol)",7],[11930,"ZA-SUDA","Ayacucho (Per)","J. Wilstermann (Bol)",7],[11930,"ZA-SUDA","Banfield (Arg)","U. La Calera (Chi)",7],[11930,"ZA-SUDA","U. Católica (Ecu)","Santos (Bra)",10],[11615,"*ZA-VEN1","Lara","Hermanos Colmenarez",11],[11830,"*ZA-VEN1","Zamora","Portuguesa",11]
+  [11330, "ALE1", "Bochum", "Arminia Bielefeld", 10], [11130, "ALE2", "Fortuna Düsseldorf", "Darmstadt", 6], [11130, "ALE2", "Paderborn", "Sandhausen", 7], [11200, "ALE3", "Borussia Dortmund II", "Verl", 8], [11630, "ZA-ARG1", "San Lorenzo", "Racing Club", 8], [11930, "ZA-ARG1", "Barracas Central", "Godoy Cruz", 8], [11330, "ZA-ARG2", "San Telmo", "Deportivo Madryn", 7], [11910, "ZA-ARG2", "Atlanta", "Almagro", 10], [11345, "YE-BEL1", "Charleroi", "Genk", 6], [11830, "*ZA-BOL1", "Royal Pari", "Guabirá", 12], [11700, "ZA-BRA2", "Vila Nova", "Náutico", 10], [11930, "ZA-BRA2", "Sport Recife", "Tombense", 7], [12000, "ZA-COL1", "Atl. Nacional", "Pereira", 1], [11900, "ZA-ECU1", "Dep. Cuenca", "Técnico U.", 7], [11345, "*R-ESC2", "Inverness", "Partick Thistle", 11], [11400, "ESP1", "Levante", "Real Sociedad", 6], [11400, "ESP2", "Las Palmas", "Mirandés", 5], [11800, "*ZA-EST2", "Charleston", "Memphis", 11], [11400, "FRA1", "Lille", "Mónaco", 6], [11345, "R-INGO", "Sunderland", "Sheffield Wed", 5], [11145, "ITA1", "Inter", "Empoli", 1], [11400, "ITA1", "Genoa", "Juventus", 4], [11115, "ITA2", "Crotone", "Parma", 10], [11330, "ITA2", "Alessandria", "L.R. Vicenza", 7], [11330, "ITA2", "Ascoli", "Ternana", 5], [11330, "ITA2", "Benevento", "Spal", 5], [11330, "ITA2", "Brescia", "Reggina", 5], [11330, "ITA2", "Como", "Cremonese", 6], [11330, "ITA2", "Cosenza", "Cittadella", 10], [11330, "ITA2", "Frosinone", "Pisa", 10], [11330, "ITA2", "Lecce", "Pordenone", 1], [11330, "ITA2", "Perugia", "Monza", 5], [11300, "YE-HOL1", "Cambuur", "Waalwijk", 7], [11300, "YE-HOL2", "Almere", "Jong AZ", 10], [11300, "YE-HOL2", "Excelsior", "Breda", 10], [11300, "YE-HOL2", "FC Emmen", "Den Haag", 7], [11300, "YE-HOL2", "FC Volendam", "Eindhoven", 7], [11300, "YE-HOL2", "Helmond", "Den Bosch", 8], [11300, "YE-HOL2", "Jong Ajax", "Graafschap", 9], [11300, "YE-HOL2", "Jong PSV", "Dordrecht", 7], [11300, "YE-HOL2", "Jong Utrecht", "Venlo", 7], [11300, "YE-HOL2", "Oss", "Maastricht", 10], [11300, "YE-HOL2", "Roda", "Telstar", 7], [11700, "ZA-PAR1", "Nacional Asunción", "Resistencia", 7], [11915, "ZA-PAR1", "Ameliano", "12 de Octubre", 10], [11100, "YE-POL1", "Radomiak Radom", "Zaglebie", 7], [11330, "YE-POL1", "Legia", "Gornik Z.", 7], [11415, "YE-POR1", "Boavista", "V. Guimaraes", 9], [11000, "YE-REP1", "Sigma Olomouc", "Mlada Boleslav", 7], [10930, "YE-RUM1", "Gaz Metan", "Academica Clinceni", 8], [11230, "YE-RUM1", "Botosani", "Dinamo Bucarest", 7], [11000, "YE-RUS1", "Kr. Sovetov", "Dinamo Moscú", 8], [11230, "*YE-SUI2", "Lausanne Ouchy", "Xamax", 12], [11230, "*YE-SUI2", "Schaffhausen", "Kriens", 12], [11230, "*YE-SUI2", "Winterthur", "Thun", 12], [11315, "*YE-SUI2", "Vaduz", "Wil", 12], [11315, "*YE-SUI2", "Yverdon", "Aarau", 12], [11200, "YE-TUR1", "Gaziantep", "Kayserispor", 7], [11200, "YE-TUR1", "Hatayspor", "Trabzonspor", 8], [11715, "ZA-URU1", "Cerrito", "Montevideo City", 8], [11300, "*ZA-URU2", "Atenas", "Central Esp.", 11], [11930, "*ZA-URU2", "Cerro CA", "Sud América", 11], [11615, "*ZA-VEN1", "Monagas", "Aragua", 11], [11830, "*ZA-VEN1", "Carabobo", "Zulia", 11]
 ]
-
 
 
 
@@ -63,7 +95,7 @@ for (const partido of PARTIDOS_SIN_CUOTA) {
       //   PARTIDOS_CON_CUOTA_Y_GRUPO[indice] = partido;
       PARTIDOS_SIN_CUOTA[indice][5] =
         PARTIDOS_CON_CUOTA[indice_encontrado_2][4];
-        PARTIDOS_CON_CUOTA.splice(indice_encontrado_2, 1)
+      PARTIDOS_CON_CUOTA.splice(indice_encontrado_2, 1)
     }
   }
 
@@ -75,11 +107,11 @@ const { writeFile } = require('fs');
 
 writeFile('partidos.txt', 'let PARTIDOS = ' + JSON.stringify(PARTIDOS_SIN_CUOTA), 'utf8', () => {
   writeFile('partidos_con_cuota.txt', 'let PARTIDOS = ' + JSON.stringify(PARTIDOS_CON_CUOTA), 'utf8', () => {
-  console.log({
-    PARTIDOS_SIN_CUOTA_C: PARTIDOS_SIN_CUOTA.length,
-    PARTIDOS_CON_CUOTA_C: PARTIDOS_CON_CUOTA.length,
-    // PARTIDOS_SIN_CUOTA: JSON.stringify(PARTIDOS_SIN_CUOTA),
-  });
+    console.log({
+      PARTIDOS_SIN_CUOTA_C: PARTIDOS_SIN_CUOTA.length,
+      PARTIDOS_CON_CUOTA_C: PARTIDOS_CON_CUOTA.length,
+      // PARTIDOS_SIN_CUOTA: JSON.stringify(PARTIDOS_SIN_CUOTA),
+    });
   });
 });
 
