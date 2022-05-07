@@ -54,7 +54,7 @@ const renderizar = () => {
         <div class="row border-bottom${partido[6] ? ' bg-info text-white' : ''}">
 
             <!-- HORA E INDICE -->
-            <div class="col-3 col-lg-1">
+            <div class="col-3 col-lg-1 text-small">
                 ${index + 1}/${PARTIDOS.length}
                 <span role="button" class="badge badge-success" onClick="marcarTrue(${index})">${partido[0] - 10000}</span>
                 <br>
