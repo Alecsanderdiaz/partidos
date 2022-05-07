@@ -1,44 +1,42 @@
-let PARTIDOS_CON_CUOTA = [
-  [10630, 'Torquay United', 'Chesterfield', '0.5', 1.40],
-  [10700, 'FC Dnepr Mogilev', 'Torpedo Zhodino', '0.5', 1.38],
-  [10630, 'Jahn Regensburg', '1. FC Heidenheim', 'Jahn Regensburg', 1.80],
-  [10630, 'FC Ingolstadt 04', 'Hansa Rostock', 'FC Ingolstadt 04', 1.95],
-  [10700, 'TSV Havelse', 'VfL Osnabruck', 'VfL Osnabruck', 1.45],
-  [10700, 'SV Wehen Wiesbaden', 'SV Waldhof Mannheim', 'SV Waldhof Mannheim', 1.80],
-  [10700, '1.FC Saarbrücken', 'FSV Zwickau', 'FSV Zwickau', 2.15],
-  [10700, 'RCD Mallorca', 'Granada', 'Granada', 2.62],
-  [10630, 'Derby County', 'Cardiff City', 'Derby County', 1.85],
-  [10630, 'Huddersfield', 'Bristol City', 'Huddersfield', 1.75],
-  [10630, 'Stoke City', 'Coventry', 'Stoke City', 1.85],
-  [10630, 'Swansea', 'QPR', 'Swansea', 1.72],
-  [10630, 'Birmingham City', 'Blackburn Rovers', 'Birmingham City', 1.93],
-  [10630, 'Hull City', 'Nottingham Forest', 'Hull City', 2.50],
-  [10630, 'Peterborough United', 'Blackpool', 'Blackpool', 1.72],
-  [10500, 'CD Mafra', 'Leixoes SC', 'CD Mafra', 2.00],
-  [10500, 'FC Penafiel', 'FC Porto B', 'FC Penafiel', 2.00],
-  [10700, 'FC Uta Arad', 'CS Mioveni', 'CS Mioveni', 2.90],
-  [10200, 'Consadole Sapporo', 'Kyoto Sanga', 'Consadole Sapporo', 1.76],
-  [10300, 'Avispa Fukuoka', 'Shonan Bellmare', 'Avispa Fukuoka', 2.15],
-  [10630, 'Hamburger SV', 'Hannover 96', 'Hamburger SV', 1.35],
-  [10700, 'MSV Duisburg', 'SC Freiburg II', 'MSV Duisburg', 1.75],
-  [10700, '1. FC Magdeburg', 'TSV 1860 München', 'TSV 1860 München', 2.00],
-  [10700, 'SV Meppen', 'Eintracht Braunschweig', 'Eintracht Braunschweig', 1.50],
-  [10600, 'Celtic', 'Hearts', 'Celtic', 1.35],
-  [10630, 'Luton Town', 'Reading', 'Luton Town', 1.57],
-  [10630, 'Sheffield United', 'Fulham', 'Sheffield United', 1.80],
-  [10630, 'Bournemouth', 'Millwall', 'Bournemouth', 1.76],
-  [10630, 'West Bromwich', 'Barnsley', 'West Bromwich', 1.48],
-  [10630, 'Preston', 'Middlesbrough', 'Middlesbrough', 1.66],
-  [10600, 'FC Ural', 'Spartak Moscow', 'Spartak Moscow', 1.85],
-  [10100, 'Yokohama F Marinos', 'Nagoya Grampus', 'Yokohama F Marinos', 1.75],
-  [10000, 'Sanfrecce Hiroshima', 'Kashima Antlers', 'Kashima Antlers', 2.15],
-  [10000, 'Shimizu S-Pulse', 'Kawasaki Frontale', 'Kawasaki Frontale', 1.66]
-]
-
 let PARTIDOS_SIN_CUOTA = [
-  [10000,"ZS-JAP1","Hiroshima","Kashima",4],[10000,"ZS-JAP1","Shimizu","Kawasaki",6],[10100,"ZS-JAP1","Yokohama M.","Nagoya",5],[10200,"ZS-JAP1","Sapporo","Kyoto",7],[10300,"ZS-JAP1","Avispa Fukuoka","Shonan",7],[10500,"*YE-BIE1","Arsenal Dzyarzhynsk","Isloch",12],[10500,"YE-POR2","Mafra","Leixoes",7],[10500,"YE-POR2","Penafiel","Oporto B",7],[10600,"R-ESC1","Celtic","Hearts",1],[10600,"YE-RUS1","Ural","Spartak Moscú",6],[10630,"*R-INGN","Torquay","Chesterfield",11],[10630,"ALE2","Hamburgo","Hannover",3],[10630,"ALE2","Ingolstadt","Rostock",9],[10630,"ALE2","Regensburg","Heidenheim",7],[10630,"R-ING2","Birmingham","Blackburn",9],[10630,"R-ING2","Bournemouth","Millwall",5],[10630,"R-ING2","Derby","Cardiff",7],[10630,"R-ING2","Huddersfield","Bristol City",7],[10630,"R-ING2","Hull","Nottingham Forest",9],[10630,"R-ING2","Luton","Reading",3],[10630,"R-ING2","Peterborough","Blackpool",8],[10630,"R-ING2","Preston","Middlesbrough",2],[10630,"R-ING2","Sheffield Utd","Fulham",3],[10630,"R-ING2","Stoke","Coventry",7],[10630,"R-ING2","Swansea","QPR",7],[10630,"R-ING2","West Brom","Barnsley",5],[10700,"*YE-BIE1","Dnepr Mogilev","Zhodino",11],[10700,"ALE3","Duisburgo","Friburgo II",5],[10700,"ALE3","Havelse","Osnabruck",8],[10700,"ALE3","Magdeburgo","1860 Múnich",6],[10700,"ALE3","Meppen","Braunschweig",6],[10700,"ALE3","Saarbrücken","Zwickau",10],[10700,"ALE3","Wehen","Mannheim",8],[10700,"ESP1","Mallorca","Granada",10],[10700,"YE-RUM1","UTA Arad","Mioveni",10]
+  [10900,"R-ING1","Chelsea","Wolves",1],[10915,"ESP1","Athletic Club","Valencia",3],[10900,"R-INGT","Bristol Rovers","Scunthorpe",5],[10900,"R-INGT","Exeter","Port Vale",5],[10930,"YE-POR2","Casa Pia","Vilafranquense",5],[10900,"R-ESC1","Livingston","St. Johnstone",7],[10900,"R-ESC1","St. Mirren","Dundee FC",7],[10900,"R-ESC1","Ross County","Motherwell",7],[10900,"R-ING1","Brentford","Southampton",7],[10900,"R-ING1","Crystal Palace","Watford",7],[10900,"R-INGT","Mansfield","Forest Green",7],[10900,"R-INGT","Newport","Rochdale",7],[10900,"YE-REP1","Pardubice","Karvina",7],[10930,"YE-POR1","Estoril","Moreirense",7],[10930,"YE-POR2","Nacional","Academico Viseu",7],[10930,"YE-RUM1","Farul Constanta","FC Voluntari",7],[10900,"R-ING1","Burnley","Aston Villa",8],[10900,"R-INGT","Barrow","Northampton",8],[10900,"R-INGT","Harrogate","Sutton",8],[10900,"R-INGT","Oldham","Crawley",8],[10900,"R-INGT","Walsall","Swindon",8],[10900,"YE-REP1","Teplice","Jablonec",8],[10900,"R-ESC1","Hibernian","Aberdeen",9],[10900,"ESP2","Fuenlabrada","R. Sociedad B",10],[10900,"ESP2","Huesca","Sporting de Gijón",10],[10900,"R-INGT","Bradford City","Carlisle",10],[10900,"R-INGT","Hartlepool","Colchester",10],[10900,"R-INGT","Leyton Orient","Tranmere",10],[10900,"R-INGT","Stevenage","Salford",10],[10900,"YE-REP1","Zlin","Bohemians",10],[10900,"*R-ESC2","Dunfermline","Queens Park",11],[10900,"*R-INGN","Yeovil","Boreham Wood",11],[10900,"*YE-BIE1","Belshina","Slutsk",11]
 ]
 
+let PARTIDOS_CON_CUOTA = [
+  [10900, 'Fuenlabrada', 'Real Sociedad B', 'Real Sociedad B', 1.95],
+  [10900, 'SD Huesca', 'Sporting Gijon', 'Sporting Gijon', 2.30],
+  [10900, 'Ross County', 'Motherwell', 'Ross County', 2.00],
+  [10900, 'Livingston', 'St Johnstone', 'Livingston', 2.15],
+  [10900, 'St Mirren', 'Dundee', 'St Mirren', 1.95],
+  [10900, 'Hibernian', 'Aberdeen', 'Hibernian', 2.45],
+  [10900, 'Brentford', 'Southampton', 'Brentford', 1.85],
+  [10900, 'Crystal Palace', 'Watford', 'Crystal Palace', 1.75],
+  [10900, 'Burnley', 'Aston Villa', 'Aston Villa', 2.20],
+  [10900, 'Mansfield Town', 'Forest Green Rovers', 'Mansfield Town', 1.75],
+  [10900, 'Newport', 'Rochdale', 'Newport', 1.61],
+  [10900, 'Barrow FC', 'Northampton', 'Northampton', 1.61],
+  [10900, 'Harrogate Town', 'Sutton United', 'Sutton United', 1.61],
+  [10900, 'Oldham', 'Crawley Town', 'Crawley Town', 1.75],
+  [10900, 'Walsall', 'Swindon Town', 'Swindon Town', 1.61],
+  [10900, 'Bradford City', 'Carlisle', 'Carlisle', 2.15],
+  [10900, 'Hartlepool', 'Colchester', 'Colchester', 2.05],
+  [10900, 'Leyton Orient', 'Tranmere', 'Tranmere', 2.05],
+  [10900, 'Stevenage', 'Salford City', 'Salford City', 1.90],
+  [10930, 'Estoril', 'Moreirense', 'Estoril', 2.15],
+  [10930, 'Nacional Madeira', 'Academica Viseu', 'Nacional Madeira', 1.83],
+  [10900, 'FK Pardubice', 'MFK Karvina', 'FK Pardubice', 1.53],
+  [10900, 'FK Teplice', 'FK Baumit Jablonec', 'FK Baumit Jablonec', 2.10],
+  [10900, 'Fastav Zlin', 'Bohemians 1905', 'Bohemians 1905', 2.25],
+  [10930, 'Farul Constanta', 'CS Voluntari', 'Farul Constanta', 1.95],
+  [10900, 'Bristol Rovers', 'Scunthorpe United', 'Bristol Rovers', 1.20],
+  [10900, 'Exeter City', 'Port Vale', 'Exeter City', 1.95],
+  [10930, 'Casa Pia Atletico', 'Vilafranquense', 'Casa Pia Atletico', 1.57],
+  [10900, 'Dunfermline', 'Queens Park', '0.5', 1.44],
+  [10900, 'Yeovil Town', 'Boreham Wood', '0.5', 1.48],
+  [10900, 'Belshina Bobruisk', 'Slutsksakhar Slutsk', '0.5', 1.44],
+  [10900, 'Chelsea', 'Wolverhampton Wanderers', 'Chelsea', 1.57],
+  [10915, 'Athletic Bilbao', 'Valencia', 'Athletic Bilbao', 1.61]
+]
 
 
 
