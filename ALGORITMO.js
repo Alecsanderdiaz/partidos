@@ -1,42 +1,34 @@
-let PARTIDOS_SIN_CUOTA = [
-  [10900,"R-ING1","Chelsea","Wolves",1],[10915,"ESP1","Athletic Club","Valencia",3],[10900,"R-INGT","Bristol Rovers","Scunthorpe",5],[10900,"R-INGT","Exeter","Port Vale",5],[10930,"YE-POR2","Casa Pia","Vilafranquense",5],[10900,"R-ESC1","Livingston","St. Johnstone",7],[10900,"R-ESC1","St. Mirren","Dundee FC",7],[10900,"R-ESC1","Ross County","Motherwell",7],[10900,"R-ING1","Brentford","Southampton",7],[10900,"R-ING1","Crystal Palace","Watford",7],[10900,"R-INGT","Mansfield","Forest Green",7],[10900,"R-INGT","Newport","Rochdale",7],[10900,"YE-REP1","Pardubice","Karvina",7],[10930,"YE-POR1","Estoril","Moreirense",7],[10930,"YE-POR2","Nacional","Academico Viseu",7],[10930,"YE-RUM1","Farul Constanta","FC Voluntari",7],[10900,"R-ING1","Burnley","Aston Villa",8],[10900,"R-INGT","Barrow","Northampton",8],[10900,"R-INGT","Harrogate","Sutton",8],[10900,"R-INGT","Oldham","Crawley",8],[10900,"R-INGT","Walsall","Swindon",8],[10900,"YE-REP1","Teplice","Jablonec",8],[10900,"R-ESC1","Hibernian","Aberdeen",9],[10900,"ESP2","Fuenlabrada","R. Sociedad B",10],[10900,"ESP2","Huesca","Sporting de Gijón",10],[10900,"R-INGT","Bradford City","Carlisle",10],[10900,"R-INGT","Hartlepool","Colchester",10],[10900,"R-INGT","Leyton Orient","Tranmere",10],[10900,"R-INGT","Stevenage","Salford",10],[10900,"YE-REP1","Zlin","Bohemians",10],[10900,"*R-ESC2","Dunfermline","Queens Park",11],[10900,"*R-INGN","Yeovil","Boreham Wood",11],[10900,"*YE-BIE1","Belshina","Slutsk",11]
+let PARTIDOS_CON_CUOTA = [
+  [11900, 'Imbabura SC', 'Guayaquil SC', '0.5', 1.38],
+  [11715, 'Estudiantes de La Plata', 'Argentinos Juniors', 'Estudiantes de La Plata', 2.05],
+  [11930, 'River Plate', 'CA Tigre', 'River Plate', 1.60],
+  [11830, 'Bragantino SP', 'Atletico MG', 'Atletico MG', 2.10],
+  [11730, 'Flamengo RJ', 'Altos', 'Flamengo RJ', 1.20],
+  [11930, 'Corinthians SP', 'Portuguesa RJ', 'Corinthians SP', 1.35],
+  [11700, 'Ceara CE', 'Tombense MG', 'Ceara CE', 1.65],
+  [11700, 'Juazeirense BA', 'Palmeiras SP', 'Palmeiras SP', 1.42],
+  [11930, 'Vila Nova FC', 'Fluminense RJ', 'Fluminense RJ', 2.25],
+  [12000, 'Cuiaba MT', 'Atletico GO', 'Atletico GO', 2.60],
+  [11700, 'Atletico Bucaramanga', 'La Equidad', 'Atletico Bucaramanga', 1.66],
+  [11800, 'Jaguares De Córdoba', 'Millonarios', 'Millonarios', 2.15],
+  [11800, 'Once Caldas', 'Atlético Nacional', 'Atlético Nacional', 2.20],
+  [11900, 'Deportivo Pereira', 'Tolima', 'Tolima', 2.05],
+  [12010, 'Independiente Santa Fe', 'CD Junior', 'CD Junior', 2.15],
+  [12000, 'Barcelona SC', 'Club Sport Emelec', 'Barcelona SC', 2.05],
+  [11700, 'Club Nueve de Octubre', 'Guayaquil City FC', 'Guayaquil City FC', 2.20],
+  [11900, 'Minnesota United FC', 'Colorado Rapids', 'Minnesota United FC', 1.85],
+  [11800, 'New England Revolution', 'FC Cincinnati', 'FC Cincinnati', 2.55],
+  [11800, 'New York City', 'Rochester New York FC', 'Rochester New York FC', 4.75],
+  [11900, 'Nashville SC', 'Atlanta United', 'Atlanta United', 2.55],
+  [11900, 'Union Omaha SC', 'Northern Colorado Hailstorm FC', 'Northern Colorado Hailstorm FC', 2.40],
+  [11900, 'Atletico San Luis', 'Pachuca', 'Pachuca', 2.05],
+  [11700, 'Olimpia Asuncion', 'Sol de America', 'Olimpia Asuncion', 1.70],
+  [11915, 'Cerro Porteño', 'Guairena FC', 'Cerro Porteño', 1.85],
 ]
 
-let PARTIDOS_CON_CUOTA = [
-  [10900, 'Fuenlabrada', 'Real Sociedad B', 'Real Sociedad B', 1.95],
-  [10900, 'SD Huesca', 'Sporting Gijon', 'Sporting Gijon', 2.30],
-  [10900, 'Ross County', 'Motherwell', 'Ross County', 2.00],
-  [10900, 'Livingston', 'St Johnstone', 'Livingston', 2.15],
-  [10900, 'St Mirren', 'Dundee', 'St Mirren', 1.95],
-  [10900, 'Hibernian', 'Aberdeen', 'Hibernian', 2.45],
-  [10900, 'Brentford', 'Southampton', 'Brentford', 1.85],
-  [10900, 'Crystal Palace', 'Watford', 'Crystal Palace', 1.75],
-  [10900, 'Burnley', 'Aston Villa', 'Aston Villa', 2.20],
-  [10900, 'Mansfield Town', 'Forest Green Rovers', 'Mansfield Town', 1.75],
-  [10900, 'Newport', 'Rochdale', 'Newport', 1.61],
-  [10900, 'Barrow FC', 'Northampton', 'Northampton', 1.61],
-  [10900, 'Harrogate Town', 'Sutton United', 'Sutton United', 1.61],
-  [10900, 'Oldham', 'Crawley Town', 'Crawley Town', 1.75],
-  [10900, 'Walsall', 'Swindon Town', 'Swindon Town', 1.61],
-  [10900, 'Bradford City', 'Carlisle', 'Carlisle', 2.15],
-  [10900, 'Hartlepool', 'Colchester', 'Colchester', 2.05],
-  [10900, 'Leyton Orient', 'Tranmere', 'Tranmere', 2.05],
-  [10900, 'Stevenage', 'Salford City', 'Salford City', 1.90],
-  [10930, 'Estoril', 'Moreirense', 'Estoril', 2.15],
-  [10930, 'Nacional Madeira', 'Academica Viseu', 'Nacional Madeira', 1.83],
-  [10900, 'FK Pardubice', 'MFK Karvina', 'FK Pardubice', 1.53],
-  [10900, 'FK Teplice', 'FK Baumit Jablonec', 'FK Baumit Jablonec', 2.10],
-  [10900, 'Fastav Zlin', 'Bohemians 1905', 'Bohemians 1905', 2.25],
-  [10930, 'Farul Constanta', 'CS Voluntari', 'Farul Constanta', 1.95],
-  [10900, 'Bristol Rovers', 'Scunthorpe United', 'Bristol Rovers', 1.20],
-  [10900, 'Exeter City', 'Port Vale', 'Exeter City', 1.95],
-  [10930, 'Casa Pia Atletico', 'Vilafranquense', 'Casa Pia Atletico', 1.57],
-  [10900, 'Dunfermline', 'Queens Park', '0.5', 1.44],
-  [10900, 'Yeovil Town', 'Boreham Wood', '0.5', 1.48],
-  [10900, 'Belshina Bobruisk', 'Slutsksakhar Slutsk', '0.5', 1.44],
-  [10900, 'Chelsea', 'Wolverhampton Wanderers', 'Chelsea', 1.57],
-  [10915, 'Athletic Bilbao', 'Valencia', 'Athletic Bilbao', 1.61]
-]
+let PARTIDOS_SIN_CUOTA = [
+  [11715,"ZA-ARG1","Estudiantes L.P.","Argentinos Jrs.",5],[11930,"ZA-ARG1","River Plate","Tigre",5],[11330,"YE-BEL1","Club Brujas","Royale Union SG",5],[11700,"*ZA-BOL1","J. Wilstermann","Always Ready",12],[11900,"*ZA-BOL1","Nacional Potosí","The Strongest",12],[11900,"*ZA-BOL1","U. Sucre","Oriente Petrolero",12],[11830,"ZA-BRA1","Bragantino","Atlético-MG",6],[11700,"ZA-BRAC","Ceará","Tombense",7],[11700,"ZA-BRAC","Juazeirense","Palmeiras",6],[11730,"ZA-BRAC","Flamengo","AE Altos",5],[11930,"ZA-BRAC","Corinthians","Portuguesa RJ",5],[11930,"ZA-BRAC","Vila Nova","Fluminense",6],[12000,"ZA-BRAC","Cuiabá","Atlético-GO",10],[11400,"ZA-COLC","Tigres","Ind. Medellín",4],[11530,"ZA-COLC","U. Magdalena","América de Cali",4],[11700,"ZA-COLC","Atl. Bucaramanga","La Equidad",5],[11800,"ZA-COLC","Jaguares de Córdoba","Millonarios",6],[11800,"ZA-COLC","Once Caldas","Atl. Nacional",6],[11900,"ZA-COLC","Pereira","Tolima",6],[12010,"ZA-COLC","Ind. Santa Fe","Junior",6],[11700,"ZA-ECU1","Nueve de Octubre","Guayaquil City",10],[12000,"ZA-ECU1","Barcelona SC","Emelec",5],[11430,"*ZA-ECU2","Chacaritas","Libertad",11],[11530,"*ZA-ECU2","América de Quito","Manta",11],[11900,"*ZA-ECU2","Imbabura","Buhos ULVR",11],[11345,"R-ESC1","St. Johnstone","Aberdeen",8],[11345,"R-ESC1","St. Mirren","Livingston",10],[11330,"R-ESC1","Dundee Utd","Celtic",4],[11345,"R-ESC1","Motherwell","Hearts",8],[11345,"R-ESC1","Rangers","Ross County",5],[11200,"ESP1","Alavés","Espanyol",6],[11200,"ESP1","Osasuna","Getafe",10],[11330,"ESP1","Sevilla","Mallorca",1],[11430,"ESP1","Elche","Atlético de Madrid",2],[11730,"ZA-ESTC","Richmond Kickers","Charlotte",8],[11800,"ZA-ESTC","New England Revolution","Cincinnati",10],[11800,"ZA-ESTC","New York City","Rochester New York",10],[11900,"ZA-ESTC","Minnesota United","Colorado Rapids",7],[11900,"ZA-ESTC","Nashville SC","Atlanta Utd",10],[11900,"ZA-ESTC","Union Omaha","Northern Colorado",10],[11930,"ZA-ESTC","Houston Dynamo","San Antonio",10],[12100,"ZA-ESTC","Seattle Sounders","San Jose Earthquakes",5],[12130,"ZA-ESTC","California Utd.","Los Angeles Galaxy",8],[12130,"ZA-ESTC","Sacramento Republic","Phoenix Rising",8],[11200,"FRA1","Niza","Saint-Étienne",10],[11400,"FRA1","Nantes","Stade Rennais",6],[11030,"YE-GRE1","PAOK","Aris",7],[11130,"YE-GRE1","AEK","Giannina",5],[11300,"YE-GRE1","Olympiacos","Panathinaikos",7],[11330,"R-ING1","Leeds Utd","Chelsea",2],[11345,"R-ING1","Leicester","Norwich",1],[11345,"R-ING1","Watford","Everton",4],[11415,"R-ING1","Wolves","Manchester City",2],[11345,"*R-INGN","Stockport","Torquay",12],[11400,"ITAC","Juventus","Inter",9],[11900,"ZA-MEX1","Atlético de San Luis","Pachuca",6],[12105,"ZA-MEX1","Puebla","Club América",6],[12100,"ZA-MEX2","Cimarrones de Sonora","Atl. Morelia",7],[11300,"YE-HOL1","Ajax","Heerenveen",1],[11300,"YE-HOL1","Cambuur","Willem II",8],[11300,"YE-HOL1","G.A. Eagles","Feyenoord",4],[11300,"YE-HOL1","PSV","Nijmegen",5],[11300,"YE-HOL1","Sittard","Vitesse",9],[11300,"YE-HOL1","Sparta Rotterdam","Zwolle",7],[11300,"YE-HOL1","Twente","Groningen",7],[11300,"YE-HOL1","Utrecht","AZ Alkmaar",8],[11300,"YE-HOL1","Waalwijk","Heracles",10],[11700,"ZA-PAR1","Olimpia","Sol de América",5],[11915,"ZA-PAR1","Cerro Porteño","Guairena FC",5],[11915,"ZA-PAR1","Resistencia","Guaraní",9],[11200,"YE-REP1","Hradec Kralove","Plzen",6],[11200,"YE-REP1","Ostrava","Slavia Praga",6],[11200,"YE-REP1","Sparta Praga","Slovacko",7],[11130,"YE-RUSC","Spartak Moscú","Yenisey",5],[11330,"YE-SUI1","Servette","Lugano",10],[11330,"YE-SUI1","Sion","Lucerna",9],[11230,"YE-TURC","Sivasspor","Alanyaspor",10]
+  ]
 
 
 
