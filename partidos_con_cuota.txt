@@ -1,0 +1,1 @@
+let PARTIDOS = [[11400,"CD Tenerife","Malaga","Malaga",2.87],[11200,"FC Famalicao","Sporting Braga","Sporting Braga",1.85],[11000,"Viktoria Plzen","Banik Ostrava","Viktoria Plzen",1.4]]

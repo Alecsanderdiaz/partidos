@@ -20,7 +20,7 @@ const renderizar = () => {
     `;
     PARTIDOS.forEach((partido, index) => {
         contenidoHtml += `
-        <div class="row border-bottom">
+        <div class="row border-bottom${partido[6] ? ' bg-info text-white' : ''}">
             <div class="col-3">
                 ${ index + 1 }/${ PARTIDOS.length }
                 <br>
@@ -32,9 +32,9 @@ const renderizar = () => {
                 <strong>${ partido[4] || 0 }</strong>
             </div>
             <div class="col">
-                ${ partido[1] === partido[3] ? `<span class="badge badge-primary pointer" onclick="copyText(${ partido[4] })">${ partido[1] }</span>`: partido[1] }
+                ${ partido[1] === partido[3] ? `<span class="badge badge-primary pointer" onclick="copyText(${ partido[4] }, ${ index })">${ partido[1] }</span>`: partido[1] }
                 <br>
-                ${ partido[2] === partido[3] ? `<span class="badge badge-success pointer" onclick="copyText(${ partido[4] })">${ partido[2] }</span>`: partido[2] }
+                ${ partido[2] === partido[3] ? `<span class="badge badge-success pointer" onclick="copyText(${ partido[4] }, ${ index })">${ partido[2] }</span>`: partido[2] }
             </div>
             <div class="col d-none d-md-block">
                 <span class="badge badge-secondary pointer" onClick="escogerGrupo(1, ${index})">TRUE</span>
@@ -92,9 +92,10 @@ renderizar();
 
 
 
-function copyText(element) {
+function copyText(element, index) {
 
-    console.log({element})
+    console.log({element, index})
+    
 
     // return;
 
@@ -112,4 +113,6 @@ function copyText(element) {
 
     document.body.removeChild(myTemporaryInputElement);
 
+    PARTIDOS[ index ][6] = 1
+    renderizar()
 }

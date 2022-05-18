@@ -1,1 +1,18 @@
-let PARTIDOS = [[11900,"Independiente Juniors","CDA Santo Domingo","0.5",1.48],[11615,"Aragua FC","UCV FC","0.5",1.55],[11830,"Deportivo Lara","Zamora FC","0.5",1.5],[11330,"FC Zurich","Lausanne Sports","FC Zurich",1.4],[11510,"CA Barracas Central","Club Atletico Acassuso","CA Barracas Central",1.76],[11810,"Patronato Parana","Deportivo Moron","Patronato Parana",2.1],[11730,"Cruzeiro MG","Remo PA","Cruzeiro MG",1.61],[11730,"Sao Paulo SP","Juventude RS","Sao Paulo SP",1.8],[11930,"Botafogo RJ","Ceilandia Esporte Clube DF","Botafogo RJ",1.38],[11930,"Santos SP","Coritiba PR","Santos SP",1.9],[11700,"EC Vitoria","Fortaleza CE","Fortaleza CE",1.95],[12105,"Chivas Guadalajara","Atlas de Guadalajara","Chivas Guadalajara",2.9]]
+let PARTIDOS = [
+    [11230, 'Athletic Bilbao', 'Osasuna', 'Athletic Bilbao', 1.61],
+    [11230, 'Real Betis', 'Granada', 'Real Betis', 1.55],
+    [11230, 'Villarreal', 'Real Sociedad', 'Villarreal', 2.00],
+    [11230, 'Celta de Vigo', 'Elche', 'Celta de Vigo', 1.53],
+    [11230, 'CF Cadiz', 'Real Madrid', 'Real Madrid', 1.93],
+    [11230, 'Getafe', 'Barcelona', 'Barcelona', 1.95],
+    [11230, 'Atlético Madrid', 'Sevilla', 'Sevilla', 2.90],
+    [11400, 'CD Tenerife', 'Malaga', 'Malaga', 2.87],
+    [11100, 'AC Milán', 'Atalanta', 'AC Milán', 1.70],
+    [11345, 'Cagliari', 'Inter', 'Inter', 1.45],
+    [11030, 'Everton', 'Brentford', 'Everton', 1.83],
+    [11130, 'Anderlecht', 'St. Gilloise', 'Anderlecht', 1.95],
+    [11200, 'FC Famalicao', 'Sporting Braga', 'Sporting Braga', 1.85],
+    [11000, 'Viktoria Plzen', 'Banik Ostrava', 'Viktoria Plzen', 1.40],
+    [11100, 'Krasnodar', 'CSKA Moscow', 'CSKA Moscow', 1.70],
+    [11100, 'Fenerbahce', 'Karagumruk', 'Fenerbahce', 1.48]
+]
