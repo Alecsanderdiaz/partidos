@@ -1,17 +1,3 @@
 let PARTIDOS = [
-    [11700,"ZA-BRA2","Gremio","Criciúma",5],[11700,"ZA-BRA2","Vila Nova","Chapecoense",6],[11700,"ZA-LIBE","Atlético-MG (Bra)","Ind. del Valle (Ecu)",5],[11715,"ZA-SUDA","Independiente (Arg)","La Guaira (Ven)",3],[11715,"ZA-SUDA","Unión Santa Fe (Arg)","Fluminense (Bra)",6],[11715,"*ZA-VEN1","Portuguesa","Hermanos Colmenarez",11],[11900,"*ZA-BOL1","Guabirá","U. Sucre",12],[11900,"*ZA-ECU2","Ind. Juniors","Olmedo",11],[11900,"ZA-LIBE","River Plate (Arg)","Colo Colo (Chi)",5],[11930,"ZA-BRA2","Náutico","CSA",7],[11930,"ZA-BRA2","Guaraní","Vasco",6],[11930,"ZA-SUDA","Lanús (Arg)","Wanderers (Uru)",5],[11930,"ZA-SUDA","Sao Paulo (Bra)","J. Wilstermann (Bol)",3],[11930,"ZA-SUDA","Metropolitanos (Ven)","Barcelona SC (Ecu)",6],[12000,"ZA-MEX1","Club América","Pachuca",5],[12100,"ZA-LIBE","Deportivo Cali (Col)","Always Ready (Bol)",5],
-    [11330,"ALE1","Hertha BSC","Hamburgo",6,2.25,null,2.25],
-[11345,"R-ING1","Everton","Crystal Palace",5,1.95,null,4.38],
-[11400,"R-ING1","Aston Villa","Burnley",5,1.9,null,8.32],
-[11400,"R-ING1","Chelsea","Leicester",1,1.5,null,12.48],
-[11345,"R-INGT","Port Vale","Swindon",10,2.3,null,28.7],
-[11145,"YE-HOL1","Heerenveen","AZ Alkmaar",8,1.85,null,53.09],
-[11400,"YE-HOL1","Utrecht","Vitesse",10,2.3,null,122.1],
-[11000,"YE-REP1","Opava","Bohemians",8,1.95,null,238.09],
-[11000,"YE-REP1","Teplice","Vlasim",10,2.75,null,654.74],
-[11330,"YE-SUI1","Grasshoppers","St. Gallen",7,1.66,null,1086.86],
-[11330,"YE-SUI1","Lausanne","Sion",8,1.75,null,1902],
-[11330,"YE-SUI1","Lucerna","Young Boys",8,1.75,null,3328.5],
-[11330,"YE-SUI1","Lugano","Zúrich",10,1.76,null,5858.16],
-[11330,"YE-SUI1","Servette","Basilea",6,1.76,null,10310.36]
+    [11330,"ALE2","Dynamo Dresden","Kaiserslautern",7],[11335,"ZA-ARGC","Huracán","Deportivo Madryn",7],[11700,"ZA-BRA2","Sport Recife","CRB",7],[11930,"ZA-BRA2","Ponte Preta","Chapecoense",10],[12000,"*ZA-EST2","New Mexico","Phoenix Rising",12],[11330,"FRA2","Villefranche","Quevilly Rouen",7],[11345,"*R-INGN","Halifax","Chesterfield",11],[11300,"YE-HOL2","Excelsior","Den Haag",10],[11715,"ZA-LIBE","Nacional (Uru)","Bragantino (Bra)",6],[11715,"ZA-LIBE","Vélez Sarsfield (Arg)","Estudiantes L.P. (Arg)",7],[11930,"ZA-LIBE","Emelec (Ecu)","Independiente Petrolero (Bol)",3],[11930,"ZA-LIBE","Flamengo (Bra)","Sporting Cristal (Per)",5],[11930,"ZA-LIBE","Palmeiras (Bra)","Dep. Táchira (Ven)",5],[11930,"ZA-LIBE","U. Católica (Chi)","Talleres (Arg)",7],[11715,"ZA-SUDA","Santos (Bra)","Banfield (Arg)",5],[11715,"ZA-SUDA","U. La Calera (Chi)","U. Católica (Ecu)",7],[11930,"ZA-SUDA","Defensa y Justicia (Arg)","Antofagasta (Chi)",7],[11930,"ZA-SUDA","Ind. Medellín (Col)","Guairena FC (Par)",7],[11930,"ZA-SUDA","Internacional (Bra)","Nueve de Octubre (Ecu)",5],[11930,"ZA-SUDA","LDU Quito (Ecu)","Atlético-GO (Bra)",1],[11300,"*ZA-URU2","Juventud","Atenas",12],[11300,"*ZA-URU2","Villa Española","Cerro CA",12]
 ]
