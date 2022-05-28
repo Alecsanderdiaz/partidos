@@ -1,3 +1,23 @@
 let PARTIDOS = [
-    [11000,"*YE-BIE","FC Minsk","Arsenal Dzyarzhynsk",12],[11700,"ZA-BRA2","Vasco","Brusque",5],[11930,"ZA-BRA2","Ituano","Náutico",10],[11500,"ZA-COL2","Tigres","Fortaleza",8],[11800,"ZA-COL2","Boyacá Chicó","Real Cartagena",7],[12000,"*ZM-COLF","Santa Fe F","Deportivo Cali F",12],[11900,"*ZA-ECU2","América de Quito","Olmedo",11],[11200,"FRA1","Auxerre","Saint-Étienne",6],[11330,"ITA2","Monza","Pisa",7],[12100,"ZA-MEX1","Atlas","Pachuca",10],[11300,"YE-HOL1","Vitesse","AZ Alkmaar",8],[11700,"ZA-LIBE","Athletico-PR (Bra)","Caracas (Ven)",1],[11700,"ZA-LIBE","Libertad (Par)","The Strongest (Bol)",1],[11900,"ZA-LIBE","Boca Jrs. (Arg)","Deportivo Cali (Col)",1],[11900,"ZA-LIBE","Corinthians (Bra)","Always Ready (Bol)",1],[11715,"ZA-SUDA","Melgar (Per)","Cuiabá (Bra)",10],[11715,"ZA-SUDA","Racing Club (Arg)","River Plate (Uru)",1],[11930,"ZA-SUDA","Junior (Col)","Unión Santa Fe (Arg)",1],[11930,"ZA-SUDA","Oriente Petrolero (Bol)","Fluminense (Bra)",2],[11100,"YE-SUI1","Schaffhausen","Lucerna",8],[11245,"YE-TURC","Kayserispor","Sivasspor",8],[11615,"*ZA-VEN1","Hermanos Colmenarez","Zulia",11],[11830,"*ZA-VEN1","Lara","Carabobo",11]
+    [11300,"*ZA-URU2","Sud América","Villa Española",11,1.4,null,1.4],
+    [11300,"ZA-ECU1","Mushuc Runa","Dep. Cuenca",10,2.2,null,3.08],
+    [11300,"ZA-URU1","Cerro Largo","Liverpool M.",8,2,null,6.16],
+    [11310,"ZA-ARG2","Nueva Chicago","Chaco For Ever",9,2.65,null,16.32],
+    [11310,"ZA-ARG2","Instituto","Chacarita",10,3,null,48.96],
+    [11330,"ZA-ARG2","Flandria","Villa Dálmine",10,2.45,null,119.95],
+    [11330,"ZA-ARG2","Sacachispas","Guillermo Brown",10,2.55,null,305.87],
+    [11400,"U-CHAM","Liverpool","Real Madrid",2,2.1,null,642.32],
+    [11400,"ZA-CHI1","La Serena","Audax",8,2.05,null,1316.75],
+    [11430,"ZA-BRA1","Goiás","Bragantino",6,2.15,null,2831.01],
+    [11430,"ZA-BRA2","CSA","Novorizontino",7,2.05,null,5803.57],
+    [11500,"*ZA-EST2","Indy Eleven","New Mexico",11,1.48,null,8589.28],
+    [11530,"ZA-ECU1","Orense","Guayaquil City",7,1.72,null,14773.56],
+    [11530,"ZA-URU1","Boston River","Montevideo City",8,1.95,null,28808.44],
+    [11600,"ZA-ARG2","Tristán Suárez","Def. de Belgrano",8,2.45,null,70580.67],
+    [11615,"*ZA-VEN1","La Guaira","Zamora",11,1.48,null,104459.39],
+    [11630,"ZA-CHI1","Cobresal","U. De Chile",10,2.75,null,287263.32],
+    [11700,"ZA-BRA1","Sao Paulo","Ceará",5,1.85,null,531437.14],
+    [11700,"ZA-BRA2","Sampaio Correa","Guaraní",10,2.25,null,1195733.56],
+    [11700,"ZA-EST1","Los Angeles FC","San Jose Earthquakes",10,2.4,null,2869760.54],
+    [11710,"ZA-ARG2","Quilmes","Atlanta",5,2.15,null,6169985.16]
 ]

@@ -1,1 +1,3 @@
-let PARTIDOS = [[10230,"FC Seoul","Seongnam Ilhwa","FC Seoul",1.9],[10400,"Pohang Steelers","Incheon United","Pohang Steelers",2.05],[12300,"Sanfrecce Hiroshima","Kyoto Sanga","Sanfrecce Hiroshima",1.65],[10000,"Cerezo Osaka","Gamba Osaka","Cerezo Osaka",1.7],[10100,"FC Tokyo","Kashiwa Reysol","FC Tokyo",2.05],[10000,"Shimizu S-Pulse","Nagoya Grampus","Nagoya Grampus",2.15],[10300,"Urawa Red Diamonds","Kashima Antlers","Kashima Antlers",2.05]]
+let PARTIDOS = [
+
+]

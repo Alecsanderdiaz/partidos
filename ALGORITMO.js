@@ -1,19 +1,29 @@
 let PARTIDOS_CON_CUOTA = [
-  [10230, 'FC Seoul', 'Seongnam Ilhwa', 'FC Seoul', 1.90],
-  [10400, 'Pohang Steelers', 'Incheon United', 'Pohang Steelers', 2.05],
-  [10500, 'Gimcheon Sangmu', 'Ulsan Hyundai Horang-I', 'Ulsan Hyundai Horang-I', 1.80],
-  [12300, 'Sanfrecce Hiroshima', 'Kyoto Sanga', 'Sanfrecce Hiroshima', 1.65],
-  [10000, 'Cerezo Osaka', 'Gamba Osaka', 'Cerezo Osaka', 1.70],
-  [10100, 'FC Tokyo', 'Kashiwa Reysol', 'FC Tokyo', 2.05],
-  [10000, 'Shimizu S-Pulse', 'Nagoya Grampus', 'Nagoya Grampus', 2.15],
-  [10100, 'Shonan Bellmare', 'Vissel Kobe', 'Vissel Kobe', 2.15],
-  [10300, 'Sagan Tosu', 'Kawasaki Frontale', 'Kawasaki Frontale', 1.95],
-  [10300, 'Urawa Red Diamonds', 'Kashima Antlers', 'Kashima Antlers', 2.05],
-  [10500, 'Avispa Fukuoka', 'Yokohama F Marinos', 'Yokohama F Marinos', 1.85]
+  [11500, 'Indy Eleven', 'New Mexico United', '0.5', 1.48],
+  [11300, 'Institucion Atletica Sud America', 'Villa Espanola', '0.5', 1.40],
+  [11615, 'Deportivo La Guaira', 'Zamora FC', '0.5', 1.48],
+  [11400, 'Liverpool', 'Real Madrid', 'Real Madrid', 2.10],
+  [11310, 'Nueva Chicago', 'Chaco For Ever', 'Nueva Chicago', 2.65],
+  [11710, 'Quilmes AC', 'Club Atletico Atlanta', 'Quilmes AC', 2.15],
+  [11310, 'Instituto AC Cordoba', 'Chacarita Juniors', 'Chacarita Juniors', 3.00],
+  [11330, 'CSD Flandria', 'Villa Dalmine', 'Villa Dalmine', 2.45],
+  [11330, 'Sacachispas FC', 'Guillermo Brown', 'Guillermo Brown', 2.55],
+  [11600, 'Tristan Suarez', 'Defensores de Belgrano', 'Defensores de Belgrano', 2.45],
+  [11700, 'Sao Paulo SP', 'Ceara CE', 'Sao Paulo SP', 1.85],
+  [11430, 'Goias GO', 'Bragantino SP', 'Bragantino SP', 2.15],
+  [11430, 'Csa AL', 'Novorizontino SP', 'Csa AL', 2.05],
+  [11700, 'Sampaio Correa MA', 'Guarani SP', 'Guarani SP', 2.25],
+  [11400, 'Deportes La Serena', 'Audax Italiano', 'Audax Italiano', 2.05],
+  [11630, 'Cobresal', 'Universidad de Chile', 'Universidad de Chile', 2.75],
+  [11530, 'Orense SC', 'Guayaquil City FC', 'Orense SC', 1.72],
+  [11300, 'Mushuc Runa', 'Deportivo Cuenca', 'Deportivo Cuenca', 2.20],
+  [11708, 'Los Angeles FC', 'San Jose Earthquakes', 'San Jose Earthquakes', 2.40],
+  [11300, 'Cerro Largo FC', 'Liverpool Montevideo', 'Liverpool Montevideo', 2.00],
+  [11530, 'CA Boston River', 'Torque', 'Torque', 1.95]
 ]
 
 let PARTIDOS_SIN_CUOTA = [
-  [10000,"S-JAP1","Hiroshima","Kyoto",7],[10000,"S-JAP1","C-Osaka","G-Osaka",7],[10000,"S-JAP1","Shimizu","Nagoya",8],[10100,"S-JAP1","Shonan","Vissel Kobe",8],[10100,"S-JAP1","Tokyo","Kashiwa",7],[10230,"S-COR1","Seoul","Seongnam",7],[10300,"S-JAP1","Sagan Tosu","Kawasaki",8],[10300,"S-JAP1","Urawa","Kashima",2],[10400,"S-COR1","Pohang","Incheon",7],[10500,"S-COR1","Gimcheon Sangmu","Ulsan Hyundai",8],[10500,"S-JAP1","Avispa Fukuoka","Yokohama M.",8]
+  [11500,"*ZA-EST2","Indy Eleven","New Mexico",11],[11300,"*ZA-URU2","Sud América","Villa Española",11],[11615,"*ZA-VEN1","La Guaira","Zamora",11],[11400,"U-CHAM","Liverpool","Real Madrid",2],[11310,"ZA-ARG2","Instituto","Chacarita",10],[11310,"ZA-ARG2","Nueva Chicago","Chaco For Ever",9],[11330,"ZA-ARG2","Flandria","Villa Dálmine",10],[11330,"ZA-ARG2","Sacachispas","Guillermo Brown",10],[11600,"ZA-ARG2","Tristán Suárez","Def. de Belgrano",8],[11710,"ZA-ARG2","Quilmes","Atlanta",5],[11430,"ZA-BRA1","Goiás","Bragantino",6],[11700,"ZA-BRA1","Sao Paulo","Ceará",5],[11430,"ZA-BRA2","CSA","Novorizontino",7],[11700,"ZA-BRA2","Sampaio Correa","Guaraní",10],[11400,"ZA-CHI1","La Serena","Audax",8],[11630,"ZA-CHI1","Cobresal","U. De Chile",10],[11300,"ZA-ECU1","Mushuc Runa","Dep. Cuenca",10],[11530,"ZA-ECU1","Orense","Guayaquil City",7],[11700,"ZA-EST1","Los Angeles FC","San Jose Earthquakes",10],[11300,"ZA-URU1","Cerro Largo","Liverpool M.",8],[11530,"ZA-URU1","Boston River","Montevideo City",8]
 ]
 
 
