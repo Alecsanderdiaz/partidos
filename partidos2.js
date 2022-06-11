@@ -1,3 +1,22 @@
 let PARTIDOS = [
-
+    [11400, 'Girona', 'CD Tenerife', 'Girona', 2.10],
+    [11345, 'Países Bajos', 'Polonia', 'Países Bajos', 1.48],
+    [11345, 'Rumania', 'Finlandia', 'Rumania', 2.35],
+    [11345, 'Gales', 'Bélgica', 'Bélgica', 1.80],
+    [11345, 'Hungria', 'Alemania', 'Alemania', 1.53],
+    [11345, 'Inglaterra', 'Italia', 'Italia', 2.87],
+    [11345, 'Montenegro', 'Bosnia & Herzegovina', 'Bosnia & Herzegovina', 2.15],
+    [11345, 'Luxemburgo', 'Turquia', 'Turquia', 1.60],
+    [11415, 'Portugal Sub 21', 'Greece U21', '1.5', 2.30],
+    [11415, 'Islandia Sub 21', 'Chipre Sub 21', '1.5', 2.55],
+    [11330, 'Arsenal de Sarandi', 'Banfield', 'Arsenal de Sarandi', 2.50],
+    [11330, 'CA Tigre', 'CA Barracas Central', 'CA Tigre', 1.70],
+    [11300, 'Instituto AC Cordoba', 'Atletico Rafaela', 'Instituto AC Cordoba', 1.85],
+    [11330, 'Quilmes AC', 'Chaco For Ever', 'Quilmes AC', 2.35],
+    [11310, 'Tristan Suarez', 'Chacarita Juniors', 'Chacarita Juniors', 2.20],
+    [11330, 'CSD Flandria', 'Gimnasia Jujuy', 'Gimnasia Jujuy', 2.35],
+    [11430, 'Corinthians SP', 'Juventude RS', 'Corinthians SP', 1.90],
+    [11430, 'CRB Maceio AL', 'Vila Nova FC', 'CRB Maceio AL', 2.30],
+    [11430, 'Ponte Preta SP', 'Londrina PR', 'Ponte Preta SP', 2.15],
+    [11400, 'Charlotte FC', 'New York Red Bulls', 'New York Red Bulls', 1.95],
 ]
