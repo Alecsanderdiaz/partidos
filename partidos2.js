@@ -1,1 +1,14 @@
-let PARTIDOS = [[11330,"Borussia Monchengladbach","Hertha Berlin","Borussia Monchengladbach",1.5],[11300,"CF Villarreal B","SD Eibar","CF Villarreal B",2.2],[11345,"AS Eupen","RFC Seraing United","AS Eupen",1.61],[11330,"Volos NPS","Asteras Tripolis","Volos NPS",2.2],[11300,"NAC Breda","FC Oss","NAC Breda",1.57],[11300,"FC Den Bosch","Roda JC","FC Den Bosch",2.2],[11300,"MVV Maastricht","ADO Den Haag","MVV Maastricht",1.93],[11300,"Willem II Tilburg","SC Telstar","Willem II Tilburg",1.38],[11300,"FC Dordrecht","Utrecht (R)","Utrecht (R)",1.83],[11300,"Helmond Sport","FC Eindhoven","FC Eindhoven",1.7],[11330,"Legia Warsaw","Gornik Zabrze","Legia Warsaw",1.6],[11300,"FC U Craiova 1948","Petrolul Ploiesti","FC U Craiova 1948",2.05],[11330,"Estudiantes de Buenos Aires","Santamarina Tandil","Estudiantes de Buenos Aires",2.05],[11100,"Jagiellonia Bialystok","Miedz Legnica","Jagiellonia Bialystok",1.66],[11100,"Krylia Sovetov Samara","Fakel Voronezh","Krylia Sovetov Samara",1.65],[11200,"CD Tondela","Sporting Covilha","CD Tondela",1.76],[11130,"Hamburger SV","SV Darmstadt 98","Hamburger SV",1.65],[11130,"1. FC Magdeburg","Hannover 96","Hannover 96",1.7],[11200,"TSV 1860 München","Hallescher FC","TSV 1860 München",1.55],[11000,"CS Mioveni","FC Arges Pitesti","FC Arges Pitesti",2,3]]
+let PARTIDOS = [
+    [11030, 'Magallanes', 'Cobreloa', 'Cobreloa'],
+    [11100, 'Estonia', 'Malta', 'Estonia'],
+    [11100, 'Georgia', 'Macedonia del Norte', 'Georgia'],
+    [10600, 'Corea del Sur', 'Costa Rica', 'Corea del Sur'],
+    [10725, 'Japón', 'EE.UU.', 'Japón'],
+    [11100, 'Irán', 'Uruguay', 'Uruguay'],
+    [11100, 'Paraguay', 'Emiratos Árabes Unidos', 'Paraguay'],
+    [11130, 'Bahrain', 'Cabo Verde', ''],
+    [11200, 'Qatar', 'Canadá', 'Canadá'],
+    [11100, 'Croacia Sub-21', 'Dinamarca Sub-21', 'Croacia Sub-21'],
+    [11100, 'Eslovaquia Sub-21', 'Ucrania Sub-21', 'Eslovaquia Sub-21'],
+    [11300, 'Republic of Irlanda Sub-21', 'Israel sub-21', 'Republic of Irlanda Sub-21'],
+]
