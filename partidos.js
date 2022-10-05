@@ -1,4 +1,23 @@
 let PARTIDOS = [
-  // [11300,"*ZA-BRA20C","ABC Sub-20","Fluminense Piaui Sub-20",12],[11300,"*ZA-BRA20C","Náutico Sub-20","Ceara Sub-20",12],[11330,"*ZA-BRA20C","Iape Sub-20","Sao Raimundo RR Sub-20",12],[11345,"R-ESC1","Kilmarnock","St. Johnstone",10,2.4,null,null],[11345,"R-ING2","Burnley","Stoke",10,2.75,null,null],[11345,"R-ING2","Hull","Wigan",10,2.3,null,null],[11345,"R-ING2","Middlesbrough","Birmingham",7,1.76,null,null],[11345,"R-ING2","Rotherham","Millwall",7,2.25,null,null],[11345,"R-ING2","Watford","Swansea",7,1.8,null,null],[11345,"*R-INGF","Bury AFC","Clitheroe",12],[11400,"U-CHAMP","Benfica","PSG",2,1.61,null,null],[11400,"U-CHAMP","Chelsea","AC Milan",2,2.65,null,null],[11400,"U-CHAMP","Juventus","M. Haifa",1,1.5,null,null],[11400,"U-CHAMP","Manchester City","Copenhague",1,1.16,null,null],[11400,"U-CHAMP","Real Madrid","Shakhtar",1,1.33,null,null],[11400,"U-CHAMP","Sevilla","Borussia Dortmund",2,1.9,null,null],[11400,"R-ING2","Preston","West Brom",10,2.1,null,null],[11430,"ZA-ARG1","Colón","Patronato",7],[11500,"*ZA-ECU2","Ind. Juniors","Libertad",11],[11500,"*ZA-ECU2","Santo Domingo","Imbabura",11],[11500,"*ZA-PER1","ADT Tarma","Melgar",10],[11530,"ZA-PAR1","General Caballero JLM","Guairena FC",9,2.37,null,null],[11530,"*ZA-PER1","Ayacucho","Sporting Cristal",12],[11600,"*ZA-VEN1","Metropolitanos","Carabobo",11],[11700,"ZA-ARG1","Atl. Tucumán","Platense"],[11700,"ZA-ARG1","Defensa y Justicia","Racing Club"],[11700,"*ZA-BOL1","Tomayapo","Always Ready"],[11700,"ZA-BRA1","Atlético-GO","Fluminense"],[11700,"ZA-BRA1","Bragantino","Cuiabá"],[11700,"ZA-BRA1","Ceará","Goiás"],[11700,"ZA-MEX2","Alacranes","Atl. Morelia"],[11730,"ZA-BRA1","Athletico-PR","Fortaleza"],[11800,"ZA-PAR1","Cerro Porteño","Ameliano"],[11800,"ZA-PAR1","Olimpia","Tacuary"],[11815,"*ZA-VEN1","Zamora","Monagas"],[11830,"*ZA-BOL1","Aurora","The Strongest"],[11830,"*ZA-EST2","Louisville City","Detroit"],[11900,"*ZA-ECUC","Mushuc Runa","Nueve de Octubre"],[11900,"ZA-EST1","Inter Miami","Orlando City"],[11900,"*ZA-EST2","Memphis","Rio Grande"],[11905,"ZA-MEX2","Alebrijes Oaxaca","Raya2"],[11930,"ZA-ARG1","Independiente","Central Córdoba"],[11930,"ZA-ARG1","River Plate","Estudiantes L.P."],[11930,"*ZA-BOL1","Oriente Petrolero","Santa Cruz"],[11930,"ZA-BRA1","Flamengo","Internacional"],[11930,"ZA-BRA1","Santos","Atlético-MG"],[11930,"ZA-BRA2","Cruzeiro","Ituano"],[11930,"ZA-COL1","Ind. Santa Fe","Millonarios"],[12000,"*ZA-EST2","El Paso","Colorado Springs"],[12000,"*ZA-EST2","New Mexico","LA Galaxy 2"],[12000,"*ZA-PER1","Universitario","Carlos Mannucci"],[12105,"ZA-MEX2","Correcaminos U.A.T.","Atletico La Paz"]
-  [11400,"U-CHAMP","Manchester City","Copenhague",1,1.16,null,1.16],[11400,"U-CHAMP","Real Madrid","Shakhtar",1,1.33,null,1.54],[11500,"*ZA-ECU2","Santo Domingo","Imbabura",11,1.45,null,2.23],[11500,"*ZA-ECU2","Ind. Juniors","Libertad",11,1.48,null,3.3],[11400,"U-CHAMP","Juventus","M. Haifa",1,1.5,null,4.94],[11600,"*ZA-VEN1","Metropolitanos","Carabobo",11,1.53,null,7.55],[11400,"U-CHAMP","Benfica","PSG",2,1.61,null,12.15],[11345,"R-ING2","Middlesbrough","Birmingham",7,1.76,null,21.38],[11345,"R-ING2","Watford","Swansea",7,1.8,null,38.48],[11400,"U-CHAMP","Sevilla","Borussia Dortmund",2,1.9,null,73.11],[11500,"*ZA-PER1","ADT Tarma","Melgar",10,1.9,null,138.9],[11430,"ZA-ARG1","Colón","Patronato",7,2,null,277.8],[11400,"R-ING2","Preston","West Brom",10,2.1,null,583.38],[11345,"R-ING2","Rotherham","Millwall",7,2.25,null,1312.6],[11345,"R-ING2","Hull","Wigan",10,2.3,null,3018.97],[11530,"ZA-PAR1","General Caballero JLM","Guairena FC",9,2.37,null,7154.95],[11345,"R-ESC1","Kilmarnock","St. Johnstone",10,2.4,null,17171.87],[11400,"U-CHAMP","Chelsea","AC Milan",2,2.65,null,45505.45],[11345,"R-ING2","Burnley","Stoke",10,2.75,null,125139.98]
+  [11700,"ZA-ARG1","Atl. Tucumán","Platense",5,2.25,null,2.25],
+[11700,"ZA-ARG1","Defensa y Justicia","Racing Club",8,2.1,null,4.72],
+[11700,"ZA-BRA1","Bragantino","Cuiabá",7,2.05,null,9.67],
+[11700,"ZA-BRA1","Ceará","Goiás",7,1.8,null,17.4],
+[11700,"ZA-BRA1","Atlético-GO","Fluminense",8,2.05,null,35.66],
+[11700,"ZA-MEX2","Alacranes","Atl. Morelia",8,2.1,null,74.88],
+[11730,"ZA-BRA1","Athletico-PR","Fortaleza",7,2,null,149.76],
+[11800,"ZA-PAR1","Cerro Porteño","Ameliano",1,1.7,null,254.59],
+[11800,"ZA-PAR1","Olimpia","Tacuary",1,1.55,null,394.61],
+[11605,"*ZA-VEN1","metropolitanos","carabobo",11,1.85,null,603.75],
+[11815,"*ZA-VEN1","Zamora","Monagas",11,1.53,null,603.75],
+[11830,"*ZA-BOL1","Aurora","The Strongest",11,1.45,null,875.43],
+[11900,"ZA-EST1","Inter Miami","Orlando City",7,2.1,null,1838.4],
+[11905,"ZA-MEX2","Alebrijes Oaxaca","Raya2",7,1.75,null,3217.2],
+[11930,"ZA-ARG1","Independiente","Central Córdoba",7,2.05,null,6595.25],
+[11930,"ZA-ARG1","River Plate","Estudiantes L.P.",5,1.65,null,10882.16],
+[11930,"ZA-BRA1","Flamengo","Internacional",7,1.55,null,16867.34],
+[11930,"ZA-BRA1","Santos","Atlético-MG",8,2.2,null,37108.14],
+[11930,"ZA-BRA2","Cruzeiro","Ituano",7,1.7,null,63083.83],
+[11930,"ZA-COL1","Ind. Santa Fe","Millonarios",5,2.45,null,154555.38],
+[12105,"ZA-MEX2","Correcaminos U.A.T.","Atletico La Paz",7,1.85,null,285927.45]
 ]
