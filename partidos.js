@@ -1,3 +1,26 @@
 let PARTIDOS = [
-  [11300,"*FRAC","Lescar","EBBE",11,1,null,1],[11300,"*FRAC","Stade Bordelais","Girondins",11,1.4,null,1.4],[11300,"*ZA-PER1","César Vallejo","Dep. Municipal",11,1,null,1.4],[11300,"YE-POLE","Plock","Slask",7,1.72,null,2.4],[11315,"*ZA-URU1","Villa Española","Bella Vista",11,1.45,null,3.48],[11330,"*PAISES","Argelia","Mali",11,1,null,3.48],[11330,"ALE2","St. Pauli","Darmstadt",10,1.9,null,6.61],[11330,"YE-RUM1","Sepsi Sf. Gheorghe","Univ. Craiova",10,2.4,null,15.86],[11330,"YE-SUI1","Servette","Lugano",10,2.05,null,32.51],[11345,"ITA1","Inter","Sampdoria",1,1.4,null,45.51],[11345,"R-ING1","Liverpool","Leeds Utd",1,1.33,null,60.52],[11345,"YE-BEL1","Club Brujas","Oostende",3,1.3,null,78.67],[11400,"*ZA-BOL1","Blooming","The Strongest",11,1,null,78.67],[11400,"ESC2","Burgos CF","UD Ibiza",7,2.15,null,169.14],[11400,"ESP1","Valencia","Barcelona",4,1.55,null,262.16],[11400,"FRA1","Estrasburgo","Marsella",4,1.95,null,511.21],[11400,"YE-HOL1","G.A. Eagles","Excelsior",7,1.53,null,782.15],[11400,"ZA-COL2","Real Santander","Atl. Huila",6,1,null,782.15],[11430,"YE-POR1","Arouca","Sporting CP",4,1.57,null,1227.97],[11500,"ZA-LIBE","Flamengo (Bra)","Athletico-PR (Bra)",1,1.72,null,2112.1],[11530,"*ZA-PER1","AD Cantolao","Ayacucho",11,1,null,2112.1],[11530,"*ZA-PER1","Sport Huancayo","Sport Boys",11,1,null,2112.1],[11600,"ZA-COL1","Envigado","Tolima",8,2,null,4224.2],[11700,"ZA-BRA2","Chapecoense","Náutico",5,1.44,null,6082.84],[11700,"ZA-MEX2","Celaya","Alacranes",5,1.76,null,10705.79],[11730,"ZA-BRA1","Goiás","Corinthians",4,2.2,null,23552.73],[11800,"ZA-CHI1","Cobresal","Palestino",10,2.25,null,52993.64],[11805,"ZA-COL1","Deportivo Cali","Patriotas",1,1.85,null,98038.23],[11830,"*ZA-EST2","Louisville City","Pittsburgh",11,1,null,98038.23],[12000,"*ZA-EST2","Colorado Springs","Sacramento Republic",11,1,null,98038.23],[12010,"ZA-ARG2","CA Estudiantes","Gimnasia Mendoza",10,3,null,294114.69],[12015,"ZA-MEX2","Atlante","Mineros",5,1.76,null,517641.85],[12030,"*ZA-EST2","Memphis","Tampa Bay",11,1,null,517641.85],[12110,"ZA-COL2","Tigres","Quindío",9,2.4,null,1242340.44],[12305,"S-JAP1","Kumamoto","Oita",10,2.3,null,2857383.01]
+  [10600, "*YE-UCR1", "Kolos Kovalivka", "Veres-Rivne", 7, 1.48, null, 1.48],
+  [11100, "YE-GRE1", "Giannina", "Asteras T.", 7, 2.3, null, 3.4],
+  [11100, "YE-RUM1", "Mioveni", "FC Hermannstadt", 10, 2.75, null, 9.35],
+  [11200, "YE-TUR1", "Başakşehir", "Giresunspor", 5, 1.61, null, 15.05],
+  [11200, "YE-TUR1", "Sivasspor", "Antalyaspor", 7, 1.9, null, 28.59],
+  [11200, "*YE-TUR2", "Genclerbirligi", "Manisa FK", 8, 1, null, 28.59],
+  [11230, "ITA1", "Verona", "Roma", 2, 1.8, null, 51.46],
+  [11300, "ALE3", "Osnabruck", "Hallescher", 10, 2.62, null, 134.82],
+  [11300, "*ZA-BRAC20", "Flamengo Sub-20", "Ceara Sub-20", 7, 1, null, 134.82],
+  [11300, "YE-POLE", "Radomiak Radom", "Warta", 7, 2.05, null, 276.38],
+  [11300, "YE-POR2", "Estrela", "Vilafranquense", 9, 2.25, null, 621.85],
+  [11330, "*CLUBES", "Fortuna Köln II (Ger)", "Konigsdorf (Ger)", 7, 1, null, 621.85],
+  [11400, "YE-HOL2", "Jong Ajax", "Willem II", 9, 1.76, null, 1094.45],
+  [11400, "YE-RUM1", "U. Cluj", "FCSB", 8, 2, null, 2188.9],
+  [11445, "ITA1", "Monza", "Bolonia", 7, 1.85, null, 4049.46],
+  [11500, "ESP1", "Elche", "Getafe", 7, 2.4, null, 9718.7],
+  [11500, "ESP2", "Levante", "Sporting de Gijón", 7, 1.9, null, 18465.53],
+  [11500, "R-INGO", "Plymouth", "Exeter", 5, 1.75, null, 32314.67],
+  [11515, "YE-POR1", "V. Guimaraes", "Famalicao", 7, 2.05, null, 66245.07],
+  [11530, "ZA-CHI1", "Curicó Unido", "Ñublense", 10, 2.15, null, 142426.9],
+  [11530, "ZA-PAR1", "Tacuary", "Nacional Asunción", 6, 1.85, null, 263489.76],
+  [11800, "ZA-BRA1", "Ceará", "Fluminense", 4, 2.15, null, 566502.98],
+  [11800, "ZA-CHI1", "U. Católica", "Audax", 7, 1.76, null, 997045.24],
+  [11800, "ZA-PAR1", "Libertad", "Cerro Porteño", 6, 2.3, null, 2293204.05]
 ]
