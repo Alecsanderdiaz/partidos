@@ -1,26 +1,3 @@
 let PARTIDOS = [
-  [10600, "*YE-UCR1", "Kolos Kovalivka", "Veres-Rivne", 7, 1.48, null, 1.48],
-  [11100, "YE-GRE1", "Giannina", "Asteras T.", 7, 2.3, null, 3.4],
-  [11100, "YE-RUM1", "Mioveni", "FC Hermannstadt", 10, 2.75, null, 9.35],
-  [11200, "YE-TUR1", "Başakşehir", "Giresunspor", 5, 1.61, null, 15.05],
-  [11200, "YE-TUR1", "Sivasspor", "Antalyaspor", 7, 1.9, null, 28.59],
-  [11200, "*YE-TUR2", "Genclerbirligi", "Manisa FK", 8, 1, null, 28.59],
-  [11230, "ITA1", "Verona", "Roma", 2, 1.8, null, 51.46],
-  [11300, "ALE3", "Osnabruck", "Hallescher", 10, 2.62, null, 134.82],
-  [11300, "*ZA-BRAC20", "Flamengo Sub-20", "Ceara Sub-20", 7, 1, null, 134.82],
-  [11300, "YE-POLE", "Radomiak Radom", "Warta", 7, 2.05, null, 276.38],
-  [11300, "YE-POR2", "Estrela", "Vilafranquense", 9, 2.25, null, 621.85],
-  [11330, "*CLUBES", "Fortuna Köln II (Ger)", "Konigsdorf (Ger)", 7, 1, null, 621.85],
-  [11400, "YE-HOL2", "Jong Ajax", "Willem II", 9, 1.76, null, 1094.45],
-  [11400, "YE-RUM1", "U. Cluj", "FCSB", 8, 2, null, 2188.9],
-  [11445, "ITA1", "Monza", "Bolonia", 7, 1.85, null, 4049.46],
-  [11500, "ESP1", "Elche", "Getafe", 7, 2.4, null, 9718.7],
-  [11500, "ESP2", "Levante", "Sporting de Gijón", 7, 1.9, null, 18465.53],
-  [11500, "R-INGO", "Plymouth", "Exeter", 5, 1.75, null, 32314.67],
-  [11515, "YE-POR1", "V. Guimaraes", "Famalicao", 7, 2.05, null, 66245.07],
-  [11530, "ZA-CHI1", "Curicó Unido", "Ñublense", 10, 2.15, null, 142426.9],
-  [11530, "ZA-PAR1", "Tacuary", "Nacional Asunción", 6, 1.85, null, 263489.76],
-  [11800, "ZA-BRA1", "Ceará", "Fluminense", 4, 2.15, null, 566502.98],
-  [11800, "ZA-CHI1", "U. Católica", "Audax", 7, 1.76, null, 997045.24],
-  [11800, "ZA-PAR1", "Libertad", "Cerro Porteño", 6, 2.3, null, 2293204.05]
+  [10230,"S-CHI1","Changchun Yatai","Shanghai Shenhua",8,2.1,null,2.1],[10430,"S-CHI1","Shandong Taishan","Tianjin Jinmen Tiger",7,1.42,null,2.98],[10600,"S-CHI1","Zhejiang Professional","Shenzhen",7,1.6,null,4.76],[10630,"S-CHI1","Chengdu Rongcheng","Hebei",7,1.25,null,5.94],[10630,"S-CHI1","Wuhan Three Towns","Guangzhou City",7,1.28,null,7.6],[11030,"U-CONF","Başakşehir","Hearts",7,1.42,null,10.79],[11030,"U-CONF","RFS","Fiorentina",6,1.45,null,15.64],[11245,"U-EURO","Midtjylland","Sturm Graz",7,1.8,null,28.15],[11245,"U-EURO","Mónaco","Estrella Roja",7,1.61,null,45.32],[11245,"U-EURO","Sheriff","Omonia",7,1.85,null,83.84],[11245,"U-EURO","Trabzonspor","Ferencvaros",5,1.57,null,131.62],[11245,"U-EURO","Feyenoord","Lazio",4,2.05,null,269.82],[11245,"U-EURO","Olympiacos","Nantes",8,1.9,null,512.65],[11245,"U-EURO","Qarabag","Friburgo",10,2.3,null,1179.09],[11245,"U-EURO","Real Sociedad","Manchester Utd",2,1.9,null,2240.27],[11245,"U-CONF","Apollon","Vaduz",7,1.65,null,3696.44],[11245,"U-CONF","AZ Alkmaar","Dnipro-1",7,1.45,null,5359.83],[11245,"U-CONF","CFR Cluj","FC Ballkani",7,1.53,null,8200.53],[11245,"U-CONF","Djurgarden","Shamrock Rovers",7,1.5,null,12300.79],[11245,"U-CONF","Gent","Molde",7,1.76,null,21649.39],[11245,"U-CONF","Slavia Praga","Sivasspor",7,1.48,null,32041.09],[11245,"U-CONF","Pyunik","Basilea",8,1.72,null,55110.67],[11245,"U-CONF","Zalgiris","Slovan Bratislava",8,1.95,null,107465.8],[11300,"ESP2","Sporting de Gijón","Albacete",7,2.15,null,231051.47],[11300,"ESP2","Cartagena","Málaga",10,2.65,null,612286.39],[11500,"ZA-COL2","Real Santander","Quindío",8,2.15,null,1316415.73],[11500,"ESP2","Granada","Levante",7,2.05,null,2698652.24],[11500,"U-EURO","Arsenal","Zúrich",3,1.28,null,3454274.86],[11500,"U-EURO","Real Betis","HJK",7,1.42,null,4905070.3],[11500,"U-EURO","Roma","Ludogorets",1,1.45,null,7112351.93],[11500,"U-EURO","SC Braga","Malmö",5,1.45,null,10312910.29],[11500,"U-EURO","Stade Rennais","AEK Larnaca",5,1.33,null,13716170.68],[11500,"U-EURO","Bodo/Glimt","PSV",6,1.72,null,23591813.56],[11500,"U-EURO","Dinamo Kiev","Fenerbahçe",6,1.76,null,41521591.86],[11500,"U-EURO","Royale Union SG","Union Berlín",8,1.85,null,76814944.94],[11500,"U-CONF","H. Beer Sheva","Austria Viena",7,1.7,null,130585406.39],[11500,"U-CONF","Lech Poznan","Villarreal",9,2.15,null,280758623.73],[11500,"U-CONF","Partizan","Slovacko",7,1.65,null,463251729.15],[11500,"U-CONF","Colonia","Niza",10,2.25,null,1042316390.58],[11500,"U-CONF","FCSB","West Ham",8,1.57,null,1636436733.21],[11500,"U-CONF","Silkeborg","Anderlecht",10,2.05,null,3354695303.08],[11800,"ZA-BRA2","Gremio","Brusque",5,1.57,null,5266871625.83],[11930,"ZA-COL2","Atl. Huila","Tigres",1,1.83,null,9638375075.26]
 ]
