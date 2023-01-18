@@ -13,7 +13,15 @@ let PARTIDOS_ARCHIVO = JSON.stringify(PARTIDOS)
 let PARTIDOS_COMPLETOS = JSON.parse(PARTIDOS_ARCHIVO)
 
 const renderizar = () => {
-    let contenidoHtml = '';
+    let contenidoHtml = `
+    <div class="row">
+    <div class="col">
+        <p>
+            1.26 Cuando especifico < 1.74 || 1.42 No hay opcion || 1.74 Especifico
+        </p>
+    </div>
+</div>
+    `;
     let cuotaOGrupo = (cuota, indice, grupo) => {
         if (grupo && (!cuota || cuota < 1)) {
             return `
