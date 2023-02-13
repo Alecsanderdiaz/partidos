@@ -1,3 +1,17 @@
 let PARTIDOS = [
-  [11300,"ALE3","Viktoria Köln","RW Essen",7,1.95,null,null],[11300,"YE-POLE","Warta","Legnica",7,2,null,null],[11300,"YE-POR2","Mafra","Nacional",7,1.85,null,null],[11300,"YE-POR2","BSAD","Penafiel",8,2.1,null,null],[11300,"YE-RUM1","Petrolul","FC Hermannstadt",10,2.65,null,null],[11400,"*ZA-BPARAI","Serra Branca","Nacional de Patos",11,1.42,null,null],[11400,"YE-GRE1","Olympiacos","Panetolikos",5,1.42,null,null],[11400,"YE-HOL2","Jong PSV","Den Haag",8,1.76,null,null],[11400,"YE-HOL2","Jong Utrecht","Telstar",10,2.05,null,null],[11400,"YE-HOL2","Maastricht","Heracles",8,1.44,null,null],[11400,"YE-POR1","Rio Ave","Estoril",10,2.55,null,null],[11445,"*R-ESCC","Darvel","Falkirk",11,1.25,null,null],[11445,"FRA2","Metz","SM Caen",5,1.95,null,null],[11445,"ITA1","Sampdoria","Inter",4,1.53,null,null],[11500,"ZA-ARG1","Barracas Central","Unión Santa Fe",9,2.35,null,null],[11500,"ZA-COL2","Tigres","Barranquilla",10,3.45,null,null],[11500,"ESP1","Espanyol","Real Sociedad",6,2.15,null,null],[11500,"ESP2","Racing","Leganés",10,2.5,null,null],[11500,"R-ING1","Liverpool","Everton",1,1.61,null,null],[11500,"ZA-PER1","Melgar","Dep. Municipal",11,1.25,null,null],[11615,"YE-POR1","Boavista","Casa Pia",10],[11630,"ZA-URU1","Wanderers","Defensor Sp.",9],[11700,"*ZA-BMAR","Maranhao","Pinheiro",11],[11800,"ZA-ARG1","Estudiantes L.P.","Lanús",7],[11800,"*ZA-ZBOL1","Palmaflor","Guabirá",5],[11800,"*ZA-BBRA","Brasiliense","Taguatinga Esporte",11],[11800,"*ZA-BGAU","EC Sao Jose","Juventude",11],[11800,"*ZA-BMIN","Cruzeiro","Atlético-MG",11],[11800,"ZA-CHI1","Colo Colo","Ñublense",5],[11800,"ZA-COL2","Llaneros","Cortuluá",10],[11830,"*ZA-BPARAI","CSP","Botafogo PB",11],[11900,"ZA-ARG2","Agropecuario","Deportivo Morón",9],[11900,"ZA-URU1","La Luz","Peñarol",4],[12000,"ZA-MEX2","Leones Negros","Pumas Tabasco",10],[12005,"ZA-COL2","Quindío","Leones",7]
+  [11615,"YE-POR1","Boavista","Casa Pia",10,2.75,null,2.75],
+  [11630,"ZA-URU1","Wanderers","Defensor Sp.",9,2.4,null,6.6],
+  [21700,"*ZA-BMAR","Maranhao","Pinheiro",11,1.36,null,8.97],
+  [11800,"*ZA-BBRA","Brasiliense","Taguatinga Esporte",11,1.33,null,11.93],
+  [11800,"*ZA-BGAU","EC Sao Jose","Juventude",11,1.57,null,18.73],
+  [11800,"*ZA-BMIN","Cruzeiro","Atlético-MG",8,1.85,null,34.65],
+  [11800,"*ZA-ZBOL1","Palmaflor","Guabirá",5,1.36,null,47.12],
+  [11800,"ZA-ARG1","Estudiantes L.P.","Lanús",7,2.05,null,96.59],
+  [11800,"ZA-CHI1","Colo Colo","Ñublense",5,1.72,null,166.13],
+  [11800,"ZA-COL2","Llaneros","Cortuluá",10,2.65,null,440.24],
+  [11830,"*ZA-BPARAI","CSP","Botafogo PB",11,1.5,null,660.36],
+  [11900,"ZA-ARG2","Agropecuario","Deportivo Morón",9,2.9,null,1915.04],
+  [11900,"ZA-URU1","La Luz","Peñarol",4,1.65,null,3159.81],
+  [12000,"ZA-MEX2","Leones Negros","Pumas Tabasco",10,2.2,null,6951.58],
+  [12005,"ZA-COL2","Quindío","Leones",7,1.95,null,13555.58]
 ]
