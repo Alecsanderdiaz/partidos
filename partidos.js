@@ -1,17 +1,3 @@
 let PARTIDOS = [
-  [11630,"ZA-ARG1","Newells","San Lorenzo",10],
-  [11900,"ZA-ARG1","Huracán","Rosario Central",10],
-  [11900,"ZA-ARG1","Lanús","Argentinos Jrs.",8],
-  [11400,"ZA-ARG2","Dep. Riestra","Villa Dálmine",11],
-  [11910,"ZA-ARG2","Deportivo Morón","Alvarado",7],
-  [11900,"*ZA-BPAU","Agua Santa","Bragantino",11],
-  [11810,"ZA-COL1","Atl. Bucaramanga","Tolima",8],
-  [11900,"ZA-ECU1","Dep. Cuenca","Cumbaya",7],
-  [11500,"ESP2","Mirandés","Eibar",6],
-  [11600,"ZA-PAR1","General Caballero JLM","Cerro Porteño",6],
-  [11830,"ZA-PAR1","Tacuary","Resistencia",10],
-  [11530,"ZA-PER1","Cusco","Carlos Mannucci",10],
-  [11400,"ZA-RUM1","U. Cluj","FC Arges",7],
-  [11715,"ZA-URU1","Cerro CA","Fénix",8],
-  [11430,"*ZA-URU2","Uruguay Montevideo","Sud América",11]
+  [11900,"ZA-ARG1","Vélez Sarsfield","Central Córdoba",1],[11900,"*ZA-BCAT","Criciúma","Avaí",11],[11700,"*ZA-BPAU","Ponte Preta","Comercial",11],[11900,"*ZA-BPAU","Noroeste","Velo Clube",11],[11800,"*ZA-B20","Fluminense Sub-20","Internacional Sub-20",11],[12000,"ZA-COL1","Ind. Santa Fe","Deportivo Cali",10],[11730,"*ZA-COL2","Atletico F.C.","Cortuluá",11],[11700,"*ZA-COLF","Santa Fe F","Tolima F",11],[11900,"*ZA-ECU2","Cuniburo","América de Quito",11],[11445,"*R-ESC2","Dundee FC","Ayr",11],[11830,"*ZA-ESTC","West Chester Utd","Ocean City",11],[11445,"R-INGO","Accrington","Plymouth",8],[11500,"R-INGO","Barnsley","Sheffield Wed",8],[11445,"*R-INGT","Bradford City","Carlisle",11],[11445,"*R-INGT","Crawley","Doncaster",11],[11445,"*R-INGT","Gillingham FC","Crewe",11],[11805,"*ZA-MEX2","Tepatitlán","Cancun",11],[12005,"*ZA-MEX2","Mineros","Alebrijes Oaxaca",11],[12205,"*ZA-MEX2","Atletico La Paz","Dorados",11],[12205,"*ZA-MEX2","Cimarrones de Sonora","Celaya",11]
 ]
