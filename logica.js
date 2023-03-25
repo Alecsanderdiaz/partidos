@@ -53,9 +53,27 @@ const renderizar = () => {
     PARTIDOS.forEach((partido, index) => {
         if (partido[5]) {
             if (index === 0) {
-                partido[7] = partido[5]
+                let cuota = partido[5]
+                let cuotaEnK = Math.floor(cuota / 100)
+                if (cuotaEnK > 500) {
+                    cuotaEnK = 0
+                } else {
+                    cuotaEnK += 'M (A10k)'
+                }
+                console.log({ cuota, cuotaEnK })
+                partido[8] = cuotaEnK
+                partido[7] = cuota
             } else {
-                partido[7] = Math.floor( PARTIDOS[index - 1][7] * partido[5] * 100 ) / 100
+                let cuota = Math.floor( PARTIDOS[index - 1][7] * partido[5] * 100 ) / 100
+                let cuotaEnK = Math.floor(cuota / 100)
+                if (cuotaEnK > 500) {
+                    cuotaEnK = 0
+                } else {
+                    cuotaEnK += 'M (A10k)'
+                }
+                console.log({ cuota, cuotaEnK })
+                partido[8] = cuotaEnK
+                partido[7] = cuota
             }
         }
         contenidoHtml += `
@@ -66,7 +84,7 @@ const renderizar = () => {
                 ${index + 1}/${PARTIDOS.length}
                 <span role="button" class="badge badge-success" onClick="marcarTrue(${index})">${partido[0] - 10000}</span>
                 <br>
-                ${ partido[7] || 0}
+                ${ partido[8] || 0}
             </div>
 
             <!-- LIGA Y CUOTA -->            
