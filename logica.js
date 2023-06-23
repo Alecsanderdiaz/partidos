@@ -58,18 +58,20 @@ const renderizar = () => {
                 if (cuotaEnK > 500) {
                     cuotaEnK = 0
                 } else {
-                    cuotaEnK += 'M (A10k)'
+                    let temp = cuotaEnK / 10
+                    cuotaEnK = temp + 'M (A10k)'
                 }
                 console.log({ cuota, cuotaEnK })
                 partido[8] = cuotaEnK
                 partido[7] = cuota
             } else {
                 let cuota = Math.floor( PARTIDOS[index - 1][7] * partido[5] * 100 ) / 100
-                let cuotaEnK = Math.floor(cuota / 100)
+                let cuotaEnK = Math.floor(cuota / 10)
                 if (cuotaEnK > 500) {
                     cuotaEnK = 0
                 } else {
-                    cuotaEnK += 'M (A10k)'
+                    let temp = cuotaEnK / 10
+                    cuotaEnK = temp + 'M (A10k)'
                 }
                 console.log({ cuota, cuotaEnK })
                 partido[8] = cuotaEnK
