@@ -55,7 +55,7 @@ const renderizar = () => {
             if (index === 0) {
                 let cuota = partido[5]
                 let cuotaEnK = Math.floor(cuota / 100)
-                if (cuotaEnK > 500) {
+                if (cuotaEnK > 5000) {
                     cuotaEnK = 0
                 } else {
                     let temp = cuotaEnK / 10
@@ -67,7 +67,7 @@ const renderizar = () => {
             } else {
                 let cuota = Math.floor( PARTIDOS[index - 1][7] * partido[5] * 100 ) / 100
                 let cuotaEnK = Math.floor(cuota / 10)
-                if (cuotaEnK > 500) {
+                if (cuotaEnK > 5000) {
                     cuotaEnK = 0
                 } else {
                     let temp = cuotaEnK / 10
