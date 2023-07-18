@@ -1,5 +1,6 @@
 
 const CONTENEDOR_DATOS = document.getElementById('contenedor-datos')
+const CONTENEDOR_DATOS_SM = document.getElementById('contenedor-datos-sm')
 
 const dibujar = function ( partidos = PARTIDOS_OPTIMIZADOS) {
     let html = ''
@@ -40,10 +41,48 @@ const dibujar = function ( partidos = PARTIDOS_OPTIMIZADOS) {
     CONTENEDOR_DATOS.innerHTML = html
 }
 
+const dibujarSM = function ( partidos = PARTIDOS_OPTIMIZADOS) {
+    let html = ''
+    let indice = 0
+    let total = partidos.length
+    for (const partido of partidos) {
+        indice++
+        html += `
+        <div class="row ${ partido.cantidadDeApuestas < 43 ? 'bg-warning': ''}">
+            <div class="col-2 border">
+                ${ indice }/${ total }<br>
+                ${ partido.hora - 10000 }
+            </div>
+            <div class="col-6 border">
+                ${ partido.liga }
+                <br>
+                <small>${ partido.local.substring(0,15) }</small>
+                <br>
+                <small>${ partido.visitante.substring(0,15) }</small>
+            </div>
+            <div class="col-2 border">
+                ${ partido.cuotaLocal.toFixed(2) }
+                <br>
+                ${ partido.empate.toFixed(2) }
+                <br>
+                ${ partido.cuotaVisitante.toFixed(2) }
+            </div>
+            <div class="col-2 border">
+                ${ partido.cuotaCualquiera?.toFixed(2) || '' }
+            </div>
+        </div>
+        `
+    }
+    
+    CONTENEDOR_DATOS_SM.innerHTML = html
+}
+
 dibujar()
+dibujarSM()
 
 const ordenar = function ( value ) {
     console.log({ value })
     PARTIDOS_OPTIMIZADOS.sort((a, b) => a[ value ] - b[ value ])
     dibujar()
+    dibujarSM()
 }
