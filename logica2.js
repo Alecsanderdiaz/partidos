@@ -29,7 +29,7 @@ const renderizar = () => {
             <div class="col-2">
                 ${ partido[3].length === 3 ? partido[3] : '' }
                 <br>
-                <strong>${ partido[4] || 0 }</strong>
+                <strong onclick="copyText(${ partido[4] }, ${ index })">${ partido[4] || 0 }</strong>
             </div>
             <div class="col">
                 ${ partido[1] === partido[3] ? `<span class="badge badge-primary pointer" onclick="copyText(${ partido[4] }, ${ index })">${ partido[1] }</span>`: partido[1] }
