@@ -14,25 +14,28 @@
   <body>
 
     <div class="container-fluid mt-2">
-        <div class="row">
-            <div class="col border">
-                <strong>HORA</strong>
+        <div class="row text-center">
+            <div class="col-2 border">
+                <strong onclick="ordenar('hora')">HORA</strong>
             </div>
-            <div class="col border">
-                <strong>LIGA</strong>
+            <div class="col-1 border">
+                <strong onclick="ordenar('liga')">LIGA</strong>
             </div>
-            <div class="col border">
+            <div class="col-3 border">
                 <strong>PARTIDO</strong>
             </div>
             <div class="col border">
                 <div class="row">
-                    <div class="col border">L</div>
-                    <div class="col border">E</div>
-                    <div class="col border">V</div>
+                    <div class="col-4 border">L</div>
+                    <div class="col-4 border">E</div>
+                    <div class="col-4 border">V</div>
                 </div>
             </div>
             <div class="col border">
-                <strong>Cantidad</strong>
+                <strong onclick="ordenar('cantidadDeApuestas')">Cantidad</strong>
+            </div>
+            <div class="col border">
+                <strong onclick="ordenar('cuotaCualquiera')">Cualquiera</strong>
             </div>
         </div>
 
