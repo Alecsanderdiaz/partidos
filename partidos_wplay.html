@@ -7,6 +7,17 @@
   <title>PARTIDOS WPLAY</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+  <style>
+    .abrir-configuraciones {
+      background-color: #565050;
+      width: 50px;
+      height: 50px;
+      bottom: 10px;
+      right: 10px;
+      position: fixed;
+    }
+  </style>
 </head>
 
 <body>
@@ -52,7 +63,7 @@
         <strong onclick="ordenar('hora')">Hora</strong>
       </div>
       <div class="col-6 border">
-        <strong>LIGA</strong>
+        <strong onclick="ordenar('liga')">LIGA</strong>
         <br>
         <strong>GAME</strong>
       </div>
@@ -67,12 +78,102 @@
     <div class="container-fluid mt-2" id="contenedor-datos-sm"></div>
   </div>
 
+  <div class="abrir-configuraciones"
+    data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Filtrar</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">indice1:</label>
+              <input type="number" class="form-control" id="indice1">
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">indice2:</label>
+              <input type="number" class="form-control" id="indice2">
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">hora:</label>
+              <input type="number" class="form-control" id="hora">
+            </div>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">cuota:</label>
+              <input type="number" class="form-control" id="cuota">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" onclick="filtrarIndice()">Indice</button>
+          <button type="button" class="btn btn-primary" onclick="filtrarHora()">Hora</button>
+          <button type="button" class="btn btn-primary" onclick="filtrarCuota()">Cuota</button>
+          <button type="button" class="btn btn-danger" onclick="reset()">RESET</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="partidos_optimizados.js"></script>
   <script src="logica_partidos_wplay.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
+
+    <script>
+const exampleModal = document.getElementById('exampleModal')
+
+const indice1 = document.getElementById('indice1')
+const indice2 = document.getElementById('indice2')
+const cuota = document.getElementById('cuota')
+const hora = document.getElementById('hora')
+
+const filtrarIndice = function() {
+  const indice1Value = +indice1.value
+  const indice2Value = +indice2.value
+  const filtrados = PARTIDOS_OPTIMIZADOS.slice(indice1Value - 1, indice2Value)
+  PARTIDOS_OPTIMIZADOS = filtrados
+  dibujar()
+  dibujarSM()
+  let   modal_obj = bootstrap.Modal.getInstance(exampleModal)
+  modal_obj.hide();
+}
+
+const filtrarHora = function() {
+  const horaValue = +hora.value + 10000
+  const filtrados = PARTIDOS_OPTIMIZADOS.filter( partido => partido.hora > horaValue)
+  PARTIDOS_OPTIMIZADOS = filtrados
+  dibujar()
+  dibujarSM()
+  let   modal_obj = bootstrap.Modal.getInstance(exampleModal)
+  modal_obj.hide();
+}
+
+const filtrarCuota = function() {
+  const cuotaValue = +cuota.value
+  const filtrados = PARTIDOS_OPTIMIZADOS.filter( partido => partido.cuotaCualquiera > cuotaValue)
+  PARTIDOS_OPTIMIZADOS = filtrados
+  dibujar()
+  dibujarSM()
+  let   modal_obj = bootstrap.Modal.getInstance(exampleModal)
+  modal_obj.hide();
+}
+
+const reset = function() {
+  PARTIDOS_OPTIMIZADOS = [...PARTIDOS_BACKUP]
+  dibujar()
+  dibujarSM()
+  let   modal_obj = bootstrap.Modal.getInstance(exampleModal)
+  modal_obj.hide();
+}
+    </script>
 </body>
 
 </html>
