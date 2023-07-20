@@ -24,16 +24,16 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         </div>
         <div class="col border">
             <div class="row">
-                <div class="col-4 border">${partido.cuotaLocal}</div>
-                <div class="col-4 border">${partido.empate}</div>
-                <div class="col-4 border">${partido.cuotaVisitante}</div>
+                <div class="col-4 border">${partido.cuotaLocal.toFixed(2)}</div>
+                <div class="col-4 border">${partido.empate.toFixed(2)}</div>
+                <div class="col-4 border">${partido.cuotaVisitante.toFixed(2)}</div>
             </div>
         </div>
         <div class="col border">
             <strong>${partido.cantidadDeApuestas}</strong>
         </div> 
         <div class="col border">
-            <strong>${partido.cuotaCualquiera || ''}</strong>
+            <strong>${partido.cuotaCualquiera?.toFixed(2) || ''}</strong>
         </div> 
     </div>
         `
