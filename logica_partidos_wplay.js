@@ -7,7 +7,15 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     let html = ''
     let indice = 0
     let total = partidos.length
+    let acumulado = 1
     for (const partido of partidos) {
+        if (partido.cuotaCualquiera) {
+            acumulado = Math.floor(acumulado * partido.cuotaCualquiera * 100) / 100
+        }
+        if (acumulado > 50000) {
+            acumulado = 1
+        }
+        let acumuladoEntero = Math.floor(acumulado)
         indice++
         let partido_string = `${partido.local} - ${partido.visitante}`
         // let cantidad_de_letras = partido_string.length
@@ -33,7 +41,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
             <strong>${partido.cantidadDeApuestas}</strong>
         </div> 
         <div class="col border">
-            <strong>${partido.cuotaCualquiera?.toFixed(2) || ''}</strong>
+            <strong>${partido.cuotaCualquiera?.toFixed(2) || ''}</strong> - ${ acumuladoEntero }
         </div> 
     </div>
         `
@@ -46,7 +54,11 @@ const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
     let html = ''
     let indice = 0
     let total = partidos.length
+    let acumulado = 1
     for (const partido of partidos) {
+        if (partido.cuotaCualquiera) {
+            acumulado = Math.floor(acumulado * partido.cuotaCualquiera * 100) / 100
+        }
         indice++
         html += `
         <div class="row ${partido.cantidadDeApuestas < 43 ? 'bg-warning' : ''}">
@@ -70,6 +82,8 @@ const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
             </div>
             <div class="col-2 border">
                 ${partido.cuotaCualquiera?.toFixed(2) || ''}
+                <br>
+                ${ acumulado }
             </div>
         </div>
         `
