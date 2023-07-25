@@ -20,7 +20,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         let partido_string = `${partido.local} - ${partido.visitante}`
         // let cantidad_de_letras = partido_string.length
         html += `
-        <div class="row ${partido.cantidadDeApuestas < 43 ? 'bg-warning' : ''}">
+        <div class="row">
         <div class="col-2 border text-end">
             <strong>${indice}/${total} - ${partido.hora - 10000}</strong>
         </div>
@@ -32,12 +32,12 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         </div>
         <div class="col border">
             <div class="row">
-                <div class="col-4 border">${partido.cuotaLocal.toFixed(2)}</div>
+                <div class="col-4 border ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''}">${partido.cuotaLocal.toFixed(2)}</div>
                 <div class="col-4 border">${partido.empate.toFixed(2)}</div>
-                <div class="col-4 border">${partido.cuotaVisitante.toFixed(2)}</div>
+                <div class="col-4 border ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''}">${partido.cuotaVisitante.toFixed(2)}</div>
             </div>
         </div>
-        <div class="col border">
+        <div class="col border ${partido.cantidadDeApuestas < 43 ? 'bg-warning' : ''}">
             <strong>${partido.cantidadDeApuestas}</strong>
         </div> 
         <div class="col border">
@@ -59,9 +59,13 @@ const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
         if (partido.cuotaCualquiera) {
             acumulado = Math.floor(acumulado * partido.cuotaCualquiera * 100) / 100
         }
+        if (acumulado > 50000) {
+            acumulado = 1
+        }
+        let acumuladoEntero = Math.floor(acumulado)
         indice++
         html += `
-        <div class="row ${partido.cantidadDeApuestas < 43 ? 'bg-warning' : ''}">
+        <div class="row">
             <div class="col-2 border">
                 ${indice}/${total}<br>
                 ${partido.hora - 10000}
@@ -73,17 +77,15 @@ const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 <br>
                 <small>${partido.visitante.substring(0, 15)}</small>
             </div>
-            <div class="col-2 border">
-                ${partido.cuotaLocal.toFixed(2)}
-                <br>
-                ${partido.empate.toFixed(2)}
-                <br>
-                ${partido.cuotaVisitante.toFixed(2)}
+            <div class="col-2 border text-center ${partido.cantidadDeApuestas < 43 ? 'bg-warning' : ''}">
+                <div class="${partido.cantidadDeApuestas > 43 && partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''}">${partido.cuotaLocal.toFixed(2)}</div>
+                <div>${partido.empate.toFixed(2)}</div>
+                <div class="${partido.cantidadDeApuestas > 43 && partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''}">${partido.cuotaVisitante.toFixed(2)}</div>
             </div>
             <div class="col-2 border">
                 ${partido.cuotaCualquiera?.toFixed(2) || ''}
                 <br>
-                ${ acumulado }
+                ${ acumuladoEntero }
             </div>
         </div>
         `
