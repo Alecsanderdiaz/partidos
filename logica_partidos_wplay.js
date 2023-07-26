@@ -123,3 +123,4 @@ const ordenar = function (value) {
     dibujar()
     dibujarSM()
 }
+

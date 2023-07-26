@@ -48,13 +48,69 @@ let PARTIDOS_WPLAY = [
     [261100, 'AMI-C', 'Deinze', 5.50, 'Empate', 4.20, 'Valenciennes', 1.42, 9],
 ]
 
-let PARTIDOS_CON_CUOTA = []
+let PARTIDOS_CON_CUOTA = [
+    [12200, 'Sacramento Republic FC', 'Phoenix Rising FC', 1.40],
+    [12205, 'Club Atletico La Paz', 'Club Celaya', 1.42],
+    [11245, 'Rostov', 'Rubin Kazan', 1.42],
+    [11330, 'FC Stade Ls Ouchy', 'FC Lugano', 1.35],
+    [11630, 'Brentford', 'Brighton', 1.30],
+    [11800, 'Fulham', 'Aston Villa', 1.30],
+    [11900, 'Crystal Palace', 'Millonarios', 1.35],
+    [11915, 'Chelsea', 'Newcastle', 1.30],
+    [11930, 'Real Madrid', 'Manchester United', 1.285],
+    [12130, 'Arsenal', 'Barcelona', 1.25],
+    [11830, 'CF Montreal', 'DC United', 1.35],
+    [11830, 'New York City', 'Toronto FC', 1.363],
+    [11830, 'Philadelphia Union', 'Queretaro FC', 1.333],
+    [11830, 'New England Revolution', 'Atletico San Luis', 1.333],
+    [12200, 'Portland Timbers', 'Tigres UANL', 1.40],
+    [12130, 'L.A. Galaxy', 'Leon', 1.25],
+    [11600, 'CA Excursionistas', 'Club Almagro', 1.55],
+    [11910, 'San Lorenzo', 'Platense', 1.769],
+    [11930, 'Gremio RS', 'Flamengo RJ', 1.42],
+    [11530, 'Tigres FC', 'Deportivo Pereira', 1.571],
+    [11830, 'Alianza Petrolera', 'Tolima', 1.40],
+    [12000, 'América de Cali', 'Atlético Nacional', 1.533],
+    [11500, 'Club Nueve de Octubre', 'Vargas Torres', 1.533],
+    [11500, 'Chacaritas SC', 'Cuniburo FC', 1.50],
+    [11900, 'Independiente Juniors', 'Macara', 1.571],
+    [11800, 'Pittsburgh Riverhounds', 'Indy Eleven', 1.444],
+    [12100, 'Oakland Roots', 'Las Vegas Lights', 1.333],
+    [11100, 'Rennes', 'Brest', 1.25],
+    [11100, 'Empoli', '1. FC Heidenheim', 1.333],
+    [11100, 'FC Ingolstadt 04', 'Borussia Monchengladbach', 1.20],
+    [11100, 'Spezia', 'VfL Bochum', 1.25],
+    [11100, 'CF Cadiz', 'Al Wakrah Sports Club', 1.40],
+    [11200, 'Espanyol', 'Las Palmas', 1.38],
+    [11230, 'Sanluqueno', 'Granada', 1.166],
+    [11300, 'Getafe', 'Stade Reims', 1.38],
+    [11300, 'Red Star Belgrade', 'Fiorentina', 1.333],
+    [11300, 'PSV Eindhoven', 'FC Eindhoven', 1.181],
+    [11300, 'Koninklijke HFC', 'Jong AZ Alkmaar', 1.20],
+    [11330, 'Bradford City', 'Middlesbrough', 1.333],
+    [11345, 'Glasgow Rangers', 'Olympiacos', 1.38],
+    [11400, 'Roma', 'Sporting Braga', 1.363],
+    [11345, 'Dundee', 'Dumbarton', 1.25],
+    [11345, 'Peterhead', 'Spartans FC', 1.363],
+    [11345, 'Kilmarnock', 'Raith Rovers', 1.35],
+    [11345, 'Edinburgh City', 'Ross County', 1.285],
+    [11000, 'FC Struga Trim Lum', 'FK Buducnost Podgorica', 1.48],
+    [11100, 'Rigas Futbola Skola', 'Sabah', 1.50],
+    [11145, 'Midtjylland', 'Progres Niedercorn', 1.20],
+    [11230, 'CSKA 1948', 'FCSB', 1.50],
+    [11300, 'Fenerbahce', 'FC Zimbru', 1.166],
+    [11300, 'Neman Grodno', 'Balzan FC', 1.42],
+    [11030, 'Fakel Voronezh', 'FC Sochi - 04', 1.48],
+]
 
 
-const retorno = []
+let retorno = []
+
+let index = 0
 
 for (const partido of PARTIDOS_WPLAY) {
     let local = partido[2]
+
     let partido_encontrado = PARTIDOS_CON_CUOTA.find(p => p[1] === local)
 
     console.log({ local, partido_encontrado })
@@ -71,6 +127,8 @@ for (const partido of PARTIDOS_WPLAY) {
             cantidadDeApuestas: partido[8],
             cuotaCualquiera: partido_encontrado[3]
         }
+        partido_encontrado[4] = true
+        partido[9] = true
         retorno.push(partido_retorno)
     } else {
         let partido_retorno = {
@@ -88,6 +146,34 @@ for (const partido of PARTIDOS_WPLAY) {
     }
 }
 
+let PARTIDOS_CON_CUOTA_ = PARTIDOS_CON_CUOTA.filter(p => !p[4]).map(p => {
+    return {
+        hora: p[0],
+        liga: 'XX-XXXX',
+        local: p[1],
+        visitante: p[2],
+        cuotaLocal: 1,
+        empate: 1,
+        cuotaVisitante: 1,
+        cantidadDeApuestas: 1,
+        cuotaCualquiera: p[3]
+    }
+})
+
+retorno = [...retorno, ...PARTIDOS_CON_CUOTA_]
+
+console.log({
+    PARTIDOS_WPLAY: PARTIDOS_WPLAY.length,
+    PARTIDOS_CON_CUOTA: PARTIDOS_CON_CUOTA.length,
+    PARTIDOS_CON_CUOTA_: PARTIDOS_CON_CUOTA_.length,
+})
+
 const fs = require('fs')
 
-fs.writeFileSync('partidos_optimizados.txt', 'let PARTIDOS_OPTIMIZADOS = ' + JSON.stringify(retorno))
+let retornoString = `
+    let PARTIDOS_OPTIMIZADOS = ${JSON.stringify(retorno)}
+`
+
+fs.writeFileSync('partidos_optimizados.txt', retornoString)
+
+console.log('VER -> partidos_optimizados.txt')
