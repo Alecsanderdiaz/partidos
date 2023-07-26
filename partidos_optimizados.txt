@@ -1,0 +1,2 @@
+let PARTIDOS_OPTIMIZADOS = [
+    ]

@@ -24,7 +24,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         <div class="col-2 border text-end">
             <strong>${indice}/${total} - ${partido.hora - 10000}</strong>
         </div>
-        <div class="col-1 border">
+        <div class="col-1 border ${partido.cantidadDeApuestas < 43 ? 'bg-warning' : ''}">
             <strong>${partido.liga}</strong>
         </div>
         <div class="col-3 border">
@@ -37,7 +37,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 <div class="col-4 border ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''}">${partido.cuotaVisitante.toFixed(2)}</div>
             </div>
         </div>
-        <div class="col border ${partido.cantidadDeApuestas < 43 ? 'bg-warning' : ''}">
+        <div class="col border">
             <strong>${partido.cantidadDeApuestas}</strong>
         </div> 
         <div class="col border">
