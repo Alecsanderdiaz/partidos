@@ -1,7 +1,26 @@
 let PARTIDOS_BACKUP = [...PARTIDOS_OPTIMIZADOS]
+let indiceFavorito = 0
+let favorito = 'local'
 
 const CONTENEDOR_DATOS = document.getElementById('contenedor-datos')
 const CONTENEDOR_DATOS_SM = document.getElementById('contenedor-datos-sm')
+
+const elegirFavorito =  function (indice, valor) {
+    indiceFavorito = indice - 1
+    PARTIDOS_OPTIMIZADOS[indiceFavorito]['favorito']=valor
+    const myModal = new bootstrap.Modal(document.getElementById('stakeModal'))
+    myModal.show()
+    // console.log(myModal)
+    // dibujar()
+}
+
+const colocarStake = function (value) {
+    PARTIDOS_OPTIMIZADOS[indiceFavorito]['stake']=value
+    let modal_obj = bootstrap.Modal.getInstance(stakeModal);
+        modal_obj.hide();
+    dibujar()
+}
+
 
 const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     let html = ''
@@ -32,16 +51,41 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         </div>
         <div class="col border">
             <div class="row">
-                <div class="col-4 border ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''}">${partido.cuotaLocal.toFixed(2)}</div>
+                <div class="col-4 border ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'local' ? 'favorito' : ''}">
+                    <span onclick="elegirFavorito(${ indice }, 'local')">${partido.cuotaLocal.toFixed(2)}<span>
+                </div>
                 <div class="col-4 border">${partido.empate.toFixed(2)}</div>
-                <div class="col-4 border ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''}">${partido.cuotaVisitante.toFixed(2)}</div>
+                <div class="col-4 border ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'visitante' ? 'favorito' : ''}">
+                    <span onclick="elegirFavorito(${ indice }, 'visitante')">${partido.cuotaVisitante.toFixed(2)}<span>
+                </div>
             </div>
         </div>
         <div class="col border">
+            <div class="row">
+            <div class="col">
             <strong>${partido.cantidadDeApuestas}</strong>
+            </div>
+            <div class="col">
+            <small>${partido.stake || 0}</small>
+            </div>
+            <div class="col">
+            <small>${partido.cuotaFavorito?.toFixed(2) || 1}</small>
+            </div>
+            </div>
         </div> 
         <div class="col border">
-            <strong>${partido.cuotaCualquiera?.toFixed(2) || ''}</strong> - ${ acumuladoEntero }
+             
+            <div class="row">
+            <div class="col">
+            <strong>${partido.cuotaCualquiera?.toFixed(2) || ''}</strong>
+            </div>
+            <div class="col">
+            ${ acumuladoEntero }
+            </div>
+            <div class="col">
+            ${partido.cuotaFavorito ? (partido.cuotaFavorito/partido.cuotaCualquiera).toFixed(2) : 1}
+            </div>
+            </div>
         </div> 
     </div>
         `
