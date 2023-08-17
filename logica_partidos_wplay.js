@@ -39,11 +39,11 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         let partido_string = `${partido.local} - ${partido.visitante}`
         // let cantidad_de_letras = partido_string.length
         html += `
-        <div class="row">
+        <div class="row ${partido.cantidadDeApuestas < 43 ? 'bg-warning' : ''}">
         <div class="col-2 border text-end">
             <strong>${indice}/${total} - ${partido.hora - 10000}</strong>
         </div>
-        <div class="col-1 border ${partido.cantidadDeApuestas < 43 ? 'bg-warning' : ''}">
+        <div class="col-1 border">
             <strong>${partido.liga}</strong>
         </div>
         <div class="col-3 border">
