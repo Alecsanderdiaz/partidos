@@ -1,0 +1,277 @@
+let PARTIDOS_CON_CUOTA = [
+  [11200, 'FC Flora Tallinn', 'Rakow Czestochowa', '0.5', 1.42],
+  [11200, 'Maccabi Haifa', 'Hamrun Spartans', '0.5', 1.22],
+  [11300, 'Bate Borisov', 'FK Partizani Tirana', '0.5', 1.53],
+  [11300, 'HSK Zrinjski Mostar', 'FC Urartu', '0.5', 1.45],
+  [11300, 'The New Saints FC', 'BK Hacken', '0.5', 1.28],
+  [11415, 'Breidablik', 'Shamrock Rovers', '0.5', 1.42],
+  [11230, 'Balzan FC', 'NK Domzale', '0.5', 1.33],
+  [11600, 'Tombense MG', 'CRB Maceio AL', '0.5', 1.55],
+  [11700, 'Chapecoense SC', 'Ituano SP', '0.5', 1.55],
+  [11930, 'Ponte Preta SP', 'Juventude RS', '0.5', 1.57],
+  [11800, 'Universidad de Concepcion', 'CSD Rangers', '0.5', 1.45],
+  [11900, 'Imbabura SC', 'Manta FC', '0.5', 1.48],
+  [11700, 'America Mineiro MG', 'Colo Colo', '0.5', 1.42],
+  [11900, 'Estudiantes de La Plata', 'Barcelona SC', '0.5', 1.40],
+  [11930, 'Universitario de Deportes', 'Corinthians SP', '0.5', 1.55],
+  [11330, 'Hereford United', 'Swindon Town', '0.5', 1.18],
+  [11330, 'Stevenage', 'Colchester', '0.5', 1.33],
+  [11330, 'Torquay United', 'Plymouth Argyle', '0.5', 1.15],
+  [11345, 'Glasgow Rangers', 'Newcastle', '0.5', 1.28],
+  [11345, 'Cheltenham Town', 'West Bromwich', '0.5', 1.25],
+  [11345, 'Hull City', 'Barnsley', '0.5', 1.35],
+  [11345, 'AFC Fylde', 'Barrow FC', '0.5', 1.25],
+  [11345, 'Chester FC', 'Stockport County', '0.5', 1.22],
+  [11345, 'Sutton United', 'Millwall', '0.5', 1.33],
+  [11345, 'Alloa Athletic', 'Stirling Albion', '0.5', 1.28],
+  [11345, 'Ayr United', 'Stenhousemuir', '0.5', 1.25],
+  [11345, 'Dundee United', 'Partick Thistle', '0.5', 1.28],
+  [11345, 'Spartans FC', 'Falkirk', '0.5', 1.28],
+  [11345, 'Bonnyrigg Rose', 'Dundee', '0.5', 1.25],
+  [11345, 'Cove', 'Clyde', '0.5', 1.25],
+  [11345, 'Dumbarton', 'Inverness CT', '0.5', 1.28],
+  [11345, 'Dunfermline', 'Annan Athletic', '0.5', 1.25],
+  [11345, 'East Fife', 'Elgin City', '0.5', 1.33],
+  [11345, 'Greenock Morton', 'Stranraer', '0.5', 1.25],
+  [11345, 'Hamilton Academical', 'Brechin City', '0.5', 1.25],
+  [11345, 'Montrose', 'Forfar Athletic', '0.5', 1.30],
+  [11345, 'Queen of the South', 'Motherwell', '0.5', 1.28],
+  [11345, 'Raith Rovers', 'Albion Rovers', '0.5', 1.25],
+  [11000, 'FC Struga Trim Lum', 'VMFD Zalgiris', '0.5', 1.57],
+  [11200, 'FC Sheriff Tiraspol', 'Farul Constanta', '0.5', 1.53],
+  [10500, 'Tottenham', 'West Ham United', '0.5', 1.30],
+  [10630, 'Bristol City', 'Swindon Town', '0.5', 1.25],
+  [11000, 'Génova', 'WSG Tirol', '0.5', 1.30],
+  [11100, 'Austria Wien', 'Aris Limassol', '0.5', 1.25],
+  [11200, 'Valencia', 'Nottingham Forest', '0.5', 1.36],
+  [11200, 'Real Oviedo', 'Racing Santander', '0.5', 1.42],
+  [11200, 'Sturm Graz', 'Galatasaray', '0.5', 1.28],
+  [11200, 'FC Penafiel', 'Desportivo Chaves', '0.5', 1.38],
+  [11200, 'Sevilla', 'AD Ceuta', '0.5', 1.25],
+  [11230, 'Osasuna', 'SD Huesca', '0.5', 1.36],
+  [11230, 'Altach', 'Villarreal', '0.5', 1.28],
+  [11300, 'Real Murcia', 'Sheffield Wednesday', '0.5', 1.33],
+  [11300, 'Panathinaikos', 'Rayo Vallecano', '0.5', 1.40],
+  [11300, 'Forest Green Rovers', 'Coventry', '0.5', 1.33],
+  [11300, 'FC Lisse', 'SC Telstar', '0.5', 1.22],
+  [11300, 'FC Rijnvogels', 'Koninklijke HFC', '0.5', 1.20],
+  [11330, 'Brackley Town', 'Burton Albion', '0.5', 1.20],
+  [11330, 'Southport FC', 'Morecambe', '0.5', 1.25],
+  [11330, 'Swindon Supermarine', 'Chippenham Town', '0.5', 1.25],
+  [11330, 'Gillingham', 'Charlton Athletic', '0.5', 1.30],
+]
+
+let PARTIDOS_SIN_CUOTA = [
+  [11600, 'ZA-BRA2', 'Tombense', 'CRB',12,1.5],
+  [11700, 'ZA-BRA2', 'Chapecoense', 'Ituano',12,1.5],
+  [11930, 'ZA-BRA2', 'Ponte Preta', 'Juventude',12,1.5],
+  [11800, 'ZA-CHIC', 'U. De Concepción', 'Rangers',12,1.5],
+  [11900, 'ZA-ECU2', 'Imbabura', 'Manta',12,1.5],
+  [11345, 'R-ESCL', 'Alloa', 'Stirling',12,1.5],
+  [11345, 'R-ESCL', 'Ayr', 'Stenhousemuir',12,1.5],
+  [11345, 'R-ESCL', 'Bonnyrigg Rose', 'Dundee FC',12,1.5],
+  [11345, 'R-ESCL', 'Cove Rangers', 'Clyde',12,1.5],
+  [11345, 'R-ESCL', 'Dumbarton', 'Inverness',12,1.5],
+  [11345, 'R-ESCL', 'Dundee Utd', 'Partick Thistle',12,1.5],
+  [11345, 'R-ESCL', 'Dunfermline', 'Annan',12,1.5],
+  [11345, 'R-ESCL', 'East Fife', 'Elgin',12,1.5],
+  [11345, 'R-ESCL', 'Hamilton', 'Brechin',12,1.5],
+  [11345, 'R-ESCL', 'Montrose', 'Forfar',12,1.5],
+  [11345, 'R-ESCL', 'Morton', 'Stranraer',12,1.5],
+  [11345, 'R-ESCL', 'Queen of South', 'Motherwell',12,1.5],
+  [11345, 'R-ESCL', 'Raith', 'Albion Rovers',12,1.5],
+  [11345, 'R-ESCL', 'Spartans', 'Falkirk',12,1.5],
+  [11000, 'U-CHAM', 'Struga (Mkd)', 'Zalgiris (Ltu)',12,1.5],
+  [11200, 'U-CHAM', 'Flora (Est)', 'Rakow (Pol)',12,1.5],
+  [11200, 'U-CHAM', 'M. Haifa (Isr)', 'Hamrun (Mlt)',12,1.5],
+  [11200, 'U-CHAM', 'Sheriff (Mda)', 'Farul Constanta (Rou)',12,1.5],
+  [11300, 'U-CHAM', 'BATE (Blr)', 'Partizani (Alb)',12,1.5],
+  [11300, 'U-CHAM', 'TNS (Wal)', 'Häcken (Swe)',12,1.5],
+  [11300, 'U-CHAM', 'Zrinjski (Bih)', 'Urartu (Arm)',12,1.5],
+  [11415, 'U-CHAM', 'Breidablik (Ice)', 'Shamrock Rovers (Irl)',12,1.5],
+  [11230, 'U-CONF', 'Balzan (Mlt)', 'Domzale (Slo)',12,1.5],
+  [10500, 'AMI', 'West Ham (Eng)', 'Tottenham (Eng)',11, 1],
+  [10600, 'AMI', 'Wycombe (Eng)', 'Dagenham & Red. (Eng)',11, 1],
+  [10630, 'AMI', 'Bristol City (Eng)', 'Swindon (Eng)',11, 1],
+  [10700, 'AMI', 'Ajax (Ned)', 'Shakhtar (Ukr)',11, 1],
+  [10700, 'AMI', 'Cray Valley PM (Eng)', 'Cray Wanderers (Eng)',11, 1],
+  [10700, 'AMI', 'Johann (Aut)', 'Debrecen (Hun)',11, 1],
+  [10700, 'AMI', 'Oliveirense (Por)', 'Tondela (Por)',11, 1],
+  [10700, 'AMI', 'Sochaux (Fra)', 'Annecy (Fra)',11, 1],
+  [10700, 'AMI', 'Sutton Athletic (Eng)', 'Bowers & Pitsea (Eng)',11, 1],
+  [10700, 'AMI', 'Tranmere (Eng)', 'Rochdale (Eng)',11, 1],
+  [10800, 'AMI', 'Falkenberg (Swe)', 'Halmstad (Swe)',11, 1],
+  [10900, 'AMI', 'Alanyaspor (Tur)', 'Konyaspor (Tur)',11, 1],
+  [10900, 'AMI', 'Hallescher (Ger)', 'Viktoria Berlin (Ger)',11, 1],
+  [10900, 'AMI', 'Whitby (Eng)', 'South Shields (Eng)',11, 1],
+  [10930, 'AMI', 'Olimpic Zarnesti (Rou)', 'Concordia (Rou)',11, 1],
+  [11000, 'AMI', 'Modena (Ita)', 'Formigine (Ita)',11, 1],
+  [11000, 'AMI', 'Polonia Laziska (Pol)', 'Vorskla (Ukr)',11, 1],
+  [11100, 'AMI', 'Austria Viena (Aut)', 'Aris (Cyp)',11, 1],
+  [11100, 'AMI', 'Beşiktaş (Tur)', 'Mezokovesd (Hun)',11, 1],
+  [11100, 'AMI', 'Emden (Ger)', 'Verl (Ger)',11, 1],
+  [11100, 'AMI', 'Francs Borains (Bel)', 'Epinal (Fra)',11, 1],
+  [11100, 'AMI', 'Hellerup (Den)', 'Avarta (Den)',11, 1],
+  [11100, 'AMI', 'Spartak Moscú (Rus)', 'Neftci Baku (Aze)',11, 1],
+  [11100, 'AMI', 'Vsetin (Cze)', 'Kvitkovice (Cze)',11, 1],
+  [11130, 'AMI', 'Altglienicke (Ger)', 'TB Berlin (Ger)',11, 1],
+  [11130, 'AMI', 'Augsburgo (Ger)', 'Kufstein (Aut)',11, 1],
+  [11130, 'AMI', 'Genoa (Ita)', 'Tirol (Aut)',11, 1],
+  [11130, 'AMI', 'Ishoj IF (Den)', 'FA 2000 (Den)',11, 1],
+  [11130, 'AMI', 'Retz (Aut)', 'TWL Elektra (Aut)',11, 1],
+  [11130, 'AMI', 'Steinbach Haiger (Ger)', 'Eintracht Frankfurt (Ger)',11, 1],
+  [11130, 'AMI', 'Stuttgarter Kickers (Ger)', 'FC Holzhausen (Ger)',11, 1],
+  [11130, 'AMI', 'Zwickau (Ger)', 'Einheit Rudolstadt (Ger)',11, 1],
+  [11200, 'AMI', 'AD Ceuta (Esp)', 'Sevilla (Esp)',11, 1],
+  [11200, 'AMI', 'Allerheiligen (Aut)', 'Stadtwerke Bruck/Mur (Aut)',11, 1],
+  [11200, 'AMI', 'ATSV Wolfsberger (Aut)', 'A. Klagenfurt (Am) (Aut)',11, 1],
+  [11200, 'AMI', 'BK Frem (Den)', 'Tarnby FF (Den)',11, 1],
+  [11200, 'AMI', 'Clarholz (Ger)', 'Wiedenbruck (Ger)',11, 1],
+  [11200, 'AMI', 'Duren (Ger)', 'Konigsdorf (Ger)',11, 1],
+  [11200, 'AMI', 'Ebreichsdorf (Aut)', 'Leithaprodersdorf (Aut)',11, 1],
+  [11200, 'AMI', 'Kilia Kiel (Ger)', 'Rot Schwarz Kiel (Ger)',11, 1],
+  [11200, 'AMI', 'Langenrohr (Aut)', 'Wiener Viktoria (Aut)',11, 1],
+  [11200, 'AMI', 'Lebring (Aut)', 'Su Rebenland (Aut)',11, 1],
+  [11200, 'AMI', 'Mainz II (Ger)', 'Walldorf (Ger)',11, 1],
+  [11200, 'AMI', 'Old Boys (Sui)', 'Basilea (Sui)',11, 1],
+  [11200, 'AMI', 'Penafiel (Por)', 'Chaves (Por)',11, 1],
+  [11200, 'AMI', 'Real Oviedo (Esp)', 'Racing (Esp)',11, 1],
+  [11200, 'AMI', 'Sturm Graz (Aut)', 'Galatasaray (Tur)',11, 1],
+  [11200, 'AMI', 'Valencia (Esp)', 'Nottingham Forest (Eng)',11, 1],
+  [11200, 'AMI', 'Winterthur (Sui)', 'Villarreal B (Esp)',11, 1],
+  [11215, 'AMI', 'Xamax (Sui)', 'Bulle (Sui)',11, 1],
+  [11230, 'AMI', 'Altach (Aut)', 'Villarreal (Esp)',11, 1],
+  [11230, 'AMI', 'Osasuna (Esp)', 'Huesca (Esp)',11, 1],
+  [11230, 'AMI', 'Rosenheim (Ger)', 'SV Worgl (Aut)',11, 1],
+  [11230, 'AMI', 'RW Walldorf (Ger)', 'Gonsenheim (Ger)',11, 1],
+  [11230, 'AMI', 'Schwaz (Aut)', 'SC Mils 05 (Aut)',11, 1],
+  [11300, 'AMI', 'Forest Green (Eng)', 'Coventry (Eng)',11, 1],
+  [11300, 'AMI', 'Lisse (Ned)', 'Telstar (Ned)',11, 1],
+  [11300, 'AMI', 'Panathinaikos (Gre)', 'Rayo Vallecano (Esp)',11, 1],
+  [11300, 'AMI', 'Real Murcia (Esp)', 'Sheffield Wed (Eng)',11, 1],
+  [11330, 'AMI', 'Bangor FC (Nir)', 'Rangers B (Sco)',11, 1],
+  [11330, 'AMI', 'Boreham Wood (Eng)', 'Chelsea Sub-21 (Eng)',11, 1],
+  [11330, 'AMI', 'Brackley Town (Eng)', 'Burton (Eng)',11, 1],
+  [11330, 'AMI', 'East Kilbride (Sco)', 'Beith (Sco)',11, 1],
+  [11330, 'AMI', 'El Ejido (Esp)', 'Almería (Esp)',11, 1],
+  [11330, 'AMI', 'Gillingham FC (Eng)', 'Charlton (Eng)',11, 1],
+  [11330, 'AMI', 'Glenavon (Nir)', 'Ards (Nir)',11, 1],
+  [11330, 'AMI', 'Hartley Wintney (Eng)', 'Baffins Milton Rovers (Eng)',11, 1],
+  [11330, 'AMI', 'Hebburn Town (Eng)', 'Bishop Auckland (Eng)',11, 1],
+  [11330, 'AMI', 'Hereford (Eng)', 'Swindon (Eng)',11, 1],
+  [11330, 'AMI', 'Southport (Eng)', 'Morecambe (Eng)',11, 1],
+  [11330, 'AMI', 'Spennymoor (Eng)', 'Morpeth (Eng)',11, 1],
+  [11330, 'AMI', 'Stevenage (Eng)', 'Colchester (Eng)',11, 1],
+  [11330, 'AMI', 'Swindon S (Eng)', 'Chippenham (Eng)',11, 1],
+  [11330, 'AMI', 'Telford (Eng)', 'Notts County (Eng)',11, 1],
+  [11330, 'AMI', 'Torquay (Eng)', 'Plymouth (Eng)',11, 1],
+  [11330, 'AMI', 'Vauxhall (Eng)', 'Crewe (Eng)',11, 1],
+  [11345, 'AMI', 'AFC Fylde (Eng)', 'Barrow (Eng)',11, 1],
+  [11345, 'AMI', 'Beaconsfield Town (Eng)', 'Badshot (Eng)',11, 1],
+  [11345, 'AMI', 'Brentwood (Eng)', 'Aveley (Eng)',11, 1],
+  [11345, 'AMI', 'Bromley (Eng)', 'Maidstone (Eng)',11, 1],
+  [11345, 'AMI', 'Bury (Eng)', 'Stockport Town (Eng)',11, 1],
+  [11345, 'AMI', 'Canvey Island (Eng)', 'Braintree (Eng)',11, 1],
+  [11345, 'AMI', 'Cheadle Town (Eng)', 'Radcliffe (Eng)',11, 1],
+  [11345, 'AMI', 'Cheltenham (Eng)', 'West Brom (Eng)',11, 1],
+  [11345, 'AMI', 'Chester (Eng)', 'Stockport (Eng)',11, 1],
+  [11345, 'AMI', 'Chorley (Eng)', 'Oldham (Eng)',11, 1],
+  [11345, 'AMI', 'Dover (Eng)', 'Crawley (Eng)',11, 1],
+  [11345, 'AMI', 'Eastleigh (Eng)', 'Oxford Utd (Eng)',11, 1],
+  [11345, 'AMI', 'Farnborough (Eng)', 'Aldershot (Eng)',11, 1],
+  [11345, 'AMI', 'FC United (Eng)', 'Warrington (Eng)',11, 1],
+  [11345, 'AMI', 'Gainsborough (Eng)', 'Scunthorpe (Eng)',11, 1],
+  [11345, 'AMI', 'Gillingham FC (Eng)', 'Tonbridge (Eng)',11, 1],
+  [11345, 'AMI', 'Glossop (Eng)', 'Mossley (Eng)',11, 1],
+  [11345, 'AMI', 'Gloucester (Eng)', 'Oxford City (Eng)',11, 1],
+  [11345, 'AMI', 'Harborough (Eng)', 'Tamworth (Eng)',11, 1],
+  [11345, 'AMI', 'Hayes & Yeading (Eng)', 'Kingstonian (Eng)',11, 1],
+  [11345, 'AMI', 'Hendon (Eng)', 'Bedford (Eng)',11, 1],
+  [11345, 'AMI', 'Hollands & Blair (Eng)', 'Folkestone (Eng)',11, 1],
+  [11345, 'AMI', 'Horndean (Eng)', 'Fareham (Eng)',11, 1],
+  [11345, 'AMI', 'Horsham FC (Eng)', 'Erith & Belvedere (Eng)',11, 1],
+  [11345, 'AMI', 'Hull (Eng)', 'Barnsley (Eng)',11, 1],
+  [11345, 'AMI', 'Irlam (Eng)', 'Stalybridge (Eng)',11, 1],
+  [11345, 'AMI', 'Longridge Town (Eng)', 'Bolton (Eng)',11, 1],
+  [11345, 'AMI', 'Lordswood (Eng)', 'Sheppey United (Eng)',11, 1],
+  [11345, 'AMI', 'Margate (Eng)', 'Dartford (Eng)',11, 1],
+  [11345, 'AMI', 'Matlock (Eng)', 'Notts County (Eng)',11, 1],
+  [11345, 'AMI', 'Met. Police (Eng)', 'Hampton & Richmond (Eng)',11, 1],
+  [11345, 'AMI', 'Nuneaton (Eng)', 'Solihull Moors (Eng)',11, 1],
+  [11345, 'AMI', 'Rangers (Sco)', 'Newcastle (Eng)',11, 1],
+  [11345, 'AMI', 'Redhill (Eng)', 'Tunbridge Wells (Eng)',11, 1],
+  [11345, 'AMI', 'Rochester Utd (Eng)', 'Beckenham (Eng)',11, 1],
+  [11345, 'AMI', 'Sittingbourne (Eng)', 'Faversham (Eng)',11, 1],
+  [11345, 'AMI', 'St. Albans (Eng)', 'Maidenhead (Eng)',11, 1],
+  [11345, 'AMI', 'Stevenage (Eng)', 'Watford (Eng)',11, 1],
+  [11345, 'AMI', 'Stourbridge (Eng)', 'Stafford (Eng)',11, 1],
+  [11345, 'AMI', 'Sutton (Eng)', 'Millwall (Eng)',11, 1],
+  [11345, 'AMI', 'Taunton (Eng)', 'Exeter (Eng)',11, 1],
+  [11345, 'AMI', 'Thackley (Eng)', 'Guiseley (Eng)',11, 1],
+  [11345, 'AMI', 'Tiverton (Eng)', 'Bath (Eng)',11, 1],
+  [11345, 'AMI', 'Tooting & Mitcham (Eng)', 'Raynes Park Vale (Eng)',11, 1],
+  [11345, 'AMI', 'Worcester Raiders (Eng)', 'Redditch (Eng)',11, 1],
+  [11345, 'AMI', 'Wythenshawe (Eng)', 'Altrincham (Eng)',11, 1],
+  [11330, 'ZA-PARC', 'Rubio Ñú', 'Amambay',12,1.5],
+  [11700, 'ZA-SUDA', 'América-MG (Bra)', 'Colo Colo (Chi)',12,1.5],
+  [11900, 'ZA-SUDA', 'Estudiantes L.P. (Arg)', 'Barcelona SC (Ecu)',12,1.5],
+  [11930, 'ZA-SUDA', 'Universitario (Per)', 'Corinthians (Bra)',12,1.5],
+]
+
+let PARTIDOS_CON_CUOTA_Y_GRUPO = [];
+
+let indice = 0;
+let cantidad_de_partidos_con_cuota = PARTIDOS_CON_CUOTA.length;
+let cantidad_de_partidos_sin_cuota = PARTIDOS_SIN_CUOTA.length;
+
+for (const partido of PARTIDOS_SIN_CUOTA) {
+  //   if (indice < cantidad_de_partidos_con_cuota - 1) {
+  //   console.log({ indice, cantidad_de_partidos_con_cuota, cantidad_de_partidos_sin_cuota})
+  let indice_encontrado = PARTIDOS_CON_CUOTA.findIndex((p) => {
+    // console.log({ p });
+    return p[1].toLowerCase() === partido[2].toLowerCase();
+  });
+
+  if (indice_encontrado >= 0) {
+    // PARTIDOS_CON_CUOTA_Y_GRUPO[indice] = partido;
+    PARTIDOS_SIN_CUOTA[indice][5] = PARTIDOS_CON_CUOTA[indice_encontrado][4];
+    PARTIDOS_CON_CUOTA.splice(indice_encontrado, 1);
+  } else {
+    let indice_encontrado_2 = PARTIDOS_CON_CUOTA.findIndex((p) => {
+      // console.log({ p });
+      return p[2].toLowerCase() === partido[3].toLowerCase();
+    });
+
+    if (indice_encontrado_2 >= 0) {
+      //   PARTIDOS_CON_CUOTA_Y_GRUPO[indice] = partido;
+      PARTIDOS_SIN_CUOTA[indice][5] =
+        PARTIDOS_CON_CUOTA[indice_encontrado_2][4];
+      PARTIDOS_CON_CUOTA.splice(indice_encontrado_2, 1);
+    }
+  }
+
+  indice++;
+  //   }
+}
+
+const { writeFile } = require("fs");
+
+writeFile(
+  "partidos.txt",
+  "let PARTIDOS = " + JSON.stringify(PARTIDOS_SIN_CUOTA),
+  "utf8",
+  () => {
+    writeFile(
+      "partidos_con_cuota.txt",
+      "let PARTIDOS = " + JSON.stringify(PARTIDOS_CON_CUOTA),
+      "utf8",
+      () => {
+        console.log({
+          PARTIDOS_SIN_CUOTA_C: PARTIDOS_SIN_CUOTA.length,
+          PARTIDOS_CON_CUOTA_C: PARTIDOS_CON_CUOTA.length,
+          // PARTIDOS_SIN_CUOTA: JSON.stringify(PARTIDOS_SIN_CUOTA),
+        });
+      }
+    );
+  }
+);

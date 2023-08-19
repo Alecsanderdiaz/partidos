@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>PARTIDOS</title>
+    <style>
+        .pointer {
+            cursor: pointer;
+        }
+
+        .header {
+            position: fixed;
+            height: 200px;
+            background-color: #FFF;
+            z-index: 1;
+        }
+
+        #contenedor {
+            position: relative;
+            top: 201px;
+        }
+
+        @media (min-width: 540px) {
+            .header {
+                position: fixed;
+                height: 50px;
+                background-color: #FFF;
+                z-index: 1;
+            }
+
+            #contenedor {
+                position: relative;
+                top: 51px;
+            }
+        }
+
+        .text-small {
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="container-fluid header d-lg-none">
+
+        <div class="row my-2">
+            <div class="col-3">
+                <button class="btn btn-primary btn-large btn-block" onclick="ordenar(0)">Hora</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-primary btn-large btn-block" onclick="ordenar(1)">Liga</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-primary btn-large btn-block" onclick="ordenar(5)">Cuota</button>
+            </div>
+            <div class="col-3">
+                <button class="btn btn-primary btn-large btn-block" onclick="ordenar(4)">Grupo</button>
+            </div>
+        </div>
+
+        <div class="row my-2">
+            <div class="col-8">
+                <div class="row my-2">
+                    <div class="col-6">
+                        <input type="number" id="hora" class="form-control">
+                    </div>
+                    <div class="col-6">
+                        <button class="btn btn-primary btn-block" onclick="filtrarHora()">HORA</button>
+                    </div>
+                </div>
+                <div class="row my-2">
+                    <div class="col-6">
+                        <input type="number" id="grupo" class="form-control">
+                    </div>
+                    <div class="col-6">
+                        <button class="btn btn-primary btn-block" onclick="filtrarGrupo()">GRUPO</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 align-middle">
+                <div class="row">
+                    <div class="col">
+                        <button style="height: 88px;" class="btn btn-danger btn-block" onclick="reset()">RESET</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-4">
+                <input type="number" id="inicio" class="form-control">
+            </div>
+            <div class="col-4">
+                <input type="number" id="fin" class="form-control">
+            </div>
+            <div class="col-4">
+                <button class="btn btn-primary btn-block" onclick="filtrar()">FILTRAR</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <div class="container-fluid header d-none d-lg-block">
+
+        <div class="row my-2">
+            <div class="col-4 col-sm-1">
+                <button class="btn btn-primary btn-large btn-block" onclick="ordenar(0)">HORA</button>
+            </div>
+            <div class="col-4 col-sm-1">
+                <button class="btn btn-primary btn-large btn-block" onclick="ordenar(1)">LIGA</button>
+            </div>
+            <div class="col-4 col-sm-1">
+                <button class="btn btn-primary btn-large btn-block" onclick="ordenar(5)">CUOTA</button>
+            </div>
+            <div class="col-4 col-sm-1">
+                <button class="btn btn-primary btn-large btn-block" onclick="ordenar(4)">GRUPO</button>
+            </div>
+            <div class="col-4 col-sm-1">
+                <input type="number" id="hora2" class="form-control">
+            </div>
+            <div class="col-4 col-sm-1">
+                <button class="btn btn-primary btn-block" onclick="filtrarHora()">HORA</button>
+            </div>
+            <div class="col-4 col-sm-1">
+                <input type="number" id="grupo2" class="form-control">
+            </div>
+            <div class="col-4 col-sm-1">
+                <button class="btn btn-primary btn-block" onclick="filtrarGrupo()">GRUPO</button>
+            </div>
+            <div class="col-4 col-sm-1">
+                <input type="number" id="inicio2" class="form-control">
+            </div>
+            <div class="col-4 col-sm-1">
+                <input type="number" id="fin2" class="form-control">
+            </div>
+            <div class="col-4 col-sm-1">
+                <button class="btn btn-primary btn-block" onclick="filtrar()">FILTRAR</button>
+            </div>
+            <div class="col-4 col-sm-1">
+                <button class="btn btn-danger btn-block" onclick="reset()">RESET</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="container-fluid" id="contenedor">
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-11"></div>
+            <div class="col-1">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col">
+                        <button class="btn btn-primary btn-block" onclick="crearGrupos()">G</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-1 col-sm-4 border">dfgdfgda</div>
+            <div class="col-2 col-sm-4 border">dfgdfgdb</div>
+            <div class="col-3 col-sm-4 border">dfgdfgdc</div>
+        </div>
+    </div> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="partidos.js"></script>
+    <script src="logica.js"></script>
+</body>
+
+</html>

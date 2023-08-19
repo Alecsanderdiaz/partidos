@@ -39,7 +39,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         let partido_string = `${partido.local} - ${partido.visitante}`
         // let cantidad_de_letras = partido_string.length
         html += `
-        <div class="row ${partido.cantidadDeApuestas < 43 ? 'bg-warning' : ''}">
+        <div class="row ${partido.cantidadDeApuestas < 50 ? 'bg-warning' : ''}">
         <div class="col-2 border text-end">
             <strong>${indice}/${total} - ${partido.hora - 10000}</strong>
         </div>
@@ -83,7 +83,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
             ${ acumuladoEntero }
             </div>
             <div class="col">
-            ${partido.cuotaFavorito ? (partido.cuotaFavorito/partido.cuotaCualquiera).toFixed(2) : 1}
+            ${partido.rate}
             </div>
             </div>
         </div> 

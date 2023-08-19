@@ -31,37 +31,63 @@
   </head>
 
   <body>
+    <!-- PANTALLA GRANDE -->
     <div class="container-fluid mt-2 d-none d-md-block">
-      <div class="row text-center">
-        <div class="col-2 border">
-          <strong onclick="ordenar('hora')">HORA</strong>
-        </div>
-        <div class="col-1 border">
-          <strong onclick="ordenar('liga')">LIGA</strong>
-        </div>
-        <div class="col-3 border">
-          <strong>PARTIDO</strong>
-        </div>
-        <div class="col border">
-          <div class="row">
-            <div class="col-4 border">L</div>
-            <div class="col-4 border">E</div>
-            <div class="col-4 border">V</div>
+      <div class="container-fluid mt-2">
+        <div class="row text-center">
+          <div class="col-2 border">
+            <strong onclick="ordenar('hora')">HORA</strong>
           </div>
-        </div>
-        <div class="col border">
-          <strong onclick="ordenar('cantidadDeApuestas')">Cantidad</strong>
-        </div>
-        <div class="col border">
-          <strong onclick="ordenar('cuotaCualquiera')" class="favorito"
-            >Cualquiera</strong
-          >
+          <div class="col-1 border">
+            <strong onclick="ordenar('liga')">LIGA</strong>
+          </div>
+          <div class="col-3 border">
+            <strong>PARTIDO</strong>
+          </div>
+          <div class="col border">
+            <div class="row">
+              <div class="col-4 border">L</div>
+              <div class="col-4 border">E</div>
+              <div class="col-4 border">V</div>
+            </div>
+          </div>
+          <div class="col border">
+            
+            <div class="row">
+              <div class="col-4 border">
+                <strong onclick="ordenar('cantidadDeApuestas')">CA</strong>
+              </div>
+              <div class="col-4 border">
+                <strong onclick="ordenar('stake')">St</strong>
+              </div>
+              <div class="col-4 border">
+                <strong onclick="ordenar('cuotaFavorito')">CF</strong>
+              </div>
+            </div>
+          </div>
+          <div class="col border">
+            <div class="row">
+              <div class="col-4 border">
+                <strong onclick="ordenar('cuotaCualquiera')">Cu
+                </strong>
+              </div>
+              <div class="col-4 border">
+                <strong>Acc</strong>
+              </div>
+              <div class="col-4 border">
+                <strong onclick="ordenar('rate')">Div
+                </strong>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
 
       <div class="container-fluid mt-2" id="contenedor-datos"></div>
     </div>
 
+    <!-- MOBILE -->
     <div class="container-fluid mt-2 d-block d-md-none">
       <div class="row text-center">
         <div class="col-2 border">
@@ -83,12 +109,14 @@
       <div class="container-fluid mt-2" id="contenedor-datos-sm"></div>
     </div>
 
+    <!-- BOTON ABRIR MODAL -->
     <div
       class="abrir-configuraciones"
       data-bs-toggle="modal"
       data-bs-target="#exampleModal"
     ></div>
 
+    <!-- MODAL FILTRAR -->
     <div
       class="modal fade"
       id="exampleModal"
@@ -110,23 +138,23 @@
           <div class="modal-body">
             <form>
               <div class="mb-3">
-                <label for="recipient-name" class="col-form-label"
+                <label class="col-form-label"
                   >indice1:</label
                 >
                 <input type="number" class="form-control" id="indice1" />
               </div>
               <div class="mb-3">
-                <label for="message-text" class="col-form-label"
+                <label class="col-form-label"
                   >indice2:</label
                 >
                 <input type="number" class="form-control" id="indice2" />
               </div>
               <div class="mb-3">
-                <label for="message-text" class="col-form-label">hora:</label>
+                <label class="col-form-label">hora:</label>
                 <input type="number" class="form-control" id="hora" />
               </div>
               <div class="mb-3">
-                <label for="message-text" class="col-form-label">cuota:</label>
+                <label class="col-form-label">cuota:</label>
                 <input type="number" class="form-control" id="cuota" />
               </div>
             </form>
@@ -161,6 +189,7 @@
       </div>
     </div>
 
+    <!-- MODAL STAKE -->
     <div
       class="modal fade"
       id="stakeModal"
@@ -182,28 +211,13 @@
           <div class="modal-body">
             <button
               type="button"
-              class="btn btn-primary"
-              onclick="colocarStake(1)"
+              class="btn btn-success"
+              onclick="colocarStake(5)"
             >
-              1 minimo
+              ALTA PROBABILIDAD
             </button>
-            <br>
-            <button
-              type="button"
-              class="btn btn-primary"
-              onclick="colocarStake(2)"
-            >
-              2
-            </button>
-            <br>
-            <button
-              type="button"
-              class="btn btn-primary"
-              onclick="colocarStake(3)"
-            >
-              3
-            </button>
-            <br>
+            <br />
+            <br />
             <button
               type="button"
               class="btn btn-primary"
@@ -211,17 +225,35 @@
             >
               4
             </button>
-            <br>
-            
+            <br />
+            <br />
             <button
               type="button"
               class="btn btn-primary"
-              onclick="colocarStake(5)"
+              onclick="colocarStake(3)"
             >
-              5 alta probabilidad
+              3
             </button>
-            <br>
+            <br />
+            <br />
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="colocarStake(2)"
+            >
+              2
+            </button>
+            <br />
+            <br />
 
+            <button
+              type="button"
+              class="btn btn-danger"
+              onclick="colocarStake(1)"
+            >
+              BAJA PROBABILIDAD
+            </button>
+            <br />
           </div>
         </div>
       </div>
