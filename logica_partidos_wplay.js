@@ -170,6 +170,9 @@ const ordenar = function (value) {
             if (nameA > nameB) {
                 return 1;
             }
+            if (nameA == nameB && a['favorito'] === 'local') {
+                return -1;
+            }
 
             // names must be equal
             return 0;
