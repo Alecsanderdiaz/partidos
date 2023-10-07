@@ -27,6 +27,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     let indice = 0
     let total = partidos.length
     let acumulado = 1
+    let acumuladoFavorito = 1
     for (const partido of partidos) {
         if (partido.cuotaCualquiera) {
             acumulado = Math.floor(acumulado * partido.cuotaCualquiera * 100) / 100
@@ -35,58 +36,73 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
             acumulado = 1
         }
         let acumuladoEntero = Math.floor(acumulado)
+
+        
+        if (partido.cuotaFavorito) {
+            acumuladoFavorito = Math.floor(acumuladoFavorito * partido.cuotaFavorito * 100) / 100
+        }
+        if (acumuladoFavorito > 50000) {
+            acumuladoFavorito = 1
+        }
+        let acumuladoEnteroFavorito = Math.floor(acumuladoFavorito)
+
         indice++
         let partido_string = `${partido.local} - ${partido.visitante}`
+        console.log({ partido_string, acumuladoEnteroFavorito })
         // let cantidad_de_letras = partido_string.length
         html += `
         <div class="row ${partido.cantidadDeApuestas < 60 ? 'bg-warning' : ''}">
-        <div class="col-2 border text-end">
-            <strong>${indice}/${total} - ${partido.hora - 10000}</strong>
-        </div>
-        <div class="col-1 border">
-            <strong>${partido.liga}</strong>
-        </div>
-        <div class="col-3 border">
-            <strong>${partido_string.substring(0, 30)}</strong>
-        </div>
-        <div class="col border">
-            <div class="row">
-                <div class="col-4 border ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'local' ? 'favorito' : ''}">
-                    <span onclick="elegirFavorito(${ indice }, 'local')">${partido.cuotaLocal.toFixed(2)}<span>
+            <div class="col-1 border text-end">
+                <small>${indice}/${total} - ${partido.hora - 10000}</small>
+            </div>
+            <div class="col-1 border">
+                <strong>${partido.liga}</strong>
+            </div>
+            <div class="col-3 border">
+                <strong class="${partido.favorito === 'local' ? 'bg-success text-white' : ''}">${partido.local.substring(0, 30)}</strong>
+                <br>
+                <strong class="${partido.favorito === 'visitante' ? 'bg-success text-white' : ''}">${partido.visitante.substring(0, 30)}</strong>
+            </div>
+            <div class="col border">
+                <div class="row">
+                    <div class="col-4 border ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'local' ? 'favorito' : ''}">
+                        <span onclick="elegirFavorito(${ indice }, 'local')">${partido.cuotaLocal.toFixed(2)}<span>
+                    </div>
+                    <div class="col-4 border">${partido.empate.toFixed(2)}</div>
+                    <div class="col-4 border ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'visitante' ? 'favorito' : ''}">
+                        <span onclick="elegirFavorito(${ indice }, 'visitante')">${partido.cuotaVisitante.toFixed(2)}<span>
+                    </div>
                 </div>
-                <div class="col-4 border">${partido.empate.toFixed(2)}</div>
-                <div class="col-4 border ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'visitante' ? 'favorito' : ''}">
-                    <span onclick="elegirFavorito(${ indice }, 'visitante')">${partido.cuotaVisitante.toFixed(2)}<span>
+            </div>
+            <div class="col-1 border">
+                <strong>${ acumuladoEnteroFavorito }</strong>
+            </div>
+            <div class="col border">
+                <div class="row">
+                <div class="col">
+                <strong>${partido.cantidadDeApuestas}</strong>
                 </div>
-            </div>
-        </div>
-        <div class="col border">
-            <div class="row">
-            <div class="col">
-            <strong>${partido.cantidadDeApuestas}</strong>
-            </div>
-            <div class="col">
-            <small>${partido.stake || 0}</small>
-            </div>
-            <div class="col ${partido.cuotaFavorito && partido.cuotaFavorito < 1.74 ? 'bg-warning' : ''}">
-            <small>${partido.cuotaFavorito?.toFixed(2) || 1}</small>
-            </div>
-            </div>
-        </div> 
-        <div class="col border">
-             
-            <div class="row">
-            <div class="col">
-            <strong>${partido.cuotaCualquiera?.toFixed(2) || ''}</strong>
-            </div>
-            <div class="col">
-            ${ acumuladoEntero }
-            </div>
-            <div class="col ${partido.rate && partido.rate < 1.2 ? 'bg-warning' : ''}">
-            ${partido.rate}
-            </div>
-            </div>
-        </div> 
+                <div class="col">
+                <small>${partido.stake || 0}</small>
+                </div>
+                <div class="col ${partido.cuotaFavorito && partido.cuotaFavorito < 1.74 ? 'bg-warning' : ''}">
+                <small>${partido.cuotaFavorito?.toFixed(2) || 1}</small>
+                </div>
+                </div>
+            </div> 
+            <div class="col border">
+                <div class="row">
+                <div class="col">
+                <strong>${partido.cuotaCualquiera?.toFixed(2) || ''}</strong>
+                </div>
+                <div class="col">
+                ${ acumuladoEntero }
+                </div>
+                <div class="col ${partido.rate && partido.rate < 1.2 ? 'bg-warning' : ''}">
+                ${partido.rate}
+                </div>
+                </div>
+            </div> 
     </div>
         `
     }
