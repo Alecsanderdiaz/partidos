@@ -51,14 +51,14 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         console.log({ partido_string, acumuladoEnteroFavorito })
         // let cantidad_de_letras = partido_string.length
         html += `
-        <div class="row ${partido.cantidadDeApuestas < 60 ? 'bg-warning' : ''}">
+        <div class="row ${partido.cantidadDeApuestas < 60 ? 'bg-warning' : ''} ${partido.cantidadDeApuestas < 60 && partido.cuotaCualquiera < 1.27 ? 'bg-danger' : ''}">
             <div class="col-1 border text-end">
                 <small>${indice}/${total} - ${partido.hora - 10000}</small>
             </div>
             <div class="col-1 border">
                 <strong>${partido.liga}</strong>
             </div>
-            <div class="col-3 border">
+            <div class="col-3 border ${(partido.cuotaFavorito && partido.cuotaFavorito > 1) && (partido.cuotaFavorito && partido.cuotaFavorito < 1.75) ? 'bg-warning' : ''} ${(partido.cuotaCualquiera && partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.27) ? 'bg-danger' : ''}">
                 <strong class="${partido.favorito === 'local' ? 'bg-success text-white' : ''}">${partido.local.substring(0, 30)}</strong>
                 <br>
                 <strong class="${partido.favorito === 'visitante' ? 'bg-success text-white' : ''}">${partido.visitante.substring(0, 30)}</strong>
