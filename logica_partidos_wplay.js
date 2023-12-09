@@ -51,14 +51,14 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         console.log({ partido_string, acumuladoEnteroFavorito })
         // let cantidad_de_letras = partido_string.length
         html += `
-        <div class="row ${partido.cantidadDeApuestas < 60 ? 'bg-warning' : ''} ${partido.cantidadDeApuestas < 60 && partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.27 ? 'bg-danger' : ''}">
+        <div class="row ${partido.cantidadDeApuestas < 60 ? 'bg-warning' : ''} ${partido.cantidadDeApuestas < 60 && partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 ? 'bg-danger' : ''}">
             <div class="col-1 border text-end">
                 <small>${indice}/${total} - ${partido.hora - 10000}</small>
             </div>
             <div class="col-1 border">
                 <strong>${partido.liga}</strong>
             </div>
-            <div class="col-3 border ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.75 ? 'bg-warning' : ''} ${partido.cuotaCualquiera && partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.27 && partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.75 ? 'bg-danger' : ''}">
+            <div class="col-3 border ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-warning' : ''} ${partido.cuotaCualquiera && partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 && partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-danger' : ''}">
                 <strong class="${partido.favorito === 'local' ? 'bg-success text-white' : ''}">${partido.local.substring(0, 30)}</strong>
                 <br>
                 <strong class="${partido.favorito === 'visitante' ? 'bg-success text-white' : ''}">${partido.visitante.substring(0, 30)}</strong>
@@ -85,20 +85,20 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 <div class="col">
                 <small>${partido.stake || 0}</small>
                 </div>
-                <div class="col ${partido.cuotaFavorito && partido.cuotaFavorito < 1.74 ? 'bg-warning' : ''}">
+                <div class="col ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74? 'bg-danger' : ''}">
                 <small>${partido.cuotaFavorito?.toFixed(2) || 1}</small>
                 </div>
                 </div>
             </div> 
             <div class="col border">
                 <div class="row">
-                <div class="col">
+                <div class="col ${ partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 ? 'bg-danger' : '' }">
                 <strong>${partido.cuotaCualquiera?.toFixed(2) || ''}</strong>
                 </div>
                 <div class="col">
                 ${ acumuladoEntero }
                 </div>
-                <div class="col ${partido.rate && partido.rate < 1.2 ? 'bg-warning' : ''}">
+                <div class="col ${partido.rate && partido.rate > 1 && partido.rate < 1.26 ? 'bg-danger' : ''}">
                 ${partido.rate}
                 </div>
                 </div>
