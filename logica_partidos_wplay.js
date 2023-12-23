@@ -5,9 +5,9 @@ let favorito = 'local'
 const CONTENEDOR_DATOS = document.getElementById('contenedor-datos')
 const CONTENEDOR_DATOS_SM = document.getElementById('contenedor-datos-sm')
 
-const elegirFavorito =  function (indice, valor) {
+const elegirFavorito = function (indice, valor) {
     indiceFavorito = indice - 1
-    PARTIDOS_OPTIMIZADOS[indiceFavorito]['favorito']=valor
+    PARTIDOS_OPTIMIZADOS[indiceFavorito]['favorito'] = valor
     const myModal = new bootstrap.Modal(document.getElementById('stakeModal'))
     myModal.show()
     // console.log(myModal)
@@ -15,9 +15,9 @@ const elegirFavorito =  function (indice, valor) {
 }
 
 const colocarStake = function (value) {
-    PARTIDOS_OPTIMIZADOS[indiceFavorito]['stake']=value
+    PARTIDOS_OPTIMIZADOS[indiceFavorito]['stake'] = value
     let modal_obj = bootstrap.Modal.getInstance(stakeModal);
-        modal_obj.hide();
+    modal_obj.hide();
     dibujar()
 }
 
@@ -37,9 +37,13 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         }
         let acumuladoEntero = Math.floor(acumulado)
 
-        
-        if (partido.cuotaFavorito) {
+
+        if (partido.cuotaFavorito && partido.cuotaFavorito >= 1.74 ) {
             acumuladoFavorito = Math.floor(acumuladoFavorito * partido.cuotaFavorito * 100) / 100
+            console.log('FAVORITO')
+        } else if ( partido.cuotaCualquiera && partido.cuotaCualquiera >= 1.26) {
+            console.log('CUALQUIERA')
+            acumuladoFavorito = Math.floor(acumuladoFavorito * partido.cuotaCualquiera * 100) / 100
         }
         if (acumuladoFavorito > 50000) {
             acumuladoFavorito = 1
@@ -66,16 +70,16 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
             <div class="col border">
                 <div class="row">
                     <div class="col-4 border ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'local' ? 'favorito' : ''}">
-                        <span onclick="elegirFavorito(${ indice }, 'local')">${partido.cuotaLocal.toFixed(2)}<span>
+                        <span onclick="elegirFavorito(${indice}, 'local')">${partido.cuotaLocal.toFixed(2)}<span>
                     </div>
                     <div class="col-4 border">${partido.empate.toFixed(2)}</div>
                     <div class="col-4 border ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'visitante' ? 'favorito' : ''}">
-                        <span onclick="elegirFavorito(${ indice }, 'visitante')">${partido.cuotaVisitante.toFixed(2)}<span>
+                        <span onclick="elegirFavorito(${indice}, 'visitante')">${partido.cuotaVisitante.toFixed(2)}<span>
                     </div>
                 </div>
             </div>
             <div class="col-1 border">
-                <strong>${ acumuladoEnteroFavorito }</strong>
+                <strong>${acumuladoEnteroFavorito}</strong>
             </div>
             <div class="col border">
                 <div class="row">
@@ -85,18 +89,18 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 <div class="col">
                 <small>${partido.stake || 0}</small>
                 </div>
-                <div class="col ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74? 'bg-danger' : ''}">
+                <div class="col ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-danger' : ''}">
                 <small>${partido.cuotaFavorito?.toFixed(2) || 1}</small>
                 </div>
                 </div>
             </div> 
             <div class="col border">
                 <div class="row">
-                <div class="col ${ partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 ? 'bg-danger' : '' }">
+                <div class="col ${partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 ? 'bg-danger' : ''}">
                 <strong>${partido.cuotaCualquiera?.toFixed(2) || ''}</strong>
                 </div>
                 <div class="col">
-                ${ acumuladoEntero }
+                ${acumuladoEntero}
                 </div>
                 <div class="col ${partido.rate && partido.rate > 1 && partido.rate < 1.26 ? 'bg-danger' : ''}">
                 ${partido.rate}
@@ -152,7 +156,7 @@ const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
             <div class="col-2 border">
            
 
-                <small>${ acumuladoEntero }</small>
+                <small>${acumuladoEntero}</small>
                 <br>
                 <small>${partido.stake || 0}</small>
                 <br>

@@ -1,103 +1,333 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PARTIDOS WPLAY</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
 
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<title>Partidos</title>
-</head>
+    <style>
+      .abrir-configuraciones {
+        background-color: #565050;
+        width: 50px;
+        height: 50px;
+        bottom: 10px;
+        right: 10px;
+        position: fixed;
+      }
 
-<body>
-<header class="text-center">
-<h1>Organizando</h1>
-</header>
-<main class="container">
-<ul class="list-group">
-    <a href="./partidos_organizados.html" class="list-group-item">Lista como antes</a>
-    <a href="./partidos_solo_cuotas.html" class="list-group-item">Copiar Cuotas</a>
-    <a href="./partidos_wplay.html" class="list-group-item">Nueva Organización</a>
-</ul>
+      .favorito::after {
+        content: "+";
+        background-color: red;
+        border-radius: 50%;
+      }
+    </style>
+    <script src="partidos_optimizados.js"></script>
+  </head>
 
-<pre class="prettyprint">
-        
-    hora
-    liga*
-    local
-    visitante
-    cuotaLocal
-    empate
-    cuotaVisitante
-    cantidadDeApuestas
-    favorito* local | visitante
-    confianza* 0@5
-    cuotaCualquiera*
-    cuotaFavorito*
-</pre>
-<hr>
-<hr>
-<hr>
-<p>
-    Mucho se encuentra DEPRECADO
-    <br>
-    <br>
-    Ahora solo utilizamos 
-    <br>
-    partidos_wplay.html
-    <br>
-    partidos_optimizados.js
-</p>
+  <body>
+    <!-- PANTALLA GRANDE -->
+    <div class="container-fluid mt-2 d-none d-md-block">
+      <div class="container-fluid mt-2">
+        <div class="row text-center">
+          <div class="col-1 border">
+            <strong onclick="ordenar('hora')">HORA</strong>
+          </div>
+          <div class="col-1 border">
+            <strong onclick="ordenar('liga')">LIGA</strong>
+          </div>
+          <div class="col-3 border">
+            <strong>PARTIDO</strong>
+          </div>
+          <div class="col border">
+            <div class="row">
+              <div class="col-4 border">L</div>
+              <div class="col-4 border">E</div>
+              <div class="col-4 border">V</div>
+            </div>
+          </div>
+          <div class="col-1 border">
+            <strong>A.F.</strong>
+          </div>
+          <div class="col border">
+            
+            <div class="row">
+              <div class="col-4 border">
+                <strong onclick="ordenar('cantidadDeApuestas')">CA</strong>
+              </div>
+              <div class="col-4 border">
+                <strong onclick="ordenar('stake')">St</strong>
+              </div>
+              <div class="col-4 border">
+                <strong onclick="ordenar('cuotaFavorito')">CF</strong>
+              </div>
+            </div>
+          </div>
+          <div class="col border">
+            <div class="row">
+              <div class="col-4 border">
+                <strong onclick="ordenar('cuotaCualquiera')">Cu
+                </strong>
+              </div>
+              <div class="col-4 border">
+                <strong>Acc</strong>
+              </div>
+              <div class="col-4 border">
+                <strong onclick="ordenar('rate')">Div
+                </strong>
+              </div>
+            </div>
 
-<pre class="prettyprint">
-        
-    let PARTIDOS_OPTIMIZADOS = [
-        {
-            "hora": 10400,
-            "liga": "AMI-E",
-            "local": "Las Palmas",
-            "visitante": "Orlando Pirates",
-            "cuotaLocal": 1.571,
-            "empate": 4.2,
-            "cuotaVisitante": 4.5,
-            "cantidadDeApuestas": 76,
-            "cuotaCualquiera": 1.3
-        },
-</pre>
+          </div>
+        </div>
+      </div>
 
-<p>colocar_cuota_nuevo.js - Este archivo lo hace</p>
+      <div class="container-fluid mt-2" id="contenedor-datos"></div>
+    </div>
 
-<p>Cómo llegar a esa lista:
-    <br>
-    Liga por Liga
-</p>
+    <!-- MOBILE -->
+    <div class="container-fluid mt-2 d-block d-md-none">
+      <div class="container-fluid mt-2">
+      <div class="row text-center">
+        <div class="col-2 border">
+          <strong onclick="ordenar('hora')">Hora</strong>
+        </div>
+        <div class="col-4 border">
+          <strong onclick="ordenar('liga')">LIGA</strong>
+          <br />
+          <strong>GAME</strong>
+        </div>
+        <div class="col-2 border">
+          <strong></strong>
+        </div>
+        <div class="col-2 border">
+          <strong onclick="ordenar('cuotaCualquiera')">CFR</strong>
+        </div>
+        <div class="col-2 border">
+          <strong onclick="ordenar('cuotaCualquiera')">AcSCa</strong>
+        </div>
+      </div>
+    </div>
 
-<pre class="prettyprint">
-        
-    let PARTIDOS_WPLAY = [
-        [10500, 'AMIE', 'Tottenham', 2.00, 'Empate', 3.70, 'West Ham United', 3.50, 176],
-</pre>
+      <div class="container-fluid mt-2" id="contenedor-datos-sm"></div>
+    </div>
 
-<p>
-    Lista de apuestas hechas
-</p>
+    <!-- BOTON ABRIR MODAL -->
+    <div
+      class="abrir-configuraciones"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    ></div>
 
-<pre class="prettyprint">
-        
-let PARTIDOS_CON_CUOTA = [
-    [11200, 'FC Flora Tallinn', 'Rakow Czestochowa', '0.5', 1.42],
-</pre>
+    <!-- MODAL FILTRAR -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Filtrar</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label class="col-form-label"
+                  >indice1:</label
+                >
+                <input type="number" class="form-control" id="indice1" />
+              </div>
+              <div class="mb-3">
+                <label class="col-form-label"
+                  >indice2:</label
+                >
+                <input type="number" class="form-control" id="indice2" />
+              </div>
+              <div class="mb-3">
+                <label class="col-form-label">hora:</label>
+                <input type="number" class="form-control" id="hora" />
+              </div>
+              <div class="mb-3">
+                <label class="col-form-label">cuota:</label>
+                <input type="number" class="form-control" id="cuota" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="filtrarIndice()"
+            >
+              Indice
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="filtrarHora()"
+            >
+              Hora
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="filtrarCuota()"
+            >
+              Cuota
+            </button>
+            <button type="button" class="btn btn-danger" onclick="reset()">
+              RESET
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- MODAL STAKE -->
+    <div
+      class="modal fade"
+      id="stakeModal"
+      tabindex="-1"
+      aria-labelledby="stakeModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="stakeModalLabel">Stake</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn btn-success"
+              onclick="colocarStake(5)"
+            >
+              ALTA PROBABILIDAD
+            </button>
+            <br />
+            <br />
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="colocarStake(4)"
+            >
+              4
+            </button>
+            <br />
+            <br />
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="colocarStake(3)"
+            >
+              3
+            </button>
+            <br />
+            <br />
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="colocarStake(2)"
+            >
+              2
+            </button>
+            <br />
+            <br />
 
+            <button
+              type="button"
+              class="btn btn-danger"
+              onclick="colocarStake(1)"
+            >
+              BAJA PROBABILIDAD
+            </button>
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <script src="logica_partidos_wplay.js"></script>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
 
+    <script>
+      const exampleModal = document.getElementById("exampleModal");
 
+      const indice1 = document.getElementById("indice1");
+      const indice2 = document.getElementById("indice2");
+      const cuota = document.getElementById("cuota");
+      const hora = document.getElementById("hora");
 
+      const filtrarIndice = function () {
+        const indice1Value = +indice1.value;
+        const indice2Value = +indice2.value;
+        const filtrados = PARTIDOS_OPTIMIZADOS.slice(
+          indice1Value - 1,
+          indice2Value
+        );
+        PARTIDOS_OPTIMIZADOS = filtrados;
+        dibujar();
+        dibujarSM();
+        let modal_obj = bootstrap.Modal.getInstance(exampleModal);
+        modal_obj.hide();
+      };
 
+      const filtrarHora = function () {
+        const horaValue = +hora.value + 10000;
+        const filtrados = PARTIDOS_OPTIMIZADOS.filter(
+          (partido) => partido.hora > horaValue
+        );
+        PARTIDOS_OPTIMIZADOS = filtrados;
+        dibujar();
+        dibujarSM();
+        let modal_obj = bootstrap.Modal.getInstance(exampleModal);
+        modal_obj.hide();
+      };
 
+      const filtrarCuota = function () {
+        const cuotaValue = +cuota.value;
+        const filtrados = PARTIDOS_OPTIMIZADOS.filter(
+          (partido) => partido.cuotaCualquiera > cuotaValue
+        );
+        PARTIDOS_OPTIMIZADOS = filtrados;
+        dibujar();
+        dibujarSM();
+        let modal_obj = bootstrap.Modal.getInstance(exampleModal);
+        modal_obj.hide();
+      };
 
-</main>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
-
+      const reset = function () {
+        PARTIDOS_OPTIMIZADOS = [...PARTIDOS_BACKUP];
+        dibujar();
+        dibujarSM();
+        let modal_obj = bootstrap.Modal.getInstance(exampleModal);
+        modal_obj.hide();
+      };
+    </script>
+  </body>
 </html>
