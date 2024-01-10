@@ -129,12 +129,12 @@ const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
         let acumuladoEntero = Math.floor(acumulado)
         indice++
         html += `
-        <div class="row ${partido.cantidadDeApuestas < 50 ? 'bg-warning' : ''}">
+        <div class="row ${partido.cantidadDeApuestas < 60 ? 'bg-warning' : ''} ${partido.cantidadDeApuestas < 60 && partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 ? 'bg-danger' : ''}">
             <div class="col-2 border">
                 ${indice}/${total}<br>
                 ${partido.hora - 10000}
             </div>
-            <div class="col-4 border">
+            <div class="col-4 border ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-warning' : ''} ${partido.cuotaCualquiera && partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 && partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-danger' : ''}">
                 ${partido.liga}
                 <br>
                 <small class="${partido.favorito === 'local' ? 'bg-secondary text-white' : ''}">${partido.local.substring(0, 10)}</small>
