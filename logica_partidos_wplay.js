@@ -2,6 +2,8 @@ let PARTIDOS_BACKUP = [...PARTIDOS_OPTIMIZADOS]
 let indiceFavorito = 0
 let favorito = 'local'
 
+let baseUrl = 'https://apuestas.wplay.co/es/t/'
+
 const CONTENEDOR_DATOS = document.getElementById('contenedor-datos')
 const CONTENEDOR_DATOS_SM = document.getElementById('contenedor-datos-sm')
 
@@ -53,6 +55,11 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         indice++
         let partido_string = `${partido.local} - ${partido.visitante}`
         console.log({ partido_string, acumuladoEnteroFavorito })
+
+        let mitad = partido.mitad ? `<a href="${ baseUrl + partido.codigoWplay + '?mkt_sort=GSH1' }" target="_blank" rel="noopener noreferrer">M</a>` : ''
+        let local = partido.mitadFavorito ? ` <a href="${ baseUrl + partido.codigoWplay + '?mkt_sort=OU1H' }" target="_blank" rel="noopener noreferrer">L</a>`: ''
+        let visitante = partido.mitadFavorito ? ` <a href="${ baseUrl + partido.codigoWplay + '?mkt_sort=OU1A' }" target="_blank" rel="noopener noreferrer">V</a>`: ''
+
         // let cantidad_de_letras = partido_string.length
         html += `
         <div class="row ${partido.cantidadDeApuestas < 60 ? 'bg-warning' : ''} ${partido.cantidadDeApuestas < 60 && partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 ? 'bg-danger' : ''}">
@@ -60,7 +67,10 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 <small>${indice}/${total} - ${partido.hora - 10000}</small>
             </div>
             <div class="col-1 border">
-                <strong>${partido.liga}</strong>
+                <strong>
+                    <a href="${ baseUrl + partido.codigoWplay }" target="_blank" rel="noopener noreferrer">${partido.liga}</a>
+                </strong>
+                ${ mitad } ${ local } ${ visitante }    
             </div>
             <div class="col-3 border ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-warning' : ''} ${partido.cuotaCualquiera && partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 && partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-danger' : ''}">
                 <strong class="${partido.favorito === 'local' ? 'bg-success text-white' : ''}">${partido.local.substring(0, 30)}</strong>
