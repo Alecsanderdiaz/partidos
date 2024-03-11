@@ -30,7 +30,25 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     let total = partidos.length
     let acumulado = 1
     let acumuladoFavorito = 1
+
+    let codeLigues = []
+    let codeLiguesNoHalf = []
+
+    // "mitad": true,
+    // "codigoWplay": 19157
+
     for (const partido of partidos) {
+        if (partido.mitad && partido.codigoWplay) {
+            let exists = codeLigues.find(p => p.codigoWplay === partido.codigoWplay)
+            if (!exists) {
+                codeLigues.push({ mitad: partido.mitad, codigoWplay: partido.codigoWplay})
+            }
+        } else if (partido.mitad === false && partido.codigoWplay) {
+            let exists = codeLiguesNoHalf.find(p => p.codigoWplay === partido.codigoWplay)
+            if (!exists) {
+                codeLiguesNoHalf.push({ mitad: partido.mitad, codigoWplay: partido.codigoWplay})
+            }
+        }
         if (partido.cuotaCualquiera) {
             acumulado = Math.floor(acumulado * partido.cuotaCualquiera * 100) / 100
         }
@@ -42,9 +60,9 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
 
         if (partido.cuotaFavorito && partido.cuotaFavorito >= 1.74 ) {
             acumuladoFavorito = Math.floor(acumuladoFavorito * partido.cuotaFavorito * 100) / 100
-            console.log('FAVORITO')
+            // console.log('FAVORITO')
         } else if ( partido.cuotaCualquiera && partido.cuotaCualquiera >= 1.26) {
-            console.log('CUALQUIERA')
+            // console.log('CUALQUIERA')
             acumuladoFavorito = Math.floor(acumuladoFavorito * partido.cuotaCualquiera * 100) / 100
         }
         if (acumuladoFavorito > 50000) {
@@ -54,7 +72,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
 
         indice++
         let partido_string = `${partido.local} - ${partido.visitante}`
-        console.log({ partido_string, acumuladoEnteroFavorito })
+        // console.log({ partido_string, acumuladoEnteroFavorito })
 
         let mitad = partido.mitad ? `<a href="${ baseUrl + partido.codigoWplay + '?mkt_sort=GSH1' }" target="_blank" rel="noopener noreferrer">M</a>` : ''
         let local = partido.mitadFavorito ? ` <a href="${ baseUrl + partido.codigoWplay + '?mkt_sort=OU1H' }" target="_blank" rel="noopener noreferrer">L</a>`: ''
@@ -120,6 +138,58 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     </div>
         `
     }
+
+    let links = []
+    let codeStrings = ''
+
+    for (let index = 0; index < codeLigues.length; index++) {
+        const element = codeLigues[index].codigoWplay;
+        codeStrings += element
+        codeStrings += '-'
+        if ((index + 1 ) % 5 === 0 || index === codeLigues.length - 1) {
+            let codeStringsWithOutRaya = codeStrings.substring(0, codeStrings.length - 1)
+            links.push(codeStringsWithOutRaya)
+            codeStrings = ''
+        }
+    }
+
+    let linksNoHalf = []
+
+    for (let index = 0; index < codeLiguesNoHalf.length; index++) {
+        const element = codeLiguesNoHalf[index].codigoWplay;
+        codeStrings += element
+        codeStrings += '-'
+        if ((index + 1 ) % 5 === 0 || index === codeLiguesNoHalf.length - 1) {
+            let codeStringsWithOutRaya = codeStrings.substring(0, codeStrings.length - 1)
+            linksNoHalf.push(codeStringsWithOutRaya)
+            codeStrings = ''
+        }
+    }
+
+    for (const link of links) {
+        html+= `
+    <div class="row">
+      <div class="col">
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=${ link }" target="_blank" rel="noopener noreferrer">${ link }</a>
+      </div>
+    </div>
+        `
+    }
+    html += '<hr>'
+    for (const link of linksNoHalf) {
+        html+= `
+    <div class="row">
+      <div class="col">
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=MRES&sb_type_ids=${ link }" target="_blank" rel="noopener noreferrer">${ link }</a>
+      </div>
+    </div>
+        `
+    }
+    
+
+    // https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=19296-19160-48352-19159-19328
+
+    console.log({ links })
 
     CONTENEDOR_DATOS.innerHTML = html
 }
