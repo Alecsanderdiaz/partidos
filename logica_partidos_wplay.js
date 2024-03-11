@@ -34,10 +34,20 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     let codeLigues = []
     let codeLiguesNoHalf = []
 
+    let codeLiguesPreferidos = []
+
     // "mitad": true,
     // "codigoWplay": 19157
 
     for (const partido of partidos) {
+
+        if (partido.mitadFavorito && partido.codigoWplay) {
+            let exists = codeLiguesPreferidos.find(p => p.codigoWplay === partido.codigoWplay)
+            if (!exists) {
+                codeLiguesPreferidos.push({ mitad: partido.mitad, codigoWplay: partido.codigoWplay})
+            }
+        }
+
         if (partido.mitad && partido.codigoWplay) {
             let exists = codeLigues.find(p => p.codigoWplay === partido.codigoWplay)
             if (!exists) {
@@ -49,6 +59,8 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 codeLiguesNoHalf.push({ mitad: partido.mitad, codigoWplay: partido.codigoWplay})
             }
         }
+
+
         if (partido.cuotaCualquiera) {
             acumulado = Math.floor(acumulado * partido.cuotaCualquiera * 100) / 100
         }
@@ -166,6 +178,19 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         }
     }
 
+    let linksFavoritos = []
+
+    for (let index = 0; index < codeLiguesPreferidos.length; index++) {
+        const element = codeLiguesPreferidos[index].codigoWplay;
+        codeStrings += element
+        codeStrings += '-'
+        if ((index + 1 ) % 5 === 0 || index === codeLiguesPreferidos.length - 1) {
+            let codeStringsWithOutRaya = codeStrings.substring(0, codeStrings.length - 1)
+            linksFavoritos.push(codeStringsWithOutRaya)
+            codeStrings = ''
+        }
+    }
+
     for (const link of links) {
         html+= `
     <div class="row">
@@ -181,6 +206,20 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     <div class="row">
       <div class="col">
         <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=MRES&sb_type_ids=${ link }" target="_blank" rel="noopener noreferrer">${ link }</a>
+      </div>
+    </div>
+        `
+    }
+
+    
+    html += '<hr>'
+    for (const link of linksFavoritos) {
+        html+= `
+    <div class="row">
+      <div class="col">
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1H&sb_type_ids=${ link }" target="_blank" rel="noopener noreferrer">${ link } - LOCAL</a>
+        ------
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1A&sb_type_ids=${ link }" target="_blank" rel="noopener noreferrer">${ link } - VISITANTE</a>
       </div>
     </div>
         `
