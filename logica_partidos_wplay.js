@@ -143,13 +143,14 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 ${acumuladoEntero}
                 </div>
                 <div class="col ${partido.rate && partido.rate > 1 && partido.rate < 1.26 ? 'bg-danger' : ''}">
-                ${partido.rate}
+                
                 </div>
                 </div>
-            </div> 
-    </div>
-        `
-    }
+                </div> 
+                </div>
+                `
+            }
+            // ${partido.rate}
 
     let links = []
     let codeStrings = ''
