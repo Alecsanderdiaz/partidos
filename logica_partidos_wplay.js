@@ -231,6 +231,24 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
 
     console.log({ links })
 
+    html += '<hr>'
+    html += `
+    <div class="row">
+      <div class="col">
+      
+      <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=SBTYPE&mkt_sort=MRES&sb_type_ids=19345-465796-19287-20183-617783" target="_blank" rel="noopener noreferrer">Amistosos Ligas</a>
+        -------
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=19345-465796-19287-20183-617783" target="_blank" rel="noopener noreferrer">Amistosos Mitad</a>
+        -------
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=MRES&sb_type_ids=19345-465796-19287-20183-617783" target="_blank" rel="noopener noreferrer">Amistosos</a>
+      </div>
+    </div>
+    `
+
+    html += '<hr>'
+    html += '<hr>'
+    html += '<hr>'
+
     CONTENEDOR_DATOS.innerHTML = html
 }
 
