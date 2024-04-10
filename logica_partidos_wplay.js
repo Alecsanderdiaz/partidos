@@ -126,7 +126,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 <div class="col">
                 <strong>${partido.cantidadDeApuestas}</strong>
                 </div>
-                <div class="col ${partido.over < 1.76 ? 'bg-warning' : ''}">
+                <div class="col ${partido.over < 1.74 ? 'bg-warning' : ''}">
                 <small>${partido.over || 1}</small>
                 </div>
                 <div class="col ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-danger' : ''}">
@@ -142,7 +142,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 <div class="col">
                 ${acumuladoEntero}
                 </div>
-                <div class="col ${partido.ambosAnotan < 1.76 ? 'bg-warning' : ''}">
+                <div class="col ${partido.ambosAnotan < 1.74 ? 'bg-warning' : ''}">
                 <small>${partido.ambosAnotan || 1}</small>
                 </div>
                 </div>
