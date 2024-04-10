@@ -126,8 +126,8 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 <div class="col">
                 <strong>${partido.cantidadDeApuestas}</strong>
                 </div>
-                <div class="col">
-                <small>${partido.stake || 0}</small>
+                <div class="col ${partido.over < 1.76 ? 'bg-warning' : ''}">
+                <small>${partido.over || 1}</small>
                 </div>
                 <div class="col ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-danger' : ''}">
                 <small>${partido.cuotaFavorito?.toFixed(2) || 1}</small>
@@ -142,8 +142,8 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 <div class="col">
                 ${acumuladoEntero}
                 </div>
-                <div class="col ${partido.rate && partido.rate > 1 && partido.rate < 1.26 ? 'bg-danger' : ''}">
-                
+                <div class="col ${partido.ambosAnotan < 1.76 ? 'bg-warning' : ''}">
+                <small>${partido.ambosAnotan || 1}</small>
                 </div>
                 </div>
                 </div> 
@@ -192,7 +192,29 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         }
     }
 
+    let codeLiguesAll = [...codeLigues, ...codeLiguesNoHalf]
+    let linksAll = []
+
+    for (let index = 0; index < codeLiguesAll.length; index++) {
+        const element = codeLiguesAll[index].codigoWplay;
+        codeStrings += element
+        codeStrings += '-'
+        if ((index + 1 ) % 5 === 0 || index === codeLiguesAll.length - 1) {
+            let codeStringsWithOutRaya = codeStrings.substring(0, codeStrings.length - 1)
+            linksAll.push(codeStringsWithOutRaya)
+            codeStrings = ''
+        }
+    }
+
+    html+= `
+    <span>
+        Gol en la primera Mitad - SI
+    </span>
+    <br>
+    `
+
     for (const link of links) {
+
         html+= `
     <div class="row">
       <div class="col">
@@ -202,6 +224,12 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         `
     }
     html += '<hr>'
+    html+= `
+    <span>
+        PRIMERA MITAD MAS DE 0.5
+    </span>
+    <br>
+    `
     for (const link of linksNoHalf) {
         html+= `
     <div class="row">
@@ -212,8 +240,48 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         `
     }
 
+    html += '<hr>'
+    html+= `
+    <span>
+        AMBOS ANOTAN
+    </span>
+    <br>
+    `
+    for (const link of linksAll) {
+        html+= `
+    <div class="row">
+      <div class="col">
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${ link }" target="_blank" rel="noopener noreferrer">${ link }</a>
+      </div>
+    </div>
+        `
+    }
+
+    html += '<hr>'
+    html+= `
+    <span>
+        OVER
+    </span>
+    <br>
+    `
+    for (const link of linksAll) {
+        html+= `
+    <div class="row">
+      <div class="col">
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${ link }" target="_blank" rel="noopener noreferrer">${ link }</a>
+      </div>
+    </div>
+        `
+    }
+
     
     html += '<hr>'
+    html+= `
+    <span>
+        LOCAL - VISITANTE
+    </span>
+    <br>
+    `
     for (const link of linksFavoritos) {
         html+= `
     <div class="row">
@@ -232,6 +300,12 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     console.log({ links })
 
     html += '<hr>'
+    html+= `
+    <span>
+        AMISTOSOS
+    </span>
+    <br>
+    `
     html += `
     <div class="row">
       <div class="col">
