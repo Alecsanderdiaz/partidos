@@ -1,3 +1,4 @@
+
 let PARTIDOS_BACKUP = [...PARTIDOS_OPTIMIZADOS]
 let indiceFavorito = 0
 let favorito = 'local'
