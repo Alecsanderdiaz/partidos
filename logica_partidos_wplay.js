@@ -333,6 +333,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     html += '<hr>'
 
     CONTENEDOR_DATOS.innerHTML = html
+    ponerEventosEnLasAnclas()
 }
 
 const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
@@ -388,6 +389,7 @@ const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
     }
 
     CONTENEDOR_DATOS_SM.innerHTML = html
+    ponerEventosEnLasAnclas()
 }
 
 dibujar()
@@ -423,3 +425,10 @@ const ordenar = function (value) {
     dibujarSM()
 }
 
+const ponerEventosEnLasAnclas = () => {
+
+    const anclas = document.querySelectorAll('a')
+    anclas.forEach(ancla => ancla.addEventListener('click', (e) => {
+        e.target.style = 'background-color: #d0b2b0'
+    }))
+}
