@@ -7,6 +7,14 @@ let baseUrl = 'https://apuestas.wplay.co/es/t/'
 const CONTENEDOR_DATOS = document.getElementById('contenedor-datos')
 const CONTENEDOR_DATOS_SM = document.getElementById('contenedor-datos-sm')
 
+const ponerEventosEnLasAnclas = () => {
+
+    const anclas = document.querySelectorAll('a')
+    anclas.forEach(ancla => ancla.addEventListener('click', (e) => {
+        e.target.style = 'background-color: #d0b2b0'
+    }))
+}
+
 const elegirFavorito = function (indice, valor) {
     indiceFavorito = indice - 1
     PARTIDOS_OPTIMIZADOS[indiceFavorito]['favorito'] = valor
@@ -425,10 +433,3 @@ const ordenar = function (value) {
     dibujarSM()
 }
 
-const ponerEventosEnLasAnclas = () => {
-
-    const anclas = document.querySelectorAll('a')
-    anclas.forEach(ancla => ancla.addEventListener('click', (e) => {
-        e.target.style = 'background-color: #d0b2b0'
-    }))
-}
