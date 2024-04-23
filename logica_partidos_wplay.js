@@ -146,11 +146,11 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                         <span>${partido.cuotaFavorito?.toFixed(2) || 1}</span>
                     </div>
 
-                    <div class="col border-end dato ${partido.over < 1.74 ? 'bg-warning' : ''}">
+                    <div class="col border-end dato ${partido.over > 1 && partido.over < 1.74 ? 'bg-warning' : ''}">
                         <span>${partido.over?.toFixed(2) || 1}</span>
                     </div>
 
-                    <div class="col border-end dato ${partido.ambosAnotan < 1.74 ? 'bg-warning' : ''}">
+                    <div class="col border-end dato ${partido.ambosAnotan > 1 && partido.ambosAnotan < 1.74 ? 'bg-warning' : ''}">
                         <span>${partido.ambosAnotan?.toFixed(2) || 1}</span>
                     </div>
 
@@ -225,7 +225,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
 
     html+= `
     <span>
-        Gol en la primera Mitad - SI
+        Gol en la primera Mitad - SI (GSH1)
     </span>
     <br>
     `
@@ -243,7 +243,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     html += '<hr>'
     html+= `
     <span>
-        PRIMERA MITAD MAS DE 0.5
+        PRIMERA MITAD MAS DE 0.5 (MRES)
     </span>
     <br>
     `
@@ -260,7 +260,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     html += '<hr>'
     html+= `
     <span>
-        AMBOS ANOTAN
+        AMBOS ANOTAN (BTSC)
     </span>
     <br>
     `
@@ -277,7 +277,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     html += '<hr>'
     html+= `
     <span>
-        OVER
+        OVER (HCTG)
     </span>
     <br>
     `
@@ -295,7 +295,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     html += '<hr>'
     html+= `
     <span>
-        LOCAL - VISITANTE
+        LOCAL - VISITANTE (OU1H - OU1A)
     </span>
     <br>
     `
