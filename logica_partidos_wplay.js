@@ -3,6 +3,7 @@ let indiceFavorito = 0
 let favorito = 'local'
 
 let baseUrl = 'https://apuestas.wplay.co/es/t/'
+let baseUrlSm = 'https://m.wplay.co/es/t/'
 
 const CONTENEDOR_DATOS = document.getElementById('contenedor-datos')
 const CONTENEDOR_DATOS_SM = document.getElementById('contenedor-datos-sm')
@@ -350,6 +351,11 @@ const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
     let total = partidos.length
     let acumulado = 1
     for (const partido of partidos) {
+
+        let mitad = partido.mitad ? `<a href="${ baseUrlSm + partido.codigoWplay + '?mkt_sort=GSH1' }" target="_blank" rel="noopener noreferrer">M</a>` : ''
+        let local = partido.mitadFavorito ? ` <a href="${ baseUrlSm + partido.codigoWplay + '?mkt_sort=OU1H' }" target="_blank" rel="noopener noreferrer">L</a>`: ''
+        let visitante = partido.mitadFavorito ? ` <a href="${ baseUrlSm + partido.codigoWplay + '?mkt_sort=OU1A' }" target="_blank" rel="noopener noreferrer">V</a>`: ''
+
         if (partido.cuotaCualquiera) {
             acumulado = Math.floor(acumulado * partido.cuotaCualquiera * 100) / 100
         }
@@ -365,7 +371,10 @@ const dibujarSM = function (partidos = PARTIDOS_OPTIMIZADOS) {
                 ${partido.hora - 10000}
             </div>
             <div class="col-4 border ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-warning' : ''} ${partido.cuotaCualquiera && partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 && partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-danger' : ''}">
-                ${partido.liga}
+                <small>
+                    <a href="${ baseUrlSm + partido.codigoWplay }" target="_blank" rel="noopener noreferrer">${partido.liga}</a>
+                    ${ mitad } ${ local } ${ visitante }
+                </small>
                 <br>
                 <small class="${partido.favorito === 'local' ? 'bg-secondary text-white' : ''}">${partido.local.substring(0, 10)}</small>
                 <br>
