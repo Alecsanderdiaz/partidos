@@ -128,7 +128,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                     </div>
 
                     <div class="col border-end dato ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'local' ? 'favorito' : ''}">
-                        <span >${partido.cuotaLocal.toFixed(2)}</span>
+                        <span >${partido.cuotaLocal.toFixed(2)}<br>${partido.localMitad > 1 ? partido.localMitad.toFixed(2) : ''}</span>
                     </div>
 
                     <div class="col border-end dato">
@@ -136,7 +136,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                     </div>
 
                     <div class="col border-end dato ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'visitante' ? 'favorito' : ''}">
-                        <span >${partido.cuotaVisitante.toFixed(2)}</span>
+                        <span >${partido.cuotaVisitante.toFixed(2)}<br>${partido.visitanteMitad > 1 ? partido.visitanteMitad.toFixed(2): ''}</span>
                     </div>
 
                     <div class="col border-end dato ${partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 ? 'bg-warning' : ''}">
@@ -144,15 +144,15 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                     </div>
 
                     <div class="col border-end dato ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-warning' : ''}">
-                        <span>${partido.cuotaFavorito?.toFixed(2) || 1}</span>
+                        <span>${partido.cuotaFavorito && partido.cuotaFavorito > 1 ? partido.cuotaFavorito?.toFixed(2) : ''}</span>
                     </div>
 
                     <div class="col border-end dato ${partido.over > 1 && partido.over < 1.74 ? 'bg-warning' : ''}">
-                        <span>${partido.over?.toFixed(2) || 1}</span>
+                        <span>${partido.over && partido.over > 1 ? partido.over?.toFixed(2) : ''}</span>
                     </div>
 
                     <div class="col border-end dato ${partido.ambosAnotan > 1 && partido.ambosAnotan < 1.74 ? 'bg-warning' : ''}">
-                        <span>${partido.ambosAnotan?.toFixed(2) || 1}</span>
+                        <span>${partido.ambosAnotan && partido.ambosAnotan > 1 ? partido.ambosAnotan?.toFixed(2) : ''}</span>
                     </div>
 
                     <div class="col border-end dato">
@@ -307,6 +307,23 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1H&sb_type_ids=${ link }" target="_blank" rel="noopener noreferrer">${ link } - LOCAL</a>
         ------
         <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1A&sb_type_ids=${ link }" target="_blank" rel="noopener noreferrer">${ link } - VISITANTE</a>
+      </div>
+    </div>
+        `
+    }
+
+    html += '<hr>'
+    html+= `
+    <span>
+        TODOS POR FECHA - COPIAR CUOTAS
+    </span>
+    <br>
+    `
+    for (const link of linksAll) {
+        html+= `
+    <div class="row">
+      <div class="col">
+        <a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=SBTYPE&mkt_sort=MRES&sb_type_ids=${ link }" target="_blank" rel="noopener noreferrer">${ link }</a>
       </div>
     </div>
         `
