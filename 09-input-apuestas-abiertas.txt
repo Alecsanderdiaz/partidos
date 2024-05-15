@@ -1,0 +1,81 @@
+MI CUENTA
+LISTA DE APUESTAS
+BONO
+CAJERO
+APUESTAS
+APUESTAS MANUALES
+Apuesta Recuperada Ganar Perder Abierto Pendiente Anulada
+Mostrar información desde 
+1 Semana
+ Estado: 
+Abierto
+Fecha de la apuesta	Número de apuesta	Tipo de apuesta	Apuesta	Monto de Apuesta	cuotas	Bono	Ingreso	Estado
+ 15 Mayo 09:35 
+1354682608	Accumulator (8)
+Ganador	Atalanta v Juventus
+Hamilton Academical v Inverness CT
+St Johnstone v Ross County
+Hibernian v Motherwell
+St Mirren v Hearts
+Gimnasia Y Esgrima Mendoza v Mitre Santiago Del Estero
+PAOK Thessaloniki v Panathinaikos
+Slavia Prague v Viktoria Plzen
+$10,000
+655.01	-	-	Abierto
+Fecha y Hora del evento	Descripción del evento	Apuesta	Selección	cuotas	Resultado
+15 Mayo 14:00	Atalanta v Juventus	1ª Mitad más/Menos de Atalanta Total Goles	Más de (0.5)	2.20	 -
+15 Mayo 14:05	Hamilton Academical v Inverness CT	1ª Mitad más/Menos de Hamilton Academical Total Goles	Más de (0.5)	2.05	 -
+15 Mayo 13:45	St Johnstone v Ross County	1ª Mitad más/Menos de Ross County Total Goles	Más de (0.5)	2.45	 -
+15 Mayo 13:45	Hibernian v Motherwell	1ª Mitad más/Menos de Motherwell Total Goles	Más de (0.5)	2.10	 -
+15 Mayo 13:45	St Mirren v Hearts	1ª Mitad más/Menos de Hearts Total Goles	Más de (0.5)	2.05	 -
+15 Mayo 13:00	Gimnasia Y Esgrima Mendoza v Mitre Santiago Del Estero	1ª Mitad más/Menos de Gimnasia Y Esgrima Mendoza Total Goles	Más de (0.5)	2.25	 -
+15 Mayo 12:00	PAOK Thessaloniki v Panathinaikos	1ª Mitad más/Menos de Panathinaikos Total Goles	Más de (0.5)	2.40	 -
+15 Mayo 12:30	Slavia Prague v Viktoria Plzen	1ª Mitad más/Menos de Viktoria Plzen Total Goles	Más de (0.5)	2.55	 -
+Tipo de apuesta	Número de apuestas	Total importe apostado	Ganancia posible	Ingreso
+Accumulator (8)	1	$10,000	$6,550,127	-
+RECUPERAR APUESTA?: $3,874
+Imprimir
+ 15 Mayo 09:22 
+1354676682	Accumulator (6)
+Ganador	Sevilla v CF Cadiz
+Rayo Vallecano v Granada
+Gimnasia Y Esgrima Mendoza v Mitre Santiago Del Estero
+St Johnstone v Ross County
+Zenit St Petersburg v CSKA Moscow
+Atalanta v Juventus
+$10,000
+119.07	-	-	Abierto
+Fecha y Hora del evento	Descripción del evento	Apuesta	Selección	cuotas	Resultado
+15 Mayo 12:30	Sevilla v CF Cadiz	Total Goles Más/Menos de	Más de (2.5)	2.00	 -
+15 Mayo 12:30	Rayo Vallecano v Granada	Total Goles Más/Menos de	Más de (2.5)	2.10	 -
+15 Mayo 13:00	Gimnasia Y Esgrima Mendoza v Mitre Santiago Del Estero	Total Goles Más/Menos de	Más de (2.5)	2.80	 -
+15 Mayo 13:45	St Johnstone v Ross County	Total Goles Más/Menos de	Más de (2.5)	2.25	 -
+15 Mayo 12:45	Zenit St Petersburg v CSKA Moscow	Total Goles Más/Menos de	Más de (2.5)	2.00	 -
+15 Mayo 14:00	Atalanta v Juventus	Total Goles Más/Menos de	Más de (2.5)	2.25	 -
+Tipo de apuesta	Número de apuestas	Total importe apostado	Ganancia posible	Ingreso
+Accumulator (6)	1	$10,000	$1,190,700	-
+RECUPERAR APUESTA?: $5,737
+Imprimir
+ 15 Mayo 09:21 
+1354675952	Accumulator (7)
+Ganador	Sevilla v CF Cadiz
+Rayo Vallecano v Granada
+Gimnasia Y Esgrima Mendoza v Mitre Santiago Del Estero
+St Johnstone v Ross County
+Atalanta v Juventus
+Zenit St Petersburg v CSKA Moscow
+Hamilton Academical v Inverness CT
+$10,000
+15.40	-	-	Abierto
+Fecha y Hora del evento	Descripción del evento	Apuesta	Selección	cuotas	Resultado
+15 Mayo 12:30	Sevilla v CF Cadiz	Se anotará gol en la 1er mitad	Si	1.42	 -
+15 Mayo 12:30	Rayo Vallecano v Granada	Se anotará gol en la 1er mitad	Si	1.42	 -
+15 Mayo 13:00	Gimnasia Y Esgrima Mendoza v Mitre Santiago Del Estero	Se anotará gol en la 1er mitad	Si	1.615	 -
+15 Mayo 13:45	St Johnstone v Ross County	Se anotará gol en la 1er mitad	Si	1.50	 -
+15 Mayo 14:00	Atalanta v Juventus	Se anotará gol en la 1er mitad	Si	1.48	 -
+15 Mayo 12:45	Zenit St Petersburg v CSKA Moscow	Primera Mitad Total Goles Más/Menos de	Más de (0.5)	1.42	 -
+15 Mayo 14:05	Hamilton Academical v Inverness CT	Primera Mitad Total Goles Más/Menos de	Más de (0.5)	1.50	 -
+Tipo de apuesta	Número de apuestas	Total importe apostado	Ganancia posible	Ingreso
+Accumulator (7)	1	$10,000	$154,023	-
+RECUPERAR APUESTA?: $5,699
+Imprimir

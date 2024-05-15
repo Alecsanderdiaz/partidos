@@ -1,0 +1,71 @@
+MI CUENTA
+LISTA DE APUESTAS
+BONO
+CAJERO
+APUESTAS
+APUESTAS MANUALES
+Apuesta Recuperada Ganar Perder Abierto Pendiente Anulada
+Mostrar información desde 
+1 Semana
+ Estado: 
+Abierto
+Fecha de la apuesta	Número de apuesta	Tipo de apuesta	Apuesta	Monto de Apuesta	cuotas	Bono	Ingreso	Estado
+ 14 Mayo 11:05 
+1353921211	Accumulator (25)
+Ganador	FC Emmen v FC Dordrecht
+De Graafschap v ADO Den Haag
+Tottenham v Manchester City
+Glasgow Rangers v Dundee
+Real Madrid v CD Alaves
+AC Sparta Prague v Banik Ostrava
+Osasuna v RCD Mallorca
+Girona v Villarreal
+Partick Thistle v Raith Rovers
+FC Basel v FC Stade Ls Ouchy
+Coritiba PR v Guarani SP
+River Plate v Libertad Asuncion
+Talleres de Cordoba v Cobresal
+Penarol Montevideo v Atletico MG
+LDU Quito v CD Junior
+CA Nacional Potosi v Sportivo Trinidense
+Corinthians SP v Argentinos Juniors
+Sportivo Ameliano v Rayo Zuliano
+Defensa Y Justicia v Independiente Medellin
+Grasshoppers v Yverdon-Sport FC
+Vila Nova FC v Novorizontino SP
+Avai SC v CRB Maceio AL
+Botafogo SP v Chapecoense SC
+Millonarios v Palestino
+Racing Club Montevideo v Nacional Asuncion
+$1,000
+8837933.42	-	-	Abierto
+Fecha y Hora del evento	Descripción del evento	Apuesta	Selección	cuotas	Resultado
+14 Mayo 11:45	FC Emmen v FC Dordrecht	1ª Mitad más/Menos de FC Emmen Total Goles	Más de (0.5)	1.95	 -
+14 Mayo 14:00	De Graafschap v ADO Den Haag	1ª Mitad más/Menos de De Graafschap Total Goles	Más de (0.5)	1.85	 -
+14 Mayo 14:00	Tottenham v Manchester City	1ª Mitad más/Menos de Tottenham Total Goles	Más de (0.5)	2.20	 -
+14 Mayo 13:30	Glasgow Rangers v Dundee	1ª Mitad más/Menos de Glasgow Rangers Total Goles	Más de (0.5)	1.25	 -
+14 Mayo 14:30	Real Madrid v CD Alaves	1ª Mitad más/Menos de Real Madrid Total Goles	Más de (0.5)	1.363	 -
+14 Mayo 12:30	AC Sparta Prague v Banik Ostrava	1ª Mitad más/Menos de AC Sparta Prague Total Goles	Más de (0.5)	1.333	 -
+14 Mayo 12:30	Osasuna v RCD Mallorca	1ª Mitad más/Menos de RCD Mallorca Total Goles	Más de (0.5)	2.625	 -
+14 Mayo 15:00	Girona v Villarreal	1ª Mitad más/Menos de Villarreal Total Goles	Más de (0.5)	2.05	 -
+14 Mayo 13:45	Partick Thistle v Raith Rovers	1ª Mitad más/Menos de Raith Rovers Total Goles	Más de (0.5)	2.10	 -
+14 Mayo 13:30	FC Basel v FC Stade Ls Ouchy	1ª Mitad más/Menos de FC Basel Total Goles	Más de (0.5)	1.35	 -
+14 Mayo 19:30	Coritiba PR v Guarani SP	1ª Mitad más/Menos de Coritiba PR Total Goles	Más de (0.5)	1.769	 -
+14 Mayo 19:30	River Plate v Libertad Asuncion	1ª Mitad más/Menos de River Plate Total Goles	Más de (0.5)	1.48	 -
+14 Mayo 17:00	Talleres de Cordoba v Cobresal	1ª Mitad más/Menos de Talleres de Cordoba Total Goles	Más de (0.5)	1.35	 -
+14 Mayo 17:00	Penarol Montevideo v Atletico MG	1ª Mitad más/Menos de Penarol Montevideo Total Goles	Más de (0.5)	2.40	 -
+14 Mayo 17:00	LDU Quito v CD Junior	1ª Mitad más/Menos de LDU Quito Total Goles	Más de (0.5)	1.615	 -
+14 Mayo 21:00	CA Nacional Potosi v Sportivo Trinidense	1ª Mitad más/Menos de CA Nacional Potosi Total Goles	Más de (0.5)	1.38	 -
+14 Mayo 19:30	Corinthians SP v Argentinos Juniors	1ª Mitad más/Menos de Corinthians SP Total Goles	Más de (0.5)	1.95	 -
+14 Mayo 19:00	Sportivo Ameliano v Rayo Zuliano	1ª Mitad más/Menos de Sportivo Ameliano Total Goles	Más de (0.5)	1.285	 -
+14 Mayo 19:00	Defensa Y Justicia v Independiente Medellin	1ª Mitad más/Menos de Defensa Y Justicia Total Goles	Más de (0.5)	1.909	 -
+14 Mayo 13:30	Grasshoppers v Yverdon-Sport FC	1ª Mitad más/Menos de Yverdon-Sport FC Total Goles	Más de (0.5)	2.30	 -
+14 Mayo 17:00	Vila Nova FC v Novorizontino SP	1ª Mitad más/Menos de Novorizontino SP Total Goles	Más de (0.5)	2.40	 -
+14 Mayo 17:00	Avai SC v CRB Maceio AL	1ª Mitad más/Menos de CRB Maceio AL Total Goles	Más de (0.5)	2.45	 -
+14 Mayo 19:30	Botafogo SP v Chapecoense SC	1ª Mitad más/Menos de Chapecoense SC Total Goles	Más de (0.5)	2.65	 -
+14 Mayo 21:00	Millonarios v Palestino	1ª Mitad más/Menos de Palestino Total Goles	Más de (0.5)	3.30	 -
+14 Mayo 17:00	Racing Club Montevideo v Nacional Asuncion	1ª Mitad más/Menos de Nacional Asuncion Total Goles	Más de (0.5)	3.00	 -
+Tipo de apuesta	Número de apuestas	Total importe apostado	Ganancia posible	Ingreso
+Accumulator (25)	1	$1,000	$8,837,933,416	-
+RECUPERAR APUESTA?: $960
+Imprimir

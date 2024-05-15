@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"></div>
+    
+    <script src="apuestas-abiertas.js"></script>
+    <script>
+        let html = ''
+        APUESTAS_ABIERTAS.forEach(grupo => {
+            grupo = grupo.sort((a,b) => a[0] - b[0])
+            grupo.forEach(partido => {
+                partido[0] = 10000 - partido[0]
+                html += `<span>${ partido.join(' - ')}</span><br>`
+            })    
+            html += '<hr>'        
+        });
+
+        document.querySelector('#container').innerHTML = html
+    </script>
+</body>
+</html>
