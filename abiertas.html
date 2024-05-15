@@ -20,11 +20,11 @@
                 partido[0] = partido[0] - 10000
                 html += `
                 <div class="row">
-                    <div class="col"><div class="overflow-x-hidden">${ partido[0] }</div></div>
-                    <div class="col"><div class="overflow-x-hidden">${ partido[1] }</div></div>
-                    <div class="col"><div class="overflow-x-hidden">${ partido[2] }</div></div>
-                    <div class="col"><div class="overflow-x-hidden">${ partido[3] }</div></div>
-                    <div class="col"><div class="overflow-x-hidden">${ partido[4] }</div></div>
+                    <div class="col-2"><div class="overflow-x-hidden"><small>${ partido[0] }</small></div></div>
+                    <div class="col-4"><div class="overflow-x-hidden"><small>${ partido[1] }</small></div></div>
+                    <div class="col-3"><div class="overflow-x-hidden"><small>${ partido[2] }</small></div></div>
+                    <div class="col-1"><div class="overflow-x-hidden"><small>${ partido[3].substring(0,1).toUpperCase() }</small></div></div>
+                    <div class="col-2"><div class="overflow-x-hidden">${ partido[4].toFixed(2) }</div></div>
                 </div>
                 `
             })    
