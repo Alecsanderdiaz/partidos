@@ -8,7 +8,14 @@
 // },
 
 let LIGAS_OBJETOS = [
-
+    {
+        nombreFlashcore: 'MÉXICO - Liga de Expansión MX - Superfinal',
+        "nombreWplay": 'MEXICO - CAMPEON DE CAMPEONES',
+        "abreviado": 'ZA-MEXCC',
+        "codigoWplay": 33025,
+        mitad: true,
+        favorito: true
+    },
     {
         "nombreFlashcore": "ASIA - AFC Asian Cup U23 - Playoffs",
         "nombreWplay": "AFC CHAMPIONSHIP U23",

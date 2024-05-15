@@ -19,7 +19,7 @@ let LIGAS = [
 	{"liga":"ITAC","mitad":true,"mitadFavorito":true,"codigoWplay":19417},
 	{"liga":"S-JAP1","mitad":true,"mitadFavorito":true,"codigoWplay":19378},
 	{"liga":"ZA-MEX1","mitad":true,"mitadFavorito":true,"codigoWplay":19329},
-	{"liga":"ZA-MEX2","mitad":true,"mitadFavorito":true,"codigoWplay":61826},
+	{"liga":"ZA-MEXCC","mitad":true,"mitadFavorito":true,"codigoWplay":33025},
 	{"liga":"I-AMI","mitad":true,"mitadFavorito":true,"codigoWplay":19287},
 	{"liga":"YE-REP1","mitad":false,"mitadFavorito":true,"codigoWplay":19403},
 	{"liga":"YE-RUSC","mitad":false,"mitadFavorito":false,"codigoWplay":19467},

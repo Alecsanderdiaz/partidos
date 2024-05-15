@@ -889,6 +889,7 @@ async function main() {
     let partidos_optimizados = PartidosWplay.map(partido => {
         return {
             ...partido,
+            hora: ("" + partido.hora).substring(5) * 1,
             cuotaCualquiera: PartidosSeMarcaraEnLaPrimeraMitad.find(p => partido.local === p[0] && partido.visitante === p[1]) ? PartidosSeMarcaraEnLaPrimeraMitad.find(p => partido.local === p[0] && partido.visitante === p[1])[2] : 1,
             ambosAnotan: PartidosAmbosMarcan.find(p => partido.local === p[0] && partido.visitante === p[1]) ? PartidosAmbosMarcan.find(p => partido.local === p[0] && partido.visitante === p[1])[2] : 1,
             over: PartidosOver.find(p => partido.local === p[0] && partido.visitante === p[1]) ? PartidosOver.find(p => partido.local === p[0] && partido.visitante === p[1])[2] : 1,
@@ -898,6 +899,8 @@ async function main() {
             cuotaFavorito: PartidosFavorito.find(p => partido.local === p[0] && partido.visitante === p[1]) ? PartidosFavorito.find(p => partido.local === p[0] && partido.visitante === p[1])[3] : 1,
         }
     })
+
+    partidos_optimizados.sort((a,b) => a.hora - b.hora)
 
 
     convertirArrayEnTextoPlanoConFormato(partidos_optimizados, 'PARTIDOS_OPTIMIZADOS', archivoSalida)
