@@ -21,11 +21,10 @@
             partido[0] = partido[0] - 10000
             return `
                 <div class="row">
-                    <div class="col-2"><div class="overflow-x-hidden"><small>${ partido[0] }</small></div></div>
-                    <div class="col-3"><div class="overflow-x-hidden"><small>${ partido[1] }</small></div></div>
-                    <div class="col-3"><div class="overflow-x-hidden"><small>${ partido[2] }</small></div></div>
-                    <div class="col-2"><div class="overflow-x-hidden"><small>${ partido[3].substring(0,3).toUpperCase() }</small></div></div>
-                    <div class="col-2"><div class="overflow-x-hidden">${ partido[4].toFixed(2) }</div></div>
+                    <div class="col-2"><small>${ partido[0] }</small></div>
+                    <div class="col-6"><small>${ partido[1].slice(0,20) }</small><br><small>${ partido[2].slice(0,20) }</small></div>
+                    <div class="col-2"><small>${ partido[3].substring(0,3).toUpperCase() }</small></div>
+                    <div class="col-2">${ partido[4].toFixed(2) }</div>
                 </div>
 
             `
@@ -57,9 +56,9 @@
         partidos_todos.forEach(partido => {
             html_todos += `
                     <div class="row">
-                        <div class="col-2"><div class="overflow-x-hidden"><small>${ partido[0] }</small></div></div>
-                        <div class="col-3"><div class="overflow-x-hidden"><small>${ partido[1] }</small></div></div>
-                        <div class="col-3"><div class="overflow-x-hidden"><small>${ partido[2] }</small></div></div>
+                        <div class="col-2"><small>${ partido[0] }</small></div>
+                        <div class="col-5"><small>${ partido[1].slice(0,20) }</small></div>
+                        <div class="col-5"><small>${ partido[2].slice(0,20) }</small></div>
                     </div>
                 `
         });
