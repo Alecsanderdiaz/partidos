@@ -1,4 +1,6 @@
+
 let PARTIDOS_OPTIMIZADOS = [
+	
 	{"hora":10635,"liga":"S-CHI1","mitad":false,"mitadFavorito":true,"codigoWplay":19485,"local":"Shandong Taishan","visitante":"Shenzhen XinPengcheng","cuotaLocal":1.25,"empate":5.5,"cuotaVisitante":9,"cantidadDeApuestas":94,"cuotaCualquiera":1,"ambosAnotan":1.769,"over":1.444,"cuotaFavorito":1.4,"rate":1,"stake":0,"localMitad":1.38,"visitanteMitad":2.95,"favorito":"local"},
 	{"hora":10900,"liga":"YE-TUR2","mitad":false,"mitadFavorito":false,"codigoWplay":19370,"local":"Bodrum Belediyesi Bodrumspor","visitante":"Boluspor","cuotaLocal":1.7,"empate":3.4,"cuotaVisitante":4.75,"cantidadDeApuestas":43,"cuotaCualquiera":1,"ambosAnotan":2.05,"over":2.2,"cuotaFavorito":1,"rate":1,"stake":0,"localMitad":1,"visitanteMitad":1,"favorito":""},
 	{"hora":11000,"liga":"YE-REP1","mitad":false,"mitadFavorito":true,"codigoWplay":19403,"local":"FC Zlin","visitante":"SK Dynamo Ceske Budejovice","cuotaLocal":2.15,"empate":3.25,"cuotaVisitante":3.2,"cantidadDeApuestas":90,"cuotaCualquiera":1,"ambosAnotan":1.571,"over":1.8,"cuotaFavorito":2.2,"rate":1,"stake":0,"localMitad":1.85,"visitanteMitad":2.2,"favorito":"visitante"},
