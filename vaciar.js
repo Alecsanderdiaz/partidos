@@ -6,7 +6,10 @@ let files = [
     "05-input-over.txt",
     "06-input-local-primera-mitad.txt",
     "07-input-visitante-primera-mitad.txt",
+    "08-input-favorito.txt",
+    "09-input-apuestas-abiertas.txt",
 ]
 
 const fs = require('fs')
 files.forEach(file => fs.writeFileSync(file, ''))
+

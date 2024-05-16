@@ -1,8 +1,26 @@
 let APUESTAS_ABIERTAS = [
-	[[11930,"Paysandu PA","Goias GO","visitante",2.3],[11930,"Ponte Preta SP","Santos SP","visitante",1.95],[11930,"Saint Louis FC","Los Angeles FC","visitante",1.85],[11930,"Minnesota United FC","L.A. Galaxy","visitante",1.85],[11830,"CF Montreal","Columbus Crew","visitante",1.85],[11830,"Orlando City SC","Inter Miami CF","visitante",1.9],[11900,"Alianza Lima","Colo Colo","visitante",2.4],[12105,"Chivas Guadalajara","America","visitante",2.1],[11800,"Independiente Santa Fe","Atletico Bucaramanga","local",1.95],[11930,"Austin FC","Sporting Kansas City","local",1.833],[12030,"Colorado Rapids","Vancouver Whitecaps FC","local",1.769],[12030,"Real Salt Lake","Seattle Sounders","local",1.8]],
-	[[12000,"Cancun FC","Atlante","visitante",2.45],[11930,"Austin FC","Houston Dynamo","local",2.05],[12100,"Universidad Cesar Vallejo","Always Ready","visitante",2.1],[11930,"Nashville SC","Toronto FC","visitante",2.625],[11830,"Philadelphia Union","New York City","visitante",2.25],[12130,"Portland Timbers","San Jose Earthquakes","visitante",2.15],[11830,"FC Cincinnati","Atlanta United","visitante",2.1],[11830,"DC United","New York Red Bulls","visitante",2.1],[11930,"Chicago Fire","Charlotte FC","visitante",2.2]],
-	[[11830,"DC United","New York Red Bulls","over",1.75],[11930,"Austin FC","Houston Dynamo","over",1.9],[11930,"Chicago Fire","Charlotte FC","over",1.9],[11930,"Nashville SC","Toronto FC","over",1.8],[11930,"Palmeiras SP","Independiente Del Valle","over",1.75],[12030,"Real Salt Lake","Seattle Sounders","over",1.8],[12100,"Universidad Cesar Vallejo","Always Ready","over",1.93],[11900,"Birmingham Legion FC","Charleston Battery","over",1.75]],
-	[[11800,"Independiente Santa Fe","Atletico Bucaramanga","over",2.55],[11900,"Alianza Lima","Colo Colo","over",2.5],[11900,"Boca Juniors","Fortaleza CE","over",2.1],[11930,"Paysandu PA","Goias GO","over",2.4],[11930,"Ponte Preta SP","Santos SP","over",2.55],[11930,"Ceara CE","Amazonas FC","over",2.2],[12005,"Fortaleza FC","Deportivo Pereira","over",2.15],[11900,"San Antonio","Guayaquil City FC","over",2.55],[12105,"Chivas Guadalajara","America","over",2.2]],
-	[[11800,"Independiente Santa Fe","Atletico Bucaramanga","mitad",1.5],[11900,"Alianza Lima","Colo Colo","mitad",1.571],[11900,"Boca Juniors","Fortaleza CE","mitad",1.45],[11930,"Paysandu PA","Goias GO","mitad",1.55],[11930,"Ponte Preta SP","Santos SP","mitad",1.571],[11930,"Ceara CE","Amazonas FC","mitad",1.48],[12105,"Chivas Guadalajara","America","mitad",1.48],[11900,"San Antonio","Guayaquil City FC","mitad",1.55]],
-	[[11700,"Deportivo Tachira","Nacional Montevideo","over",2.1],[11700,"America Mineiro MG","Mirassol SP","over",2.25],[11700,"Brusque FC","Operario PR","over",2.55],[11700,"Ituano SP","Sport Recife PE","over",2.2]],
+	[
+		[11230, "Las Palmas", "Real Betis", "visitante", 1.95],
+		[11000, "FC Zlin", "SK Dynamo Ceske Budejovice", "over", 1.8],
+		[11000, "Bohemians 1905", "MFK Karvina", "over", 1.8],
+		[11000, "FK Baumit Jablonec", "FK Pardubice", "over", 1.769],
+		[11050, "FC Smorgon", "Isloch", "over", 1.833],
+		[11200, "Corum Belediyespor", "Kocaelispor", "over", 1.833],
+		[11245, "Neman Grodno", "FK Arsenal Dzerzhinsk", "over", 1.95],
+		"732,625"
+	],
+	[
+		[10900, "Bodrum Belediyesi Bodrumspor", "Boluspor", "over", 2.2],
+		[11230, "Las Palmas", "Real Betis", "over", 2.1],
+		[11000, "Bohemians 1905", "MFK Karvina", "local", 1.75],
+		[11000, "FK Baumit Jablonec", "FK Pardubice", "local", 1.769],
+		[11000, "FC Zlin", "SK Dynamo Ceske Budejovice", "visitante", 2.2],
+		"314,693"
+	],
+	[
+		[11230, "Las Palmas", "Real Betis", "mitad", 1.444],
+		[10900, "Bodrum Belediyesi Bodrumspor", "Boluspor", "mitad", 1.48],
+		[11245, "Neman Grodno", "FK Arsenal Dzerzhinsk", "mitad", 1.4],
+		"29,929"
+	],
 ]

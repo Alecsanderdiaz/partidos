@@ -1,4 +1,4 @@
-const FECHA_PARTIDO_MANANA = 1160500000
+const FECHA_PARTIDO_MANANA = 1170500000
 
 const fs = require('node:fs');
 const readline = require('node:readline');
@@ -20,7 +20,7 @@ let archivoSalida = "partidos_optimizados.js"
 let archivoSalida2 = "ligas.js"
 let archivoSalida3 = "partidos_optimizados_flashscore.js"
 
-let outputPartidosWplay = "02-output-partidos-wplay.txt"
+let outputPartidosWplay = "partidos_optimizados_wplay.js"
 let outputSeMarcaraEnLaPrimeraMitad = "03-output-se-marcara-en-la-primera-mitad.txt"
 let outputAmbosMarcan = "04-output-ambos-marcan.txt"
 let outputOver = "05-output-over.txt"
@@ -266,6 +266,11 @@ async function main() {
             }
 
             indice++
+        }
+
+        if (PartidosWplay.length < 10) {
+            console.log({ FECHA_PARTIDO_MANANA })
+            throw new Error('No hay suficientes partidos')
         }
 
         convertirArrayEnTextoPlanoConFormato(PartidosWplay, 'PARTIDOS_WPLAY', outputPartidosWplay)
@@ -871,11 +876,20 @@ async function main() {
 
                 continue
             } else {
-                if (partidos.length > 0) {
-                    arraySalida.push(partidos)
-                    partidos = []
+                if (line.endsWith('	-')) {
+                    lineModificado = line.replace('	-', '')
+                    let totalArray = lineModificado.split('$')
+                    let total = totalArray.pop()
+                    console.log({ total })
+                    partidos.push(total)
+                    if (partidos.length > 0) {
+                        arraySalida.push(partidos)
+                        partidos = []
+                    }
                 }
             }
+
+
 
         }
 

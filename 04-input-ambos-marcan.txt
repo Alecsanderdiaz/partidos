@@ -1,16 +1,15 @@
 
- 22:03:56 Mayo 14, 2024 
+ 22:07:45 Mayo 15, 2024 
 GMT -5
 ApuestasTransmision en VivoApuesta en VivoCasinoCasino en VivoSlotsVirtualesGolden RaceVIP LOUNGE
 CONTACT
 HELP
-SITE_NAME 00:05:26 Bienvenido: Mariela
-Mi cuenta
- 
-Balance: $14,501
-1 Apuestas abiertas
-  Cuenta
- Actualizar Depositar Salir
+SITE_NAME
+alexanderdiaz1989@gmail.com
+ Recuérdame 
+•••••••••••
+¿Has olvidado tu contraseña? 
+REGÍSTRATE
 LIVE
 OVERVIEW
 MULTIVIEW
@@ -22,26 +21,24 @@ Buscar
 MIS FAVORITOS
 Actualmente no tiene favoritos. Añada favoritos para verlos siempre aquí
 ENLACES RÁPIDOS
-Atalanta vs Juventus
-Boca Jrs vs Fortaleza
+Fluminense vs Cerro Porteño
+Blessd vs Ronaldinho
 Primera A
 Copa Colombia
 Jornada Millonaria
 Cuotas Mejoradas
 Parley Especial
-Premier League
 La Liga
 Copa Libertadores
 Copa Sudamericana
-Ligue 1
-Copa Italia
 Liga MX
-MLS
+Top Ligas Europa
 Top Ligas Sudamerica
 NBA
 MLB
 NHL
 UFC
+WNBA
 ATP Roma
 Giro de Italia
 Formula 1
@@ -93,7 +90,6 @@ Fútbol Australiano
 Automovilismo
 Dardos
 Deportes Gaélicos
-Bolos
 Juegos Olimpicos
 Fútbol de Sala
 SERVICIOS DE APUESTA
@@ -114,455 +110,107 @@ Todos los partidos - Ambos equipos marcarán en el partidoVer ligaVer hora
  Minutos
  Otros Mercados
  MAÑANA
- Shanghai Changning Flying Lions v Yanbian Longding 15 Mayo 01:00 45 > st
+ Shandong Taishan v Shenzhen XinPengcheng 16 Mayo 06:35 94 > st
 
 Si
-2.05
+1.769
 
 No
-1.65
- Shanghai Shenhua v Qingdao Hainiu 15 Mayo 06:35 92 > st
+1.85
+ FC Smorgon v Isloch 16 Mayo 10:50 43 > st
 
 Si
-2.45
+1.666
 
 No
-1.45
- Gimnasia Y Esgrima Mendoza v Mitre Santiago Del Estero 15 Mayo 13:00 91 > st
+2.00
+ Neman Grodno v FK Arsenal Dzerzhinsk 16 Mayo 12:45 43 > st
 
 Si
-2.05
+2.00
 
 No
 1.666
- Almirante Brown v San Martin de Tucuman 15 Mayo 15:15 88 > st
-
-Si
-2.30
-
-No
-1.533
- America Mineiro MG v Mirassol SP 15 Mayo 17:00 113 > st
-
-Si
-1.95
-
-No
-1.727
- Brusque FC v Operario PR 15 Mayo 17:00 112 > st
+ Jaguares De Córdoba v Tigres FC 16 Mayo 15:00 67 > st
 
 Si
 2.00
 
 No
 1.70
- Ituano SP v Sport Recife PE 15 Mayo 17:00 111 > st
+ Deportivo Riestra v Newells Old Boys 16 Mayo 15:10 97 > st
 
 Si
-2.15
+2.65
 
 No
-1.60
- Independiente Santa Fe v Atletico Bucaramanga 15 Mayo 18:00 98 > st
-
-Si
-1.95
-
-No
-1.727
- Paysandu PA v Goias GO 15 Mayo 19:30 112 > st
-
-Si
-1.95
-
-No
-1.727
- Ponte Preta SP v Santos SP 15 Mayo 19:30 110 > st
-
-Si
-2.15
-
-No
-1.60
- Ceara CE v Amazonas FC 15 Mayo 19:30 112 > st
+1.40
+ Independiente Juniors v Manta FC16 Mayo 19:00 43 > st
 
 Si
 2.20
 
 No
-1.571
- Fortaleza FC v Deportivo Pereira 15 Mayo 20:05 79 > st
-
-Si
-2.05
-
-No
-1.666
- JUEVES
- Shandong Taishan v Shenzhen XinPengcheng 16 Mayo 06:35 89 > st
-
-Si
-1.80
-
-No
-1.833
- Jaguares De Córdoba v Tigres FC 16 Mayo 15:00 92 > st
-
-Si
-1.909
-
-No
-1.769
- Deportivo Riestra v Newells Old Boys 16 Mayo 15:10 88 > st
-
-Si
-2.25
-
-No
 1.55
- Real Cartagena v Envigado FC 16 Mayo 19:30 92 > st
+ Real Cartagena v Envigado FC 16 Mayo 19:30 93 > st
 
 Si
-1.75
+1.85
 
 No
-1.93
+1.80
  VIERNES
- Zhejiang FC v Nantong Zhiyun 17 Mayo 06:00 79 > st
+ Zhejiang FC v Nantong Zhiyun 17 Mayo 06:00 89 > st
 
 Si
-1.727
+1.666
 
 No
-1.93
- Meizhou Hakka v Chengdu Rongcheng 17 Mayo 06:35 79 > st
+2.00
+ Meizhou Hakka v Chengdu Rongcheng 17 Mayo 06:35 89 > st
 
 Si
 1.70
 
 No
 1.95
- Henan Songshan Longmen v Wuhan Three Towns 17 Mayo 06:35 80 > st
+ Henan Songshan Longmen v Wuhan Three Towns 17 Mayo 06:35 90 > st
 
 Si
 1.571
 
 No
 2.15
- Cangzhou Mighty Lions v Tianjin Jinmen Tiger 17 Mayo 06:35 80 > st
+ Cangzhou Mighty Lions v Tianjin Jinmen Tiger 17 Mayo 06:35 90 > st
 
 Si
-1.533
+1.55
 
 No
-2.25
- Changchun Yatai v Beijing Guoan FC 17 Mayo 07:00 80 > st
+2.20
+ Changchun Yatai v Beijing Guoan FC 17 Mayo 07:00 89 > st
 
 Si
-1.615
+1.65
 
 No
-2.10
+2.05
+ Slutsksakhar Slutsk v Dinamo Brest17 Mayo 10:55 43 > st
+
+Si
+2.00
+
+No
+1.666
  SÁBADO
  Qingdao West Coast FC v Shanghai Port 18 Mayo 06:35 77 > st
 
 Si
-2.00
-
-No
-1.666
-
-BOLETO DE APUESTAS
-
-APUESTAS ABIERTAS
-Estándar
-Bankers
-Apta. Rápida
-Tu boleto está vacío. Pulsa sobre cualquier precio para apostar
-Síguenos en nuestras redes:
-Facebook Twitter Instagram Youtube
-Sobre NosotrosTérminos y CondicionesProtección a JugadoresPreguntas FrecuentesAfiliadosCentros De ExperienciaNuestros AliadosMóvil
-Patrocinador Oficial:
-Dim
- 
-Junir
- 
-Millos
- 
-Cali
-  
-El juego es entretenimiento, juega con moderación, Jugar sin control causa adicción, Prohibida la venta a menores de edad.
-Above18
- 
-Thumbs up Icon
- 
-Coljuegos
-  
-El juego es entretenimiento, juega con moderación, Jugar sin control causa adicción, Prohibida la venta a menores de edad.
-Wplay.co brinda atención a sus usuarios, de manera exclusiva, a través del chat online de la página web 24/7, a causa de la emergencia sanitaria generada por la pandemia de COVID-19, es posible que se presenten intermitencias en la comunicación.
-Wplay.co es propiedad de AQUILA GLOBAL GROUP S.A.S, sociedad comercial con NIT 901001374-2, domicilio principal en la ciudad de Medellín - Colombia, Calle 53 # 45 112 Piso 3 - Edificio Colseguros , teléfono (574) 604 7016. Autorizada para operar juegos de suerte y azar en la modalidad novedoso de tipo juegos operados por internet en Colombia, según Contrato de Concesión suscrito con COLJUEGOS No. C1741 del 05 de Junio del 2020 y con vigencia hasta el 06 de Julio de 2025, asignado al dominio del sitio web www.wplay.co, luego de haber cumplido con todos los requisitos y condiciones jurídico legales, financieras, técnicos y tecnológicos y garantías exigidas para la cobertura del pago de premios y devolución de fondos de los jugadores, demostrando principios de transparencia en la operación de juegos en la jurisdicción colombiana.
-Términos y Condiciones
- 22:04:06 Mayo 14, 2024 
-GMT -5
-ApuestasTransmision en VivoApuesta en VivoCasinoCasino en VivoSlotsVirtualesGolden RaceVIP LOUNGE
-CONTACT
-HELP
-SITE_NAME
-LIVE
-OVERVIEW
-MULTIVIEW
- InicioResultados en vivoEstadísticasPromocionesTorneoWMedios de PagoNoticiasPatrociniosAyudaVerificaciónVirtualesJuego Responsable
-Decimal
-Buscar eventos, juegos
-
-Buscar
-MIS FAVORITOS
-Actualmente no tiene favoritos. Añada favoritos para verlos siempre aquí
-ENLACES RÁPIDOS
-Atalanta vs Juventus
-Boca Jrs vs Fortaleza
-Primera A
-Copa Colombia
-Jornada Millonaria
-Cuotas Mejoradas
-Parley Especial
-Premier League
-La Liga
-Copa Libertadores
-Copa Sudamericana
-Ligue 1
-Copa Italia
-Liga MX
-MLS
-Top Ligas Sudamerica
-NBA
-MLB
-NHL
-UFC
-ATP Roma
-Giro de Italia
-Formula 1
-Boxeo
-TV en vivo
-Especiales Wplay
-Apuestas Anticipadas
-Virtuales
-Eventos hoy
-Promociones
-DEPORTES
-Fútbol
-Américas
-Euro 2024
-Competiciones UEFA
-España
-Reino Unido
-Italia
-Alemania
-Australia
-Francia
-Europa
-Asia
-África
-Irlanda
-Combinadas W - Fútbol
-Fútbol Mujeres
-Escandinavia
-Internacional
-Apuestas Anticipadas
-Baloncesto
-Tenis
-Béisbol
-Hockey
-Tenis de Mesa
-Voleibol
-Balonmano
-Boxeo
-UFC
-eSports
-Fútbol Americano
-Snooker
-Rugby Union
-Ciclismo en Ruta
-Golf
-Criquet
-Rugby League
-Fútbol Australiano
-Automovilismo
-Dardos
-Deportes Gaélicos
-Bolos
-Juegos Olimpicos
-Fútbol de Sala
-SERVICIOS DE APUESTA
-Preguntas Frecuentes
-Estadísticas
-Guía de Apuestas
-Reglas de Juego
-Resultados en Vivo
-SÍGUENOS
-Todos los partidos - Ambos equipos marcarán en el partidoVer ligaVer hora
- Apuestas Principales
- Resultado del Partido
- Apuestas por mitades
- Tiros de Esquina
- Apuestas Jugador(es)
- Amonestaciones
- Lineas Asiáticas
- Especiales
- Minutos
- Otros Mercados
- MAÑANA
- Gwangju FC v Ulsan Hyundai Horang-I 15 Mayo 02:30 100 > st
-
-Si
-1.70
-
-No
-2.00
- Kilmarnock v Celtic 15 Mayo 13:30 179 > st
-
-Si
-1.65
-
-No
-2.10
- St Mirren v Hearts 15 Mayo 13:45 179 > st
-
-Si
-1.666
-
-No
-2.10
- Aberdeen v Livingston 15 Mayo 13:45 176 > st
-
-Si
-1.769
-
-No
-1.95
- Hibernian v Motherwell 15 Mayo 13:45 178 > st
-
-Si
-1.60
-
-No
-2.20
- St Johnstone v Ross County 15 Mayo 13:45 177 > st
-
-Si
-1.80
-
-No
-1.909
- Club Nueve de Octubre v Club Leones Del Norte15 Mayo 15:00 43 > st
-
-Si
-2.10
-
-No
-1.60
- San Antonio v Guayaquil City FC 15 Mayo 19:00 43 > st
-
-Si
-2.00
-
-No
-1.666
- JUEVES
- Independiente Juniors v Manta FC16 Mayo 19:00 43 > st
-
-Si
-2.00
-
-No
-1.666
- SÁBADO
- Daejeon Citizen v Incheon United 18 Mayo 02:30 92 > st
-
-Si
-1.769
-
-No
-1.90
- Gimcheon Sangmu v Jeju United 18 Mayo 05:00 93 > st
-
-Si
-1.769
-
-No
-1.90
- Hearts v Glasgow Rangers 18 Mayo 06:30 147 > st
-
-Si
-1.48
-
-No
-2.45
- Dundee v Kilmarnock 18 Mayo 06:30 148 > st
-
-Si
-1.533
-
-No
-2.35
- Celtic v St Mirren 18 Mayo 06:30 148 > st
-
-Si
-1.90
-
-No
-1.80
- DOMINGO
- Gangwon FC v Ulsan Hyundai Horang-I 19 Mayo 02:30 93 > st
-
-Si
-1.75
-
-No
 1.93
- FC Seoul v Daegu FC 19 Mayo 02:30 93 > st
-
-Si
-1.833
 
 No
-1.85
- Gwangju FC v Jeonbuk Hyundai Motors 19 Mayo 02:30 92 > st
-
-Si
 1.727
 
-No
-1.95
- Suwon City FC v Pohang Steelers 19 Mayo 05:00 92 > st
-
-Si
-1.615
-
-No
-2.10
- Livingston v Hibernian 19 Mayo 09:00 146 > st
-
-Si
-1.60
-
-No
-2.20
- Motherwell v St Johnstone 19 Mayo 09:00 144 > st
-
-Si
-1.85
-
-No
-1.85
- Ross County v Aberdeen 19 Mayo 09:00 148 > st
-
-Si
-1.70
-
-No
-2.05
-
 BOLETO DE APUESTAS
 
 APUESTAS ABIERTAS
@@ -593,7 +241,7 @@ El juego es entretenimiento, juega con moderación, Jugar sin control causa adic
 Wplay.co brinda atención a sus usuarios, de manera exclusiva, a través del chat online de la página web 24/7, a causa de la emergencia sanitaria generada por la pandemia de COVID-19, es posible que se presenten intermitencias en la comunicación.
 Wplay.co es propiedad de AQUILA GLOBAL GROUP S.A.S, sociedad comercial con NIT 901001374-2, domicilio principal en la ciudad de Medellín - Colombia, Calle 53 # 45 112 Piso 3 - Edificio Colseguros , teléfono (574) 604 7016. Autorizada para operar juegos de suerte y azar en la modalidad novedoso de tipo juegos operados por internet en Colombia, según Contrato de Concesión suscrito con COLJUEGOS No. C1741 del 05 de Junio del 2020 y con vigencia hasta el 06 de Julio de 2025, asignado al dominio del sitio web www.wplay.co, luego de haber cumplido con todos los requisitos y condiciones jurídico legales, financieras, técnicos y tecnológicos y garantías exigidas para la cobertura del pago de premios y devolución de fondos de los jugadores, demostrando principios de transparencia en la operación de juegos en la jurisdicción colombiana.
 Términos y Condiciones
- 22:04:16 Mayo 14, 2024 
+ 22:08:02 Mayo 15, 2024 
 GMT -5
 ApuestasTransmision en VivoApuesta en VivoCasinoCasino en VivoSlotsVirtualesGolden RaceVIP LOUNGE
 CONTACT
@@ -610,26 +258,24 @@ Buscar
 MIS FAVORITOS
 Actualmente no tiene favoritos. Añada favoritos para verlos siempre aquí
 ENLACES RÁPIDOS
-Atalanta vs Juventus
-Boca Jrs vs Fortaleza
+Fluminense vs Cerro Porteño
+Blessd vs Ronaldinho
 Primera A
 Copa Colombia
 Jornada Millonaria
 Cuotas Mejoradas
 Parley Especial
-Premier League
 La Liga
 Copa Libertadores
 Copa Sudamericana
-Ligue 1
-Copa Italia
 Liga MX
-MLS
+Top Ligas Europa
 Top Ligas Sudamerica
 NBA
 MLB
 NHL
 UFC
+WNBA
 ATP Roma
 Giro de Italia
 Formula 1
@@ -681,7 +327,6 @@ Fútbol Australiano
 Automovilismo
 Dardos
 Deportes Gaélicos
-Bolos
 Juegos Olimpicos
 Fútbol de Sala
 SERVICIOS DE APUESTA
@@ -703,326 +348,123 @@ Todos los partidos - Ambos equipos marcarán en el partidoVer ligaVer hora
  Especiales
  Minutos
  Otros Mercados
+ HOY
+ Chivas Guadalajara v America0-0 15 Mayo 21:05 86 > st
+
+Si
+3.70
+
+No
+1.25
  MAÑANA
- Sevilla v CF Cadiz 15 Mayo 12:30 276 > st
+ Las Palmas v Real Betis 16 Mayo 12:30 269 > st
 
 Si
 1.80
 
 No
-1.90
- Rayo Vallecano v Granada 15 Mayo 12:30 269 > st
+1.909
+ Bari v Ternana 16 Mayo 13:30 184 > st
 
 Si
-2.20
+2.00
 
 No
-1.60
- Nice v PSG 15 Mayo 14:00 311 > st
+1.727
+ Leeds United v Norwich City 16 Mayo 14:00 194 > st
 
 Si
-1.48
-
-No
-2.45
- Stade Reims v Marseille 15 Mayo 14:00 297 > st
-
-Si
-1.55
-
-No
-2.30
- Hamilton Academical v Inverness CT 15 Mayo 14:05 85 > st
-
-Si
-1.85
-
-No
 1.769
- Getafe v Atlético Madrid 15 Mayo 15:00 279 > st
 
-Si
+No
 1.93
-
-No
-1.769
- Celta de Vigo v Athletic Bilbao 15 Mayo 15:00 275 > st
-
-Si
-1.70
-
-No
-2.05
- Orlando City SC v Inter Miami CF 15 Mayo 18:30 294 > st
-
-Si
-1.40
-
-No
-2.75
- FC Cincinnati v Atlanta United 15 Mayo 18:30 276 > st
-
-Si
-1.571
-
-No
-2.25
- Philadelphia Union v New York City 15 Mayo 18:30 268 > st
-
-Si
-1.60
-
-No
-2.20
- DC United v New York Red Bulls 15 Mayo 18:30 276 > st
+ Almeria v Barcelona 16 Mayo 14:30 287 > st
 
 Si
 1.50
 
 No
 2.40
- CF Montreal v Columbus Crew 15 Mayo 18:30 290 > st
+ Real Sociedad v Valencia 16 Mayo 15:00 284 > st
 
 Si
-1.60
-
-No
-2.20
- Birmingham Legion FC v Charleston Battery 15 Mayo 19:00 43 > st
-
-Si
-1.571
-
-No
 2.15
- Minnesota United FC v L.A. Galaxy 15 Mayo 19:30 269 > st
+
+No
+1.615
+ Monterrey v Cruz Azul 16 Mayo 22:00 254 > st
+
+Si
+1.65
+
+No
+2.10
+ VIERNES
+ Palermo v Sampdoria 17 Mayo 13:30 114 > st
+
+Si
+1.666
+
+No
+2.05
+ Southampton v West Bromwich 17 Mayo 14:00 190 > st
+
+Si
+1.85
+
+No
+1.85
+ SÁBADO
+ Catanzaro v Brescia 18 Mayo 13:30 114 > st
+
+Si
+1.65
+
+No
+2.05
+ CD Alaves v Getafe 18 Mayo 14:00 152 > st
+
+Si
+2.10
+
+No
+1.65
+ DOMINGO
+ Barcelona v Rayo Vallecano 19 Mayo 12:00 157 > st
+
+Si
+1.85
+
+No
+1.85
+ Real Betis v Real Sociedad 19 Mayo 12:00 153 > st
+
+Si
+1.909
+
+No
+1.80
+ Villarreal v Real Madrid 19 Mayo 12:00 148 > st
 
 Si
 1.363
 
 No
-2.85
- Austin FC v Houston Dynamo 15 Mayo 19:30 268 > st
-
-Si
-1.65
-
-No
-2.10
- Chicago Fire v Charlotte FC 15 Mayo 19:30 282 > st
-
-Si
-1.615
-
-No
-2.15
- Nashville SC v Toronto FC 15 Mayo 19:30 265 > st
-
-Si
-1.80
-
-No
-1.90
- Saint Louis FC v Los Angeles FC 15 Mayo 19:30 250 > st
-
-Si
-1.48
-
-No
-2.45
- Colorado Rapids v Vancouver Whitecaps FC 15 Mayo 20:30 260 > st
+2.875
+ Valencia v Girona 19 Mayo 12:00 157 > st
 
 Si
 1.55
 
 No
 2.30
- Real Salt Lake v Seattle Sounders 15 Mayo 20:30 262 > st
-
-Si
-1.727
-
-No
-2.00
- Portland Timbers v San Jose Earthquakes 15 Mayo 21:30 272 > st
-
-Si
-1.50
-
-No
-2.40
- JUEVES
- Las Palmas v Real Betis 16 Mayo 12:30 257 > st
-
-Si
-1.80
-
-No
-1.909
- Almeria v Barcelona 16 Mayo 14:30 274 > st
-
-Si
-1.48
-
-No
-2.45
- Real Sociedad v Valencia 16 Mayo 15:00 272 > st
-
-Si
-2.15
-
-No
-1.615
- VIERNES
- Raith Rovers v Partick Thistle 17 Mayo 13:45 80 > st
-
-Si
-1.666
-
-No
-2.00
- SÁBADO
- Nashville SC v Atlanta United 18 Mayo 12:45 149 > st
-
-Si
-1.571
-
-No
-2.25
- CD Alaves v Getafe 18 Mayo 14:00 143 > st
+ CF Cadiz v Las Palmas 19 Mayo 12:00 154 > st
 
 Si
 2.10
 
 No
 1.65
- Toronto FC v CF Montreal 18 Mayo 18:30 149 > st
-
-Si
-1.571
-
-No
-2.25
- New England Revolution v Philadelphia Union 18 Mayo 18:30 148 > st
-
-Si
-1.50
-
-No
-2.40
- Charlotte FC v L.A. Galaxy 18 Mayo 18:30 149 > st
-
-Si
-1.55
-
-No
-2.30
- FC Cincinnati v Saint Louis FC 18 Mayo 18:30 145 > st
-
-Si
-1.727
-
-No
-2.00
- Inter Miami CF v DC United 18 Mayo 18:30 147 > st
-
-Si
-1.533
-
-No
-2.35
- New York City v New York Red Bulls 18 Mayo 18:30 146 > st
-
-Si
-1.769
-
-No
-1.95
- Austin FC v Sporting Kansas City 18 Mayo 19:30 149 > st
-
-Si
-1.60
-
-No
-2.20
- Houston Dynamo v FC Dallas 18 Mayo 19:30 145 > st
-
-Si
-1.95
-
-No
-1.769
- Minnesota United FC v Portland Timbers 18 Mayo 19:30 147 > st
-
-Si
-1.60
-
-No
-2.20
- Chicago Fire v Columbus Crew 18 Mayo 19:30 148 > st
-
-Si
-1.571
-
-No
-2.25
- Real Salt Lake v Colorado Rapids 18 Mayo 20:30 145 > st
-
-Si
-1.666
-
-No
-2.10
- Seattle Sounders v Vancouver Whitecaps FC 18 Mayo 21:30 147 > st
-
-Si
-1.65
-
-No
-2.10
- San Jose Earthquakes v Orlando City SC 18 Mayo 21:30 148 > st
-
-Si
-1.50
-
-No
-2.40
- DOMINGO
- Barcelona v Rayo Vallecano 19 Mayo 12:00 148 > st
-
-Si
-1.833
-
-No
-1.85
- Real Betis v Real Sociedad 19 Mayo 12:00 143 > st
-
-Si
-1.909
-
-No
-1.80
- Villarreal v Real Madrid 19 Mayo 12:00 149 > st
-
-Si
-1.38
-
-No
-2.80
- Valencia v Girona 19 Mayo 12:00 148 > st
-
-Si
-1.55
-
-No
-2.30
- CF Cadiz v Las Palmas 19 Mayo 12:00 145 > st
-
-Si
-2.05
-
-No
-1.70
  Athletic Bilbao v Sevilla 19 Mayo 12:00 145 > st
 
 Si
@@ -1037,83 +479,20 @@ Si
 
 No
 1.80
- RCD Mallorca v Almeria 19 Mayo 12:00 145 > st
+ RCD Mallorca v Almeria 19 Mayo 12:00 154 > st
 
 Si
-2.10
+2.15
 
 No
-1.65
- Granada v Celta de Vigo 19 Mayo 12:00 148 > st
+1.615
+ Granada v Celta de Vigo 19 Mayo 12:00 155 > st
 
 Si
 1.615
 
 No
 2.15
- Toulouse v Brest 19 Mayo 14:00 163 > st
-
-Si
-1.65
-
-No
-2.10
- FC Metz v PSG 19 Mayo 14:00 146 > st
-
-Si
-1.45
-
-No
-2.55
- AS Monaco v Nantes 19 Mayo 14:00 166 > st
-
-Si
-1.533
-
-No
-2.375
- Lille v Nice 19 Mayo 14:00 147 > st
-
-Si
-1.70
-
-No
-2.05
- AC Le Havre v Marseille 19 Mayo 14:00 145 > st
-
-Si
-1.75
-
-No
-1.95
- RC Lens v Montpellier 19 Mayo 14:00 166 > st
-
-Si
-1.55
-
-No
-2.30
- Lorient v Clermont Foot 19 Mayo 14:00 165 > st
-
-Si
-1.50
-
-No
-2.40
- Lyon v Strasbourg 19 Mayo 14:00 165 > st
-
-Si
-1.55
-
-No
-2.30
- Stade Reims v Rennes 19 Mayo 14:00 166 > st
-
-Si
-1.50
-
-No
-2.40
 
 BOLETO DE APUESTAS
 
@@ -1145,358 +524,17 @@ El juego es entretenimiento, juega con moderación, Jugar sin control causa adic
 Wplay.co brinda atención a sus usuarios, de manera exclusiva, a través del chat online de la página web 24/7, a causa de la emergencia sanitaria generada por la pandemia de COVID-19, es posible que se presenten intermitencias en la comunicación.
 Wplay.co es propiedad de AQUILA GLOBAL GROUP S.A.S, sociedad comercial con NIT 901001374-2, domicilio principal en la ciudad de Medellín - Colombia, Calle 53 # 45 112 Piso 3 - Edificio Colseguros , teléfono (574) 604 7016. Autorizada para operar juegos de suerte y azar en la modalidad novedoso de tipo juegos operados por internet en Colombia, según Contrato de Concesión suscrito con COLJUEGOS No. C1741 del 05 de Junio del 2020 y con vigencia hasta el 06 de Julio de 2025, asignado al dominio del sitio web www.wplay.co, luego de haber cumplido con todos los requisitos y condiciones jurídico legales, financieras, técnicos y tecnológicos y garantías exigidas para la cobertura del pago de premios y devolución de fondos de los jugadores, demostrando principios de transparencia en la operación de juegos en la jurisdicción colombiana.
 Términos y Condiciones
- 22:04:25 Mayo 14, 2024 
-GMT -5
-ApuestasTransmision en VivoApuesta en VivoCasinoCasino en VivoSlotsVirtualesGolden RaceVIP LOUNGE
-CONTACT
-HELP
-SITE_NAME 00:05:55 Bienvenido: Mariela
-Mi cuenta
- 
-Balance: $14,501
-1 Apuestas abiertas
-  Cuenta
- Actualizar Depositar Salir
-LIVE
-OVERVIEW
-MULTIVIEW
- InicioResultados en vivoEstadísticasPromocionesTorneoWMedios de PagoNoticiasPatrociniosAyudaVerificaciónVirtualesJuego Responsable
-Decimal
-Buscar eventos, juegos
-
-Buscar
-MIS FAVORITOS
-Cargando tus favoritos, por favor espere
-ENLACES RÁPIDOS
-Atalanta vs Juventus
-Boca Jrs vs Fortaleza
-Primera A
-Copa Colombia
-Jornada Millonaria
-Cuotas Mejoradas
-Parley Especial
-Premier League
-La Liga
-Copa Libertadores
-Copa Sudamericana
-Ligue 1
-Copa Italia
-Liga MX
-MLS
-Top Ligas Sudamerica
-NBA
-MLB
-NHL
-UFC
-ATP Roma
-Giro de Italia
-Formula 1
-Boxeo
-TV en vivo
-Especiales Wplay
-Apuestas Anticipadas
-Virtuales
-Eventos hoy
-Promociones
-DEPORTES
-Fútbol
-Américas
-Euro 2024
-Competiciones UEFA
-España
-Reino Unido
-Italia
-Alemania
-Australia
-Francia
-Europa
-Asia
-África
-Irlanda
-Combinadas W - Fútbol
-Fútbol Mujeres
-Escandinavia
-Internacional
-Apuestas Anticipadas
-Baloncesto
-Tenis
-Béisbol
-Hockey
-Tenis de Mesa
-Voleibol
-Balonmano
-Boxeo
-UFC
-eSports
-Fútbol Americano
-Snooker
-Rugby Union
-Ciclismo en Ruta
-Golf
-Criquet
-Rugby League
-Fútbol Australiano
-Automovilismo
-Dardos
-Deportes Gaélicos
-Bolos
-Juegos Olimpicos
-Fútbol de Sala
-SERVICIOS DE APUESTA
-Preguntas Frecuentes
-Estadísticas
-Guía de Apuestas
-Reglas de Juego
-Resultados en Vivo
-SÍGUENOS
-Todos los partidos - Ambos equipos marcarán en el partidoVer ligaVer hora
- Apuestas Principales
- Resultado del Partido
- Apuestas por mitades
- Tiros de Esquina
- Apuestas Jugador(es)
- Amonestaciones
- Disparos y Asistencias
- Lineas Asiáticas
- Especiales
- Minutos
- Otros Mercados
- MAÑANA
- Albirex Niigata v Yokohama F Marinos 15 Mayo 05:00 117 > st
-
-Si
-1.50
-
-No
-2.375
- Consadole Sapporo v Jubilo Iwata 15 Mayo 05:00 118 > st
-
-Si
-1.533
-
-No
-2.30
- Kashiwa Reysol v Shonan Bellmare 15 Mayo 05:00 118 > st
-
-Si
-1.75
-
-No
-1.93
- Machida Zelvia v Cerezo Osaka 15 Mayo 05:00 117 > st
-
-Si
-1.85
-
-No
-1.80
- Sagan Tosu v Kawasaki Frontale 15 Mayo 05:00 119 > st
-
-Si
-1.615
-
-No
-2.10
- Nagoya Grampus v FC Tokyo 15 Mayo 05:00 117 > st
-
-Si
-1.85
-
-No
-1.833
- Sanfrecce Hiroshima v Kashima Antlers 15 Mayo 05:00 116 > st
-
-Si
-1.93
-
-No
-1.75
- Tokyo Verdy v Gamba Osaka 15 Mayo 05:00 117 > st
-
-Si
-1.769
-
-No
-1.90
- Vissel Kobe v Avispa Fukuoka 15 Mayo 05:00 113 > st
-
-Si
-2.25
-
-No
-1.55
- Urawa Red Diamonds v Kyoto Sanga 15 Mayo 05:30 117 > st
-
-Si
-1.769
-
-No
-1.90
- Lamia v Aris Thessaloniki 15 Mayo 10:00 88 > st
-
-Si
-1.833
-
-No
-1.80
- Olympiacos v AEK Athens 15 Mayo 12:00 92 > st
-
-Si
-1.571
-
-No
-2.15
- PAOK Thessaloniki v Panathinaikos 15 Mayo 12:00 90 > st
-
-Si
-1.666
-
-No
-2.00
- Brighton v Chelsea 15 Mayo 13:45 270 > st
-
-Si
-1.363
-
-No
-2.90
- Atalanta v Juventus 15 Mayo 14:00 195 > st
-
-Si
-1.90
-
-No
-1.80
- Manchester United v Newcastle 15 Mayo 14:00 316 > st
-
-Si
-1.30
-
-No
-3.20
- Chivas Guadalajara v America 15 Mayo 21:05 277 > st
-
-Si
-1.769
-
-No
-1.95
- JUEVES
- Monterrey v Cruz Azul 16 Mayo 22:00 253 > st
-
-Si
-1.65
-
-No
-2.10
- DOMINGO
- Manchester City v West Ham United 19 Mayo 10:00 162 > st
-
-Si
-1.85
-
-No
-1.85
- Crystal Palace v Aston Villa 19 Mayo 10:00 168 > st
-
-Si
-1.38
-
-No
-2.80
- Luton Town v Fulham 19 Mayo 10:00 148 > st
-
-Si
-1.40
-
-No
-2.70
- Sheffield United v Tottenham 19 Mayo 10:00 149 > st
-
-Si
-1.40
-
-No
-2.75
- Brentford v Newcastle 19 Mayo 10:00 148 > st
-
-Si
-1.35
-
-No
-2.95
- Chelsea v Bournemouth 19 Mayo 10:00 151 > st
-
-Si
-1.38
-
-No
-2.80
- Burnley v Nottingham Forest 19 Mayo 10:00 166 > st
-
-Si
-1.42
-
-No
-2.65
- Arsenal v Everton 19 Mayo 10:00 167 > st
-
-Si
-1.95
-
-No
-1.769
- Liverpool v Wolverhampton Wanderers 19 Mayo 10:00 148 > st
-
-Si
-1.70
-
-No
-2.05
- Brighton v Manchester United 19 Mayo 10:00 168 > st
-
-Si
-1.285
-
-No
-3.30
-
-BOLETO DE APUESTAS
-
-APUESTAS ABIERTAS
-Estándar
-Bankers
-Apta. Rápida
-Tu boleto está vacío. Pulsa sobre cualquier precio para apostar
-Síguenos en nuestras redes:
-Facebook Twitter Instagram Youtube
-Sobre NosotrosTérminos y CondicionesProtección a JugadoresPreguntas FrecuentesAfiliadosCentros De ExperienciaNuestros AliadosMóvil
-Patrocinador Oficial:
-Dim
- 
-Junir
- 
-Millos
- 
-Cali
-  
-El juego es entretenimiento, juega con moderación, Jugar sin control causa adicción, Prohibida la venta a menores de edad.
-Above18
- 
-Thumbs up Icon
- 
-Coljuegos
-  
-El juego es entretenimiento, juega con moderación, Jugar sin control causa adicción, Prohibida la venta a menores de edad.
-Wplay.co brinda atención a sus usuarios, de manera exclusiva, a través del chat online de la página web 24/7, a causa de la emergencia sanitaria generada por la pandemia de COVID-19, es posible que se presenten intermitencias en la comunicación.
-Wplay.co es propiedad de AQUILA GLOBAL GROUP S.A.S, sociedad comercial con NIT 901001374-2, domicilio principal en la ciudad de Medellín - Colombia, Calle 53 # 45 112 Piso 3 - Edificio Colseguros , teléfono (574) 604 7016. Autorizada para operar juegos de suerte y azar en la modalidad novedoso de tipo juegos operados por internet en Colombia, según Contrato de Concesión suscrito con COLJUEGOS No. C1741 del 05 de Junio del 2020 y con vigencia hasta el 06 de Julio de 2025, asignado al dominio del sitio web www.wplay.co, luego de haber cumplido con todos los requisitos y condiciones jurídico legales, financieras, técnicos y tecnológicos y garantías exigidas para la cobertura del pago de premios y devolución de fondos de los jugadores, demostrando principios de transparencia en la operación de juegos en la jurisdicción colombiana.
-Términos y Condiciones
- 22:04:34 Mayo 14, 2024 
+ 22:08:11 Mayo 15, 2024 
 GMT -5
 ApuestasTransmision en VivoApuesta en VivoCasinoCasino en VivoSlotsVirtualesGolden RaceVIP LOUNGE
 CONTACT
 HELP
 SITE_NAME
+alexanderdiaz1989@gmail.com
+ Recuérdame 
+•••••••••••
+¿Has olvidado tu contraseña? 
+REGÍSTRATE
 LIVE
 OVERVIEW
 MULTIVIEW
@@ -1508,26 +546,24 @@ Buscar
 MIS FAVORITOS
 Actualmente no tiene favoritos. Añada favoritos para verlos siempre aquí
 ENLACES RÁPIDOS
-Atalanta vs Juventus
-Boca Jrs vs Fortaleza
+Fluminense vs Cerro Porteño
+Blessd vs Ronaldinho
 Primera A
 Copa Colombia
 Jornada Millonaria
 Cuotas Mejoradas
 Parley Especial
-Premier League
 La Liga
 Copa Libertadores
 Copa Sudamericana
-Ligue 1
-Copa Italia
 Liga MX
-MLS
+Top Ligas Europa
 Top Ligas Sudamerica
 NBA
 MLB
 NHL
 UFC
+WNBA
 ATP Roma
 Giro de Italia
 Formula 1
@@ -1579,7 +615,6 @@ Fútbol Australiano
 Automovilismo
 Dardos
 Deportes Gaélicos
-Bolos
 Juegos Olimpicos
 Fútbol de Sala
 SERVICIOS DE APUESTA
@@ -1600,72 +635,14 @@ Total tarjetas (más/Menos de)
  Especiales
  Minutos
  Otros Mercados
- HOY
- Millonarios v Palestino1-0 14 Mayo 21:00 81 > st
-
-Si
-2.35
-
-No
-1.533
  MAÑANA
- Slavia Prague v Viktoria Plzen 15 Mayo 12:30 90 > st
+ FC Zlin v SK Dynamo Ceske Budejovice 16 Mayo 10:00 90 > st
 
 Si
-1.70
+1.571
 
 No
-1.95
- Zenit St Petersburg v CSKA Moscow 15 Mayo 12:45 43 > st
-
-Si
-1.909
-
-No
-1.727
- Deportivo Tachira v Nacional Montevideo 15 Mayo 17:00 184 > st
-
-Si
-1.85
-
-No
-1.85
- The Strongest v Huachipato 15 Mayo 17:00 187 > st
-
-Si
-2.10
-
-No
-1.65
- Alianza Lima v Colo Colo 15 Mayo 19:00 183 > st
-
-Si
-1.95
-
-No
-1.769
- Palmeiras SP v Independiente Del Valle 15 Mayo 19:30 173 > st
-
-Si
-2.00
-
-No
-1.727
- Flamengo RJ v Bolivar 15 Mayo 19:30 187 > st
-
-Si
-2.10
-
-No
-1.666
- JUEVES
- FC Zlin v SK Dynamo Ceske Budejovice 16 Mayo 10:00 91 > st
-
-Si
-1.60
-
-No
-2.10
+2.15
  Bohemians 1905 v MFK Karvina 16 Mayo 10:00 91 > st
 
 Si
@@ -1676,18 +653,39 @@ No
  FK Baumit Jablonec v FK Pardubice 16 Mayo 10:00 91 > st
 
 Si
-1.65
+1.615
 
 No
-2.05
- Fluminense RJ v Cerro Porteño 16 Mayo 17:00 184 > st
+2.10
+ FC Lugano v FC Winterthur 16 Mayo 13:30 98 > st
 
 Si
-2.15
+1.55
 
 No
-1.615
- Rosario Central v Caracas FC 16 Mayo 17:00 172 > st
+2.25
+ Young Boys v FC St. Gallen 16 Mayo 13:30 100 > st
+
+Si
+1.30
+
+No
+3.10
+ FC Penafiel v Torreense 16 Mayo 14:15 80 > st
+
+Si
+1.80
+
+No
+1.85
+ Fluminense RJ v Cerro Porteño 16 Mayo 17:00 185 > st
+
+Si
+2.10
+
+No
+1.65
+ Rosario Central v Caracas FC 16 Mayo 17:00 185 > st
 
 Si
 2.60
@@ -1701,21 +699,78 @@ Si
 
 No
 1.93
- San Lorenzo v Liverpool Montevideo 16 Mayo 19:00 171 > st
+ Racing Club v Coquimbo 16 Mayo 17:00 186 > st
+
+Si
+1.95
+
+No
+1.75
+ San Lorenzo v Liverpool Montevideo 16 Mayo 19:00 184 > st
 
 Si
 2.40
 
 No
 1.50
- Sao Paulo SP v Barcelona SC 16 Mayo 19:00 184 > st
+ Sao Paulo SP v Barcelona SC 16 Mayo 19:00 185 > st
+
+Si
+2.30
+
+No
+1.55
+ Cruzeiro MG v Union La Calera 16 Mayo 19:00 184 > st
+
+Si
+2.30
+
+No
+1.55
+ Sportivo Luqueno v Bragantino SP 16 Mayo 19:00 184 > st
+
+Si
+1.93
+
+No
+1.769
+ Universidad Catolica Quito v Alianza FC 16 Mayo 21:00 186 > st
 
 Si
 2.25
 
 No
 1.571
+ VIERNES
+ Benfica B v FC Porto B 17 Mayo 12:00 80 > st
+
+Si
+1.45
+
+No
+2.40
+ Pacos Ferreira v Cf Os Belenenses 17 Mayo 12:00 78 > st
+
+Si
+1.70
+
+No
+1.95
  SÁBADO
+ Feirense v Vilaverdense 18 Mayo 05:00 80 > st
+
+Si
+1.60
+
+No
+2.10
+ FC Slovacko v Slavia Prague 18 Mayo 10:00 79 > st
+
+Si
+1.85
+
+No
+1.769
  FK Mlada Boleslav v AC Sparta Prague 18 Mayo 10:00 78 > st
 
 Si
@@ -1723,7 +778,56 @@ Si
 
 No
 1.95
+ Viktoria Plzen v Banik Ostrava 18 Mayo 10:00 79 > st
+
+Si
+1.571
+
+No
+2.15
+ FC Stade Ls Ouchy v Lausanne Sports 18 Mayo 11:00 92 > st
+
+Si
+1.60
+
+No
+2.15
+ Grasshoppers v FC Basel 18 Mayo 11:00 92 > st
+
+Si
+1.571
+
+No
+2.20
+ Yverdon-Sport FC v FC Luzern 18 Mayo 11:00 94 > st
+
+Si
+1.45
+
+No
+2.50
  DOMINGO
+ Academica Viseu v Maritimo 19 Mayo 05:00 77 > st
+
+Si
+1.75
+
+No
+1.90
+ Avs Futebol Sad v CD Tondela 19 Mayo 05:00 79 > st
+
+Si
+1.90
+
+No
+1.75
+ Oliveirense v Leixoes SC 19 Mayo 08:00 81 > st
+
+Si
+1.615
+
+No
+2.10
  FK Teplice v FC Hradec Kralove 19 Mayo 08:00 80 > st
 
 Si
@@ -1731,6 +835,20 @@ Si
 
 No
 1.85
+ Nacional Madeira v CD Mafra 19 Mayo 10:30 79 > st
+
+Si
+1.666
+
+No
+2.00
+ CD Santa Clara v Uniao Leiria 19 Mayo 10:30 78 > st
+
+Si
+1.909
+
+No
+1.727
 
 BOLETO DE APUESTAS
 
@@ -1762,12 +880,17 @@ El juego es entretenimiento, juega con moderación, Jugar sin control causa adic
 Wplay.co brinda atención a sus usuarios, de manera exclusiva, a través del chat online de la página web 24/7, a causa de la emergencia sanitaria generada por la pandemia de COVID-19, es posible que se presenten intermitencias en la comunicación.
 Wplay.co es propiedad de AQUILA GLOBAL GROUP S.A.S, sociedad comercial con NIT 901001374-2, domicilio principal en la ciudad de Medellín - Colombia, Calle 53 # 45 112 Piso 3 - Edificio Colseguros , teléfono (574) 604 7016. Autorizada para operar juegos de suerte y azar en la modalidad novedoso de tipo juegos operados por internet en Colombia, según Contrato de Concesión suscrito con COLJUEGOS No. C1741 del 05 de Junio del 2020 y con vigencia hasta el 06 de Julio de 2025, asignado al dominio del sitio web www.wplay.co, luego de haber cumplido con todos los requisitos y condiciones jurídico legales, financieras, técnicos y tecnológicos y garantías exigidas para la cobertura del pago de premios y devolución de fondos de los jugadores, demostrando principios de transparencia en la operación de juegos en la jurisdicción colombiana.
 Términos y Condiciones
- 22:04:43 Mayo 14, 2024 
+ 22:08:19 Mayo 15, 2024 
 GMT -5
 ApuestasTransmision en VivoApuesta en VivoCasinoCasino en VivoSlotsVirtualesGolden RaceVIP LOUNGE
 CONTACT
 HELP
 SITE_NAME
+alexanderdiaz1989@gmail.com
+ Recuérdame 
+•••••••••••
+¿Has olvidado tu contraseña? 
+REGÍSTRATE
 LIVE
 OVERVIEW
 MULTIVIEW
@@ -1779,26 +902,24 @@ Buscar
 MIS FAVORITOS
 Actualmente no tiene favoritos. Añada favoritos para verlos siempre aquí
 ENLACES RÁPIDOS
-Atalanta vs Juventus
-Boca Jrs vs Fortaleza
+Fluminense vs Cerro Porteño
+Blessd vs Ronaldinho
 Primera A
 Copa Colombia
 Jornada Millonaria
 Cuotas Mejoradas
 Parley Especial
-Premier League
 La Liga
 Copa Libertadores
 Copa Sudamericana
-Ligue 1
-Copa Italia
 Liga MX
-MLS
+Top Ligas Europa
 Top Ligas Sudamerica
 NBA
 MLB
 NHL
 UFC
+WNBA
 ATP Roma
 Giro de Italia
 Formula 1
@@ -1850,7 +971,6 @@ Fútbol Australiano
 Automovilismo
 Dardos
 Deportes Gaélicos
-Bolos
 Juegos Olimpicos
 Fútbol de Sala
 SERVICIOS DE APUESTA
@@ -1864,129 +984,23 @@ Todos los partidos - Ambos equipos marcarán en el partidoVer ligaVer hora
  Apuestas Principales
  Resultado del Partido
  Apuestas por mitades
- Tiros de Esquina
- Apuestas Jugador(es)
-Total tarjetas (más/Menos de)
  Lineas Asiáticas
- Especiales
- Minutos
  Otros Mercados
- HOY
- CA Nacional Potosi v Sportivo Trinidense0-1 14 Mayo 21:00 82 > st
-
-Si
-1.20
-
-No
-4.00
  MAÑANA
- Lausanne Sports v FC Luzern 15 Mayo 13:30 101 > st
+ Bodrum Belediyesi Bodrumspor v Boluspor 16 Mayo 09:00 43 > st
 
 Si
-1.444
+2.05
 
 No
-2.55
- FC Zurich v Servette FC 15 Mayo 13:30 99 > st
+1.65
+ Corum Belediyespor v Kocaelispor 16 Mayo 12:00 43 > st
 
 Si
-1.571
+1.65
 
 No
-2.20
- Athletico PR v Danubio 15 Mayo 17:00 173 > st
-
-Si
-2.40
-
-No
-1.50
- Atletico Lanus v Metropolitano SC 15 Mayo 17:00 172 > st
-
-Si
-3.00
-
-No
-1.333
- CA Belgrano v Real Tomayapo 15 Mayo 17:00 173 > st
-
-Si
-2.65
-
-No
-1.42
- Cuiaba MT v Deportivo Garcilaso 15 Mayo 19:00 175 > st
-
-Si
-2.10
-
-No
-1.666
- Boca Juniors v Fortaleza CE 15 Mayo 19:00 173 > st
-
-Si
-1.95
-
-No
-1.75
- Universidad Cesar Vallejo v Always Ready 15 Mayo 21:00 175 > st
-
-Si
-1.60
-
-No
-2.20
- JUEVES
- FC Lugano v FC Winterthur 16 Mayo 13:30 91 > st
-
-Si
-1.55
-
-No
-2.25
- Young Boys v FC St. Gallen 16 Mayo 13:30 94 > st
-
-Si
-1.30
-
-No
-3.10
- Racing Club v Coquimbo 16 Mayo 17:00 173 > st
-
-Si
-1.95
-
-No
-1.75
- Cruzeiro MG v Union La Calera 16 Mayo 19:00 173 > st
-
-Si
-2.30
-
-No
-1.55
- Sportivo Luqueno v Bragantino SP 16 Mayo 19:00 172 > st
-
-Si
-1.85
-
-No
-1.833
- Universidad Catolica Quito v Alianza FC 16 Mayo 21:00 174 > st
-
-Si
-2.15
-
-No
-1.615
- SÁBADO
- Grasshoppers v FC Basel 18 Mayo 11:00 92 > st
-
-Si
-1.571
-
-No
-2.20
+2.05
 
 BOLETO DE APUESTAS
 

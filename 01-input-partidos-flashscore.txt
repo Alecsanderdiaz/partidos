@@ -1,6 +1,5 @@
 
 
-
 Publicidad
 
 john2005_16@yahoo.com
@@ -22,67 +21,32 @@ Copa Argentina
 
 Cuadro
 
-13:00
+15:10
 
-Gimnasia Mendoza
+Deportivo Riestra
 
-CA Mitre
--
--
-15:15
-
-Alte. Brown
-
-San Martín Tuc.
+Newell's
 -
 -
 
-BRASIL
+BIELORRUSIA
 : 
-Brasileirao Serie B
+Vysshaya Liga
 
 Clasificación
 
-17:00
+10:50
 
-América-MG
+Smorgon
 
-Mirassol
+Isloch
 -
 -
-17:00
+12:45
 
-Brusque
+Neman Grodno
 
-Operario
--
--
-17:00
-
-Ituano
-
-Sport Recife
--
--
-19:30
-
-Ceará
-
-Amazonas
--
--
-19:30
-
-Paysandu
-
-Goiás
--
--
-19:30
-
-Ponte Preta
-
-Santos
+Arsenal Dzyarzhynsk
 -
 -
 BRASIL
@@ -90,7 +54,7 @@ BRASIL
 Brasileirao Sub-20
 
 
-mostrar partidos (5)
+mostrar partidos (4)
 
 CHINA
 : 
@@ -100,23 +64,9 @@ Clasificación
 
 06:35
 
-Shanghai Shenhua
+Shandong Taishan
 
-Qingdao Hainiu
--
--
-
-CHINA
-: 
-FA Cup
-
-Cuadro
-
-01:00
-
-Shanghai Changning
-
-Yanbian Longding
+Shenzhen Xinpengcheng
 -
 -
 
@@ -126,53 +76,18 @@ Copa Colombia
 
 Cuadro
 
-Aplazado
-
-Atl. Bucaramanga
-
-Ind. Santa Fe
--
--
-18:00
-
-Ind. Santa Fe
-
-Atl. Bucaramanga
--
--
-20:05
-
-Fortaleza
-
-Pereira
--
--
-
-COLOMBIA
-: 
-Liga Femenina
-
-Clasificación
-
 15:00
 
-Santa Fe F
+Jaguares de Córdoba
 
-Alianza Petrolera F
+Tigres
 -
 -
+Aplazado
 
-COREA DEL SUR
-: 
-K League 1
+Real Cartagena
 
-Clasificación
-
-02:30
-
-Gwangju
-
-Ulsan HD
+Envigado
 -
 -
 
@@ -182,81 +97,11 @@ Serie B
 
 Clasificación
 
-15:00
-
-Nueve de Octubre
-
-Leones del Norte
--
--
 19:00
 
-San Antonio
+Ind. Juniors
 
-Guayaquil City
--
--
-
-ESCOCIA
-: 
-Premiership - Grupo Descenso
-
-Clasificación
-
-13:45
-
-Aberdeen
-
-Livingston
--
--
-13:45
-
-Hibernian
-
-Motherwell
--
--
-13:45
-
-St. Johnstone
-
-Ross County
--
--
-
-ESCOCIA
-: 
-Premiership - Grupo de Campeonato
-
-Clasificación
-
-13:30
-
-Kilmarnock
-
-Celtic
--
--
-13:45
-
-St. Mirren
-
-Hearts
--
--
-
-ESCOCIA
-: 
-Championship - Descenso
-
-Cuadro
-
-14:05
-
-Hamilton
-
-Inverness
+Manta
 -
 -
 
@@ -268,285 +113,45 @@ Clasificación
 
 12:30
 
-Rayo Vallecano
+Las Palmas
 
-Granada
-12:30
+Real Betis
+14:30
 
-Sevilla
+Almería
 
-Cádiz
+Barcelona
 15:00
 
-Celta de Vigo
+Real Sociedad
 
-Athletic Club
-15:00
-
-Getafe
-
-Atlético de Madrid
-
-ESTADOS UNIDOS
-: 
-MLS
-
-Clasificación
-
-18:30
-
-CF Montreal
-
-Columbus Crew
--
--
-18:30
-
-Cincinnati
-
-Atlanta Utd
--
--
-18:30
-
-DC United
-
-New York Red Bulls
--
--
-18:30
-
-Orlando City
-
-Inter Miami
--
--
-18:30
-
-Philadelphia Union
-
-New York City
--
--
-19:30
-
-Austin FC
-
-Houston Dynamo
--
--
-19:30
-
-Chicago Fire
-
-Charlotte
--
--
-19:30
-
-Minnesota United
-
-Los Angeles Galaxy
--
--
-19:30
-
-Nashville SC
-
-Toronto FC
--
--
-19:30
-
-St. Louis City
-
-Los Angeles FC
--
--
-20:30
-
-Colorado Rapids
-
-Vancouver Whitecaps
--
--
-20:30
-
-Real Salt Lake
-
-Seattle Sounders
--
--
-21:30
-
-Portland Timbers
-
-San Jose Earthquakes
--
--
-
-ESTADOS UNIDOS
-: 
-USL Championship
-
-Clasificación
-
-19:00
-
-Birmingham
-
-Charleston
--
--
-
-FRANCIA
-: 
-Ligue 1
-
-Clasificación
-
-14:00
-
-Niza
-
-PSG
-14:00
-
-Reims
-
-Marsella
-
-GRECIA
-: 
-Superliga - Grupo de Campeonato
-
-Clasificación
-
-10:00
-
-Lamia
-
-Aris
--
--
-12:00
-
-Olympiacos
-
-AEK
--
--
-12:00
-
-PAOK
-
-Panathinaikos
--
--
+Valencia
 
 INGLATERRA
 : 
-Premier League
-
-Clasificación
-
-13:45
-
-Brighton
-
-Chelsea
-14:00
-
-Manchester Utd
-
-Newcastle
-
-ITALIA
-: 
-Copa Italia
+Championship - Playoffs
 
 Cuadro
 
 14:00
 
-Atalanta
+Leeds Utd
 
-Juventus
+Norwich
+-
+-
 
-JAPÓN
+ITALIA
 : 
-J1 League
+Serie B - Playoffs permanencia
 
-Clasificación
+Cuadro
 
-05:00
+13:30
 
-Albirex Niigata
+Bari
 
-Yokohama M.
--
--
-05:00
-
-Hiroshima
-
-Kashima
--
--
-05:00
-
-Kashiwa
-
-Shonan
--
--
-05:00
-
-Machida
-
-C-Osaka
--
--
-05:00
-
-Nagoya
-
-Tokyo
--
--
-05:00
-
-Sagan Tosu
-
-Kawasaki
--
--
-05:00
-
-Sapporo
-
-Iwata
--
--
-05:00
-
-Verdy
-
-G-Osaka
--
--
-05:00
-
-Vissel Kobe
-
-Avispa Fukuoka
--
--
-05:30
-
-Urawa
-
-Kyoto
+Ternana
 -
 -
 
@@ -556,57 +161,57 @@ Liga MX - Clausura - Playoffs
 
 Cuadro
 
-21:05
+22:00
 
-Guadalajara
+Monterrey
 
-Club América
-
-MÉXICO
-: 
-Liga de Expansión MX - Superfinal
-
-Cuadro
-
-20:00
-
-Cancun
-
-Atlante
--
--
+Cruz Azul
 MUNDIAL
 : 
 Amistosos Internacionales
 
 
-mostrar partidos (2)
+mostrar partidos (4)
 
-REPÚBLICA CHECA
+PORTUGAL
 : 
-FORTUNA:LIGA - Grupo de Campeonato
+Liga Portugal 2
 
 Clasificación
 
-12:30
+14:15
 
-Slavia Praga
+Penafiel
 
-Plzen
+Torreense
 -
 -
 
-RUSIA
+REPÚBLICA CHECA
 : 
-Copa de Rusia - Playoffs
+FORTUNA:LIGA - Grupo Descenso
 
-Cuadro
+Clasificación
 
-12:45
+10:00
 
-Zenit
+Bohemians
 
-CSKA Moscú
+Karvina
+-
+-
+10:00
+
+Jablonec
+
+Pardubice
+-
+-
+10:00
+
+Zlin
+
+Ceske Budejovice
 -
 -
 
@@ -614,33 +219,33 @@ SUDAMÉRICA
 : 
 Copa Libertadores - Fase Grupos
 
-Tabla En Directo
+Clasificación
 
 17:00
 
-Dep. Táchira (Ven)
+Fluminense (Bra)
 
-Nacional (Uru)
+Cerro Porteño (Par)
 17:00
 
-The Strongest (Bol)
+Rosario Central (Arg)
 
-Huachipato (Chi)
+Caracas (Ven)
+17:00
+
+Universitario (Per)
+
+Botafogo (Bra)
 19:00
 
-Alianza Lima (Per)
+San Lorenzo (Arg)
 
-Colo Colo (Chi)
-19:30
+Liverpool M. (Uru)
+19:00
 
-Flamengo (Bra)
+Sao Paulo (Bra)
 
-Bolívar (Bol)
-19:30
-
-Palmeiras (Bra)
-
-Ind. del Valle (Ecu)
+Barcelona SC (Ecu)
 
 SUDAMÉRICA
 : 
@@ -650,48 +255,24 @@ Tabla En Directo
 
 17:00
 
-Athletico-PR (Bra)
+Racing Club (Arg)
 
-Danubio (Uru)
-17:00
-
-Belgrano (Arg)
-
-Tomayapo (Bol)
-17:00
-
-Lanús (Arg)
-
-Metropolitanos (Ven)
+Coquimbo (Chi)
 19:00
 
-Boca Jrs. (Arg)
+Cruzeiro (Bra)
 
-Fortaleza (Bra)
+U. La Calera (Chi)
 19:00
 
-Cuiabá (Bra)
+Sp. Luqueño (Par)
 
-Deportivo Garcilaso (Per)
+Bragantino (Bra)
 21:00
 
-César Vallejo (Per)
+U. Católica (Ecu)
 
-Always Ready (Bol)
-
-SUIZA
-: 
-Super League - Grupo Descenso
-
-Clasificación
-
-13:30
-
-Lausanne
-
-Lucerna
--
--
+Alianza (Col)
 
 SUIZA
 : 
@@ -701,6 +282,34 @@ Clasificación
 
 13:30
 
-Zúrich
+Lugano
 
-Servette
+Winterthur
+-
+-
+13:30
+
+Young Boys
+
+St. Gallen
+-
+-
+
+TURQUÍA
+: 
+1. Lig - Playoffs
+
+Cuadro
+
+09:00
+
+Bodrumspor
+
+Boluspor
+-
+-
+12:00
+
+Corum
+
+Kocaelispor

@@ -543,6 +543,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "ITALIA - Serie B - Playoffs permanencia",
+        "nombreWplay": 'SERIE B',
+        "abreviado": "ITA2",
+        "codigoWplay": 19328,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "ESCOCIA - Premiership",
         "nombreWplay": 'ESCOCIA - PREMIERSHIP',
         "abreviado": "R-ESC1",
@@ -600,6 +608,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "INGLATERRA - Championship",
+        "nombreWplay": 'INGLATERRA - CHAMPIONSHIP',
+        "abreviado": "R-ING2",
+        "codigoWplay": 19156,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "INGLATERRA - Championship - Playoffs",
         "nombreWplay": 'INGLATERRA - CHAMPIONSHIP',
         "abreviado": "R-ING2",
         "codigoWplay": 19156,
@@ -888,6 +904,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "TURQUÍA - 1. Lig",
+        "nombreWplay": 'TURQUÍA - TFF LEAGUE 1',
+        "abreviado": "YE-TUR2",
+        "codigoWplay": 19370,
+        mitad: false,
+        favorito: false
+    },
+    {
+        "nombreFlashcore": "TURQUÍA - 1. Lig - Playoffs",
         "nombreWplay": 'TURQUÍA - TFF LEAGUE 1',
         "abreviado": "YE-TUR2",
         "codigoWplay": 19370,

@@ -10,156 +10,87 @@ Mostrar información desde
  Estado: 
 Abierto
 Fecha de la apuesta	Número de apuesta	Tipo de apuesta	Apuesta	Monto de Apuesta	cuotas	Bono	Ingreso	Estado
- 15 Mayo 17:56 
-1355165384	Accumulator (12)
-Ganador	Paysandu PA v Goias GO
-Ponte Preta SP v Santos SP
-Saint Louis FC v Los Angeles FC
-Minnesota United FC v L.A. Galaxy
-CF Montreal v Columbus Crew
-Orlando City SC v Inter Miami CF
-Alianza Lima v Colo Colo
-Chivas Guadalajara v America
-Independiente Santa Fe v Atletico Bucaramanga
-Austin FC v Sporting Kansas City
-Colorado Rapids v Vancouver Whitecaps FC
-Real Salt Lake v Seattle Sounders
+ 15 Mayo 22:37 
+1355540487	Accumulator (7)
+Ganador	Las Palmas v Real Betis
+FC Zlin v SK Dynamo Ceske Budejovice
+Bohemians 1905 v MFK Karvina
+FK Baumit Jablonec v FK Pardubice
+FC Smorgon v Isloch
+Corum Belediyespor v Kocaelispor
+Neman Grodno v FK Arsenal Dzerzhinsk
 $10,000
-3095.96	-	-	Abierto
+73.26	-	-	Abierto
 Fecha y Hora del evento	Descripción del evento	Apuesta	Selección	cuotas	Resultado
-15 Mayo 19:30	Paysandu PA v Goias GO	1ª Mitad más/Menos de Goias GO Total Goles	Más de (0.5)	2.30	 -
-15 Mayo 19:30	Ponte Preta SP v Santos SP	1ª Mitad más/Menos de Santos SP Total Goles	Más de (0.5)	1.95	 -
-15 Mayo 19:30	Saint Louis FC v Los Angeles FC	1ª Mitad más/Menos de Los Angeles FC Total Goles	Más de (0.5)	1.85	 -
-15 Mayo 19:30	Minnesota United FC v L.A. Galaxy	1ª Mitad más/Menos de L.A. Galaxy Total Goles	Más de (0.5)	1.85	 -
-15 Mayo 18:30	CF Montreal v Columbus Crew	1ª Mitad más/Menos de Columbus Crew Total Goles	Más de (0.5)	1.85	 -
-15 Mayo 18:30	Orlando City SC v Inter Miami CF	1ª Mitad más/Menos de Inter Miami CF Total Goles	Más de (0.5)	1.90	 -
-15 Mayo 19:00	Alianza Lima v Colo Colo	1ª Mitad más/Menos de Colo Colo Total Goles	Más de (0.5)	2.40	 -
-15 Mayo 21:05	Chivas Guadalajara v America	1ª Mitad más/Menos de America Total Goles	Más de (0.5)	2.10	 -
-15 Mayo 18:00	Independiente Santa Fe v Atletico Bucaramanga	1ª Mitad más/Menos de Independiente Santa Fe Total Goles	Más de (0.5)	1.95	 -
-18 Mayo 19:30	Austin FC v Sporting Kansas City	1ª Mitad más/Menos de Austin FC Total Goles	Más de (0.5)	1.833	 -
-15 Mayo 20:30	Colorado Rapids v Vancouver Whitecaps FC	1ª Mitad más/Menos de Colorado Rapids Total Goles	Más de (0.5)	1.769	 -
-15 Mayo 20:30	Real Salt Lake v Seattle Sounders	1ª Mitad más/Menos de Real Salt Lake Total Goles	Más de (0.5)	1.80	 -
+16 Mayo 12:30	Las Palmas v Real Betis	1ª Mitad más/Menos de Real Betis Total Goles	Más de (0.5)	1.95	 -
+16 Mayo 10:00	FC Zlin v SK Dynamo Ceske Budejovice	Total Goles Más/Menos de	Más de (2.5)	1.80	 -
+16 Mayo 10:00	Bohemians 1905 v MFK Karvina	Total Goles Más/Menos de	Más de (2.5)	1.80	 -
+16 Mayo 10:00	FK Baumit Jablonec v FK Pardubice	Total Goles Más/Menos de	Más de (2.5)	1.769	 -
+16 Mayo 10:50	FC Smorgon v Isloch	Total Goles Más/Menos de	Más de (2.5)	1.833	 -
+16 Mayo 12:00	Corum Belediyespor v Kocaelispor	Total Goles Más/Menos de	Más de (2.5)	1.833	 -
+16 Mayo 12:45	Neman Grodno v FK Arsenal Dzerzhinsk	Total Goles Más/Menos de	Más de (2.5)	1.95	 -
 Tipo de apuesta	Número de apuestas	Total importe apostado	Ganancia posible	Ingreso
-Accumulator (12)	1	$10,000	$30,959,562	-
+Accumulator (7)	1	$10,000	$732,625	-
 RECUPERAR APUESTA?: $9,600
 Imprimir
- 15 Mayo 17:51 
-1355159648	Accumulator (9)
-Ganador	Cancun FC v Atlante
-Austin FC v Houston Dynamo
-Universidad Cesar Vallejo v Always Ready
-Nashville SC v Toronto FC
-Philadelphia Union v New York City
-Portland Timbers v San Jose Earthquakes
-FC Cincinnati v Atlanta United
-DC United v New York Red Bulls
-Chicago Fire v Charlotte FC
+ 15 Mayo 22:36 
+1355539786	Parlay (5)
+Ganador	Bodrum Belediyesi Bodrumspor v Boluspor
+Las Palmas v Real Betis
+Bohemians 1905 v MFK Karvina
+FK Baumit Jablonec v FK Pardubice
+FC Zlin v SK Dynamo Ceske Budejovice
 $10,000
-1299.42	-	-	Abierto
+31.47	-	-	Abierto
 Fecha y Hora del evento	Descripción del evento	Apuesta	Selección	cuotas	Resultado
-15 Mayo 20:00	Cancun FC v Atlante	1ª Mitad más/Menos de Atlante Total Goles	Más de (0.5)	2.45	 -
-15 Mayo 19:30	Austin FC v Houston Dynamo	1ª Mitad más/Menos de Austin FC Total Goles	Más de (0.5)	2.05	 -
-15 Mayo 21:00	Universidad Cesar Vallejo v Always Ready	1ª Mitad más/Menos de Always Ready Total Goles	Más de (0.5)	2.10	 -
-15 Mayo 19:30	Nashville SC v Toronto FC	1ª Mitad más/Menos de Toronto FC Total Goles	Más de (0.5)	2.625	 -
-15 Mayo 18:30	Philadelphia Union v New York City	1ª Mitad más/Menos de New York City Total Goles	Más de (0.5)	2.25	 -
-15 Mayo 21:30	Portland Timbers v San Jose Earthquakes	1ª Mitad más/Menos de San Jose Earthquakes Total Goles	Más de (0.5)	2.15	 -
-15 Mayo 18:30	FC Cincinnati v Atlanta United	1ª Mitad más/Menos de Atlanta United Total Goles	Más de (0.5)	2.10	 -
-15 Mayo 18:30	DC United v New York Red Bulls	1ª Mitad más/Menos de New York Red Bulls Total Goles	Más de (0.5)	2.10	 -
-15 Mayo 19:30	Chicago Fire v Charlotte FC	1ª Mitad más/Menos de Charlotte FC Total Goles	Más de (0.5)	2.20	 -
+16 Mayo 09:00	Bodrum Belediyesi Bodrumspor v Boluspor	Total Goles Más/Menos de	Más de (2.5)	2.20	 -
+16 Mayo 12:30	Las Palmas v Real Betis	Total Goles Más/Menos de	Más de (2.5)	2.10	 -
+16 Mayo 10:00	Bohemians 1905 v MFK Karvina	1ª Mitad más/Menos de Bohemians 1905 Total Goles	Más de (0.5)	1.75	 -
+16 Mayo 10:00	FK Baumit Jablonec v FK Pardubice	1ª Mitad más/Menos de FK Baumit Jablonec Total Goles	Más de (0.5)	1.769	 -
+16 Mayo 10:00	FC Zlin v SK Dynamo Ceske Budejovice	1ª Mitad más/Menos de SK Dynamo Ceske Budejovice Total Goles	Más de (0.5)	2.20	 -
 Tipo de apuesta	Número de apuestas	Total importe apostado	Ganancia posible	Ingreso
-Accumulator (9)	1	$10,000	$12,994,237	-
-RECUPERAR APUESTA?: $3,719
-Imprimir
- 15 Mayo 17:23 
-1355129565	Accumulator (8)
-Ganador	DC United v New York Red Bulls
-Austin FC v Houston Dynamo
-Chicago Fire v Charlotte FC
-Nashville SC v Toronto FC
-Palmeiras SP v Independiente Del Valle
-Real Salt Lake v Seattle Sounders
-Universidad Cesar Vallejo v Always Ready
-Birmingham Legion FC v Charleston Battery
-$10,000
-120.98	-	-	Abierto
-Fecha y Hora del evento	Descripción del evento	Apuesta	Selección	cuotas	Resultado
-15 Mayo 18:30	DC United v New York Red Bulls	Total Goles Más/Menos de	Más de (2.5)	1.75	 -
-15 Mayo 19:30	Austin FC v Houston Dynamo	Total Goles Más/Menos de	Más de (2.5)	1.90	 -
-15 Mayo 19:30	Chicago Fire v Charlotte FC	Total Goles Más/Menos de	Más de (2.5)	1.90	 -
-15 Mayo 19:30	Nashville SC v Toronto FC	Total Goles Más/Menos de	Más de (2.5)	1.80	 -
-15 Mayo 19:30	Palmeiras SP v Independiente Del Valle	Total Goles Más/Menos de	Más de (2.5)	1.75	 -
-15 Mayo 20:30	Real Salt Lake v Seattle Sounders	Total Goles Más/Menos de	Más de (2.5)	1.80	 -
-15 Mayo 21:00	Universidad Cesar Vallejo v Always Ready	Total Goles Más/Menos de	Más de (2.5)	1.93	 -
-15 Mayo 19:00	Birmingham Legion FC v Charleston Battery	Total Goles Más/Menos de	Más de (2.5)	1.75	 -
-Tipo de apuesta	Número de apuestas	Total importe apostado	Ganancia posible	Ingreso
-Accumulator (8)	1	$10,000	$1,209,828	-
-RECUPERAR APUESTA?: $5,475
-Imprimir
- 15 Mayo 17:22 
-1355128253	Accumulator (9)
-Ganador	Independiente Santa Fe v Atletico Bucaramanga
-Alianza Lima v Colo Colo
-Boca Juniors v Fortaleza CE
-Paysandu PA v Goias GO
-Ponte Preta SP v Santos SP
-Ceara CE v Amazonas FC
-Fortaleza FC v Deportivo Pereira
-San Antonio v Guayaquil City FC
-Chivas Guadalajara v America
-$10,000
-2174.08	-	-	Abierto
-Fecha y Hora del evento	Descripción del evento	Apuesta	Selección	cuotas	Resultado
-15 Mayo 18:00	Independiente Santa Fe v Atletico Bucaramanga	Total Goles Más/Menos de	Más de (2.5)	2.55	 -
-15 Mayo 19:00	Alianza Lima v Colo Colo	Total Goles Más/Menos de	Más de (2.5)	2.50	 -
-15 Mayo 19:00	Boca Juniors v Fortaleza CE	Total Goles Más/Menos de	Más de (2.5)	2.10	 -
-15 Mayo 19:30	Paysandu PA v Goias GO	Total Goles Más/Menos de	Más de (2.5)	2.40	 -
-15 Mayo 19:30	Ponte Preta SP v Santos SP	Total Goles Más/Menos de	Más de (2.5)	2.55	 -
-15 Mayo 19:30	Ceara CE v Amazonas FC	Total Goles Más/Menos de	Más de (2.5)	2.20	 -
-15 Mayo 20:05	Fortaleza FC v Deportivo Pereira	Total Goles Más/Menos de	Más de (2.5)	2.15	 -
-15 Mayo 19:00	San Antonio v Guayaquil City FC	Total Goles Más/Menos de	Más de (2.5)	2.55	 -
-15 Mayo 21:05	Chivas Guadalajara v America	Total Goles Más/Menos de	Más de (2.5)	2.20	 -
-Tipo de apuesta	Número de apuestas	Total importe apostado	Ganancia posible	Ingreso
-Accumulator (9)	1	$10,000	$21,740,769	-
-RECUPERAR APUESTA?: $4,358
-Imprimir
- 15 Mayo 17:20 
-1355126756	Accumulator (8)
-Ganador	Independiente Santa Fe v Atletico Bucaramanga
-Alianza Lima v Colo Colo
-Boca Juniors v Fortaleza CE
-Paysandu PA v Goias GO
-Ponte Preta SP v Santos SP
-Ceara CE v Amazonas FC
-Chivas Guadalajara v America
-San Antonio v Guayaquil City FC
-$10,000
-28.26	-	-	Abierto
-Fecha y Hora del evento	Descripción del evento	Apuesta	Selección	cuotas	Resultado
-15 Mayo 18:00	Independiente Santa Fe v Atletico Bucaramanga	Se anotará gol en la 1er mitad	Si	1.50	 -
-15 Mayo 19:00	Alianza Lima v Colo Colo	Se anotará gol en la 1er mitad	Si	1.571	 -
-15 Mayo 19:00	Boca Juniors v Fortaleza CE	Se anotará gol en la 1er mitad	Si	1.45	 -
-15 Mayo 19:30	Paysandu PA v Goias GO	Se anotará gol en la 1er mitad	Si	1.55	 -
-15 Mayo 19:30	Ponte Preta SP v Santos SP	Se anotará gol en la 1er mitad	Si	1.571	 -
-15 Mayo 19:30	Ceara CE v Amazonas FC	Se anotará gol en la 1er mitad	Si	1.48	 -
-15 Mayo 21:05	Chivas Guadalajara v America	Se anotará gol en la 1er mitad	Si	1.48	 -
-15 Mayo 19:00	San Antonio v Guayaquil City FC	Primera Mitad Total Goles Más/Menos de	Más de (0.5)	1.55	 -
-Tipo de apuesta	Número de apuestas	Total importe apostado	Ganancia posible	Ingreso
-Accumulator (8)	1	$10,000	$282,641	-
+Parlay (5)	1	$10,000	$314,693	-
 RECUPERAR APUESTA?: $9,600
 Imprimir
- 15 Mayo 16:40 
-1355080098	Accumulator (4)
-Ganador	Deportivo Tachira v Nacional Montevideo
-America Mineiro MG v Mirassol SP
-Brusque FC v Operario PR
-Ituano SP v Sport Recife PE
+ 15 Mayo 22:34 
+1355537646	Triple
+Ganador	Las Palmas v Real Betis
+Bodrum Belediyesi Bodrumspor v Boluspor
+Neman Grodno v FK Arsenal Dzerzhinsk
 $10,000
-26.51	-	-	Abierto
+2.99	-	-	Abierto
 Fecha y Hora del evento	Descripción del evento	Apuesta	Selección	cuotas	Resultado
-15 Mayo 17:00	Deportivo Tachira v Nacional Montevideo	Total Goles Más/Menos de	Más de (2.5)	2.10	 -
-15 Mayo 17:00	America Mineiro MG v Mirassol SP	Total Goles Más/Menos de	Más de (2.5)	2.25	 -
-15 Mayo 17:00	Brusque FC v Operario PR	Total Goles Más/Menos de	Más de (2.5)	2.55	 -
-15 Mayo 17:00	Ituano SP v Sport Recife PE	Total Goles Más/Menos de	Más de (2.5)	2.20	 -
+16 Mayo 12:30	Las Palmas v Real Betis	Se anotará gol en la 1er mitad	Si	1.444	 -
+16 Mayo 09:00	Bodrum Belediyesi Bodrumspor v Boluspor	Primera Mitad Total Goles Más/Menos de	Más de (0.5)	1.48	 -
+16 Mayo 12:45	Neman Grodno v FK Arsenal Dzerzhinsk	Primera Mitad Total Goles Más/Menos de	Más de (0.5)	1.40	 -
 Tipo de apuesta	Número de apuestas	Total importe apostado	Ganancia posible	Ingreso
-Accumulator (4)	1	$10,000	$265,073	-
+Triple	1	$10,000	$29,929	-
+RECUPERAR APUESTA?: $9,600
 Imprimir
+ 15 Mayo 22:30 
+1355534188	Accumulator (23)
+Ganador	Real Sociedad v Valencia
+Bari v Ternana
+Leeds United v Norwich City
+Shandong Taishan v Shenzhen XinPengcheng
+FK Baumit Jablonec v FK Pardubice
+Bohemians 1905 v MFK Karvina
+Young Boys v FC St. Gallen
+FC Lugano v FC Winterthur
+Sao Paulo SP v Barcelona SC
+San Lorenzo v Liverpool Montevideo
+Rosario Central v Caracas FC
+Fluminense RJ v Cerro Porteño
+Universidad Catolica Quito v Alianza FC
+Cruzeiro MG v Union La Calera
+Racing Club v Coquimbo
+Las Palmas v Real Betis
+Almeria v Barcelona
+FC Penafiel v Torreense
+FC Zlin v SK Dynamo Ceske Budejovice
+Deportivo Riestra v Newells Old Boys
+Universitario de Deportes v Botafogo RJ
+Monterrey v Cruz Azul
+Sportivo Luqueno v Bragantino SP
+$1,000
+287623.79	-	-	Abierto
