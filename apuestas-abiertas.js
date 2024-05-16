@@ -1,6 +1,16 @@
 let APUESTAS_ABIERTAS = [
-	[[11330,"Bari","Ternana","local",1.85],[11500,"Real Sociedad","Valencia","local",1.769],[11230,"Las Palmas","Real Betis","visitante",2.05],[11415,"FC Penafiel","Torreense","visitante",2.3],[11510,"Deportivo Riestra","Newells Old Boys","visitante",1.85],"285,502"],
-	[[11230,"Las Palmas","Real Betis","over",2.05],[11330,"Bari","Ternana","over",2.2],[11400,"Leeds United","Norwich City","over",1.8],[11500,"Real Sociedad","Valencia","over",2.2],[11245,"Neman Grodno","FK Arsenal Dzerzhinsk","over",1.95],[11415,"FC Penafiel","Torreense","over",1.95],[11510,"Deportivo Riestra","Newells Old Boys","over",3],"2,037,334"],
-	[[11230,"Las Palmas","Real Betis","mitad",1.45],[11330,"Bari","Ternana","mitad",1.48],[11500,"Real Sociedad","Valencia","mitad",1.45],[11510,"Deportivo Riestra","Newells Old Boys","mitad",1.615],[11245,"Neman Grodno","FK Arsenal Dzerzhinsk","mitad",1.4],[11415,"FC Penafiel","Torreense","mitad",1.4],"98,521"],
-	[[11230,"Las Palmas","Real Betis","visitante",1.95],[11200,"Corum Belediyespor","Kocaelispor","over",1.727],[11245,"Neman Grodno","FK Arsenal Dzerzhinsk","over",1.95],"35,835"],
+	[
+		[11510, "Deportivo Riestra", "Newells Old Boys", "visitante", 1.85],
+		"171,414"
+	],
+	[
+		[11415, "FC Penafiel", "Torreense", "over", 1.95],
+		[11500, "Real Sociedad", "Valencia", "over", 2.2],
+		[11510, "Deportivo Riestra", "Newells Old Boys", "over", 3],
+		"231,660"
+	],
+	[
+		[11510, "Deportivo Riestra", "Newells Old Boys", "mitad", 1.615],
+		"52,319"
+	],
 ]
