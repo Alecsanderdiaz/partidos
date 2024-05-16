@@ -17,12 +17,12 @@
     <script src="apuestas-abiertas.js"></script>
     <script>
 
-        function hacerFilaPartido(partido) {
+        function hacerFilaPartido(partido, index) {
             partido[0] = partido[0] - 10000
             return `
-                <div class="row">
+                <div class="row ${ index % 2 === 0 ? 'bg-secondary-subtle': ''}">
                     <div class="col-2"><small>${ partido[0] }</small></div>
-                    <div class="col-6"><small>${ partido[1].slice(0,20) }</small><br><small>${ partido[2].slice(0,20) }</small></div>
+                    <div class="col-6"><small>${ partido[1].slice(0,15) }</small><br><small>${ partido[2].slice(0,15) }</small></div>
                     <div class="col-2"><small>${ partido[3].substring(0,3).toUpperCase() }</small></div>
                     <div class="col-2">${ partido[4].toFixed(2) }</div>
                 </div>
@@ -38,7 +38,7 @@
 
                 
 
-                html += index === 0 ? '<div class="row text-end"><b>$ '+ partido +'</b></div>' : hacerFilaPartido(partido)
+                html += index === 0 ? '<div class="row text-end"><b>$ '+ partido +'</b></div>' : hacerFilaPartido(partido, index)
                 
                 let partido_encontrado = partidos_todos.find(p => p[1] === partido[1])
                 if (!partido_encontrado && Array.isArray(partido)) {
@@ -53,12 +53,12 @@
 
         partidos_todos = partidos_todos.sort((a,b) => a[0] - b[0])
 
-        partidos_todos.forEach(partido => {
+        partidos_todos.forEach((partido, index) => {
             html_todos += `
-                    <div class="row">
+                    <div class="row ${ index % 2 === 0 ? 'bg-secondary-subtle': ''}">
                         <div class="col-2"><small>${ partido[0] }</small></div>
-                        <div class="col-5"><small>${ partido[1].slice(0,20) }</small></div>
-                        <div class="col-5"><small>${ partido[2].slice(0,20) }</small></div>
+                        <div class="col-5"><small>${ partido[1].slice(0,15) }</small></div>
+                        <div class="col-5"><small>${ partido[2].slice(0,15) }</small></div>
                     </div>
                 `
         });
