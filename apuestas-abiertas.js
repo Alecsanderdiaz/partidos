@@ -1,9 +1,32 @@
 let APUESTAS_ABIERTAS = [
-	[[11030,"Slask Wroclaw","Radomiak Radom","local",1.769],[11030,"Atletico Fenix Montevideo","Progreso","visitante",2.2],"38,923"],
-	[[11000,"FC Minsk","FC Vitebsk","over",2.625],[11015,"Bolton Wanderers","Oxford United","over",1.8],[11030,"Slask Wroclaw","Radomiak Radom","over",1.95],[11030,"Atletico Fenix Montevideo","Progreso","over",2.15],"198,096"],
-	[[11000,"FC Minsk","FC Vitebsk","mitad",1.6],[11030,"Atletico Fenix Montevideo","Progreso","mitad",1.45],"23,200"],
-	[[10915,"SD Huesca","Racing Santander","local",2],[10915,"CD Leganes","Sporting Gijon","local",1.95],[10930,"Sporting Farense","Portimonense SC","local",1.85],[10930,"Arouca","Vitoria Guimaraes","visitante",1.85],[10930,"FC Dordrecht","FC Emmen","visitante",2.1],"280,303"],
-	[[10915,"SD Huesca","Racing Santander","over",2.15],[10915,"CD Leganes","Sporting Gijon","over",2.45],[10930,"Boavista","FC Vizela","over",1.833],[10930,"CF Estrela","Gil Vicente","over",1.7],"164,170"],
-	[[10915,"SD Huesca","Racing Santander","mitad",1.45],[10915,"CD Leganes","Sporting Gijon","mitad",1.533],"22,233"],
-	[[10800,"Rentistas","Cerrito CS","over",2.5],[10830,"Union Berlin","Freiburg","over",1.727],[10830,"Lokomotiv Moscow","Fakel Voronezh","over",2.1],"90,682"],
+	[
+		[11715, "La Equidad", "Tolima", "visitante", 2.4],
+		"24,000"
+	],
+	[
+		[11630, "Goias GO", "Botafogo SP", "over", 2.3],
+		[11630, "Club Tacuary", "Libertad Asuncion", "over", 1.85],
+		[11630, "Universidad de Chile", "Universidad Catolica", "over", 1.833],
+		[11715, "La Equidad", "Tolima", "over", 2.25],
+		[11700, "Quilmes AC", "Gimnasia Jujuy", "over", 2.6], "456,349"
+	],
+	[
+		[11630, "Goias GO", "Botafogo SP", "mitad", 1.48],
+		[11715, "La Equidad", "Tolima", "mitad", 1.48],
+		[11700, "Quilmes AC", "Gimnasia Jujuy", "mitad", 1.6], "35,046"
+	],
+	[
+		[11500, "Llaneros (F)", "Cúcuta Deportivo (F)", "over", 2.5],
+		[11530, "Amazonas FC", "Paysandu PA", "over", 2.45],
+		[11530, "Club Sport Emelec", "Macara", "over", 2.2],
+		[11500, "Deportivo La Guaira", "Inter de Barinas", "over", 2.1],
+		[11600, "Defensor Sporting", "Penarol Montevideo", "over", 2.05], "580,099"
+	],
+	[
+		[11530, "Amazonas FC", "Paysandu PA", "mitad", 1.55],
+		[11530, "Club Sport Emelec", "Macara", "mitad", 1.45],
+		[11500, "Deportivo La Guaira", "Inter de Barinas", "mitad", 1.444],
+		[11500, "Llaneros (F)", "Cúcuta Deportivo (F)", "mitad", 1.533],
+		[11600, "Defensor Sporting", "Penarol Montevideo", "mitad", 1.444], "71,902"
+	],
 ]
