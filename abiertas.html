@@ -24,7 +24,7 @@
                     <div class="col-2"><small>${ partido[0] }</small></div>
                     <div class="col-6"><small>${ partido[1].slice(0,15) }</small><br><small>${ partido[2].slice(0,15) }</small></div>
                     <div class="col-2"><small>${ partido[3].substring(0,3).toUpperCase() }</small></div>
-                    <div class="col-2">${ partido[4].toFixed(2) }</div>
+                    <div class="col-2">${ partido[4].toFixed(2) || 1 }</div>
                 </div>
 
             `
@@ -62,6 +62,18 @@
                     </div>
                 `
         });
+
+        html_todos += `
+        <div class="row">
+            <div class="col">
+                <p>
+                    <b>Cantidad de Partidos:</b> ${ partidos_todos.length }
+                    <br>
+                    <b>Cantidad de Apuestas:</b> ${ APUESTAS_ABIERTAS.length }
+                </p>
+            </div>
+        </div>
+        `
 
         document.querySelector('#container').innerHTML = html
         document.querySelector('#container-todos').innerHTML = html_todos
