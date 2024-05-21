@@ -1,4 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11200,"Real Betis","Real Sociedad","over",2.3],[11200,"CF Cadiz","Las Palmas","over",2.25],[11030,"Danubio","Racing Club Montevideo","over",2.2],[11130,"Nublense","OHiggins","over",2.05],[11145,"Club Atletico Atlanta","Atletico Rafaela","over",2.55],"278,531"],
-	[[11200,"CF Cadiz","Las Palmas","mitad",1.48],[11200,"Real Betis","Real Sociedad","mitad",1.5],[11130,"Nublense","OHiggins","mitad",1.42],[11145,"Club Atletico Atlanta","Atletico Rafaela","mitad",1.571],[11030,"Danubio","Racing Club Montevideo","mitad",1.5],"74,307"],
+	[[11530,"Cucuta Deportivo","Deportes Quindio","over",2.15],[11630,"Cuniburo FC","San Antonio","over",2.05],[11800,"Velez Sarsfield","Newells Old Boys","over",2.8],[11900,"Guayaquil City FC","Club Nueve de Octubre","over",2.6],[11900,"Llaneros FC","Union Magdalena","over",2],[11930,"Vasco Da Gama RJ","Fortaleza CE","over",2.25],[11630,"CS 2 de Mayo","Sportivo Ameliano","over",2.05],"2,959,989"],
+	[[11800,"Velez Sarsfield","Newells Old Boys","mitad",1.615],[11530,"Cucuta Deportivo","Deportes Quindio","mitad",1.48],[11630,"CS 2 de Mayo","Sportivo Ameliano","mitad",1.45],[11630,"Cuniburo FC","San Antonio","mitad",1.4],[11900,"Club Independiente Petrolero","Oriente Petrolero","mitad",1.4],[11900,"Guayaquil City FC","Club Nueve de Octubre","mitad",1.55],[11900,"Llaneros FC","Union Magdalena","mitad",1.4],"147,442"],
+	[[11330,"Catanzaro","Cremonese","mitad",1.42],[11330,"Rodez Aveyron","Paris FC","mitad",1.4],[11405,"Nueva Chicago","Ferro Carril Oeste","mitad",1.65],"32,802"],
 ]
