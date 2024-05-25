@@ -1,5 +1,4 @@
 let APUESTAS_ABIERTAS = [
-	[[11915,"CA Belgrano","Central Cordoba","local",1.769],[11800,"Union La Calera","Coquimbo","visitante",2.1],[11900,"Imbabura SC","Club Sport Emelec","visitante",1.95],[11915,"Atletico Lanus","Estudiantes de La Plata","visitante",2.55],[11930,"America Mineiro MG","Santos SP","visitante",2.35],"759,774"],
-	[[11800,"Union La Calera","Coquimbo","over",2.2],[11800,"Atletico Huila","Orsomarso","over",2.1],[11900,"Imbabura SC","Club Sport Emelec","over",2.1],[11915,"CA Belgrano","Central Cordoba","over",2.1],[11915,"Atletico Lanus","Estudiantes de La Plata","over",2.45],[11930,"America Mineiro MG","Santos SP","over",2.55],[11800,"Cusco FC","Alianza Lima","over",2.25],"2,863,976"],
-	[[11900,"Imbabura SC","Club Sport Emelec","mitad",1.45],[11915,"CA Belgrano","Central Cordoba","mitad",1.42],[11915,"Atletico Lanus","Estudiantes de La Plata","mitad",1.571],[11930,"America Mineiro MG","Santos SP","mitad",1.571],[11800,"Union La Calera","Coquimbo","mitad",1.48],[11800,"Atletico Huila","Orsomarso","mitad",1.42],[11800,"Cusco FC","Alianza Lima","mitad",1.5],"224,396"],
+	[[10200,"Albirex Niigata","Avispa Fukuoka","over",2.65],[10500,"Incheon United","Gwangju FC","over",2.2],[10500,"Pohang Steelers","FC Seoul","over",2.15],"125,470"],
+	[[10000,"Jubilo Iwata","Shonan Bellmare","mitad",1.4],[10200,"Albirex Niigata","Avispa Fukuoka","mitad",1.6],[10500,"Incheon United","Gwangju FC","mitad",1.48],[10500,"Pohang Steelers","FC Seoul","mitad",1.45],"48,070"],
 ]
