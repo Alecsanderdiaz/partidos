@@ -1,4 +1,26 @@
 let APUESTAS_ABIERTAS = [
-	[[10200,"Albirex Niigata","Avispa Fukuoka","over",2.65],[10500,"Incheon United","Gwangju FC","over",2.2],[10500,"Pohang Steelers","FC Seoul","over",2.15],"125,470"],
-	[[10000,"Jubilo Iwata","Shonan Bellmare","mitad",1.4],[10200,"Albirex Niigata","Avispa Fukuoka","mitad",1.6],[10500,"Incheon United","Gwangju FC","mitad",1.48],[10500,"Pohang Steelers","FC Seoul","mitad",1.45],"48,070"],
+	[
+		[11030, "Puszcza Niepolomice", "GKS Piast Gliwice", "over", 2.25],
+		[11030, "Miramar Misiones", "Montevideo Wanderers", "over", 2.15],
+		[11130, "Rayo Vallecano", "Athletic Bilbao", "over", 2],
+		[11045, "CA San Telmo", "Colon de Santa Fe", "over", 2.5],
+		[11130, "Tristan Suarez", "San Martin de San Juan", "over", 2.875],
+		"695,391"
+	],
+	[
+		[11030, "Puszcza Niepolomice", "GKS Piast Gliwice", "mitad", 1.5],
+		[11130, "Rayo Vallecano", "Athletic Bilbao", "mitad", 1.42],
+		"21,300"
+	],
+	[
+		[10915, "Real Sociedad", "Atlético Madrid", "over", 1.85],
+		"18,500"
+	],
+	[
+		[10900, "Manchester City", "Manchester United", "mitad", 1.222],
+		[10900, "Celtic", "Glasgow Rangers", "mitad", 1.3],
+		[10915, "Real Sociedad", "Atlético Madrid", "mitad", 1.38],
+		[10930, "FC Emmen", "NAC Breda", "mitad", 1.3],
+		"28,505"
+	],
 ]
