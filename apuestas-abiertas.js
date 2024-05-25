@@ -1,9 +1,9 @@
 let APUESTAS_ABIERTAS = [
 	[
-		[10100, "Argentinos Jrs", "River Plate", "mitad", 1.40],
-		[10100, "CA Agropecuario", "Club Atletico Defensores Unidos", "mitad", 1.50],
-		[10100, "Club Atletico Guemes", "Estudiantes De Río Cuarto", "mitad", 1.64],
-		"57,253"
+		[11300, "Argentinos Jrs", "River Plate", "mitad", 1.40],
+		[11300, "CA Agropecuario", "Club Atletico Defensores Unidos", "mitad", 1.50],
+		[21300, "Club Atletico Guemes", "Estudiantes De Río Cuarto", "mitad", 1.64],
+		"513253"
 	],
 	[
 		[11300, "Argentinos Juniors", "River Plate", "mitad", 1.45],
