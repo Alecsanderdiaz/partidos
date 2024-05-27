@@ -1,23 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[
-		[11300, "Argentinos Jrs", "River Plate", "mitad", 1.40],
-		[11300, "CA Agropecuario", "Club Atletico Defensores Unidos", "mitad", 1.50],
-		[21300, "Club Atletico Guemes", "Estudiantes De Río Cuarto", "mitad", 1.64],
-		"513253"
-	],
-	[
-		[11300, "Argentinos Juniors", "River Plate", "mitad", 1.45],
-		[11230, "Panathinaikos", "Aris Thessaloniki", "over", 2.05],
-		[11300, "Agropecuario Argentino", "CA Defensores Unidos", "over", 2.5],
-		[11400, "Universitario de Vinto", "Club Aurora", "over", 2.2],
-		"159,073"
-	],
-	[
-		[11030, "Puszcza Niepolomice", "GKS Piast Gliwice", "over", 2.25],
-		[11030, "Miramar Misiones", "Montevideo Wanderers", "over", 2.15],
-		[11130, "Rayo Vallecano", "Athletic Bilbao", "over", 2],
-		[11045, "CA San Telmo", "Colon de Santa Fe", "over", 2.5],
-		[11130, "Tristan Suarez", "San Martin de San Juan", "over", 2.875],
-		"695,391"
-	],
+	[[11330,"Fortuna Dusseldorf","VfL Bochum","local",1.769],[11700,"Union Santa Fe","CA Barracas Central","local",1.95],[11700,"Coritiba PR","Operario PR","local",1.95],[11200,"Csikszereda Miercurea Ciuc","Dinamo Bucuresti","visitante",1.727],"80,714"],
+	[[11200,"FC Dnepr Mogilev","FC Gomel","over",2.05],[11700,"Union Santa Fe","CA Barracas Central","over",2.35],[11700,"Coritiba PR","Operario PR","over",2.625],[11600,"Defensores de Belgrano","CA Aldosivi","over",2.35],"297,180"],
+	[[11700,"Union Santa Fe","CA Barracas Central","mitad",1.5],[11700,"Coritiba PR","Operario PR","mitad",1.6],[11200,"FC Dnepr Mogilev","FC Gomel","mitad",1.42],[11430,"Union Comercio","Club Sportivo Cienciano","mitad",1.4],[11600,"Defensores de Belgrano","CA Aldosivi","mitad",1.533],"73,158"],
+	[[11330,"Fortuna Dusseldorf","VfL Bochum","local",1.769],[11900,"Atletico Tucuman","Platense","local",2.1],[11700,"Union Santa Fe","CA Barracas Central","local",1.95],[11900,"Botafogo SP","Novorizontino SP","local",2.4],[11700,"Coritiba PR","Operario PR","local",1.95],[11200,"Csikszereda Miercurea Ciuc","Dinamo Bucuresti","visitante",1.727],[11930,"Avai SC","Goias GO","visitante",2.15],[11900,"Libertad (Ecu)","Deportivo Cuenca","visitante",2],[11830,"Club General Caballero JLM","CS 2 de Mayo","visitante",2.1],"528,850"],
 ]
