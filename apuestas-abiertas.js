@@ -1,10 +1,21 @@
 let APUESTAS_ABIERTAS = [
-	[[11700,"CD Junior","Botafogo RJ","visitante",2.3],[11700,"Amazonas FC","Mirassol SP","visitante",2.2],[11700,"Penarol Montevideo","Rosario Central","visitante",2.95],[11700,"LDU Quito","Universitario de Deportes","visitante",3.2],"278,860"],
-	[[11700,"LDU Quito","Universitario de Deportes","over",1.8],[11700,"Argentinos Juniors","Nacional Asuncion","over",1.8],[11700,"Corinthians SP","Racing Club Montevideo","over",1.8],"58,320"],
-	[[11700,"CD Junior","Botafogo RJ","over",2.2],[11700,"Penarol Montevideo","Rosario Central","over",2.5],[11700,"Amazonas FC","Mirassol SP","over",2.6],"143,000"],
-	[[11700,"Amazonas FC","Mirassol SP","mitad",1.6],[11700,"Penarol Montevideo","Rosario Central","mitad",1.55],[11700,"Argentinos Juniors","Nacional Asuncion","mitad",1.35],[11700,"LDU Quito","Universitario de Deportes","mitad",1.35],[11700,"CD Junior","Botafogo RJ","mitad",1.48],[11700,"Corinthians SP","Racing Club Montevideo","mitad",1.333],"89,191"],
-	[[11930,"Internacional RS","CA Belgrano","local",1.7],[11700,"Amazonas FC","Mirassol SP","visitante",2.2],[11700,"CD Junior","Botafogo RJ","visitante",2.3],[11700,"LDU Quito","Universitario de Deportes","visitante",3.2],[11700,"Penarol Montevideo","Rosario Central","visitante",2.95],[11900,"Bolivar","Palestino","visitante",2.9],[11930,"Coquimbo","Bragantino SP","visitante",1.727],"4,067,526"],
-	[[11700,"LDU Quito","Universitario de Deportes","over",1.8],[11700,"Argentinos Juniors","Nacional Asuncion","over",1.8],[11700,"Corinthians SP","Racing Club Montevideo","over",1.8],[11930,"Coquimbo","Bragantino SP","over",1.85],[11930,"Real Cartagena","Atletico Huila","over",1.95],"210,389"],
-	[[11700,"CD Junior","Botafogo RJ","over",2.2],[11700,"Penarol Montevideo","Rosario Central","over",2.5],[11700,"Amazonas FC","Mirassol SP","over",2.6],[11900,"Independiente Juniors","San Antonio","over",2],[11930,"Internacional RS","CA Belgrano","over",2.1],"600,600"],
-	[[11700,"CD Junior","Botafogo RJ","mitad",1.48],[11700,"Penarol Montevideo","Rosario Central","mitad",1.55],[11700,"Amazonas FC","Mirassol SP","mitad",1.6],[11930,"Internacional RS","CA Belgrano","mitad",1.42],[11700,"LDU Quito","Universitario de Deportes","mitad",1.35],[11700,"Argentinos Juniors","Nacional Asuncion","mitad",1.35],[11700,"Corinthians SP","Racing Club Montevideo","mitad",1.333],[11930,"Coquimbo","Bragantino SP","mitad",1.38],[11930,"Delfin","Real Tomayapo","mitad",1.3],[11900,"Independiente Juniors","San Antonio","mitad",1.38],"313,552"],
+	[
+		[11400, "Olympiacos", "Fiorentina", "visitante", 1.95],
+		"19,500"
+	],
+	[
+		[11530, "Deportivo Pasto (F)", "Independiente Medellin (F)", "over", 2.2],
+		[11500, "Club Nueve de Octubre", "Gualaceo SC", "over", 2.8],
+		[11500, "Chacaritas SC", "Cuniburo FC", "over", 2.2],
+		[11400, "Olympiacos", "Fiorentina", "over", 1.95],
+		[11330, "El Porvenir", "Godoy Cruz", "over", 1.93],
+		"510,030"
+	],
+	[
+		[11400, "Olympiacos", "Fiorentina", "mitad", 1.4],
+		[11500, "Chacaritas SC", "Cuniburo FC", "mitad", 1.45],
+		[11500, "Club Nueve de Octubre", "Gualaceo SC", "mitad", 1.6],
+		[11530, "Deportivo Pasto (F)", "Independiente Medellin (F)", "mitad", 1.42],
+		"62,893"
+	],
 ]
