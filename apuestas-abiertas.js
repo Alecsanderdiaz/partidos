@@ -1,21 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[
-		[11400, "Olympiacos", "Fiorentina", "visitante", 1.95],
-		"19,500"
-	],
-	[
-		[11530, "Deportivo Pasto (F)", "Independiente Medellin (F)", "over", 2.2],
-		[11500, "Club Nueve de Octubre", "Gualaceo SC", "over", 2.8],
-		[11500, "Chacaritas SC", "Cuniburo FC", "over", 2.2],
-		[11400, "Olympiacos", "Fiorentina", "over", 1.95],
-		[11330, "El Porvenir", "Godoy Cruz", "over", 1.93],
-		"510,030"
-	],
-	[
-		[11400, "Olympiacos", "Fiorentina", "mitad", 1.4],
-		[11500, "Chacaritas SC", "Cuniburo FC", "mitad", 1.45],
-		[11500, "Club Nueve de Octubre", "Gualaceo SC", "mitad", 1.6],
-		[11530, "Deportivo Pasto (F)", "Independiente Medellin (F)", "mitad", 1.42],
-		"62,893"
-	],
+	[[11830,"FC Cincinnati","Nashville SC","local",1.75],[11930,"Sporting Kansas City","Vancouver Whitecaps FC","local",1.85],[11930,"Sao Paulo SP","Talleres de Cordoba","local",1.8],[11930,"Houston Dynamo","Colorado Rapids","visitante",2.2],[11830,"Philadelphia Union","Toronto FC","visitante",2.4],[11930,"Austin FC","Portland Timbers","visitante",2.1],[11830,"CF Montreal","DC United","visitante",1.8],[11930,"Chicago Fire","Orlando City SC","visitante",2.05],[11930,"Cerro Porteño","Colo Colo","visitante",2.625],[11930,"Fluminense RJ","Alianza Lima","visitante",2.65],"14,927,241"],
+	[[11830,"FC Cincinnati","Nashville SC","over",2],[11930,"Cerro Porteño","Colo Colo","over",2.4],[11930,"Sao Paulo SP","Talleres de Cordoba","over",2.1],[11900,"Club Leones Del Norte","Guayaquil City FC","over",2.4],[11900,"Independiente Medellin","Always Ready","over",1.93],[11830,"Louisville City","Detroit City","over",1.833],[11900,"Defensa Y Justicia","Universidad Cesar Vallejo","over",1.769],[11830,"New York Red Bulls","Charlotte FC","over",1.769],"2,679,412"],
+	[[11830,"FC Cincinnati","Nashville SC","mitad",1.4],[11900,"Independiente Medellin","Always Ready","mitad",1.4],[11930,"Sao Paulo SP","Talleres de Cordoba","mitad",1.444],[11930,"Cerro Porteño","Colo Colo","mitad",1.533],[11900,"Club Leones Del Norte","Guayaquil City FC","mitad",1.5],"65,116"],
 ]
