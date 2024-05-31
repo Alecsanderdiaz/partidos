@@ -1,4 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11100,"FC Minsk","Shakhter Soligorsk","over",2],[11200,"Sakaryaspor","Bodrum Belediyesi Bodrumspor","over",2.2],[11100,"SK Dynamo Ceske Budejovice","FK Tabor","local",1.7],[11100,"Vyskov","MFK Karvina","visitante",1.95],"145,860"],
-	[[11100,"Vyskov","MFK Karvina","mitad",1.4],[11100,"FC Minsk","Shakhter Soligorsk","mitad",1.42],[11200,"Sakaryaspor","Bodrum Belediyesi Bodrumspor","mitad",1.48],[11100,"SK Dynamo Ceske Budejovice","FK Tabor","mitad",1.333],"39,230"],
+	[[11330,"FC Thun","Grasshoppers","local",1.909],[11100,"FK Mlada Boleslav","FC Hradec Kralove","visitante",2.1],"32,073"],
+	[[11130,"Bate Borisov","Slutsksakhar Slutsk","over",2.05],[11500,"Cucuta Deportivo","Llaneros FC","over",2.15],[11200,"La Luz FC","Cerrito CS","over",2.8],[11300,"Arsenal de Sarandi","Racing de Cordoba","over",2.8],"345,548"],
+	[[11330,"FC Thun","Grasshoppers","mitad",1.35],[11100,"FK Mlada Boleslav","FC Hradec Kralove","mitad",1.363],[11130,"Bate Borisov","Slutsksakhar Slutsk","mitad",1.444],[11200,"La Luz FC","Cerrito CS","mitad",1.571],[11300,"Arsenal de Sarandi","Racing de Cordoba","mitad",1.615],[11500,"Cucuta Deportivo","Llaneros FC","mitad",1.42],"85,850"],
 ]
