@@ -1,47 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[
-		[11700, "Ceara CE", "Coritiba PR", "visitante", 2.4],
-		"24,000"
-	],
-	[
-		[11700, "Ceara CE", "Coritiba PR", "over", 2.35],
-		[11700, "CA Atenas De San Carlos", "Albion FC", "over", 2.45],
-		"57,575"
-	],
-	[
-		[11700, "Ceara CE", "Coritiba PR", "mitad", 1.5],
-		[11700, "CA Atenas De San Carlos", "Albion FC", "mitad", 1.5],
-		"22,500"
-	],
-	[
-		[11930, "Goias GO", "Sport Recife PE", "local", 2],
-		[11930, "Cobreloa", "OHiggins", "local", 2.05],
-		[12100, "Costa Rica", "Uruguay", "visitante", 2.35],
-		[11700, "Ceara CE", "Coritiba PR", "visitante", 2.4],
-		[11900, "Tecnico Universitario", "El Nacional", "visitante", 2.35],
-		"543,414"
-	],
-	[
-		[11700, "Ceara CE", "Coritiba PR", "over", 2.3],
-		[11900, "Tecnico Universitario", "El Nacional", "over", 2.2],
-		[11930, "Goias GO", "Sport Recife PE", "over", 2.25],
-		[12100, "Costa Rica", "Uruguay", "over", 2.05],
-		[11500, "Cucuta Deportivo", "Llaneros FC", "over", 2.45],
-		[11700, "CA Atenas De San Carlos", "Albion FC", "over", 2.45],
-		[11910, "Colon de Santa Fe", "Atletico Rafaela", "over", 2.2],
-		"3,082,065"
-	],
-	[
-		[11700, "Ceara CE", "Coritiba PR", "mitad", 1.5],
-		[11900, "Tecnico Universitario", "El Nacional", "mitad", 1.48],
-		[11930, "Goias GO", "Sport Recife PE", "mitad", 1.48],
-		[12030, "Mexico", "Bolivia", "mitad", 1.333],
-		[12100, "Costa Rica", "Uruguay", "mitad", 1.42],
-		[11830, "New York City", "San Jose Earthquakes", "mitad", 1.25],
-		[11700, "CA Atenas De San Carlos", "Albion FC", "mitad", 1.5],
-		[11900, "Union Magdalena", "Deportes Quindio", "mitad", 1.4],
-		[11910, "Colon de Santa Fe", "Atletico Rafaela", "mitad", 1.45],
-		[11930, "Cobreloa", "OHiggins", "mitad", 1.4],
-		"331,487"
-	],
+	[[12100,"Costa Rica","Uruguay","visitante",2.3],[10500,"Suwon City FC","Incheon United","local",2.1],[10500,"Gimcheon Sangmu","Pohang Steelers","local",2],[10100,"Machida Zelvia","Albirex Niigata","local",1.75],[10100,"Shonan Bellmare","Gamba Osaka","visitante",2.05],[10500,"Kyoto Sanga","Cerezo Osaka","visitante",1.8],[10200,"Urawa Red Diamonds","Vissel Kobe","visitante",1.93],"1,203,923"],
+	[[12100,"Costa Rica","Uruguay","over",2.05],[10100,"Machida Zelvia","Albirex Niigata","over",2.1],[10100,"Shonan Bellmare","Gamba Osaka","over",2.1],[10200,"Urawa Red Diamonds","Vissel Kobe","over",2],[10500,"Kyoto Sanga","Cerezo Osaka","over",2.1],[10800,"Rentistas","Plaza Colonia","over",2.25],"854,327"],
+	[[12100,"Costa Rica","Uruguay","mitad",1.42],[10500,"Kyoto Sanga","Cerezo Osaka","mitad",1.444],[10200,"Urawa Red Diamonds","Vissel Kobe","mitad",1.42],[10100,"Shonan Bellmare","Gamba Osaka","mitad",1.45],[10100,"Machida Zelvia","Albirex Niigata","mitad",1.45],[10800,"Rentistas","Plaza Colonia","mitad",1.45],"88,794"],
 ]
