@@ -1,6 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[12305,"Tokyo Verdy","Consadole Sapporo","over",1.85],[10300,"Kawasaki Frontale","Nagoya Grampus","over",1.85],[10400,"Indonesia","Tanzania","over",1.93],[10500,"FC Seoul","Gwangju FC","over",1.95],"128,806"],
-	[[10230,"Jeju United","Gangwon FC","over",2],[10230,"Daejeon Citizen","Daegu FC","over",2.1],[10500,"Kashiwa Reysol","Avispa Fukuoka","over",2.45],"102,900"],
-	[[10230,"Jeju United","Gangwon FC","mitad",1.42],[10230,"Daejeon Citizen","Daegu FC","mitad",1.444],[10500,"Kashiwa Reysol","Avispa Fukuoka","mitad",1.533],"31,450"],
-	[[12100,"Orange County Blues","Detroit City","over",2.15],[12130,"Portland Timbers","Houston Dynamo","local",1.85],[12130,"Vancouver Whitecaps FC","Colorado Rapids","visitante",2.15],"163,258"],
+	[[11330,"Rumania","Bulgaria","local",1.769],[11345,"Irlanda","Hungria","local",2.35],[11300,"CA Barracas Central","Huracan","visitante",2.2],[11300,"Progreso","Cerro Largo FC","visitante",2.4],[11345,"Austria","Serbia","visitante",2.35],"515,886"],
+	[[11300,"CA Barracas Central","Huracan","over",2.45],[11300,"Progreso","Cerro Largo FC","over",2.15],[11330,"Rumania","Bulgaria","over",2.25],[11345,"Irlanda","Hungria","over",2.25],"266,667"],
+	[[11300,"CA Barracas Central","Huracan","mitad",1.55],[11345,"Austria","Serbia","mitad",1.4],[11345,"Irlanda","Hungria","mitad",1.5],[11345,"Portugal","Finlandia","mitad",1.222],[11400,"Italia","Turquia","mitad",1.333],
+	[11300,"Progreso","Cerro Largo FC","mitad",1.48],[11530,"Deportivo Pereira (F)","La Equidad (F)","mitad",1.333],"176,900"],
 ]
