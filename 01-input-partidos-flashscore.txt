@@ -1,5 +1,6 @@
 
 
+
 Publicidad
 
 john2005_16@yahoo.com
@@ -15,38 +16,100 @@ CUOTAS
 FINALIZADOS
 PRÓXIMOS
 
+ÁFRICA
+: 
+Mundial - Clasificación - Primera fase
+
+Clasificación
+
+11:00
+
+Namibia
+
+Liberia
+-
+-
+11:00
+
+República Centroafricana
+
+Chad
+-
+-
+11:00
+
+Sierra Leona
+
+Yibuti
+-
+-
+11:00
+
+Togo
+
+Sudán del Sur
+-
+-
+14:00
+
+Túnez
+
+Guinea Ecuatorial
+-
+-
+
 ARGENTINA
 : 
 Copa Argentina
 
 Cuadro
 
-15:10
+19:15
 
-Deportivo Riestra
+Arsenal Sarandí
 
-Newell's
+Vélez Sarsfield
 -
 -
 
-BIELORRUSIA
+BRASIL
 : 
-Vysshaya Liga
+Brasileirao Serie A
 
 Clasificación
 
-10:50
+17:00
 
-Smorgon
+Juventude
 
-Isloch
+Atlético-GO
 -
 -
-12:45
+18:00
 
-Neman Grodno
+Cuiabá
 
-Arsenal Dzyarzhynsk
+Vitória
+-
+-
+BRASIL
+: 
+Maranhense - Playoffs
+
+
+mostrar partidos (1)
+
+BRASIL
+: 
+Copa do Nordeste - Playoffs
+
+Cuadro
+
+19:30
+
+Fortaleza
+
+CRB
 -
 -
 BRASIL
@@ -54,42 +117,7 @@ BRASIL
 Brasileirao Sub-20
 
 
-mostrar partidos (4)
-
-CHINA
-: 
-Superliga
-
-Clasificación
-
-06:35
-
-Shandong Taishan
-
-Shenzhen Xinpengcheng
--
--
-
-COLOMBIA
-: 
-Copa Colombia
-
-Cuadro
-
-15:00
-
-Jaguares de Córdoba
-
-Tigres
--
--
-Aplazado
-
-Real Cartagena
-
-Envigado
--
--
+mostrar partidos (1)
 
 ECUADOR
 : 
@@ -97,219 +125,180 @@ Serie B
 
 Clasificación
 
-19:00
+15:00
+
+Gualaceo
+
+Vargas Torres
+-
+-
+15:00
+
+Guayaquil City
 
 Ind. Juniors
+-
+-
+19:00
 
-Manta
+Cuniburo
+
+Nueve de Octubre
 -
 -
 
-ESPAÑA
+ESTADOS UNIDOS
 : 
-LaLiga EA Sports
+USL Championship
 
 Clasificación
 
-12:30
+20:00
 
-Las Palmas
+San Antonio
 
-Real Betis
-14:30
-
-Almería
-
-Barcelona
-15:00
-
-Real Sociedad
-
-Valencia
-
-INGLATERRA
-: 
-Championship - Playoffs
-
-Cuadro
-
-14:00
-
-Leeds Utd
-
-Norwich
+El Paso
 -
 -
-
-ITALIA
-: 
-Serie B - Playoffs permanencia
-
-Cuadro
-
-13:30
-
-Bari
-
-Ternana
--
--
-
-MÉXICO
-: 
-Liga MX - Clausura - Playoffs
-
-Cuadro
-
-22:00
-
-Monterrey
-
-Cruz Azul
 MUNDIAL
 : 
 Amistosos Internacionales
 
 
-mostrar partidos (4)
-
-PORTUGAL
+mostrar partidos (11)
+MUNDIAL
 : 
-Liga Portugal 2
+Amistosos de Clubs
+
+
+mostrar partidos (1)
+MUNDIAL
+: 
+Maurice Revello Tournament
+
+
+mostrar partidos (2)
+
+NORTE, CENTROAMÉRICA Y CARIBE
+: 
+Mundial - Clasificación - Segunda fase
 
 Clasificación
 
-14:15
+14:00
 
-Penafiel
+Antigua & Barbuda
 
-Torreense
+Bermudas
 -
 -
+16:00
 
-REPÚBLICA CHECA
-: 
-FORTUNA:LIGA - Grupo Descenso
+Surinam
 
-Clasificación
-
-10:00
-
-Bohemians
-
-Karvina
+San Vicente y las Granadinas
 -
 -
-10:00
+18:30
 
-Jablonec
+Curazao
 
-Pardubice
+Barbados
 -
 -
-10:00
+18:30
 
-Zlin
+Trinidad y Tobago
 
-Ceske Budejovice
+Granada
 -
 -
-
-SUDAMÉRICA
-: 
-Copa Libertadores - Fase Grupos
-
-Clasificación
-
-17:00
-
-Fluminense (Bra)
-
-Cerro Porteño (Par)
-17:00
-
-Rosario Central (Arg)
-
-Caracas (Ven)
-17:00
-
-Universitario (Per)
-
-Botafogo (Bra)
-19:00
-
-San Lorenzo (Arg)
-
-Liverpool M. (Uru)
-19:00
-
-Sao Paulo (Bra)
-
-Barcelona SC (Ecu)
-
-SUDAMÉRICA
-: 
-Copa Sudamericana - Fase Grupos
-
-Tabla En Directo
-
-17:00
-
-Racing Club (Arg)
-
-Coquimbo (Chi)
-19:00
-
-Cruzeiro (Bra)
-
-U. La Calera (Chi)
-19:00
-
-Sp. Luqueño (Par)
-
-Bragantino (Bra)
 21:00
 
-U. Católica (Ecu)
+Guatemala
 
-Alianza (Col)
+Dominica
+-
+-
+21:00
 
-SUIZA
+Nicaragua
+
+Montserrat
+-
+-
+
+PARAGUAY
 : 
-Super League - Grupo de Campeonato
+Primera División - Apertura
 
 Clasificación
 
-13:30
+14:30
 
-Lugano
+Sp. Luqueño
 
-Winterthur
+Sportivo Trinidense
 -
 -
-13:30
+17:00
 
-Young Boys
+Nacional Asunción
 
-St. Gallen
+Cerro Porteño
+-
+-
+17:00
+
+Olimpia
+
+Libertad
 -
 -
 
-TURQUÍA
+URUGUAY
 : 
-1. Lig - Playoffs
+Segunda División
 
-Cuadro
+Clasificación
 
-09:00
+10:00
 
-Bodrumspor
+Cooper
 
-Boluspor
+Atenas
 -
 -
-12:00
+Aplazado
 
-Corum
+Juventud
 
-Kocaelispor
+Colon
+-
+-
+13:30
+
+Tacuarembo
+
+Rentistas
+-
+-
+15:30
+
+Oriental
+
+La Luz
+-
+-
+16:00
+
+Plaza Colonia
+
+Uruguay Montevideo
+-
+-
+18:00
+
+Montevideo City
+
+Albion

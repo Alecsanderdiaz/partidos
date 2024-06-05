@@ -8,6 +8,24 @@
 // },
 
 let LIGAS_OBJETOS = [
+    
+    
+    {
+        nombreFlashcore: 'BRASIL - Copa do Nordeste - Playoffs',
+        "nombreWplay": 'BRASIL - COPA DO NORDESTE',
+        "abreviado": 'ZA-BRACN',
+        "codigoWplay": 27208,
+        mitad: false,
+        favorito: false
+    },
+    {
+        nombreFlashcore: 'ÁFRICA - Mundial - Clasificación - Primera fase',
+        "nombreWplay": 'WORLD CUP 2026 - AFRICA QUALIFIERS',
+        "abreviado": 'M-AFR',
+        "codigoWplay": 452779,
+        mitad: false,
+        favorito: true
+    },
     {
         nombreFlashcore: 'MÉXICO - Liga de Expansión MX - Superfinal',
         "nombreWplay": 'MEXICO - CAMPEON DE CAMPEONES',
@@ -15,6 +33,14 @@ let LIGAS_OBJETOS = [
         "codigoWplay": 33025,
         mitad: true,
         favorito: true
+    },
+    {
+        nombreFlashcore: 'Maurice Revello Tournament',
+        "nombreWplay": 'TORNEO ESPERANZAS DE TOULON',
+        "abreviado": 'I-TOU',
+        "codigoWplay": 20192,
+        mitad: false,
+        favorito: false,
     },
     {
         "nombreFlashcore": "ASIA - AFC Asian Cup U23 - Playoffs",
@@ -76,6 +102,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        nombreFlashcore: 'BÉLGICA - Jupiler Pro League - Conference League - Play Offs',
+        "nombreWplay": 'BÉLGICA - 1RA DIVISIÓN A',
+        "abreviado": "YE-BEL1",
+        "codigoWplay": 19372,
+        mitad: true,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'BÉLGICA - Jupiler Pro League - Grupo de Campeonato',
         "nombreWplay": 'BÉLGICA - 1RA DIVISIÓN A',
         "abreviado": "YE-BEL1",
@@ -101,11 +135,19 @@ let LIGAS_OBJETOS = [
     },
     {
         nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - Mundial - Clasificación - Primera fase',
-        nombreWplay: '',
+        nombreWplay: 'WORLD CUP 2026 - CONCACAF QUALIFIERS',
         abreviado: 'M-CONC',
-        codigoWplay: 1,
-        mitad: true,
-        favorito: true
+        codigoWplay: 310774,
+        mitad: false,
+        favorito: false
+    },
+    {
+        nombreFlashcore: 'NORTE, CENTROAMÉRICA Y CARIBE - Mundial - Clasificación - Segunda fase',
+        nombreWplay: 'WORLD CUP 2026 - CONCACAF QUALIFIERS',
+        abreviado: 'M-CONC',
+        codigoWplay: 310774,
+        mitad: false,
+        favorito: false
     },
     {
         nombreFlashcore: 'Amistosos de Clubs',
@@ -244,7 +286,7 @@ let LIGAS_OBJETOS = [
         abreviado: 'ZA-ESTC',
         codigoWplay: 19497,
         mitad: false,
-        favorito: false
+        favorito: true
     },
     {
         "nombreFlashcore": "GRECIA - Superliga - Grupo Descenso",
@@ -365,6 +407,14 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "RUSIA - Copa de Rusia - Superfinal",
+        "nombreWplay": 'COPA DE RUSIA',
+        "abreviado": "YE-RUSC",
+        "codigoWplay": 19467,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "RUSIA - Copa de Rusia - Regions Path - Play Offs",
         "nombreWplay": 'COPA DE RUSIA',
         "abreviado": "YE-RUSC",
@@ -463,6 +513,14 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "RUSIA - Premier League - Descenso",
+        "nombreWplay": 'RUSIA - PREMIER LEAGUE',
+        "abreviado": "YE-RUS1",
+        "codigoWplay": 19388,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "ALEMANIA - Bundesliga",
         "nombreWplay": 'BUNDESLIGA 1',
         "abreviado": "ALE1",
@@ -471,10 +529,26 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "ALEMANIA - Bundesliga - Descenso",
+        "nombreWplay": 'BUNDESLIGA RELEGATION/PROMOTION PLAY-OFFS',
+        "abreviado": "ALE1D",
+        "codigoWplay": 45452,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "ALEMANIA - 2. Bundesliga",
         "nombreWplay": 'BUNDESLIGA 2',
         "abreviado": "ALE2",
         "codigoWplay": 19344,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "ALEMANIA - 2. Bundesliga - Descenso",
+        "nombreWplay": 'BUNDESLIGA 2 PLAY-OFFS',
+        "abreviado": "ALE2D",
+        "codigoWplay": 19833,
         mitad: true,
         favorito: true
     },
@@ -519,6 +593,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "FRANCIA - Ligue 1 - Descenso - Playoffs",
+        "nombreWplay": 'LIGUE 1',
+        "abreviado": "FRA1",
+        "codigoWplay": 19327,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "FRANCIA - Ligue 2",
         "nombreWplay": 'LIGUE 2',
         "abreviado": "FRA2",
@@ -551,11 +633,28 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "ITALIA - Serie B - Playoffs",
+        "nombreWplay": 'SERIE B',
+        "abreviado": "ITA2",
+        "codigoWplay": 19328,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "ESCOCIA - Premiership",
         "nombreWplay": 'ESCOCIA - PREMIERSHIP',
         "abreviado": "R-ESC1",
         "codigoWplay": 19208,
         mitad: true,
+        favorito: true
+    },
+
+    {
+        "nombreFlashcore": "ESCOCIA - Premiership - Descenso",
+        "nombreWplay": 'ESCOCIA - CHAMPIONSHIP',
+        "abreviado": "R-ESC2",
+        "codigoWplay": 19879,
+        mitad: false,
         favorito: true
     },
     {
@@ -728,7 +827,7 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "GRECIA - Copa",
-        "nombreWplay": '',
+        "nombreWplay": 'COPA DEL GRECIA',
         "abreviado": "YE-GREC",
         "codigoWplay": 19412,
         mitad: false,
@@ -743,8 +842,16 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
-        "nombreFlashcore": "PAÍSES BAJOS - Eredivisie - Descenso - Playoffs",
+        "nombreFlashcore": "PAÍSES BAJOS - Eredivisie - Conference League - Play Offs",
         "nombreWplay": 'HOLANDA - EREDIVISIE',
+        "abreviado": "YE-HOL1",
+        "codigoWplay": 19358,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "PAÍSES BAJOS - Eredivisie - Descenso - Playoffs",
+        "nombreWplay": 'NETHERLANDS - KEUKEN KAMPIOEN PLAY-OFFS',
         "abreviado": "YE-HOL1",
         "codigoWplay": 861779,
         mitad: true,
@@ -766,14 +873,7 @@ let LIGAS_OBJETOS = [
         mitad: true,
         favorito: true
     },
-    {
-        "nombreFlashcore": "PAÍSES BAJOS - Keuken Kampioen Divisie",
-        "nombreWplay": 'NETHERLANDS - KEUKEN KAMPIOEN PLAY-OFFS',
-        "abreviado": "YE-HOL2",
-        "codigoWplay": 861779,
-        mitad: true,
-        favorito: true
-    },
+
     {
         "nombreFlashcore": "POLONIA - Ekstraklasa",
         "nombreWplay": 'POLONIA - EKSTRAKLASA',
@@ -799,6 +899,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "PORTUGAL - Liga Portugal - Descenso",
+        "nombreWplay": 'PORTUGAL - PRIMEIRA LIGA PROMOTION/RELEGATION PLAYOFF',
+        "abreviado": "YE-PORD",
+        "codigoWplay": 374773,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "PORTUGAL - Liga Portugal 2",
         "nombreWplay": 'PORTUGAL - SEGUNDA LIGA',
         "abreviado": "YE-POR2",
@@ -807,7 +915,23 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "PORTUGAL - Liga Portugal 2 - Descenso",
+        "nombreWplay": 'PORTUGAL - SEGUNDA LIGA',
+        "abreviado": "YE-POR2",
+        "codigoWplay": 19338,
+        mitad: false,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "REPÚBLICA CHECA - FORTUNA:LIGA",
+        "nombreWplay": 'REPÚBLICA CHECA - FIRST LEAGUE',
+        "abreviado": "YE-REP1",
+        "codigoWplay": 19403,
+        mitad: false,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "REPÚBLICA CHECA - FORTUNA:LIGA - Descenso",
         "nombreWplay": 'REPÚBLICA CHECA - FIRST LEAGUE',
         "abreviado": "YE-REP1",
         "codigoWplay": 19403,
@@ -847,7 +971,31 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "RUMANÍA - Liga 1 - Conference League - Play Offs",
+        "nombreWplay": 'RUMANÍA - LIGA 1',
+        "abreviado": "YE-RUM1",
+        "codigoWplay": 46019,
+        mitad: false,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "RUMANÍA - Liga 1 - Descenso",
+        "nombreWplay": 'RUMANÍA - LIGA 1',
+        "abreviado": "YE-RUM1",
+        "codigoWplay": 46019,
+        mitad: false,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "SUIZA - Super League",
+        "nombreWplay": 'SUIZA - SUPER LIGA',
+        "abreviado": "YE-SUI1",
+        "codigoWplay": 19305,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "SUIZA - Super League - Descenso",
         "nombreWplay": 'SUIZA - SUPER LIGA',
         "abreviado": "YE-SUI1",
         "codigoWplay": 19305,
@@ -927,6 +1075,14 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "UCRANIA - Premier League - Descenso",
+        "nombreWplay": 'UCRANIA - PREMIER LEAGUE',
+        "abreviado": "YE-UCR1",
+        "codigoWplay": 19383,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "ARGENTINA - Copa de la Liga Profesional - Playoffs",
         "nombreWplay": 'ARGENTINA - COPA DE LA LIGA PROFESIONAL',
         "abreviado": "ZA-ARG1",
@@ -945,7 +1101,7 @@ let LIGAS_OBJETOS = [
     {
         "nombreFlashcore": "ARGENTINA - Liga Profesional",
         "nombreWplay": 'ARGENTINA - LIGA PROFESIONAL DE FÚTBOL',
-        
+
         "abreviado": "ZA-ARG1",
         "codigoWplay": 19296,
         mitad: true,
@@ -996,7 +1152,7 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'BRASIL - COPA DO BRASIL',
         "abreviado": "ZA-BRAC",
         "codigoWplay": 19465,
-        mitad: true,
+        mitad: false,
         favorito: true
     },
     {
@@ -1041,6 +1197,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "COLOMBIA - Primera B - Apertura",
+        "nombreWplay": 'COLOMBIA - PRIMERA B',
+        "abreviado": "ZA-COL2",
+        "codigoWplay": 29812,
+        mitad: false,
+        favorito: false
+    },
+    {
+        "nombreFlashcore": "COLOMBIA - Primera B - Apertura - Cuadrangular",
         "nombreWplay": 'COLOMBIA - PRIMERA B',
         "abreviado": "ZA-COL2",
         "codigoWplay": 29812,
@@ -1095,7 +1259,7 @@ let LIGAS_OBJETOS = [
         mitad: true,
         favorito: true
     },
-    
+
     {
         "nombreFlashcore": "MÉXICO - Liga de Expansión MX - Clausura - Play In",
         "nombreWplay": 'MEXICO - LIGA DE EXPANSION MX',
@@ -1104,7 +1268,7 @@ let LIGAS_OBJETOS = [
         mitad: true,
         favorito: true
     },
-    
+
     {
         "nombreFlashcore": "MÉXICO - Liga de Expansión MX - Clausura - Playoffs",
         "nombreWplay": 'MEXICO - LIGA DE EXPANSION MX',
@@ -1171,6 +1335,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "VENEZUELA - Liga FUTVE - Apertura - Cuadrangular",
+        "nombreWplay": 'VENEZUELA - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-VEN1",
+        "codigoWplay": 20080,
+        mitad: false,
+        favorito: false
+    },
+    {
+        "nombreFlashcore": "VENEZUELA - Liga FUTVE - Apertura - Final",
         "nombreWplay": 'VENEZUELA - PRIMERA DIVISIÓN',
         "abreviado": "ZA-VEN1",
         "codigoWplay": 20080,

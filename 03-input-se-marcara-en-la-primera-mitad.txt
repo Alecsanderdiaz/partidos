@@ -1,19 +1,19 @@
 
- 22:06:28 Mayo 15, 2024 
+ 21:37:59 Junio 04, 2024 
 GMT -5
-ApuestasTransmision en VivoApuesta en VivoCasinoCasino en VivoSlotsVirtualesGolden RaceVIP LOUNGE
+ApuestasTransmision en VivoApuesta en VivoVirtualesGolden Race
 CONTACT
 HELP
-SITE_NAME
+SITE_NAMECorreo
 alexanderdiaz1989@gmail.com
  Recuérdame 
-•••••••••••
+••••••••••••••
 ¿Has olvidado tu contraseña? 
 REGÍSTRATE
 LIVE
 OVERVIEW
 MULTIVIEW
- InicioResultados en vivoEstadísticasPromocionesTorneoWMedios de PagoNoticiasPatrociniosAyudaVerificaciónVirtualesJuego Responsable
+ InicioResultados en vivoEstadísticasPromocionesMedios de PagoNoticiasPatrociniosAyudaVerificaciónOpciones de SeguridadVirtuales
 Decimal
 Buscar eventos, juegos
 
@@ -21,48 +21,37 @@ Buscar
 MIS FAVORITOS
 Actualmente no tiene favoritos. Añada favoritos para verlos siempre aquí
 ENLACES RÁPIDOS
-Fluminense vs Cerro Porteño
-Blessd vs Ronaldinho
+Francia vs Luxemburgo
+México vs Uruguay
 Primera A
-Copa Colombia
+Parlays Mejorados
 Jornada Millonaria
-Cuotas Mejoradas
 Parley Especial
-La Liga
-Copa Libertadores
-Copa Sudamericana
-Liga MX
-Top Ligas Europa
+Amistosos Internacionales
+Eurocopa 2024
+Brasil Serie A
+Copa América
+NBA - Finals
 Top Ligas Sudamerica
-NBA
+Roland Garros
 MLB
 NHL
 UFC
 WNBA
-ATP Roma
-Giro de Italia
-Formula 1
-Boxeo
+F1 - Mónaco Grand Prix
 TV en vivo
 Especiales Wplay
 Apuestas Anticipadas
-Virtuales
-Eventos hoy
-Promociones
 DEPORTES
 Fútbol
+Mundial 2026
 Américas
 Euro 2024
 Competiciones UEFA
 España
-Reino Unido
 Italia
-Alemania
-Australia
-Francia
 Europa
 Asia
-África
 Irlanda
 Combinadas W - Fútbol
 Fútbol Mujeres
@@ -86,19 +75,18 @@ Ciclismo en Ruta
 Golf
 Criquet
 Rugby League
+Hockey
 Fútbol Australiano
 Automovilismo
 Dardos
 Deportes Gaélicos
+Bolos
 Juegos Olimpicos
 Fútbol de Sala
 SERVICIOS DE APUESTA
 Preguntas Frecuentes
 Estadísticas
-Guía de Apuestas
-Reglas de Juego
-Resultados en Vivo
-SÍGUENOS
+¿Dónde estoy?: Local  Fútbol  Cupón
 Todos los partidos - Se marcará en la primera mitadVer ligaVer hora
  Apuestas Principales
  Resultado del Partido
@@ -112,420 +100,328 @@ Todos los partidos - Se marcará en la primera mitadVer ligaVer hora
  Minutos
  Otros Mercados
  MAÑANA
- Las Palmas v Real Betis 16 Mayo 12:30 269 > st
+ Eslovaquia v San Marino 05 Jun 11:00 73 > st
 
 Si
-1.42
+1.166
 
 No
-2.65
- Bari v Ternana 16 Mayo 13:30 184 > st
+4.50
+ Noruega v Kosovo 05 Jun 12:00 117 > st
 
 Si
-1.48
+1.40
 
 No
-2.45
- Leeds United v Norwich City 16 Mayo 14:00 194 > st
+2.75
+ Dinamarca v Suecia 05 Jun 12:00 119 > st
 
 Si
-1.35
+1.363
 
 No
-2.95
- Almeria v Barcelona 16 Mayo 14:30 287 > st
+2.875
+ Bélgica v Montenegro 05 Jun 13:30 117 > st
 
 Si
-1.20
+1.285
 
 No
-4.00
- Real Sociedad v Valencia 16 Mayo 15:00 284 > st
+3.30
+ Francia v Luxemburgo 05 Jun 14:00 127 > st
 
 Si
-1.45
+1.133
 
 No
-2.55
- Deportivo Riestra v Newells Old Boys 16 Mayo 15:10 97 > st
+5.00
+ España v Andorra 05 Jun 14:30 72 > st
 
 Si
-1.571
+1.10
 
 No
-2.25
- Real Cartagena v Envigado FC 16 Mayo 19:30 93 > st
+5.75
+ Juventude RS v Atletico GO 05 Jun 17:00 205 > st
+
+Si
+1.50
+
+No
+2.40
+ Argentinos Juniors v Atletico Rafaela 05 Jun 17:00 90 > st
 
 Si
 1.48
 
 No
 2.50
+ Cuiaba MT v EC Vitoria 05 Jun 18:00 236 > st
+
+Si
+1.533
+
+No
+2.35
+ Arsenal de Sarandi v Velez Sarsfield 05 Jun 19:15 88 > st
+
+Si
+1.50
+
+No
+2.40
+ Mexico v Uruguay 05 Jun 20:00 183 > st
+
+Si
+1.48
+
+No
+2.50
+ JUEVES
+ Países Bajos v Canadá 06 Jun 13:45 117 > st
+
+Si
+1.285
+
+No
+3.30
  VIERNES
- Palermo v Sampdoria 17 Mayo 13:30 114 > st
+ Inglaterra v Islandia 07 Jun 13:45 146 > st
 
 Si
-1.40
+1.20
 
 No
-2.75
- Southampton v West Bromwich 17 Mayo 14:00 190 > st
-
-Si
-1.40
-
-No
-2.70
- SÁBADO
- Catanzaro v Brescia 18 Mayo 13:30 114 > st
-
-Si
-1.363
-
-No
-2.85
- CD Alaves v Getafe 18 Mayo 14:00 152 > st
-
-Si
-1.55
-
-No
-2.30
- DOMINGO
- Barcelona v Rayo Vallecano 19 Mayo 12:00 157 > st
+4.00
+ Alemania v Grecia 07 Jun 13:45 148 > st
 
 Si
 1.25
 
 No
 3.55
- Real Betis v Real Sociedad 19 Mayo 12:00 153 > st
-
-Si
-1.50
-
-No
-2.40
- Villarreal v Real Madrid 19 Mayo 12:00 148 > st
-
-Si
-1.222
-
-No
-3.75
- Valencia v Girona 19 Mayo 12:00 157 > st
-
-Si
-1.333
-
-No
-3.00
- CF Cadiz v Las Palmas 19 Mayo 12:00 154 > st
-
-Si
-1.48
-
-No
-2.45
- Athletic Bilbao v Sevilla 19 Mayo 12:00 145 > st
-
-Si
-1.363
-
-No
-2.85
- Atlético Madrid v Osasuna 19 Mayo 12:00 146 > st
-
-Si
-1.333
-
-No
-3.10
- RCD Mallorca v Almeria 19 Mayo 12:00 154 > st
-
-Si
-1.42
-
-No
-2.625
- Granada v Celta de Vigo 19 Mayo 12:00 155 > st
-
-Si
-1.363
-
-No
-2.90
-
-BOLETO DE APUESTAS
-
-APUESTAS ABIERTAS
-Estándar
-Bankers
-Apta. Rápida
-Borrar Apuestas
- Sencillos
-
-Eliminar
-Más de (0.5)
-1.333
-Total Goles Más/Menos de
-Chivas Guadalajara v America
-Ganancia: $0
-Noº total de apuestas: 0
-Total importe apostado:  $0
-Aceptar cualquier cambio de cuotas
-Aceptar cuota más alta
-Correo 
-alexanderdiaz1989@gmail.com
-Contraseña 
-•••••••••••
- Recuérdame
-Regí­strate
-Ganancia posible:
-$0
-(Introduce el importe a apostar)
-Síguenos en nuestras redes:
-Facebook Twitter Instagram Youtube
-Sobre NosotrosTérminos y CondicionesProtección a JugadoresPreguntas FrecuentesAfiliadosCentros De ExperienciaNuestros AliadosMóvil
-Patrocinador Oficial:
-Dim
- 
-Junir
- 
-Millos
- 
-Cali
-  
-El juego es entretenimiento, juega con moderación, Jugar sin control causa adicción, Prohibida la venta a menores de edad.
-Above18
- 
-Thumbs up Icon
- 
-Coljuegos
-  
-El juego es entretenimiento, juega con moderación, Jugar sin control causa adicción, Prohibida la venta a menores de edad.
-Wplay.co brinda atención a sus usuarios, de manera exclusiva, a través del chat online de la página web 24/7, a causa de la emergencia sanitaria generada por la pandemia de COVID-19, es posible que se presenten intermitencias en la comunicación.
-Wplay.co es propiedad de AQUILA GLOBAL GROUP S.A.S, sociedad comercial con NIT 901001374-2, domicilio principal en la ciudad de Medellín - Colombia, Calle 53 # 45 112 Piso 3 - Edificio Colseguros , teléfono (574) 604 7016. Autorizada para operar juegos de suerte y azar en la modalidad novedoso de tipo juegos operados por internet en Colombia, según Contrato de Concesión suscrito con COLJUEGOS No. C1741 del 05 de Junio del 2020 y con vigencia hasta el 06 de Julio de 2025, asignado al dominio del sitio web www.wplay.co, luego de haber cumplido con todos los requisitos y condiciones jurídico legales, financieras, técnicos y tecnológicos y garantías exigidas para la cobertura del pago de premios y devolución de fondos de los jugadores, demostrando principios de transparencia en la operación de juegos en la jurisdicción colombiana.
-Términos y Condiciones
- 22:06:46 Mayo 15, 2024 
-GMT -5
-ApuestasTransmision en VivoApuesta en VivoCasinoCasino en VivoSlotsVirtualesGolden RaceVIP LOUNGE
-CONTACT
-HELP
-SITE_NAME
-alexanderdiaz1989@gmail.com
- Recuérdame 
-•••••••••••
-¿Has olvidado tu contraseña? 
-REGÍSTRATE
-LIVE
-OVERVIEW
-MULTIVIEW
- InicioResultados en vivoEstadísticasPromocionesTorneoWMedios de PagoNoticiasPatrociniosAyudaVerificaciónVirtualesJuego Responsable
-Decimal
-Buscar eventos, juegos
-
-Buscar
-MIS FAVORITOS
-Actualmente no tiene favoritos. Añada favoritos para verlos siempre aquí
-ENLACES RÁPIDOS
-Fluminense vs Cerro Porteño
-Blessd vs Ronaldinho
-Primera A
-Copa Colombia
-Jornada Millonaria
-Cuotas Mejoradas
-Parley Especial
-La Liga
-Copa Libertadores
-Copa Sudamericana
-Liga MX
-Top Ligas Europa
-Top Ligas Sudamerica
-NBA
-MLB
-NHL
-UFC
-WNBA
-ATP Roma
-Giro de Italia
-Formula 1
-Boxeo
-TV en vivo
-Especiales Wplay
-Apuestas Anticipadas
-Virtuales
-Eventos hoy
-Promociones
-DEPORTES
-Fútbol
-Américas
-Euro 2024
-Competiciones UEFA
-España
-Reino Unido
-Italia
-Alemania
-Australia
-Francia
-Europa
-Asia
-África
-Irlanda
-Combinadas W - Fútbol
-Fútbol Mujeres
-Escandinavia
-Internacional
-Apuestas Anticipadas
-Baloncesto
-Tenis
-Béisbol
-Hockey
-Tenis de Mesa
-Voleibol
-Balonmano
-Boxeo
-UFC
-eSports
-Fútbol Americano
-Snooker
-Rugby Union
-Ciclismo en Ruta
-Golf
-Criquet
-Rugby League
-Fútbol Australiano
-Automovilismo
-Dardos
-Deportes Gaélicos
-Juegos Olimpicos
-Fútbol de Sala
-SERVICIOS DE APUESTA
-Preguntas Frecuentes
-Estadísticas
-Guía de Apuestas
-Reglas de Juego
-Resultados en Vivo
-SÍGUENOS
-Todos los partidos - Se marcará en la primera mitadVer ligaVer hora
- Apuestas Principales
- Resultado del Partido
- Apuestas por mitades
- Tiros de Esquina
- Apuestas Jugador(es)
-Total tarjetas (más/Menos de)
- Disparos y Asistencias
- Lineas Asiáticas
- Especiales
- Minutos
- Otros Mercados
- MAÑANA
- FC Lugano v FC Winterthur 16 Mayo 13:30 98 > st
-
-Si
-1.285
-
-No
-3.30
- Young Boys v FC St. Gallen 16 Mayo 13:30 100 > st
-
-Si
-1.222
-
-No
-3.85
- Fluminense RJ v Cerro Porteño 16 Mayo 17:00 185 > st
-
-Si
-1.444
-
-No
-2.60
- Rosario Central v Caracas FC 16 Mayo 17:00 185 > st
-
-Si
-1.333
-
-No
-3.00
- Universitario de Deportes v Botafogo RJ 16 Mayo 17:00 185 > st
+ Escocia v Finlandia 07 Jun 13:45 97 > st
 
 Si
 1.45
 
 No
 2.55
- Racing Club v Coquimbo 16 Mayo 17:00 186 > st
+ Polonia v Ucrania 07 Jun 13:45 99 > st
 
 Si
-1.333
+1.45
 
 No
-3.00
- San Lorenzo v Liverpool Montevideo 16 Mayo 19:00 184 > st
+2.55
+ Perú v Paraguay 07 Jun 19:30 92 > st
 
 Si
-1.50
+1.48
 
 No
-2.40
- Sao Paulo SP v Barcelona SC 16 Mayo 19:00 185 > st
+2.50
+ SÁBADO
+ Eslovenia v Bulgaria 08 Jun 08:00 91 > st
+
+Si
+1.42
+
+No
+2.625
+ Suecia v Serbia 08 Jun 11:00 99 > st
 
 Si
 1.363
 
 No
-2.875
- Cruzeiro MG v Union La Calera 16 Mayo 19:00 184 > st
+2.85
+ Suiza v Austria 08 Jun 11:00 92 > st
+
+Si
+1.45
+
+No
+2.55
+ Hungria v Israel 08 Jun 11:00 93 > st
+
+Si
+1.35
+
+No
+2.95
+ Moldavia v Chipre 08 Jun 11:00 88 > st
+
+Si
+1.42
+
+No
+2.65
+ Portugal v Croacia 08 Jun 11:45 145 > st
+
+Si
+1.40
+
+No
+2.70
+ Dinamarca v Noruega 08 Jun 12:30 148 > st
 
 Si
 1.333
 
 No
 3.00
- Sportivo Luqueno v Bragantino SP 16 Mayo 19:00 184 > st
+ Bélgica v Luxemburgo 08 Jun 13:00 91 > st
+
+Si
+1.20
+
+No
+4.00
+ España v Irlanda del Norte 08 Jun 14:30 142 > st
+
+Si
+1.20
+
+No
+4.00
+ EE.UU v Colombia 08 Jun 16:30 164 > st
+
+Si
+1.42
+
+No
+2.65
+ Mexico v Brasil 08 Jun 19:30 164 > st
 
 Si
 1.40
 
 No
 2.75
- Universidad Catolica Quito v Alianza FC 16 Mayo 21:00 186 > st
+ DOMINGO
+ Italia v Bosnia & Herzegovina 09 Jun 13:45 152 > st
 
 Si
-1.30
+1.35
 
 No
-3.25
- Monterrey v Cruz Azul 16 Mayo 22:00 254 > st
+2.95
+ Eslovaquia v Gales 09 Jun 13:45 92 > st
 
 Si
-1.363
+1.38
 
 No
-2.875
- SÁBADO
- FC Stade Ls Ouchy v Lausanne Sports 18 Mayo 11:00 92 > st
+2.80
+ Criciuma SC v Cuiaba MT 09 Jun 14:00 144 > st
 
 Si
-1.30
+1.533
 
 No
-3.20
- Grasshoppers v FC Basel 18 Mayo 11:00 92 > st
-
-Si
-1.363
-
-No
-2.90
- Yverdon-Sport FC v FC Luzern 18 Mayo 11:00 94 > st
+2.35
+ Francia v Canadá 09 Jun 14:15 92 > st
 
 Si
 1.285
 
 No
-3.30
+3.35
+ Argentina v Ecuador 09 Jun 17:00 145 > st
+
+Si
+1.40
+
+No
+2.75
+ LUNES
+ Republica Checa v Macedonia del Norte 10 Jun 11:00 145 > st
+
+Si
+1.40
+
+No
+2.75
+ Países Bajos v Islandia 10 Jun 13:45 148 > st
+
+Si
+1.222
+
+No
+3.80
+ 11 JUN
+ Atletico GO v Corinthians SP 11 Jun 17:00 143 > st
+
+Si
+1.55
+
+No
+2.30
+ Juventude RS v EC Vitoria 11 Jun 17:00 145 > st
+
+Si
+1.48
+
+No
+2.45
+ Botafogo RJ v Fluminense RJ 11 Jun 18:00 146 > st
+
+Si
+1.444
+
+No
+2.60
+ Bragantino SP v Atletico MG 11 Jun 19:30 145 > st
+
+Si
+1.48
+
+No
+2.45
+ 13 JUN
+ Cruzeiro MG v Cuiaba MT 13 Jun 17:00 145 > st
+
+Si
+1.444
+
+No
+2.60
+ Flamengo RJ v Gremio RS 13 Jun 18:00 145 > st
+
+Si
+1.40
+
+No
+2.75
+ Athletico PR v Criciuma SC 13 Jun 18:00 145 > st
+
+Si
+1.42
+
+No
+2.625
+ Internacional RS v Sao Paulo SP 13 Jun 18:00 146 > st
+
+Si
+1.48
+
+No
+2.50
+ Palmeiras SP v Vasco Da Gama RJ 13 Jun 19:30 145 > st
+
+Si
+1.42
+
+No
+2.625
+ Bahia BA v Fortaleza CE 13 Jun 19:30 145 > st
+
+Si
+1.444
+
+No
+2.60
 
 BOLETO DE APUESTAS
 
@@ -536,7 +432,7 @@ Apta. Rápida
 Tu boleto está vacío. Pulsa sobre cualquier precio para apostar
 Síguenos en nuestras redes:
 Facebook Twitter Instagram Youtube
-Sobre NosotrosTérminos y CondicionesProtección a JugadoresPreguntas FrecuentesAfiliadosCentros De ExperienciaNuestros AliadosMóvil
+Sobre NosotrosTérminos y CondicionesProtección a JugadoresPreguntas FrecuentesAfiliadosCentros De ExperienciaNuestros Aliados
 Patrocinador Oficial:
 Dim
  
@@ -547,12 +443,12 @@ Millos
 Cali
   
 El juego es entretenimiento, juega con moderación, Jugar sin control causa adicción, Prohibida la venta a menores de edad.
-Above18
+Above 18
  
 Thumbs up Icon
  
 Coljuegos
-  
+ 
 El juego es entretenimiento, juega con moderación, Jugar sin control causa adicción, Prohibida la venta a menores de edad.
 Wplay.co brinda atención a sus usuarios, de manera exclusiva, a través del chat online de la página web 24/7, a causa de la emergencia sanitaria generada por la pandemia de COVID-19, es posible que se presenten intermitencias en la comunicación.
 Wplay.co es propiedad de AQUILA GLOBAL GROUP S.A.S, sociedad comercial con NIT 901001374-2, domicilio principal en la ciudad de Medellín - Colombia, Calle 53 # 45 112 Piso 3 - Edificio Colseguros , teléfono (574) 604 7016. Autorizada para operar juegos de suerte y azar en la modalidad novedoso de tipo juegos operados por internet en Colombia, según Contrato de Concesión suscrito con COLJUEGOS No. C1741 del 05 de Junio del 2020 y con vigencia hasta el 06 de Julio de 2025, asignado al dominio del sitio web www.wplay.co, luego de haber cumplido con todos los requisitos y condiciones jurídico legales, financieras, técnicos y tecnológicos y garantías exigidas para la cobertura del pago de premios y devolución de fondos de los jugadores, demostrando principios de transparencia en la operación de juegos en la jurisdicción colombiana.

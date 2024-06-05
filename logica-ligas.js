@@ -20,25 +20,25 @@ let noFavoritosArrayGroupCodes = pedazos(
 	LIGAS.filter(liga => !liga.mitadFavorito).map(liga => liga.codigoWplay)
 )
 
-let linksLigasWplay = todoArrayGroupCodes.map(arrayCodes => `<a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=SBTYPE&mkt_sort=MRES&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
+let linksLigasWplay = todoArrayGroupCodes.map(arrayCodes => `<a href="https://local.wplay.co/es/type-coupon?coupon_group_by=SBTYPE&mkt_sort=MRES&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
 
 let linksLigasMitad = pedazos(
 	LIGAS.filter(liga => liga.mitad).map(liga => liga.codigoWplay)
-).map(arrayCodes => `<a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
+).map(arrayCodes => `<a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
 
 let linksLigasNoMitad = pedazos(
 	LIGAS.filter(liga => !liga.mitad).map(liga => liga.codigoWplay)
-).map(arrayCodes => `<a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
+).map(arrayCodes => `<a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=GSH1&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
 
-let linksAmbosMarcan = todoArrayGroupCodes.map(arrayCodes => `<a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
+let linksAmbosMarcan = todoArrayGroupCodes.map(arrayCodes => `<a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=BTSC&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
 
-let linksOver = todoArrayGroupCodes.map(arrayCodes => `<a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
+let linksOver = todoArrayGroupCodes.map(arrayCodes => `<a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=HCTG&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
 
-let linksFavoritoLocal = favoritosArrayGroupCodes.map(arrayCodes => `<a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1H&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
-let linksNoFavoritoLocal = noFavoritosArrayGroupCodes.map(arrayCodes => `<a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1H&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
+let linksFavoritoLocal = favoritosArrayGroupCodes.map(arrayCodes => `<a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1H&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
+let linksNoFavoritoLocal = noFavoritosArrayGroupCodes.map(arrayCodes => `<a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1H&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
 
-let linksFavoritoVisitante = favoritosArrayGroupCodes.map(arrayCodes => `<a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1A&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
-let linksNoFavoritoVisitante = noFavoritosArrayGroupCodes.map(arrayCodes => `<a href="https://apuestas.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1A&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
+let linksFavoritoVisitante = favoritosArrayGroupCodes.map(arrayCodes => `<a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1A&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
+let linksNoFavoritoVisitante = noFavoritosArrayGroupCodes.map(arrayCodes => `<a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OU1A&sb_type_ids=${arrayCodes.join('-')}" target="_blank">${ arrayCodes.join('-') }</a>`)
 
 let html = ''
 

@@ -1,4 +1,5 @@
-const FECHA_PARTIDO_MANANA = 1170500000
+const FECHA_PARTIDO_MANANA = 1060600000
+const FECHA_PARTIDO_HOY = 1060500000
 
 const fs = require('node:fs');
 const readline = require('node:readline');
@@ -37,6 +38,8 @@ let PartidosLocalPrimeraMitad = []
 let PartidosVisitantePrimeraMitad = []
 let PartidosFavorito = []
 
+let partidos = []
+
 async function main() {
 
 
@@ -51,7 +54,7 @@ async function main() {
 
         let lineas = []
         let ligas = []
-        let partidos = []
+
 
         let opciones = [
             'Tabla En Directo',
@@ -74,11 +77,13 @@ async function main() {
             lineas.push(line)
 
             if (esMundial) {
+                console.log({ testigo: 'esMundial', line, lineas })
                 let liga = `${lineas[indice]}`
                 let ligaEncontrada = LIGAS_OBJETOS.find(ligaObjeto => ligaObjeto.nombreFlashcore === liga)
                 if (!ligaEncontrada) {
                     console.log({ nombreFlashcore: liga, error: 'No se encontró, Editar manualmente y volver a ejecutar' })
-                    throw new Error(`No se encontró, Editar manualmente y volver a ejecutar ${ liga }`)
+                    let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar ${ liga }`
+                    throw new Error(mensajeDeError)
                 }
                 let ligaObjeto = {
                     liga: ligaEncontrada.abreviado,
@@ -94,11 +99,13 @@ async function main() {
             }
 
             if (opciones.includes(line)) {
+                console.log({ testigo: 'opciones.includes(line)', line, lineas })
                 let liga = `${lineas[indice - 2]} - ${lineas[indice - 1]}`
                 let ligaEncontrada = LIGAS_OBJETOS.find(ligaObjeto => ligaObjeto.nombreFlashcore === liga)
                 if (!ligaEncontrada) {
                     console.log({ nombreFlashcore: liga, error: 'No se encontró, Editar manualmente y volver a ejecutar' })
-                    throw new Error(`No se encontró, Editar manualmente y volver a ejecutar ${ liga }`)
+                    let mensajeDeError = `No se encontró, Editar manualmente y volver a ejecutar ${ liga }`
+                    throw new Error(mensajeDeError)
                 }
                 let ligaObjeto = {
                     liga: ligaEncontrada.abreviado,
@@ -134,6 +141,8 @@ async function main() {
                     stake: 0,
                 }
 
+                // console.log({ hora: partido.hora })
+
                 partidos.push(partido)
                 esHora = false
                 indiceEsHora = 0
@@ -154,12 +163,14 @@ async function main() {
 
         if (partidos.length === 0) throw new Error(`${inputPartidosFlashscore} Vacio`)
 
-        convertirArrayEnTextoPlanoConFormato(ligas, 'LIGAS', archivoSalida2)
-        convertirArrayEnTextoPlanoConFormato(partidos, 'PARTIDOS_OPTIMIZADOS', archivoSalida3)
+        const LIGAS_RESPONSE = await convertirArrayEnTextoPlanoConFormato(ligas, 'LIGAS', archivoSalida2)
+        const PARTIDOS_RESPONSE = await convertirArrayEnTextoPlanoConFormato(partidos, 'PARTIDOS_OPTIMIZADOS', archivoSalida3)
+
+        console.log({ LIGAS_RESPONSE, PARTIDOS_RESPONSE })
 
     }
 
-    sacarLigasPartidosSinCuota();
+    await sacarLigasPartidosSinCuota();
 
     let meses = {
         'Ene': '01',
@@ -181,7 +192,7 @@ async function main() {
     const convertirFechaANumero = (fechaEnString) => {
         fechaEnString = fechaEnString.replace(':', '')
         let fechaArray = fechaEnString.split(' ')
-        let fechaEnStringModificado = `1${fechaArray[1]}${meses[fechaArray[2]]}1${fechaArray[0]}`
+        let fechaEnStringModificado = `1${meses[fechaArray[2]]}${fechaArray[1]}1${fechaArray[0]}`
         // console.log({fechaEnString, fechaArray, fechaEnStringModificado})
         return fechaEnStringModificado * 1
     }
@@ -254,8 +265,10 @@ async function main() {
                     visitanteMitad: 1,
                 }
 
+                // console.log({ hora: partido.hora })
+
                 
-                if (partido.hora < FECHA_PARTIDO_MANANA) {
+                if (partido.hora < FECHA_PARTIDO_MANANA && partido.hora >= FECHA_PARTIDO_HOY) {
                     PartidosWplay.push(partido)
                     // console.log({ partido })
                 }
@@ -273,7 +286,7 @@ async function main() {
             throw new Error('No hay suficientes partidos')
         }
 
-        convertirArrayEnTextoPlanoConFormato(PartidosWplay, 'PARTIDOS_WPLAY', outputPartidosWplay)
+        await convertirArrayEnTextoPlanoConFormato(PartidosWplay, 'PARTIDOS_WPLAY', outputPartidosWplay)
 
         // console.log({
         //     inputPartidosWplay,
@@ -347,7 +360,7 @@ async function main() {
 
         }
 
-        // convertirArrayEnTextoPlanoConFormato(partidos, 'PARTIDOS_CON_CUOTA', outputSeMarcaraEnLaPrimeraMitad)
+        // await convertirArrayEnTextoPlanoConFormato(partidos, 'PARTIDOS_CON_CUOTA', outputSeMarcaraEnLaPrimeraMitad)
 
         // console.log({
         //     inputSeMarcaraEnLaPrimeraMitad,
@@ -450,7 +463,7 @@ async function main() {
 
         }
 
-        // convertirArrayEnTextoPlanoConFormato(partidos, 'PARTIDOS_AMBOS_ANOTAN', outputAmbosMarcan)
+        // await convertirArrayEnTextoPlanoConFormato(partidos, 'PARTIDOS_AMBOS_ANOTAN', outputAmbosMarcan)
 
         // console.log({
         //     inputAmbosMarcan,
@@ -551,7 +564,7 @@ async function main() {
 
         }
 
-        // convertirArrayEnTextoPlanoConFormato(partidos, 'PARTIDOS_OVER', outputOver)
+        // await convertirArrayEnTextoPlanoConFormato(partidos, 'PARTIDOS_OVER', outputOver)
 
         // console.log({
         //     inputOver,
@@ -652,7 +665,7 @@ async function main() {
 
         }
 
-        // convertirArrayEnTextoPlanoConFormato(partidos, 'PARTIDOS_OVER', outputLocalPrimeraMitad)
+        // await convertirArrayEnTextoPlanoConFormato(partidos, 'PARTIDOS_OVER', outputLocalPrimeraMitad)
 
         // console.log({
         //     inputLocalPrimeraMitad,
@@ -753,7 +766,7 @@ async function main() {
 
         }
 
-        // convertirArrayEnTextoPlanoConFormato(PartidosVisitantePrimeraMitad, 'PARTIDOS_OVER', outputVisitantePrimeraMitad)
+        // await convertirArrayEnTextoPlanoConFormato(PartidosVisitantePrimeraMitad, 'PARTIDOS_OVER', outputVisitantePrimeraMitad)
 
         // console.log({
         //     inputVisitantePrimeraMitad,
@@ -813,7 +826,7 @@ async function main() {
 
         }
 
-        // convertirArrayEnTextoPlanoConFormato(partidos, 'PARTIDOS_CON_CUOTA', outputFavorito)
+        // await convertirArrayEnTextoPlanoConFormato(partidos, 'PARTIDOS_CON_CUOTA', outputFavorito)
 
 
     }
@@ -865,12 +878,15 @@ async function main() {
 
                 let partidoMitad = [
                     // convertirFechaANumero(arrayLine[0]),
-                    arrayLine[0].substring(8).replace(':', '') * 1 + 10000,
+                    arrayLine[0].substring(7).replace(':', '') * 1 + 10000,
+                    // arrayLine[0].substring(8).replace(':', '') * 1 + 10000,
                     arrayLine[1],
                     arrayLine[2],
                     arrayLine[3] === arrayLine[1] ? 'local' : arrayLine[3] === arrayLine[2] ? 'visitante': arrayLine[3],
                     arrayLine[4] * 1,
                 ]
+
+                // console.log({ arrayLine,hora: partidoMitad[0]})
 
                 partidos.push(partidoMitad)
 
@@ -893,7 +909,7 @@ async function main() {
 
         }
 
-        convertirArrayEnTextoPlanoConFormato(arraySalida, 'APUESTAS_ABIERTAS', outputApuestasAbiertas)
+        await convertirArrayEnTextoPlanoConFormato(arraySalida, 'APUESTAS_ABIERTAS', outputApuestasAbiertas)
 
 
     }
@@ -917,7 +933,70 @@ async function main() {
     partidos_optimizados.sort((a,b) => a.hora - b.hora)
 
 
-    convertirArrayEnTextoPlanoConFormato(partidos_optimizados, 'PARTIDOS_OPTIMIZADOS', archivoSalida)
+    await convertirArrayEnTextoPlanoConFormato(partidos_optimizados, 'PARTIDOS_OPTIMIZADOS', archivoSalida)
+
+    async function sacarCantidadDePartidos() {
+        let totalPartidosFlashScore = partidos.length
+        let totalPartidosWplay = partidos_optimizados.length
+        let diferencia_de_partidos_total = totalPartidosFlashScore - totalPartidosWplay
+
+        let ligas_flashscore = partidos.map(p => p.liga)
+        let ligas_flashscore_no_repeat = [...new Set(ligas_flashscore)]
+        let total_ligas_flashscore = ligas_flashscore_no_repeat.length
+
+        let ligas_wplay = partidos_optimizados.map(p => p.liga)
+        let ligas_wplay_no_repeat = [...new Set(ligas_wplay)]
+        let total_ligas_wplay = ligas_wplay_no_repeat.length
+
+        let diferencia_ligas_total = total_ligas_flashscore - total_ligas_wplay
+
+        console.log({
+            totalPartidosFlashScore,
+            totalPartidosWplay,
+            diferencia_de_partidos_total,
+            total_ligas_flashscore,
+            total_ligas_wplay,
+            diferencia_ligas_total
+        })
+
+        if (diferencia_ligas_total > 0) {
+            console.log('Ligas Flashcore')
+            ligas_flashscore_no_repeat.forEach(liga => {
+                if (!ligas_wplay_no_repeat.includes(liga)) {
+                    console.log({ liga })
+                }
+            })
+        } else if (diferencia_ligas_total < 0) {
+            console.log('Ligas Wplay')
+            ligas_wplay_no_repeat.forEach(liga => {
+                if (!ligas_flashscore_no_repeat.includes(liga)) {
+                    console.log({ liga })
+                }
+            })
+        }
+
+        if (diferencia_de_partidos_total > 0 && diferencia_ligas_total === 0) {
+            ligas_flashscore_no_repeat.forEach(liga => {
+                let tempPartidosEnLigasFlashcoreTotal = ligas_flashscore.filter( l => liga === l).length
+                let tempPartidosLigasWplayTotal = ligas_wplay.filter( l => liga === l).length
+
+                if (tempPartidosEnLigasFlashcoreTotal !== tempPartidosLigasWplayTotal) {
+                    console.log({ analizando: 'Partidos Flashcore', tempPartidosEnLigasFlashcoreTotal, tempPartidosLigasWplayTotal, liga})
+                }
+            })
+        } else if (diferencia_de_partidos_total < 0 && diferencia_ligas_total === 0) {
+            ligas_wplay_no_repeat.forEach(liga => {
+                let tempPartidosEnLigasFlashcoreTotal = ligas_flashscore.filter( l => liga === l).length
+                let tempPartidosLigasWplayTotal = ligas_wplay.filter( l => liga === l).length
+
+                if (tempPartidosEnLigasFlashcoreTotal !== tempPartidosLigasWplayTotal) {
+                    console.log({ analizando: 'Partidos Wplay', tempPartidosEnLigasFlashcoreTotal, tempPartidosLigasWplayTotal, liga})
+                }
+            })
+        }
+    }
+
+    await sacarCantidadDePartidos()
 }
 
 main()
