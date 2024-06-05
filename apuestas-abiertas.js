@@ -1,2 +1,5 @@
 let APUESTAS_ABIERTAS = [
+	[[11330,"Tacuarembo","Rentistas","over",2.3],[11400,"Túnez","Guinea Ecuatorial","over",2.25],[11530,"Club Oriental de La Paz","La Luz FC","over",2.2],[11600,"Plaza Colonia","Uruguay Montevideo FC","over",2.2],[11500,"Gualaceo SC","Vargas Torres","over",2.3],[11500,"Guayaquil City FC","Independiente Juniors","over",2.5],"1,440,203"],
+	[[11330,"Tacuarembo","Rentistas","mitad",1.48],[11400,"Túnez","Guinea Ecuatorial","mitad",1.48],[11430,"Sportivo Luqueno","Sportivo Trinidense","mitad",1.4],[11500,"Gualaceo SC","Vargas Torres","mitad",1.48],[11500,"Guayaquil City FC","Independiente Juniors","mitad",1.533],[11530,"Club Oriental de La Paz","La Luz FC","mitad",1.42],[11600,"Plaza Colonia","Uruguay Montevideo FC","mitad",1.45],"143,287"],
+	[[11100,"Namibia","Liberia","over",3.1],[11100,"Central African Republic","Chad","over",2.15],[11100,"Togo","South Sudan","over",2.15],"143,298"],
 ]
