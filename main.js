@@ -1,5 +1,5 @@
-const FECHA_PARTIDO_MANANA = 1060600000
-const FECHA_PARTIDO_HOY = 1060500000
+const FECHA_PARTIDO_MANANA = 1060700000
+const FECHA_PARTIDO_HOY = 1060600000
 
 const fs = require('node:fs');
 const readline = require('node:readline');

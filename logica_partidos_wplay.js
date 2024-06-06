@@ -140,19 +140,19 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                         <span >${partido.cuotaVisitante.toFixed(2)}<br>${partido.visitanteMitad > 1 ? partido.visitanteMitad.toFixed(2): ''}</span>
                     </div>
 
-                    <div class="col border-end dato ${partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 ? 'bg-warning' : ''}">
-                        <span>${partido.cuotaCualquiera?.toFixed(2) || ''}</span>
+                    <div class="col border-end dato ${partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 ? 'bg-danger' : partido.cuotaCualquiera > 1.25 && partido.cuotaCualquiera < 1.74 ? 'bg-warning' : ''}">
+                        <span>${partido.cuotaCualquiera && partido.cuotaCualquiera > 1 ? partido.cuotaCualquiera?.toFixed(2) : ''}</span>
                     </div>
 
                     <div class="col border-end dato ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-warning' : ''}">
                         <span>${partido.cuotaFavorito && partido.cuotaFavorito > 1 ? partido.cuotaFavorito?.toFixed(2) : ''}</span>
                     </div>
 
-                    <div class="col border-end dato ${partido.over > 1 && partido.over < 1.74 ? 'bg-warning' : ''}">
+                    <div class="col border-end dato ${partido.over > 1 && partido.over < 1.74 ? 'bg-danger' : partido.over > 1.73 && partido.over < 2 ? 'bg-warning' :''}">
                         <span>${partido.over && partido.over > 1 ? partido.over?.toFixed(2) : ''}</span>
                     </div>
 
-                    <div class="col border-end dato ${partido.ambosAnotan > 1 && partido.ambosAnotan < 1.74 ? 'bg-warning' : ''}">
+                    <div class="col border-end dato ${partido.ambosAnotan > 1 && partido.ambosAnotan < 1.74 ? 'bg-danger' : partido.ambosAnotan > 1.73 && partido.ambosAnotan < 2 ? 'bg-warning' : ''}">
                         <span>${partido.ambosAnotan && partido.ambosAnotan > 1 ? partido.ambosAnotan?.toFixed(2) : ''}</span>
                     </div>
 
