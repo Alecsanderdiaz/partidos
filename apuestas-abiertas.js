@@ -11,7 +11,6 @@ let APUESTAS_ABIERTAS = [
 	],
 	[
 		[11930, "Sport Recife PE", "Paysandu PA", "mitad", 1.42],
-		[11910, "Atletico Rafaela", "Estudiantes Rio Cuarto", "mitad", 1.7],
 		"24,140"
 	],
 ]
