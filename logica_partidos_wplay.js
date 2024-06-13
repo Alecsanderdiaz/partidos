@@ -140,7 +140,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                         <span >${partido.cuotaVisitante.toFixed(2)}<br>${partido.visitanteMitad > 1 ? partido.visitanteMitad.toFixed(2): ''}</span>
                     </div>
 
-                    <div class="col border-end dato ${partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 ? 'bg-danger' : partido.cuotaCualquiera > 1.25 && partido.cuotaCualquiera < 1.74 ? 'bg-warning' : ''}">
+                    <div class="col border-end dato ${partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 ? 'bg-danger' : partido.cuotaCualquiera > 1.25 && partido.cuotaCualquiera < 1.42 ? 'bg-warning' : ''}">
                         <span>${partido.cuotaCualquiera && partido.cuotaCualquiera > 1 ? partido.cuotaCualquiera?.toFixed(2) : ''}</span>
                     </div>
 
