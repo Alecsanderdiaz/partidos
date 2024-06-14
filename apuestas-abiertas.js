@@ -1,6 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11915,"Newells Old Boys","Instituto AC Cordoba","local",2.25],[11900,"Amazonas FC","Chapecoense SC","visitante",2.75],[11915,"Atletico Lanus","Racing Club","visitante",2],[11930,"Bahia BA","Fortaleza CE","visitante",2.65],"232,081"],
-	[[11900,"Amazonas FC","Chapecoense SC","over",2.65],[11900,"Gualaceo SC","Manta FC","over",2.8],[11915,"Atletico Lanus","Racing Club","over",2.2],[11915,"Newells Old Boys","Instituto AC Cordoba","over",2.8],[11930,"Bahia BA","Fortaleza CE","over",2.2],"1,005,558"],
-	[[11900,"Amazonas FC","Chapecoense SC","mitad",1.6],[11915,"Atletico Lanus","Racing Club","mitad",1.48],[11915,"Newells Old Boys","Instituto AC Cordoba","mitad",1.65],[11930,"Palmeiras SP","Vasco Da Gama RJ","mitad",1.363],[11930,"Bahia BA","Fortaleza CE","mitad",1.48],[11900,"Gualaceo SC","Manta FC","mitad",1.571],"123,914"],
-	[[11800,"Flamengo RJ","Gremio RS","over",2],[11800,"Internacional RS","Sao Paulo SP","over",2.5],[11900,"Amazonas FC","Chapecoense SC","over",2.6],[11900,"Gualaceo SC","Manta FC","over",2.95],[11915,"Atletico Lanus","Racing Club","over",2.2],[11915,"Newells Old Boys","Instituto AC Cordoba","over",2.8],[11930,"Bahia BA","Fortaleza CE","over",2.2],"5,197,192"],
+	[[10700,"Nantong Zhiyun","Shenzhen XinPengcheng","local",2.2],"22,000"],
+	[[11145,"FC Vitebsk","Torpedo Zhodino","over",2],"20,000"],
+	[[11145,"FC Vitebsk","Torpedo Zhodino","mitad",1.42],"14,200"],
 ]
