@@ -40,6 +40,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     let total = partidos.length
     let acumulado = 1
     let acumuladoFavorito = 1
+    let acumuladoOver = 1
 
     let codeLigues = []
     let codeLiguesNoHalf = []
@@ -71,7 +72,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         }
 
 
-        if (partido.cuotaCualquiera) {
+        if (partido.cuotaCualquiera && partido.cuotaCualquiera >= 1.42) {
             acumulado = Math.floor(acumulado * partido.cuotaCualquiera * 100) / 100
         }
         if (acumulado > 50000) {
@@ -83,7 +84,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         if (partido.cuotaFavorito && partido.cuotaFavorito >= 1.74 ) {
             acumuladoFavorito = Math.floor(acumuladoFavorito * partido.cuotaFavorito * 100) / 100
             // console.log('FAVORITO')
-        } else if ( partido.cuotaCualquiera && partido.cuotaCualquiera >= 1.26) {
+        } else if ( partido.cuotaCualquiera && partido.cuotaCualquiera >= 1.42) {
             // console.log('CUALQUIERA')
             acumuladoFavorito = Math.floor(acumuladoFavorito * partido.cuotaCualquiera * 100) / 100
         }
@@ -91,6 +92,16 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
             acumuladoFavorito = 1
         }
         let acumuladoEnteroFavorito = Math.floor(acumuladoFavorito)
+
+
+        if (partido.over && partido.over >= 2 ) {
+            acumuladoOver = Math.floor(acumuladoOver * partido.over * 100) / 100
+            // console.log('Over')
+        }
+        if (acumuladoOver > 50000) {
+            acumuladoOver = 1
+        }
+        let acumuladoEnteroOver = Math.floor(acumuladoOver)
 
         indice++
         let partido_string = `${partido.local} - ${partido.visitante}`
@@ -152,16 +163,20 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                         <span>${partido.over && partido.over > 1 ? partido.over?.toFixed(2) : ''}</span>
                     </div>
 
-                    <div class="col border-end dato ${partido.ambosAnotan > 1 && partido.ambosAnotan < 1.74 ? 'bg-danger' : partido.ambosAnotan > 1.73 && partido.ambosAnotan < 2 ? 'bg-warning' : ''}">
-                        <span>${partido.ambosAnotan && partido.ambosAnotan > 1 ? partido.ambosAnotan?.toFixed(2) : ''}</span>
-                    </div>
-
                     <div class="col border-end dato">
                         <span>${acumuladoEntero}</span>
                     </div>
 
                     <div class="col border-end dato">
                         <span>${acumuladoEnteroFavorito}</span>
+                    </div>
+
+                    <div class="col border-end dato">
+                        <span>${acumuladoEnteroOver}</span>
+                    </div>
+
+                    <div class="col border-end dato ${partido.ambosAnotan > 1 && partido.ambosAnotan < 1.74 ? 'bg-danger' : partido.ambosAnotan > 1.73 && partido.ambosAnotan < 2 ? 'bg-warning' : ''}">
+                        <span>${partido.ambosAnotan && partido.ambosAnotan > 1 ? partido.ambosAnotan?.toFixed(2) : ''}</span>
                     </div>
 
                 </div>
