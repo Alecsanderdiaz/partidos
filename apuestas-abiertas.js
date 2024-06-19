@@ -1,5 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[11400,"Escocia","Suiza","over",2.1],[11500,"Guayaquil City FC","Gualaceo SC","over",2.875],[11500,"Club Leones Del Norte","Chacaritas SC","over",2.45],[11500,"Vargas Torres","San Antonio","over",2.6],[11700,"Atletico GO","Criciuma SC","over",2.1],[11700,"Botafogo RJ","Athletico PR","over",2.1],[11700,"Santos SP","Goias GO","over",2.2],"3,731,280"],
-	[[11700,"Atletico GO","Criciuma SC","local",1.833],[11700,"Santos SP","Goias GO","local",1.727],[11700,"Botafogo RJ","Athletico PR","visitante",2.6],[11400,"Escocia","Suiza","visitante",1.9],"156,433"],
-	[[11400,"Escocia","Suiza","mitad",1.48],[11700,"Atletico GO","Criciuma SC","mitad",1.42],[11700,"Botafogo RJ","Athletico PR","mitad",1.45],[11700,"Santos SP","Goias GO","mitad",1.48],[11500,"Guayaquil City FC","Gualaceo SC","mitad",1.6],[11500,"Vargas Torres","San Antonio","mitad",1.533],"110,646"],
+	[[11800,"Sao Paulo SP","Cuiaba MT","local",1.769],[11830,"Toronto FC","Nashville SC","local",1.85],[11830,"Inter Miami CF","Columbus Crew","local",1.93],[11800,"Juventude RS","Vasco Da Gama RJ","visitante",2.8],[11800,"Fortaleza CE","Gremio RS","visitante",2.75],[11830,"DC United","Atlanta United","visitante",1.95],[11830,"CF Montreal","New York Red Bulls","visitante",1.85],[11830,"Charlotte FC","Orlando City SC","visitante",2.25],"3,948,145"],
+	[[11800,"Juventude RS","Vasco Da Gama RJ","over",2.55],[11800,"Sao Paulo SP","Cuiaba MT","over",2.3],[11800,"Fortaleza CE","Gremio RS","over",2.1],[11830,"Pittsburgh Riverhounds","Louisville City","over",2],"246,330"],
+	[[11800,"Juventude RS","Vasco Da Gama RJ","mitad",1.571],[11800,"Sao Paulo SP","Cuiaba MT","mitad",1.48],[11800,"Fortaleza CE","Gremio RS","mitad",1.45],[11830,"Pittsburgh Riverhounds","Louisville City","mitad",1.42],"47,886"],
+	[[11700,"Atletico GO","Criciuma SC","over",2.1],[11700,"Botafogo RJ","Athletico PR","over",2.25],[11700,"Santos SP","Goias GO","over",2.25],"106,313"],
 ]
