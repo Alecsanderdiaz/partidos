@@ -139,7 +139,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                         <span>${partido.cantidadDeApuestas}</span>
                     </div>
 
-                    <div class="col border-end dato ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'local' ? 'favorito' : ''}">
+                    <div class="col border-end dato ${partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'local' ? 'favorito' : ''}">
                         <span >${partido.cuotaLocal.toFixed(2)}<br>${partido.localMitad > 1 ? partido.localMitad.toFixed(2) : ''}</span>
                     </div>
 
@@ -147,7 +147,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                         <span>${partido.empate.toFixed(2)}</span>
                     </div>
 
-                    <div class="col border-end dato ${partido.cantidadDeApuestas > 43 && partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'visitante' ? 'favorito' : ''}">
+                    <div class="col border-end dato ${partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'visitante' ? 'favorito' : ''}">
                         <span >${partido.cuotaVisitante.toFixed(2)}<br>${partido.visitanteMitad > 1 ? partido.visitanteMitad.toFixed(2): ''}</span>
                     </div>
 
