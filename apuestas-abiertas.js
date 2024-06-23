@@ -1,6 +1,6 @@
 let APUESTAS_ABIERTAS = [
-	[[11630,"Cuiaba MT","Atletico GO","local",2.15],[11700,"Ecuador","Venezuela","local",2.1],[11530,"Gremio RS","Internacional RS","visitante",2.3],[11600,"Progreso","Penarol Montevideo","visitante",1.769],"183,726"],
-	[[11530,"Gremio RS","Internacional RS","over",2.55],[11600,"Progreso","Penarol Montevideo","over",1.95],[11630,"Cuiaba MT","Atletico GO","over",2.55],[11700,"Ecuador","Venezuela","over",2.55],[11700,"Independiente Medellin (F)","Independiente Santa Fe (F)","over",2.45],"792,175"],
-	[[11530,"Gremio RS","Internacional RS","mitad",1.55],[11630,"Cuiaba MT","Atletico GO","mitad",1.571],[11700,"Ecuador","Venezuela","mitad",1.571],[11600,"Progreso","Penarol Montevideo","mitad",1.4],[11700,"Independiente Medellin (F)","Independiente Santa Fe (F)","mitad",1.5],"80,379"],
-	[[11600,"Progreso","Penarol Montevideo","visitante",1.769],"3,627"],
+	[[11200,"Dinamo Minsk","Neman Grodno","over",2.35],[11300,"CA Atenas De San Carlos","Juventud de Las Piedras","over",2.625],[11300,"CD Maipu","Chacarita Juniors","over",2.5],[11300,"CA San Telmo","Mitre Santiago Del Estero","over",2.55],[11300,"Racing de Cordoba","Guillermo Brown","over",2.8],[11300,"Club Atletico Alvarado","San Martin de San Juan","over",2.75],[11310,"CA Defensores Unidos","Colon de Santa Fe","over",2.45],"4,451,285"],
+	[[11130,"Espanyol","Real Oviedo","local",1.909],[11300,"Cerro Largo FC","Nacional Montevideo","visitante",1.909],[11200,"Dinamo Minsk","Neman Grodno","mitad",1.533],[11300,"CA Atenas De San Carlos","Juventud de Las Piedras","mitad",1.55],[11300,"CD Maipu","Chacarita Juniors","mitad",1.571],[11300,"CA San Telmo","Mitre Santiago Del Estero","mitad",1.571],[11300,"Racing de Cordoba","Guillermo Brown","mitad",1.615],[11300,"Club Atletico Alvarado","San Martin de San Juan","mitad",1.65],[11310,"CA Defensores Unidos","Colon de Santa Fe","mitad",1.55],"883,695"],
+	[[10800,"Liverpool Montevideo","CA Boston River","over",2],[11030,"Rampla Juniors","Miramar Misiones","over",2.15],"90,300"],
+	[[11030,"Rampla Juniors","Miramar Misiones","mitad",1.48],"30,473"],
 ]
