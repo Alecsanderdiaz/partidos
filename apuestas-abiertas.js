@@ -1,8 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11100,"Países Bajos","Austria","over",2],"20,000"],
-	[[11100,"Países Bajos","Austria","local",1.85],"18,500"],
-	[[10530,"Gimcheon Sangmu","Daejeon Citizen","local",1.769],[10530,"Suwon City FC","Gwangju FC","visitante",1.85],[10635,"Nantong Zhiyun","Tianjin Jinmen Tiger","visitante",1.8],"58,915"],
-	[[10530,"Gimcheon Sangmu","Daejeon Citizen","local",1.769],[11100,"Países Bajos","Austria","local",1.85],[11900,"Ponte Preta SP","Ceara CE","local",2.3],[12000,"Chile","Argentina","local",3.3],[10635,"Nantong Zhiyun","Tianjin Jinmen Tiger","visitante",1.8],[11400,"Dinamarca","Serbia","visitante",2.2],[10530,"Suwon City FC","Gwangju FC","visitante",1.85],[11700,"Mirassol SP","Santos SP","visitante",2.25],[11930,"Amazonas FC","Coritiba PR","visitante",2.35],[11700,"Perú","Canadá","visitante",2.2],"21,170,834"],
-	[[11100,"Países Bajos","Austria","over",2],[11700,"Perú","Canadá","over",2.35],[11700,"Mirassol SP","Santos SP","over",2.5],[11700,"America Mineiro MG","Avai SC","over",2.15],[11900,"Ponte Preta SP","Ceara CE","over",2.5],[11930,"Amazonas FC","Coritiba PR","over",2.75],[12000,"Chile","Argentina","over",2],[11500,"San Antonio","Manta FC","over",2.65],"9,205,023"],
-	[[11700,"Perú","Canadá","mitad",1.533],[11700,"Mirassol SP","Santos SP","mitad",1.55],[11700,"America Mineiro MG","Avai SC","mitad",1.45],[11900,"Ponte Preta SP","Ceara CE","mitad",1.571],[11930,"Amazonas FC","Coritiba PR","mitad",1.615],[11500,"San Antonio","Manta FC","mitad",1.571],"137,468"],
+	[[11100,"Eslovaquia","Rumania","over",3.1],"31,000"],
+	[[11100,"Eslovaquia","Rumania","mitad",1.66],"16,667"],
+	[[11100,"Eslovaquia","Rumania","local",2.5],[11100,"FC St. Gallen","Ludogorets","local",1.9],"42,750"],
 ]

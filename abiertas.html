@@ -19,6 +19,7 @@
 
         function hacerFilaPartido(partido, index) {
             partido[0] = partido[0] - 10000
+            console.log({ partido, index })
             return `
                 <div class="row ${ index % 2 === 0 ? 'bg-secondary-subtle': ''}">
                     <div class="col-2"><small>${ partido[0] }</small></div>
@@ -38,7 +39,7 @@
 
                 
 
-                html += index === 0 ? '<div class="row text-end"><b>$ '+ partido +'</b></div>' : hacerFilaPartido(partido, index)
+                html += index === 0 ? '<div class="row text-end"><span>Partidos: ' + (grupo.length - 1) + '</span><b>$ '+ partido +'</b></div>' : hacerFilaPartido(partido, index)
                 
                 let partido_encontrado = partidos_todos.find(p => p[1] === partido[1])
                 if (!partido_encontrado && Array.isArray(partido)) {
