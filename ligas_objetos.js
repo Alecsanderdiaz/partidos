@@ -11,6 +11,14 @@ let LIGAS_OBJETOS = [
     
     
     {
+        nombreFlashcore: 'SUDAMÉRICA - Copa América',
+        "nombreWplay": 'COPA AMÉRICA',
+        "abreviado": 'ZA-COPA',
+        "codigoWplay": 20142,
+        mitad: true,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'BRASIL - Copa do Nordeste - Playoffs',
         "nombreWplay": 'BRASIL - COPA DO NORDESTE',
         "abreviado": 'ZA-BRACN',
@@ -27,6 +35,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        nombreFlashcore: 'ÁFRICA - Mundial - Clasificación',
+        "nombreWplay": 'WORLD CUP 2026 - AFRICA QUALIFIERS',
+        "abreviado": 'M-AFR',
+        "codigoWplay": 452779,
+        mitad: false,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'MÉXICO - Liga de Expansión MX - Superfinal',
         "nombreWplay": 'MEXICO - CAMPEON DE CAMPEONES',
         "abreviado": 'ZA-MEXCC',
@@ -36,6 +52,22 @@ let LIGAS_OBJETOS = [
     },
     {
         nombreFlashcore: 'Maurice Revello Tournament',
+        "nombreWplay": 'TORNEO ESPERANZAS DE TOULON',
+        "abreviado": 'I-TOU',
+        "codigoWplay": 20192,
+        mitad: false,
+        favorito: false,
+    },
+    {
+        nombreFlashcore: 'Maurice Revello Tournament - Definición Puestos',
+        "nombreWplay": 'TORNEO ESPERANZAS DE TOULON',
+        "abreviado": 'I-TOU',
+        "codigoWplay": 20192,
+        mitad: false,
+        favorito: false,
+    },
+    {
+        nombreFlashcore: 'Maurice Revello Tournament - Playoffs',
         "nombreWplay": 'TORNEO ESPERANZAS DE TOULON',
         "abreviado": 'I-TOU',
         "codigoWplay": 20192,
@@ -158,7 +190,7 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
-        nombreFlashcore: '',
+        nombreFlashcore: 'Amistosos de Clubs',
         nombreWplay: 'AMISTOSOS CLUBES',
         abreviado: 'AMIC',
         codigoWplay: 20183,
@@ -174,12 +206,28 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
-        nombreFlashcore: '',
+        nombreFlashcore: 'EUROPA - Baltic Cup',
+        nombreWplay: 'AMISTOSOS',
+        abreviado: 'I-AMIBC',
+        codigoWplay: 19287,
+        mitad: true,
+        favorito: true
+    },
+    {
+        nombreFlashcore: 'Amistosos Internacionales',
         nombreWplay: 'AMISTOSOS SUB 21',
         abreviado: 'I-A21',
         codigoWplay: 19345,
-        mitad: true,
-        favorito: true
+        mitad: false,
+        favorito: false
+    },
+    {
+        nombreFlashcore: 'Amistosos Internacionales',
+        nombreWplay: 'AMISTOSOS SUB 23',
+        abreviado: 'I-A23',
+        codigoWplay: 20182,
+        mitad: false,
+        favorito: false
     },
     {
         nombreFlashcore: 'ASIA - Mundial - Clasificación - Segunda fase',
@@ -194,6 +242,14 @@ let LIGAS_OBJETOS = [
         nombreWplay: 'MUNDIAL 2026 - ELIMINATORIAS ASIA',
         abreviado: 'W-ASIA',
         codigoWplay: 120773,
+        mitad: true,
+        favorito: true
+    },
+    {
+        nombreFlashcore: 'EUROPA - Eurocopa',
+        nombreWplay: 'EURO 2024 PARTIDOS',
+        abreviado: 'EURO',
+        codigoWplay: 60002,
         mitad: true,
         favorito: true
     },
@@ -399,6 +455,14 @@ let LIGAS_OBJETOS = [
         favorito: false
     },
     {
+        "nombreFlashcore": "ECUADOR - Copa Ecuador",
+        "nombreWplay": '',
+        "abreviado": "ZA-ECUC",
+        "codigoWplay": 30530,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "RUSIA - Copa de Rusia - Playoffs",
         "nombreWplay": 'COPA DE RUSIA',
         "abreviado": "YE-RUSC",
@@ -578,6 +642,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "ESPAÑA - LaLiga Hypermotion",
+        "nombreWplay": 'SEGUNDA',
+        "abreviado": "ESP2",
+        "codigoWplay": 48352,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "ESPAÑA - LaLiga Hypermotion - Ascenso - Playoffs",
         "nombreWplay": 'SEGUNDA',
         "abreviado": "ESP2",
         "codigoWplay": 48352,
@@ -783,6 +855,14 @@ let LIGAS_OBJETOS = [
         "abreviado": "S-JAP1",
         "codigoWplay": 19378,
         mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "JAPÓN - Emperors Cup",
+        "nombreWplay": 'JAPAN - EMPERORS CUP',
+        "abreviado": "S-JAPE",
+        "codigoWplay": 19954,
+        mitad: false,
         favorito: true
     },
     {
@@ -1180,6 +1260,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "CHILE - Copa Chile",
+        "nombreWplay": 'COPA DE CHILE',
+        "abreviado": "ZA-CHIC",
+        "codigoWplay": 19799,
+        mitad: false,
+        favorito: false
+    },
+    {
         "nombreFlashcore": "COLOMBIA - Primera A - Apertura",
         "nombreWplay": 'COLOMBIA - PRIMERA A',
         "abreviado": "ZA-COL1",
@@ -1196,6 +1284,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "COLOMBIA - Primera A - Apertura - Playoffs",
+        "nombreWplay": 'COLOMBIA - PRIMERA A',
+        "abreviado": "ZA-COL1",
+        "codigoWplay": 19311,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "COLOMBIA - Primera B - Apertura",
         "nombreWplay": 'COLOMBIA - PRIMERA B',
         "abreviado": "ZA-COL2",
@@ -1205,6 +1301,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "COLOMBIA - Primera B - Apertura - Cuadrangular",
+        "nombreWplay": 'COLOMBIA - PRIMERA B',
+        "abreviado": "ZA-COL2",
+        "codigoWplay": 29812,
+        mitad: false,
+        favorito: false
+    },
+    {
+        "nombreFlashcore": "COLOMBIA - Primera B - Apertura - Playoffs",
         "nombreWplay": 'COLOMBIA - PRIMERA B',
         "abreviado": "ZA-COL2",
         "codigoWplay": 29812,
@@ -1326,6 +1430,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "URUGUAY - Primera División - Torneo Intermedio",
+        "nombreWplay": 'URUGUAY - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-URU1",
+        "codigoWplay": 19398,
+        mitad: false,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "VENEZUELA - Liga FUTVE - Apertura",
         "nombreWplay": 'VENEZUELA - PRIMERA DIVISIÓN',
         "abreviado": "ZA-VEN1",
@@ -1351,6 +1463,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "COLOMBIA - Liga Femenina",
+        "nombreWplay": 'COLOMBIA - LIGA FEMENINA',
+        "abreviado": "ZF-COL",
+        "codigoWplay": 48455,
+        mitad: false,
+        favorito: false
+    },
+    {
+        "nombreFlashcore": "COLOMBIA - Liga Femenina - Grupo Ascenso",
         "nombreWplay": 'COLOMBIA - LIGA FEMENINA',
         "abreviado": "ZF-COL",
         "codigoWplay": 48455,
