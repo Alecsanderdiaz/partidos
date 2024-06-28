@@ -9,6 +9,24 @@ let baseUrlSm = 'https://m.wplay.co/es/t/'
 const CONTENEDOR_DATOS = document.getElementById('contenedor-datos')
 const CONTENEDOR_DATOS_SM = document.getElementById('contenedor-datos-sm')
 
+const elegirClaseDeFavorito = (cuotaFavorito) => {
+    if (!cuotaFavorito) {
+        return ''
+    }
+
+    if (cuotaFavorito > 1 && cuotaFavorito < 1.43) {
+        return 'favorito-danger'
+    }
+
+    if (cuotaFavorito > 1.42 && cuotaFavorito < 1.75) {
+        return 'favorito-warning'
+    }
+
+    if (cuotaFavorito > 1.74) {
+        return 'favorito-success'
+    }
+}
+
 const ponerEventosEnLasAnclas = () => {
 
     const anclas = document.querySelectorAll('a')
@@ -139,23 +157,39 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                         <span>${partido.cantidadDeApuestas}</span>
                     </div>
 
-                    <div class="col border-end dato ${partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'local' ? 'favorito' : ''}">
-                        <span >${partido.cuotaLocal.toFixed(2)}<br>${partido.localMitad > 1 ? partido.localMitad.toFixed(2) : ''}</span>
+                    <div class="col border-end dato ${partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'local' ? 'favorito' : ''}  ">
+                        
+                        <span >
+                            ${partido.cuotaLocal.toFixed(2)}
+                        </span>
+                        <br>
+                        <span class="${ elegirClaseDeFavorito(partido.cuotaFavorito)}">
+                            ${ partido.favorito === 'local' && partido.localMitad > 1 ? partido.localMitad.toFixed(2) : ''}
+                        </span>
+
                     </div>
 
                     <div class="col border-end dato">
                         <span>${partido.empate.toFixed(2)}</span>
                     </div>
 
-                    <div class="col border-end dato ${partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'visitante' ? 'favorito' : ''}">
-                        <span >${partido.cuotaVisitante.toFixed(2)}<br>${partido.visitanteMitad > 1 ? partido.visitanteMitad.toFixed(2): ''}</span>
+                    <div class="col border-end dato ${partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'visitante' ? 'favorito' : ''} ">
+                        
+                        <span>
+                            ${partido.cuotaVisitante.toFixed(2)}
+                        </span>
+                        <br>
+                        <span class="${ elegirClaseDeFavorito(partido.cuotaFavorito)}">
+                            ${ partido.favorito === 'visitante' && partido.visitanteMitad > 1 ? partido.visitanteMitad.toFixed(2): ''}
+                        </span>
+
                     </div>
 
                     <div class="col border-end dato ${partido.cuotaCualquiera > 1 && partido.cuotaCualquiera < 1.26 ? 'bg-danger' : partido.cuotaCualquiera > 1.25 && partido.cuotaCualquiera < 1.42 ? 'bg-warning' : ''}">
                         <span>${partido.cuotaCualquiera && partido.cuotaCualquiera > 1 ? partido.cuotaCualquiera?.toFixed(2) : ''}</span>
                     </div>
 
-                    <div class="col border-end dato ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.74 ? 'bg-warning' : ''}">
+                    <div class="col border-end dato ${partido.cuotaFavorito && partido.cuotaFavorito > 1 && partido.cuotaFavorito < 1.43 ? 'bg-danger' : partido.cuotaFavorito && partido.cuotaFavorito > 1.42 && partido.cuotaFavorito < 1.75 ? 'bg-warning' : ''}">
                         <span>${partido.cuotaFavorito && partido.cuotaFavorito > 1 ? partido.cuotaFavorito?.toFixed(2) : ''}</span>
                     </div>
 
