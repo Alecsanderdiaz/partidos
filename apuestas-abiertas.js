@@ -1,5 +1,7 @@
 let APUESTAS_ABIERTAS = [
-	[[11300,"Agropecuario Argentino","Racing de Cordoba","over",2.6],[11300,"Gimnasia Y Esgrima Mendoza","Chaco For Ever","over",2.75],[11300,"Temperley","Brown de Adrogue","over",2.8],[11300,"CA All Boys","Patronato Parana","over",2.95],[11310,"Estudiantes de Buenos Aires","CA San Miguel","over",3.25],[11400,"Alemania","Dinamarca","over",1.85],[11400,"Coritiba PR","Vila Nova FC","over",2.4],[11500,"Botafogo SP","Sport Recife PE","over",2.55],"21,731,645"],
-	[[11400,"Coritiba PR","Vila Nova FC","local",1.8],[11500,"Botafogo SP","Sport Recife PE","visitante",2.1],[11630,"Vasco Da Gama RJ","Botafogo RJ","visitante",2.25],[11630,"Cuiaba MT","Bragantino SP","visitante",2.35],"199,868"],
-	[[11400,"Alemania","Dinamarca","mitad",1.38],[11400,"Coritiba PR","Vila Nova FC","mitad",1.5],[11500,"Botafogo SP","Sport Recife PE","mitad",1.571],[11630,"Cuiaba MT","Bragantino SP","mitad",1.533],[11630,"Vasco Da Gama RJ","Botafogo RJ","mitad",1.5],[11300,"Agropecuario Argentino","Racing de Cordoba","mitad",1.6],[11300,"Gimnasia Y Esgrima Mendoza","Chaco For Ever","mitad",1.615],[11300,"Temperley","Brown de Adrogue","mitad",1.615],[11300,"CA All Boys","Patronato Parana","mitad",1.7],[11310,"Estudiantes de Buenos Aires","CA San Miguel","mitad",1.727],"917,222"],
+	[[11630,"Cuiaba MT","Bragantino SP","visitante",2.4],[11630,"Vasco Da Gama RJ","Botafogo RJ","visitante",2.2],"52,800"],
+	[[11630,"Cuiaba MT","Bragantino SP","over",2.45],[11630,"Vasco Da Gama RJ","Botafogo RJ","over",2.35],"57,575"],
+	[[11630,"Cuiaba MT","Bragantino SP","mitad",1.55],[11630,"Vasco Da Gama RJ","Botafogo RJ","mitad",1.5],"23,250"],
+	[[11500,"Botafogo SP","Sport Recife PE","over",2.55],[11630,"Cuiaba MT","Bragantino SP","over",2.375],[11630,"Vasco Da Gama RJ","Botafogo RJ","over",2.25],"136,266"],
+	[[11630,"Vasco Da Gama RJ","Botafogo RJ","mitad",1.5],[11630,"Cuiaba MT","Bragantino SP","mitad",1.533],"35,650"],
 ]
