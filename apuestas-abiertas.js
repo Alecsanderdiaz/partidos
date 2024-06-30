@@ -1,7 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11630,"Cuiaba MT","Bragantino SP","visitante",2.4],[11630,"Vasco Da Gama RJ","Botafogo RJ","visitante",2.2],"52,800"],
-	[[11630,"Cuiaba MT","Bragantino SP","over",2.45],[11630,"Vasco Da Gama RJ","Botafogo RJ","over",2.35],"57,575"],
-	[[11630,"Cuiaba MT","Bragantino SP","mitad",1.55],[11630,"Vasco Da Gama RJ","Botafogo RJ","mitad",1.5],"23,250"],
-	[[11500,"Botafogo SP","Sport Recife PE","over",2.55],[11630,"Cuiaba MT","Bragantino SP","over",2.375],[11630,"Vasco Da Gama RJ","Botafogo RJ","over",2.25],"136,266"],
-	[[11630,"Vasco Da Gama RJ","Botafogo RJ","mitad",1.5],[11630,"Cuiaba MT","Bragantino SP","mitad",1.533],"35,650"],
+	[[10400,"Gamba Osaka","Machida Zelvia","local",2.25],[10500,"Vissel Kobe","Kashima Antlers","visitante",2.45],[10500,"Sagan Tosu","Kashiwa Reysol","local",2.1],[10430,"FC Tokyo","Avispa Fukuoka","visitante",2.35],[10500,"Incheon United","Gangwon FC","visitante",2.25],[10500,"Shonan Bellmare","Kyoto Sanga","local",1.769],[10400,"Pohang Steelers","Ulsan Hyundai Horang-I","visitante",1.85],[10700,"Beijing Guoan FC","Shandong Taishan","local",1.9],[10400,"Cerezo Osaka","Nagoya Grampus","local",2.05],[10600,"Silkeborg IF","Haugesund","visitante",2.2],[10635,"Meizhou Hakka","Henan Songshan Longmen","visitante",1.85],[10635,"Changchun Yatai","Qingdao Hainiu","visitante",2.25],"71,459,320"],
+	[[10400,"Cerezo Osaka","Nagoya Grampus","over",2.5],[10400,"Gamba Osaka","Machida Zelvia","over",2.1],[10430,"FC Tokyo","Avispa Fukuoka","over",2.375],[10500,"Incheon United","Gangwon FC","over",2.1],[10500,"Vissel Kobe","Kashima Antlers","over",2.05],"536,780"],
+	[[10500,"Vissel Kobe","Kashima Antlers","mitad",1.42],[10500,"Incheon United","Gangwon FC","mitad",1.42],[10400,"Gamba Osaka","Machida Zelvia","mitad",1.45],[10400,"Cerezo Osaka","Nagoya Grampus","mitad",1.55],[10430,"FC Tokyo","Avispa Fukuoka","mitad",1.533],"69,489"],
 ]
