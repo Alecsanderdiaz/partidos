@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[10400,"Gamba Osaka","Machida Zelvia","local",2.25],[10500,"Vissel Kobe","Kashima Antlers","visitante",2.45],[10500,"Sagan Tosu","Kashiwa Reysol","local",2.1],[10430,"FC Tokyo","Avispa Fukuoka","visitante",2.35],[10500,"Incheon United","Gangwon FC","visitante",2.25],[10500,"Shonan Bellmare","Kyoto Sanga","local",1.769],[10400,"Pohang Steelers","Ulsan Hyundai Horang-I","visitante",1.85],[10700,"Beijing Guoan FC","Shandong Taishan","local",1.9],[10400,"Cerezo Osaka","Nagoya Grampus","local",2.05],[10600,"Silkeborg IF","Haugesund","visitante",2.2],[10635,"Meizhou Hakka","Henan Songshan Longmen","visitante",1.85],[10635,"Changchun Yatai","Qingdao Hainiu","visitante",2.25],"71,459,320"],
-	[[10400,"Cerezo Osaka","Nagoya Grampus","over",2.5],[10400,"Gamba Osaka","Machida Zelvia","over",2.1],[10430,"FC Tokyo","Avispa Fukuoka","over",2.375],[10500,"Incheon United","Gangwon FC","over",2.1],[10500,"Vissel Kobe","Kashima Antlers","over",2.05],"536,780"],
-	[[10500,"Vissel Kobe","Kashima Antlers","mitad",1.42],[10500,"Incheon United","Gangwon FC","mitad",1.42],[10400,"Gamba Osaka","Machida Zelvia","mitad",1.45],[10400,"Cerezo Osaka","Nagoya Grampus","mitad",1.55],[10430,"FC Tokyo","Avispa Fukuoka","mitad",1.533],"69,489"],
+	[[10900,"Atletico MG","Atletico GO","over",2.2],[10900,"Avai SC","Amazonas FC","over",2.5],[11100,"Inglaterra","Eslovaquia","over",2.1],"115,500"],
+	[[11100,"Inglaterra","Eslovaquia","mitad",1.42],"32,225"],
+	[[11100,"Inglaterra","Eslovaquia","local",1.65],"105,875"],
 ]
