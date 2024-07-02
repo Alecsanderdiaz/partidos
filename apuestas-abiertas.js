@@ -1,5 +1,2 @@
 let APUESTAS_ABIERTAS = [
-	[[11630,"Flamengo RJ","Cruzeiro MG","local",1.769],[11600,"Club Sportivo Cienciano","Universitario de Deportes","visitante",2.3],[11630,"Criciuma SC","Internacional RS","visitante",2.4],[11630,"EC Vitoria","Athletico PR","visitante",2.65],[11630,"Guarani SP","Ponte Preta SP","visitante",2.65],"685,828"],
-	[[11600,"Millonarios (F)","Deportivo Cali (F)","over",2.45],[11610,"Colon de Santa Fe","Club Atletico Atlanta","over",2.625],[11630,"Criciuma SC","Internacional RS","over",2.55],[11630,"Flamengo RJ","Cruzeiro MG","over",2],[11630,"EC Vitoria","Athletico PR","over",2.4],[11630,"Guarani SP","Ponte Preta SP","over",2.625],"2,066,361"],
-	[[11630,"Criciuma SC","Internacional RS","mitad",1.571],[11630,"Flamengo RJ","Cruzeiro MG","mitad",1.4],[11630,"EC Vitoria","Athletico PR","mitad",1.533],[11630,"Guarani SP","Ponte Preta SP","mitad",1.6],[11600,"Millonarios (F)","Deportivo Cali (F)","mitad",1.5],[11610,"Colon de Santa Fe","Club Atletico Atlanta","mitad",1.55],[11630,"Colo Colo","OHiggins","mitad",1.333],"167,317"],
 ]
