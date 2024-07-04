@@ -102,9 +102,9 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         if (partido.cuotaFavorito && partido.cuotaFavorito >= 1.74 ) {
             acumuladoFavorito = Math.floor(acumuladoFavorito * partido.cuotaFavorito * 100) / 100
             // console.log('FAVORITO')
-        } else if ( partido.cuotaCualquiera && partido.cuotaCualquiera >= 1.42) {
+        // } else if ( partido.cuotaCualquiera && partido.cuotaCualquiera >= 1.42) {
             // console.log('CUALQUIERA')
-            acumuladoFavorito = Math.floor(acumuladoFavorito * partido.cuotaCualquiera * 100) / 100
+            // acumuladoFavorito = Math.floor(acumuladoFavorito * partido.cuotaCualquiera * 100) / 100
         }
         if (acumuladoFavorito > 50000) {
             acumuladoFavorito = 1
@@ -157,9 +157,9 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                         <span>${partido.cantidadDeApuestas}</span>
                     </div>
 
-                    <div class="col border-end dato ${partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'local' ? 'favorito' : ''}  ">
+                    <div class="col border-end dato  ${partido.favorito === 'local' ? 'favorito' : ''}  ">
                         
-                        <span >
+                        <span class="d-block ${partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''}">
                             ${partido.cuotaLocal.toFixed(2)}
                         </span>
                         <br>
@@ -173,9 +173,9 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                         <span>${partido.empate.toFixed(2)}</span>
                     </div>
 
-                    <div class="col border-end dato ${partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''} ${partido.favorito === 'visitante' ? 'favorito' : ''} ">
+                    <div class="col border-end dato  ${partido.favorito === 'visitante' ? 'favorito' : ''} ">
                         
-                        <span>
+                        <span class="d-block ${partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''}">
                             ${partido.cuotaVisitante.toFixed(2)}
                         </span>
                         <br>

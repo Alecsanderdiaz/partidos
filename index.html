@@ -198,6 +198,9 @@
           <button type="button" class="btn btn-primary" onclick="filtrarCuota()">
             Cuota
           </button>
+          <button type="button" class="btn btn-danger" onclick="filtrarWarnings()">
+            Warning
+          </button>
           <button type="button" class="btn btn-danger" onclick="reset()">
             RESET
           </button>
@@ -289,6 +292,17 @@
       const cuotaValue = +cuota.value;
       const filtrados = PARTIDOS_OPTIMIZADOS.filter(
         (partido) => partido.cuotaCualquiera > cuotaValue
+      );
+      PARTIDOS_OPTIMIZADOS = filtrados;
+      dibujar();
+      dibujarSM();
+      let modal_obj = bootstrap.Modal.getInstance(exampleModal);
+      modal_obj.hide();
+    };
+
+    const filtrarWarnings = function () {
+      const filtrados = PARTIDOS_OPTIMIZADOS.filter(
+        (partido) => partido.cuotaCualquiera > 1.41 || partido.cuotaFavorito > 1.73 || partido.over > 1.99
       );
       PARTIDOS_OPTIMIZADOS = filtrados;
       dibujar();
