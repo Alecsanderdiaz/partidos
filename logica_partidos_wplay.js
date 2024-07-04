@@ -162,7 +162,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                         <span class="d-block ${partido.cuotaLocal > partido.cuotaVisitante ? 'bg-success-subtle' : ''}">
                             ${partido.cuotaLocal.toFixed(2)}
                         </span>
-                        <br>
+                        <!-- <br> -->
                         <span class="${ elegirClaseDeFavorito(partido.cuotaFavorito)}">
                             ${ partido.favorito === 'local' && partido.localMitad > 1 ? partido.localMitad.toFixed(2) : ''}
                         </span>
@@ -178,7 +178,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
                         <span class="d-block ${partido.cuotaLocal < partido.cuotaVisitante ? 'bg-success-subtle' : ''}">
                             ${partido.cuotaVisitante.toFixed(2)}
                         </span>
-                        <br>
+                        <!-- <br> -->
                         <span class="${ elegirClaseDeFavorito(partido.cuotaFavorito)}">
                             ${ partido.favorito === 'visitante' && partido.visitanteMitad > 1 ? partido.visitanteMitad.toFixed(2): ''}
                         </span>
