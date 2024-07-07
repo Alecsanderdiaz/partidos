@@ -1,5 +1,5 @@
 let APUESTAS_ABIERTAS = [
-	[[11800,"Sao Paulo SP","Bragantino SP","mitad",1.5],[12000,"Uruguay","Brasil","mitad",1.615],[11800,"Detroit City","Tampa Bay Rowdies","mitad",1.42],"34,408"],
-	[[12000,"Chivas Guadalajara","Toluca","local",1.93],[11800,"Sao Paulo SP","Bragantino SP","local",2.05],[11830,"CF Montreal","Vancouver Whitecaps FC","visitante",1.9],[11830,"Philadelphia Union","New York Red Bulls","visitante",1.85],[11930,"Austin FC","New York City","visitante",1.909],[12000,"Uruguay","Brasil","visitante",2.4],[11830,"FC Cincinnati","Inter Miami CF","visitante",2.2],"1,401,835"],
-	[[11800,"Flamengo RJ","Cuiaba MT","over",2],[11800,"Sao Paulo SP","Bragantino SP","over",2.3],[11800,"Detroit City","Tampa Bay Rowdies","over",2],[11800,"Pittsburgh Riverhounds","Monterey Bay FC","over",2],[12000,"Uruguay","Brasil","over",2.7],"496,800"],
+	[[10500,"Gangwon FC","Gwangju FC","local",2.05],[10500,"Daejeon Citizen","Jeonbuk Hyundai Motors","local",2],[10500,"Avispa Fukuoka","Kyoto Sanga","local",1.95],[10900,"Coritiba PR","Paysandu PA","local",1.85],[10800,"Atletico Fenix Montevideo","Atletico River Plate (Uru)","local",2.15],"318,001"],
+	[[10500,"Avispa Fukuoka","Kyoto Sanga","over",2.45],[10800,"Atletico Fenix Montevideo","Atletico River Plate (Uru)","over",2.35],[10900,"Coritiba PR","Paysandu PA","over",2.3],[11000,"Naftan Novopolotsk","Slutsksakhar Slutsk","over",2.05],"271,466"],
+	[[10500,"Avispa Fukuoka","Kyoto Sanga","mitad",1.533],[10900,"Coritiba PR","Paysandu PA","mitad",1.5],[10800,"Atletico Fenix Montevideo","Atletico River Plate (Uru)","mitad",1.533],[11000,"Naftan Novopolotsk","Slutsksakhar Slutsk","mitad",1.42],"50,079"],
 ]
