@@ -1,5 +1,4 @@
 let APUESTAS_ABIERTAS = [
-	[[10500,"Gangwon FC","Gwangju FC","local",2.05],[10500,"Daejeon Citizen","Jeonbuk Hyundai Motors","local",2],[10500,"Avispa Fukuoka","Kyoto Sanga","local",1.95],[10900,"Coritiba PR","Paysandu PA","local",1.85],[10800,"Atletico Fenix Montevideo","Atletico River Plate (Uru)","local",2.15],"318,001"],
-	[[10500,"Avispa Fukuoka","Kyoto Sanga","over",2.45],[10800,"Atletico Fenix Montevideo","Atletico River Plate (Uru)","over",2.35],[10900,"Coritiba PR","Paysandu PA","over",2.3],[11000,"Naftan Novopolotsk","Slutsksakhar Slutsk","over",2.05],"271,466"],
-	[[10500,"Avispa Fukuoka","Kyoto Sanga","mitad",1.533],[10900,"Coritiba PR","Paysandu PA","mitad",1.5],[10800,"Atletico Fenix Montevideo","Atletico River Plate (Uru)","mitad",1.533],[11000,"Naftan Novopolotsk","Slutsksakhar Slutsk","mitad",1.42],"50,079"],
+	[[10900,"Coritiba PR","Paysandu PA","mitad",1.48],[10800,"Atletico Fenix Montevideo","Atletico River Plate (Uru)","mitad",1.533],[11000,"Naftan Novopolotsk","Slutsksakhar Slutsk","mitad",1.42],[11030,"Progreso","Racing Club Montevideo","mitad",1.45],[11100,"Alianza FC (F)","Independiente Medellin (F)","mitad",1.42],[11105,"CA San Telmo","Gimnasia Y Esgrima Mendoza","mitad",1.6],"84,928"],
+	[[10800,"Atletico Fenix Montevideo","Atletico River Plate (Uru)","over",2.35],[10900,"Coritiba PR","Paysandu PA","over",2.3],[11000,"Naftan Novopolotsk","Slutsksakhar Slutsk","over",2.05],"271,466"],
 ]
