@@ -12,7 +12,9 @@ let files = [
     "partidos_optimizados_flashscore.js",
     "partidos_optimizados_wplay.js",
     "partidos_optimizados.js",
-    "apuestas-abiertas.js"
+    "apuestas-abiertas.js",
+    "10-input-mas-primera-mitad.txt",
+    "11-input-mas-primera-mitad.txt"
 ]
 
 const fs = require('fs')

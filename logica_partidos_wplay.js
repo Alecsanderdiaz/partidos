@@ -294,7 +294,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
     html += '<hr>'
     html+= `
     <span>
-        PRIMERA MITAD MAS DE 0.5 (MRES)
+        PRIMERA MITAD MAS DE 0.5 (OUH1)
     </span>
     <br>
     `
@@ -302,7 +302,7 @@ const dibujar = function (partidos = PARTIDOS_OPTIMIZADOS) {
         html+= `
     <div class="row">
       <div class="col">
-        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=MRES&sb_type_ids=${ link }" target="_blank" rel="noopener noreferrer">${ link }</a>
+        <a href="https://local.wplay.co/es/type-coupon?coupon_group_by=TIME&mkt_sort=OUH1&sb_type_ids=${ link }" target="_blank" rel="noopener noreferrer">${ link }</a>
       </div>
     </div>
         `

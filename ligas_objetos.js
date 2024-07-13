@@ -18,6 +18,15 @@ let LIGAS_OBJETOS = [
         mitad: true,
         favorito: true
     },
+    
+    {
+        nombreFlashcore: 'SUDAMÉRICA - Copa América - Playoffs',
+        "nombreWplay": 'COPA AMÉRICA',
+        "abreviado": 'ZA-COPA',
+        "codigoWplay": 20142,
+        mitad: true,
+        favorito: true
+    },
     {
         nombreFlashcore: 'BRASIL - Copa do Nordeste - Playoffs',
         "nombreWplay": 'BRASIL - COPA DO NORDESTE',
@@ -254,6 +263,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        nombreFlashcore: 'EUROPA - Eurocopa - Playoffs',
+        nombreWplay: 'EURO 2024 PARTIDOS',
+        abreviado: 'EURO',
+        codigoWplay: 60002,
+        mitad: true,
+        favorito: true
+    },
+    {
         nombreFlashcore: 'EUROPA - Eurocopa - Clasificación - Ascenso',
         nombreWplay: 'EURO 2024 QUALIFIERS',
         abreviado: 'EURO',
@@ -456,9 +473,9 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "ECUADOR - Copa Ecuador",
-        "nombreWplay": '',
+        "nombreWplay": 'ECUADOR - COPA ECUADOR',
         "abreviado": "ZA-ECUC",
-        "codigoWplay": 30530,
+        "codigoWplay": 54272,
         mitad: false,
         favorito: false
     },
@@ -499,6 +516,14 @@ let LIGAS_OBJETOS = [
         "nombreWplay": 'ESCOCIA - FA CUP',
         "abreviado": "R-ESCC",
         "codigoWplay": 19307,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "ESCOCIA - League Cup",
+        "nombreWplay": 'ESCOCIA - LEAGUE CUP',
+        "abreviado": "R-ESCL",
+        "codigoWplay": 19409,
         mitad: true,
         favorito: true
     },
@@ -874,6 +899,14 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "EUROPA - Champions League - Clasificación",
+        "nombreWplay": 'UEFA - CHAMPIONS LEAGUE CLASIFICACION',
+        "abreviado": "U-CHAMC",
+        "codigoWplay": 61789,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "EUROPA - Europa Conference League - Playoffs",
         "nombreWplay": 'UEFA - EUROPA CONFERENCE LEAGUE',
         "abreviado": "U-CONF",
@@ -882,11 +915,27 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "EUROPA - Conference League - Clasificación",
+        "nombreWplay": 'UEFA - EUROPA CONFERENCE LEAGUE QUALIFYING',
+        "abreviado": "U-CONFC",
+        "codigoWplay": 1431783,
+        mitad: false,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "EUROPA - Europa League - Playoffs",
         "nombreWplay": 'UEFA - LIGA EUROPA',
         "abreviado": "U-EURO",
         "codigoWplay": 19162,
         mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "EUROPA - Europa League - Clasificación",
+        "nombreWplay": 'UEFA - EUROPA LEAGUE QUALIFYING',
+        "abreviado": "U-EUROC",
+        "codigoWplay": 61810,
+        mitad: false,
         favorito: true
     },
     {
@@ -1348,6 +1397,22 @@ let LIGAS_OBJETOS = [
         favorito: true
     },
     {
+        "nombreFlashcore": "MÉXICO - Liga MX - Apertura",
+        "nombreWplay": 'MÉXICO - LIGA MX',
+        "abreviado": "ZA-MEX1",
+        "codigoWplay": 19329,
+        mitad: true,
+        favorito: true
+    },
+    {
+        "nombreFlashcore": "MÉXICO - Campeón de Campeones",
+        "nombreWplay": 'MEXICO - SUPERCOPA LIGA MX',
+        "abreviado": "ZA-MEXS",
+        "codigoWplay": 29715,
+        mitad: true,
+        favorito: true
+    },
+    {
         "nombreFlashcore": "MÉXICO - Liga MX - Clausura - Play In",
         "nombreWplay": 'MÉXICO - LIGA MX',
         "abreviado": "ZA-MEX1",
@@ -1407,6 +1472,14 @@ let LIGAS_OBJETOS = [
     },
     {
         "nombreFlashcore": "PERÚ - Liga 1 - Apertura",
+        "nombreWplay": 'PERÚ - PRIMERA DIVISIÓN',
+        "abreviado": "ZA-PER1",
+        "codigoWplay": 19340,
+        mitad: false,
+        favorito: false
+    },
+    {
+        "nombreFlashcore": "PERÚ - Liga 1 - Clausura",
         "nombreWplay": 'PERÚ - PRIMERA DIVISIÓN',
         "abreviado": "ZA-PER1",
         "codigoWplay": 19340,
