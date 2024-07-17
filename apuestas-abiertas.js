@@ -1,2 +1,8 @@
 let APUESTAS_ABIERTAS = [
+	[[11645,"Portuguesa FC","Rayo Zuliano","over",2.15],[11700,"Atletico GO","Vasco Da Gama RJ","over",2.35],"50,525"],
+	[[11700,"Libertad Asuncion","Universidad Catolica Quito","local",1.8],[11700,"Atletico GO","Vasco Da Gama RJ","visitante",2.65],"47,700"],
+	[[11700,"Atletico GO","Vasco Da Gama RJ","mitad",1.5],[11645,"Portuguesa FC","Rayo Zuliano","mitad",1.45],"21,750"],
+	[[11600,"Estudiantes de La Plata","Central Cordoba","over",2],[11700,"Atletico GO","Vasco Da Gama RJ","over",2.3],[11800,"Sao Paulo SP","Gremio RS","over",2.1],[11800,"Independiente Santa Fe","Deportivo Pasto","over",2.4],[11830,"CRB Maceio AL","Botafogo SP","over",2.55],[11500,"Guayaquil City FC","San Antonio","over",2.15],[11500,"Vargas Torres","Gualaceo SC","over",2.875],[11645,"Portuguesa FC","Rayo Zuliano","over",2.15],"16,892,027"],
+	[[11700,"Libertad Asuncion","Universidad Catolica Quito","local",1.769],[11800,"Sao Paulo SP","Gremio RS","local",1.75],[11700,"Atletico GO","Vasco Da Gama RJ","visitante",2.625],[11800,"Independiente Santa Fe","Deportivo Pasto","visitante",3.1],[11830,"CRB Maceio AL","Botafogo SP","visitante",3],[11830,"Atlanta United","New York City","visitante",1.9],[11830,"Philadelphia Union","New England Revolution","visitante",2.3],"3,303,058"],
+	[[11600,"Estudiantes de La Plata","Central Cordoba","mitad",1.42],[11700,"Atletico GO","Vasco Da Gama RJ","mitad",1.5],[11800,"Sao Paulo SP","Gremio RS","mitad",1.45],[11800,"Independiente Santa Fe","Deportivo Pasto","mitad",1.533],[11830,"CRB Maceio AL","Botafogo SP","mitad",1.55],[11645,"Portuguesa FC","Rayo Zuliano","mitad",1.45],"237,502"],
 ]
