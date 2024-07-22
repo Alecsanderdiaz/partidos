@@ -1,6 +1,2 @@
 let APUESTAS_ABIERTAS = [
-	[[11745,"Atlético Nacional","América de Cali","over",2.3],[11800,"Defensa Y Justicia","Boca Juniors","over",2.5],[11800,"Velez Sarsfield","Talleres de Cordoba","over",2.55],[11800,"Cuiaba MT","Fluminense RJ","over",2.7],[11800,"Club Sportivo Cienciano","Asociacion Deportiva Tarma","over",2],[11800,"Deportivo Tachira","Zamora FC","over",2.15],"1,702,316"],
-	[[11800,"Velez Sarsfield","Talleres de Cordoba","local",2.55],[11745,"Atlético Nacional","América de Cali","visitante",2.65],[11800,"Defensa Y Justicia","Boca Juniors","visitante",2.35],[11800,"Cuiaba MT","Fluminense RJ","visitante",2.65],[11800,"Pumas Unam","Pachuca","visitante",2.2],"925,811"],
-	[[11745,"Atlético Nacional","América de Cali","mitad",1.5],[11800,"Defensa Y Justicia","Boca Juniors","mitad",1.571],[11800,"Velez Sarsfield","Talleres de Cordoba","mitad",1.571],[11800,"Cuiaba MT","Fluminense RJ","mitad",1.615],[11800,"Club Sportivo Cienciano","Asociacion Deportiva Tarma","mitad",1.42],[11800,"Deportivo Tachira","Zamora FC","mitad",1.45],"123,201"],
-	[[11630,"Juventude RS","Sao Paulo SP","over",2.25],[11630,"Fortaleza CE","Atletico GO","over",2.05],[11630,"Bragantino SP","Athletico PR","over",2.1],[11630,"Botafogo SP","Brusque FC","over",2.8],[11630,"CA Boston River","Danubio","over",2.35],[11630,"Club Leones Del Norte","Mushuc Runa","over",2.45],"1,561,520"],
 ]
